@@ -63,13 +63,13 @@ class MyHomePage extends StatelessWidget {
               ),
               DtPhone(),
               DtEmail(),
-              SizedBox(
-                height: 500.0,
-              ),
-              Card(
-                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
-                child: ListTile(title: Text('My name is hello')),
-              )
+              //SizedBox(
+              //height: 500.0,
+              //),
+              //Card(
+              //margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+              //child: ListTile(title: Text('My name is hello')),
+              //)
             ],
           ),
         ),
