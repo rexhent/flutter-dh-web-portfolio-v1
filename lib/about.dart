@@ -48,7 +48,7 @@ class MyHomePage extends StatelessWidget {
       body: SingleChildScrollView(
         child: SafeArea(
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
+            //mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               SizedBox(height: 80.0),
               DtAvatar(),
