@@ -24,4 +24,3 @@ jobs:
           channelId: live
           projectId: flutter-dh-web-portfolio-v1
 
-        - uses: actions/checkout@v3
