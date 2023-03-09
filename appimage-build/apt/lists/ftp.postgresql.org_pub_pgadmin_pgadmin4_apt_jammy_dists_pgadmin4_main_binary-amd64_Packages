@@ -1,0 +1,266 @@
+Package: libpq-dev
+Architecture: amd64
+Version: 15.1-1.pgdg22.04+1
+Priority: optional
+Section: libdevel
+Source: postgresql-15
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Installed-Size: 575
+Depends: libpq5 (= 15.1-1.pgdg22.04+1), libssl-dev
+Suggests: postgresql-doc-15
+Filename: dists/pgadmin4/main/binary-amd64/libpq-dev_15.1-1.pgdg22.04+1_amd64.deb
+Size: 138836
+MD5sum: 48532304927d21819f5bede39f7f41c6
+SHA1: 80730dc809d598aadd45f4c61969eb79e1fe0a21
+SHA256: 8a515e6cdf75bcfcfa5ceb5e1049a952c6ee2a92124a2c869580fc4249b7e2a1
+SHA512: 13f76fe95155f8017019ae24977b112a120acb29e5b1dca864801b9ed88cf047050001f559f562a5958bb9d4da381df1e914640346a5072618d8e1533015f797
+Homepage: http://www.postgresql.org/
+Description: header files for libpq5 (PostgreSQL library)
+ Header files and static library for compiling C programs to link
+ with the libpq library in order to communicate with a PostgreSQL
+ database backend.
+ .
+ PostgreSQL is an object-relational SQL database management system.
+
+Package: libpq5
+Architecture: amd64
+Version: 14.5-1.pgdg22.04+1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: postgresql-14
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Installed-Size: 749
+Depends: libc6 (>= 2.33), libgssapi-krb5-2 (>= 1.17), libldap-2.5-0 (>= 2.5.4), libssl3 (>= 3.0.0~~alpha1)
+Filename: dists/pgadmin4/main/binary-amd64/libpq5_14.5-1.pgdg22.04+1_amd64.deb
+Size: 172448
+MD5sum: 72c9d851caf9df9c42328495988de899
+SHA1: 7471fc3699bda9109c55270ccd5ced0e7c9f18bf
+SHA256: a39e946609cb4c5feb8a638bae263ad5e24116fc4c84e09056e7a0f50b8e580f
+SHA512: 892fd674dc7d0166c76471da92cf0b8b01a8c1d7ac4381353d5405208ed4da1b90f7a17ae493c73dd214401adf321895947c62700d4c36582b217dc3d0d8be3e
+Homepage: http://www.postgresql.org/
+Description: PostgreSQL C client library
+ libpq is a C library that enables user programs to communicate with
+ the PostgreSQL database server.  The server can be on another machine
+ and accessed through TCP/IP.  This version of libpq is compatible
+ with servers from PostgreSQL 8.2 or later.
+ .
+ This package contains the run-time library, needed by packages using
+ libpq.
+ .
+ PostgreSQL is an object-relational SQL database management system.
+
+Package: libpq5
+Architecture: amd64
+Version: 15.1-1.pgdg22.04+1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: postgresql-15
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Installed-Size: 843
+Depends: libc6 (>= 2.33), libgssapi-krb5-2 (>= 1.17), libldap-2.5-0 (>= 2.5.4), libssl3 (>= 3.0.0~~alpha1)
+Filename: dists/pgadmin4/main/binary-amd64/libpq5_15.1-1.pgdg22.04+1_amd64.deb
+Size: 182752
+MD5sum: 619494bb41b7b286bc356d3834b81174
+SHA1: e85ca82d9552b2b5a726850e4a882b196aad213f
+SHA256: 0cd21149489b2650e627e1018ade32bbdb112d74f8dacd44b653fa03d799e908
+SHA512: f0fb37cada52f0aa8310fd35f4c14f89c239b5d9b4337d97719194d3ae80466c2925fac7a29f6c9a031986617d288fad12fd4db15945c8552725978c4282787c
+Homepage: http://www.postgresql.org/
+Description: PostgreSQL C client library
+ libpq is a C library that enables user programs to communicate with
+ the PostgreSQL database server.  The server can be on another machine
+ and accessed through TCP/IP.  This version of libpq is compatible
+ with servers from PostgreSQL 8.2 or later.
+ .
+ This package contains the run-time library, needed by packages using
+ libpq.
+ .
+ PostgreSQL is an object-relational SQL database management system.
+
+Package: pgadmin4-desktop
+Architecture: amd64
+Version: 6.15
+Priority: optional
+Section: database
+Maintainer: pgAdmin Development Team <pgadmin-hackers@postgresql.org>
+Depends: pgadmin4-server (= 6.15), libatomic1, xdg-utils
+Filename: dists/pgadmin4/main/binary-amd64/pgadmin4-desktop_6.15_amd64.deb
+Size: 97367118
+MD5sum: 893f974c5a0fae41f2199a64b6a00147
+SHA1: bc44c308a477c3a1dc23059d6f56dd0df77faf97
+SHA256: 9094a60abdcd2abd0f7dfad7966024d5a3ed173d4ebc05bb5248b035b12afd5a
+SHA512: cdebbc9849bdcc8d5e9424de63deec596fe9336557f1e1845a9f19b5d7d48934fe7f1fe6cdc74119c1c168425b3701437e944016ae664d4d85d8825a50b20869
+Description: The desktop user interface for pgAdmin. pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.
+
+Package: pgadmin4-desktop
+Architecture: amd64
+Version: 6.16
+Priority: optional
+Section: database
+Maintainer: pgAdmin Development Team <pgadmin-hackers@postgresql.org>
+Depends: pgadmin4-server (= 6.16), libatomic1, xdg-utils
+Filename: dists/pgadmin4/main/binary-amd64/pgadmin4-desktop_6.16_amd64.deb
+Size: 104735436
+MD5sum: 8e37d6d2b5260383c2399f5c66375a7d
+SHA1: 2061feec7d0d3e42a092b3c840612b41b027d76f
+SHA256: 9e6ce67cd00f30d46bdcf3100af136a922d29c54a95624096749b543a8b444a9
+SHA512: 1fc98ea7a1182704f97eb7b31bbc2e9c9d8c07ce5f7c8f42ea709d8eb856c0133b1a9b70948e1a9e5c68b055f33ec5b465bee67e0875acedb4263327bdfd0a31
+Description: The desktop user interface for pgAdmin. pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.
+
+Package: pgadmin4-desktop
+Architecture: amd64
+Version: 6.17
+Priority: optional
+Section: database
+Maintainer: pgAdmin Development Team <pgadmin-hackers@postgresql.org>
+Depends: pgadmin4-server (= 6.17), libatomic1, xdg-utils
+Filename: dists/pgadmin4/main/binary-amd64/pgadmin4-desktop_6.17_amd64.deb
+Size: 104733972
+MD5sum: ee6b6912f60eeb06aee3bd0082f1fbe8
+SHA1: 185a510f7ffd533d37e64500589bdb4a038210eb
+SHA256: caf03a8c51b0e0cf8da9d05ff7cf82ce8d8092c158f11de8c9d04d6a471baee0
+SHA512: ccfbaf27a68244dfa884e5d645ac92fb50290be87c08332c674ebc4a970a5bad78ac11a97a6419465fc6d0c9d243fe77a27992008ff691bed71826536ae52c13
+Description: The desktop user interface for pgAdmin. pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.
+
+Package: pgadmin4-desktop
+Architecture: amd64
+Version: 6.18
+Priority: optional
+Section: database
+Maintainer: pgAdmin Development Team <pgadmin-hackers@postgresql.org>
+Depends: pgadmin4-server (= 6.18), libatomic1, xdg-utils
+Filename: dists/pgadmin4/main/binary-amd64/pgadmin4-desktop_6.18_amd64.deb
+Size: 105269472
+MD5sum: 51822ef8c7f1c20ada6737453e2b671b
+SHA1: ebc0819c91e7c752c5f9d9a161b33ecc9afe581c
+SHA256: e4415a6b819c68e22206289340eb0f13968e4853733d998cd26d52b252e43cc5
+SHA512: bfffe57ee765121a32f7ee16d756fd13d3f0ddbef9531c8d63434ad4824990312d3d8435d9378277e596f7faae6b6b4b2925eb1eab5b54e58aca3b8172b86f45
+Description: The desktop user interface for pgAdmin. pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.
+
+Package: pgadmin4-desktop
+Architecture: amd64
+Version: 6.19
+Priority: optional
+Section: database
+Maintainer: pgAdmin Development Team <pgadmin-hackers@postgresql.org>
+Depends: pgadmin4-server (= 6.19), libatomic1, xdg-utils
+Filename: dists/pgadmin4/main/binary-amd64/pgadmin4-desktop_6.19_amd64.deb
+Size: 106187738
+MD5sum: 452af076d66c831902f810ae1bb4f950
+SHA1: f14aaddd36c8ce371dbb9384ccdd132a25734e49
+SHA256: 4101a674c5c38149f167b0e731b54d7b6b3c2e3688705b77bf67ce5bbf6f1827
+SHA512: 5cc47085fb30f2c104757339eb38dd455ffbb720b0ef484a6a00ac678aef8340095c11c527b642189d2406e1374bff457d8636396dce949fe5a6265dbad67397
+Description: The desktop user interface for pgAdmin. pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.
+
+Package: pgadmin4-desktop
+Architecture: amd64
+Version: 6.20
+Priority: optional
+Section: database
+Maintainer: pgAdmin Development Team <pgadmin-hackers@postgresql.org>
+Depends: pgadmin4-server (= 6.20), libatomic1, xdg-utils
+Filename: dists/pgadmin4/main/binary-amd64/pgadmin4-desktop_6.20_amd64.deb
+Size: 106187596
+MD5sum: b8acc641c68947029afef71c41222c36
+SHA1: 15ae7eafcb7c19e731a3d45799bab9f0d4f957c4
+SHA256: f34f4dc419dbe8c71a334fd8d912061c3d1a6a4cf63725269f85763db9890b03
+SHA512: 4982d3b212532a1f80d1518d491982c9040e861ed7d9ec0561873266fd4a96b9dd2c361c745946e85ccb90a4d8d791f81a7cc05dc4bffbab9cabba1940e39141
+Description: The desktop user interface for pgAdmin. pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.
+
+Package: pgadmin4-server
+Architecture: amd64
+Version: 6.15
+Priority: optional
+Section: database
+Maintainer: pgAdmin Development Team <pgadmin-hackers@postgresql.org>
+Depends: python3, libpq5 (>= 11.0), libgssapi-krb5-2
+Recommends: postgresql-client | postgresql-client-15 | postgresql-client-14 | postgresql-client-13 | postgresql-client-12 | postgresql-client-11 | postgresql-client-10
+Filename: dists/pgadmin4/main/binary-amd64/pgadmin4-server_6.15_amd64.deb
+Size: 99096544
+MD5sum: 0d9e9a3188e3bcc7671a4510c5e24953
+SHA1: 7242a52253cf86860e5b04fcac9d10c478bef109
+SHA256: 30b6bce7d629edc14328053a2504be7c80506672ab2022c1d3b0627665c39338
+SHA512: 333a882545ea26d16b238fcfa741d2ba74c150938c205553217f8d118b0e00e5b0c710c97175b2105ec18a69f7b225221ca6ef1a3a45333af692db4d9ff22799
+Description: The core server package for pgAdmin. pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.
+
+Package: pgadmin4-server
+Architecture: amd64
+Version: 6.16
+Priority: optional
+Section: database
+Maintainer: pgAdmin Development Team <pgadmin-hackers@postgresql.org>
+Depends: python3, libpq5 (>= 11.0), libgssapi-krb5-2
+Recommends: postgresql-client | postgresql-client-15 | postgresql-client-14 | postgresql-client-13 | postgresql-client-12 | postgresql-client-11 | postgresql-client-10
+Filename: dists/pgadmin4/main/binary-amd64/pgadmin4-server_6.16_amd64.deb
+Size: 76048412
+MD5sum: 66bcea862776709a78123b4a2980c592
+SHA1: 32381f8399349afe38c41d1cc95891b51000fc0c
+SHA256: bbe70ca624d1a6e28edfcf2279c98b2209c7bdf8cf2a697691510c3dbb07c7d9
+SHA512: c89c6dfca3c820846f39d219bcb31dc85cf79f4f605c21d063af334a9d6f82e3c3422a74405cca6ff22fd04871a8917ad7cd96a013dd0da7d9b0c947cb03f123
+Description: The core server package for pgAdmin. pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.
+
+Package: pgadmin4-server
+Architecture: amd64
+Version: 6.17
+Priority: optional
+Section: database
+Maintainer: pgAdmin Development Team <pgadmin-hackers@postgresql.org>
+Depends: python3, libpq5 (>= 11.0), libgssapi-krb5-2
+Recommends: postgresql-client | postgresql-client-15 | postgresql-client-14 | postgresql-client-13 | postgresql-client-12 | postgresql-client-11 | postgresql-client-10
+Filename: dists/pgadmin4/main/binary-amd64/pgadmin4-server_6.17_amd64.deb
+Size: 76099198
+MD5sum: 2ecbd37f753de130dc68976e6030d042
+SHA1: 1de6920739a88003c465b7b8d13af2fab814672f
+SHA256: bdd33b5d43e50db99234cc86cc28407419a56b604d51ebd20b722b6a2e916168
+SHA512: 47d84e5e31dd1825606abcda80005d48fcc8f47b451c7012501fec9c4643b531eff26c824e0fec02de67c06c561613acd2c2cdb2fda5cca9c3de4e393d385fc1
+Description: The core server package for pgAdmin. pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.
+
+Package: pgadmin4-server
+Architecture: amd64
+Version: 6.18
+Priority: optional
+Section: database
+Maintainer: pgAdmin Development Team <pgadmin-hackers@postgresql.org>
+Depends: python3, libpq5 (>= 11.0), libgssapi-krb5-2
+Recommends: postgresql-client | postgresql-client-15 | postgresql-client-14 | postgresql-client-13 | postgresql-client-12 | postgresql-client-11 | postgresql-client-10
+Filename: dists/pgadmin4/main/binary-amd64/pgadmin4-server_6.18_amd64.deb
+Size: 76145430
+MD5sum: 99c768f32752f7b6d2862c38226eebe9
+SHA1: f5dba914957645539050a8195eac6facd767a968
+SHA256: f4d69aef0d5ec601f6e7a36ef1afa60e7410ea6dce7ee615e396ada71bbeed5f
+SHA512: 97d1c1d4b50a7cbef6e08a24d95059901e645eb6ae0cd9ded1f8b8f1474bf3fb6d7db49820c2580eb917cdb9af21d9920696741bd1427e60e50de832a0e77d04
+Description: The core server package for pgAdmin. pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.
+
+Package: pgadmin4-server
+Architecture: amd64
+Version: 6.19
+Priority: optional
+Section: database
+Maintainer: pgAdmin Development Team <pgadmin-hackers@postgresql.org>
+Depends: python3, libpq5 (>= 11.0), libgssapi-krb5-2
+Recommends: postgresql-client | postgresql-client-15 | postgresql-client-14 | postgresql-client-13 | postgresql-client-12 | postgresql-client-11 | postgresql-client-10
+Filename: dists/pgadmin4/main/binary-amd64/pgadmin4-server_6.19_amd64.deb
+Size: 77583162
+MD5sum: b53ac4920234ca8da8deccafb8d5b0e4
+SHA1: b814333213ef9d9314a4bf2d5902339c21f736fe
+SHA256: 3acf9d79253198f7e3f88e92fe051a43ddbd81850cbcf3486ee3a0ce81b2d11a
+SHA512: b270dd05935c531f573d1f24e9778a766e9de9454750b0c92b58fd615f193f616b79a7b018a6f352d208f952516eedc3bb33262f4f614baf64f9a5a55ded51cd
+Description: The core server package for pgAdmin. pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.
+
+Package: pgadmin4-server
+Architecture: amd64
+Version: 6.20
+Priority: optional
+Section: database
+Maintainer: pgAdmin Development Team <pgadmin-hackers@postgresql.org>
+Depends: python3, libpq5 (>= 11.0), libgssapi-krb5-2
+Recommends: postgresql-client | postgresql-client-15 | postgresql-client-14 | postgresql-client-13 | postgresql-client-12 | postgresql-client-11 | postgresql-client-10
+Filename: dists/pgadmin4/main/binary-amd64/pgadmin4-server_6.20_amd64.deb
+Size: 77830906
+MD5sum: 495f441a92b9f114c38f7478a3204a4a
+SHA1: 234185dc0e2199bbcd164279d3611c6952e8a5d6
+SHA256: 61c8c097b3029a656b3f5b70794e0bd14e8099c3dccd0ac7504c15242c9f6728
+SHA512: 12c9c7e600347816aaad24f788e2c14dafd5e3b5463def6740047cbe64fa6c11a64990decee16e852e63898f171c065fa381827b0acb12a4512fa26e13c8f9b0
+Description: The core server package for pgAdmin. pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.
+

@@ -1,0 +1,278 @@
+Package: brave-browser
+Priority: optional
+Section: web
+Installed-Size: 326637
+Maintainer: Brave Software <support@brave.com>
+Architecture: amd64
+Version: 1.48.171
+Provides: www-browser
+Depends: ca-certificates, fonts-liberation, libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.25), libcairo2 (>= 1.6.0), libcups2 (>= 1.6.0), libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3, libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.75), libexpat1 (>= 2.0.1), libgbm1 (>= 17.1.0~rc2), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.9.10) | libgtk-4-1, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.26), libpango-1.0-0 (>= 1.14.0), libu2f-udev, libvulkan1, libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.4-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxrandr2, wget, xdg-utils (>= 1.0.2), brave-keyring
+Pre-Depends: dpkg (>= 1.14.0)
+Filename: pool/main/b/brave-browser/brave-browser_1.48.171_amd64.deb
+Size: 106323024
+MD5sum: ca1cbb81f0cae34bf04af8d3a540411a
+SHA1: d4bea4a24d57cf25b01ead17fbdea0e16744f348
+SHA256: ddd14e065f88a269fc367098676a30ad33d096aaa3e0b15db6737821785b469b
+SHA512: 726e2b8dbcdd756f18d773ab8ca21916a4574834620d9ed852a4bf8198b1644e88bdb16b7f17bb7f03f3606412ee03bf15d78a64128b2cc14cec8c0376318e69
+Description: The web browser from Brave
+ Browse faster by blocking ads and trackers that violate your privacy and cost you time and money.
+
+Package: brave-browser
+Priority: optional
+Section: web
+Installed-Size: 326666
+Maintainer: Brave Software <support@brave.com>
+Architecture: amd64
+Version: 1.48.164
+Provides: www-browser
+Depends: ca-certificates, fonts-liberation, libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.25), libcairo2 (>= 1.6.0), libcups2 (>= 1.6.0), libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3, libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.75), libexpat1 (>= 2.0.1), libgbm1 (>= 17.1.0~rc2), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.9.10) | libgtk-4-1, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.26), libpango-1.0-0 (>= 1.14.0), libu2f-udev, libvulkan1, libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.4-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxrandr2, wget, xdg-utils (>= 1.0.2), brave-keyring
+Pre-Depends: dpkg (>= 1.14.0)
+Filename: pool/main/b/brave-browser/brave-browser_1.48.164_amd64.deb
+Size: 106181664
+MD5sum: 2588d415532c75ceb2ae2ea426341104
+SHA1: 4784cb7cac99acefe7cec8fe67d0d942054da32d
+SHA256: 699ab1331d616e4e6f9153044eca12be7e5c81cf6361478c59f47008de6cfdcd
+SHA512: 0c6243d0c7ca74fb3cae238d6dab7f6245a695d5a4977cb0efb40ce0ec243ad05fe9603d17e159550bbce884c47dde44ed39df87f1f1f71bc703b0d62b68b349
+Description: The web browser from Brave
+ Browse faster by blocking ads and trackers that violate your privacy and cost you time and money.
+
+Package: brave-browser
+Priority: optional
+Section: web
+Installed-Size: 326670
+Maintainer: Brave Software <support@brave.com>
+Architecture: amd64
+Version: 1.48.158
+Provides: www-browser
+Depends: ca-certificates, fonts-liberation, libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.25), libcairo2 (>= 1.6.0), libcups2 (>= 1.6.0), libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3, libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.75), libexpat1 (>= 2.0.1), libgbm1 (>= 17.1.0~rc2), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.9.10) | libgtk-4-1, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.26), libpango-1.0-0 (>= 1.14.0), libu2f-udev, libvulkan1, libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.4-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxrandr2, wget, xdg-utils (>= 1.0.2), brave-keyring
+Pre-Depends: dpkg (>= 1.14.0)
+Filename: pool/main/b/brave-browser/brave-browser_1.48.158_amd64.deb
+Size: 106209764
+MD5sum: 0d84c2922997e8ad9f24cffa0bb7a937
+SHA1: 242754680a41fbbfac6b2dc74e1e63c7aa6f09c7
+SHA256: 86057cf8c8ed878dca22d972f7c95387752bfa1f6f03d05f2713aa3069759dd6
+SHA512: affeb9f09302eca2be203d67159764c5dbc40623dfcf094bb66f8758d86bfab89008f616bd252a59830b0c4d3e19acb4acbaedae6a471cd8ea7efbef81170b18
+Description: The web browser from Brave
+ Browse faster by blocking ads and trackers that violate your privacy and cost you time and money.
+
+Package: brave-browser
+Priority: optional
+Section: web
+Installed-Size: 325875
+Maintainer: Brave Software <support@brave.com>
+Architecture: amd64
+Version: 1.47.186
+Provides: www-browser
+Depends: ca-certificates, fonts-liberation, libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.25), libcairo2 (>= 1.6.0), libcups2 (>= 1.6.0), libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3, libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.75), libexpat1 (>= 2.0.1), libgbm1 (>= 17.1.0~rc2), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.9.10) | libgtk-4-1, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.26), libpango-1.0-0 (>= 1.14.0), libu2f-udev, libvulkan1, libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.4-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxrandr2, wget, xdg-utils (>= 1.0.2), brave-keyring
+Pre-Depends: dpkg (>= 1.14.0)
+Filename: pool/main/b/brave-browser/brave-browser_1.47.186_amd64.deb
+Size: 106048028
+MD5sum: eb7e0374f416e3766d02bf8a7331e0bd
+SHA1: 25095f06a4e0b1e67fe959662076f62d28e6b46e
+SHA256: e3b2e48dc0be7c413e727da6e37e3ef5f43e376c9949cd5e1748033bb8c67cf2
+SHA512: 8321dae000fbc0de839fba1dbad148e68beffba65c7f22d2c9cbc62326e8727a2a3713b0738c3a35a669e80a8c0b242495683202e53141df4ee83be48f650086
+Description: The web browser from Brave
+ Browse faster by blocking ads and trackers that violate your privacy and cost you time and money.
+
+Package: brave-browser
+Priority: optional
+Section: web
+Installed-Size: 322534
+Maintainer: Brave Software <support@brave.com>
+Architecture: amd64
+Version: 1.47.171
+Provides: www-browser
+Depends: ca-certificates, fonts-liberation, libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.25), libcairo2 (>= 1.6.0), libcups2 (>= 1.6.0), libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3, libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.75), libexpat1 (>= 2.0.1), libgbm1 (>= 17.1.0~rc2), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.9.10) | libgtk-4-1, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.26), libpango-1.0-0 (>= 1.14.0), libu2f-udev, libvulkan1, libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.4-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxrandr2, wget, xdg-utils (>= 1.0.2), brave-keyring
+Pre-Depends: dpkg (>= 1.14.0)
+Filename: pool/main/b/brave-browser/brave-browser_1.47.171_amd64.deb
+Size: 105780388
+MD5sum: 1375040062c25c6297d04636d0468e05
+SHA1: be95ed97c0fd1d5d526d6fed9bfd0f1e6287e10d
+SHA256: d212a8b2d6b57f1b61f52703466aebb7c047e024c8466d2085eb58e0992e728f
+SHA512: 7b32705e480e10070532ea6a0ee7375badbe2c90bcc2f06f0e3ed4ae0d8782418e8390e72ac9933985f59e9255fd319158216e8a09d6a0d44e4f0e12f55c52d2
+Description: The web browser from Brave
+ Browse faster by blocking ads and trackers that violate your privacy and cost you time and money.
+
+Package: brave-browser
+Priority: optional
+Section: web
+Installed-Size: 325142
+Maintainer: Brave Software <support@brave.com>
+Architecture: amd64
+Version: 1.46.153
+Provides: www-browser
+Depends: ca-certificates, fonts-liberation, libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.25), libcairo2 (>= 1.6.0), libcups2 (>= 1.6.0), libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3, libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.60), libexpat1 (>= 2.0.1), libgbm1 (>= 17.1.0~rc2), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.9.10) | libgtk-4-1, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.26), libpango-1.0-0 (>= 1.14.0), libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.4-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxrandr2, wget, xdg-utils (>= 1.0.2), brave-keyring
+Pre-Depends: dpkg (>= 1.14.0)
+Recommends: libu2f-udev, libvulkan1
+Filename: pool/main/b/brave-browser/brave-browser_1.46.153_amd64.deb
+Size: 104893516
+MD5sum: 90d80b1bc8d0bab45e5843fa781bdbd0
+SHA1: 035c47e10e1378496ad8339ccbc53c98bf32f43e
+SHA256: 0e35b9b4fef1b8eec5cda76c43aa1e6f53f5cbb1400c31f758c9c35098372322
+SHA512: 235e277647d16da0470242c4d697b1ec90bd11b3955f60516cb906d3609ffde34060d0cc8dc9613fbba6ced0cb68a99d3b6f08cee70cae5beff2e9193ad71362
+Description: The web browser from Brave
+ Browse faster by blocking ads and trackers that violate your privacy and cost you time and money.
+
+Package: brave-keyring
+Priority: optional
+Maintainer: Brave Software <support@brave.com>
+Architecture: all
+Version: 1.13
+Filename: pool/main/b/brave-keyring/brave-keyring_1.13-1.deb
+Size: 4168
+MD5sum: 6b377fc92470a605aeefb47588bcb9d4
+SHA1: dd3459300abbbf77a05edf5b1dbe95b044439322
+SHA256: 0e5c33f32d908a6846b890c5d225f1a0cdebe96fea02879b776fa02877714dd2
+SHA512: 42b2414220e0c0244e416ab0933d2a6d61c01bf9ff3b6f82540fe8ad77b1f82fcd787e3f24006e6660b43bd1bc8e84d97e80ace5305fa2d4445c7231008cf8fd
+Description: Brave Browser keyring and repository files
+
+Package: brave-keyring
+Priority: optional
+Maintainer: Brave Software <support@brave.com>
+Architecture: all
+Version: 1.12
+Filename: pool/main/b/brave-keyring/brave-keyring_1.12-1.deb
+Size: 4236
+MD5sum: 26bec9010a7052ff3d3907ef35409b53
+SHA1: b8701b7d3c2537f94621ce537e42d0a104eef213
+SHA256: ea09c830fd538ae0a9a04c9756bcd762da02faa5b8973a072979f3007f28f29d
+SHA512: 90a4b7671adaec5a57c44f48286f69ba98c765c76bed4267897d4e0257e2de327d6b780975a94553dcf33bdd46d377744a6374f0b8881734a9121d04a2719e5d
+Description: Brave Browser keyring and repository files
+
+Package: brave-keyring
+Priority: optional
+Maintainer: Brave Software <support@brave.com>
+Architecture: all
+Version: 1.11
+Filename: pool/main/b/brave-keyring/brave-keyring_1.11-1.deb
+Size: 4212
+MD5sum: 652273ce3b2c0aad4dbb80399f0711af
+SHA1: 616d20feda57ba3deffe6dd6514d2f7a65aea392
+SHA256: 4a0991d23d85200ee476bd4196ef801f71a4eed7633fde8f96a08337aca459e3
+SHA512: 94e797665c630c507319b1df121cb5937e7deea6ca188a69f8497420e82ea425d999c64eaeb2422e3305b5115c09cf42c88f390becf4430c945466542dbe03a6
+Description: Brave Browser keyring and repository files
+
+Package: brave-keyring
+Priority: optional
+Maintainer: Ben Kero <bkero@brave.com>
+Architecture: all
+Version: 1.10
+Depends: gnupg, procps
+Filename: pool/main/b/brave-keyring/brave-keyring_1.10-1.deb
+Size: 3940
+MD5sum: 0234d40ddf07a456f67e62e162a7e242
+SHA1: 445225ff6b5131fe8b96d6aba6e3cf1bce638175
+SHA256: 99e10e02425bda425c25d4d8361e39e549f6397e2de79620c77823ee7a70e431
+SHA512: ef3a3be995905d4d921375dfb6d1467da7bd1da1e84366be23a828da1c221d7d46a6cd3530596c748f6a0bd42aaf85625633915a76c6c7d55e8394633fd09234
+Description: Brave Browser keyring and repository files
+
+Package: brave-keyring
+Priority: optional
+Maintainer: Ben Kero <bkero@brave.com>
+Architecture: all
+Version: 1.9
+Depends: gnupg, procps
+Filename: pool/main/b/brave-keyring/brave-keyring_1.9-1.deb
+Size: 5044
+MD5sum: e363cd070e32b5738fcb6217b8616600
+SHA1: 6dc957911072cb713c8df48d3624a683b74e4215
+SHA256: d04839d33b393dbc57b1cf7278f3955325c63fc60e72c19b2c4d36dff6a10267
+SHA512: 8ecfc13a0cb01d23f3d83b99252415e79fe7392e31c451b19abb593ebbc4800b7898cf000965217335dfc0e19c178741ad1bdd44321b215dc75285bac58f3dda
+Description: Brave Browser keyring and repository files
+
+Package: brave-keyring
+Priority: optional
+Maintainer: Ben Kero <bkero@brave.com>
+Architecture: all
+Version: 1.8
+Depends: gnupg, procps
+Filename: pool/main/b/brave-keyring/brave-keyring_1.8-1.deb
+Size: 5072
+MD5sum: 6d86b69d0377fe2e012d137a95ff88e1
+SHA1: 7f114c857823e93241be39eba24b23c5abf30388
+SHA256: f6ce0d150a80afa57704cffb64fcd027ef47e1f8839c21e12998a7eae16b0908
+SHA512: 3560c89e24172407805bd88fd7dfa50ff5ff055b1e27a2177d661e926c99f0a5039af434d90f31d6c845a584845d8e72f2b4eba3243e7c37ec483d2993b6dc06
+Description: Brave Browser keyring and repository files
+
+Package: brave-keyring
+Priority: optional
+Maintainer: Ben Kero <bkero@brave.com>
+Architecture: all
+Version: 1.7
+Depends: gnupg, procps
+Filename: pool/main/b/brave-keyring/brave-keyring_1.7-1.deb
+Size: 5164
+MD5sum: b7738e63f9ff83f44737fb41c3d0f71b
+SHA1: 43f4b1a8d42dbebc2dd5bef6a3f20c70f985f45e
+SHA256: 31d7195524beab995af2247abf3f91204ab218cc4ce0efbd54a9d8a6e47639de
+SHA512: 4d96a7cb630352a799f04ed4dd3199a3db2a627b56336cb4b9fa4368bd823aa494b44bb5a3dbfe38b339e6fad507d622af2f0bbae19161a0b525fcb5cf35c96a
+Description: Brave Browser keyring and repository files
+
+Package: brave-keyring
+Priority: optional
+Maintainer: Ben Kero <bkero@brave.com>
+Architecture: all
+Version: 1.5
+Depends: gnupg
+Filename: pool/main/b/brave-keyring/brave-keyring_1.5-1.deb
+Size: 3496
+MD5sum: 78a057682d8ae9ce16ba82e67d7a547a
+SHA1: 68d6e0ca7d9da825b286b3fbdd035871f4a701a7
+SHA256: 286b4966b0ab1eaa111dae787328b86baded17b8f9ce1009b9a1c325272664a0
+SHA512: fb905d0f061a2eb1436c3cf8d32f63c1cc1def74d1b850737524d6c0711cd00915c056279d9edab9ef04b69f609cade7b9967887a2bed7aa0bc024b2b6dc4bbf
+Description: Brave Browser keyring and repository files
+
+Package: brave-keyring
+Priority: optional
+Maintainer: Ben Kero <bkero@brave.com>
+Architecture: all
+Version: 1.4
+Depends: gnupg
+Filename: pool/main/b/brave-keyring/brave-keyring_1.4-1.deb
+Size: 3476
+MD5sum: 2bd109834e2e49e54563d5be5e76f57f
+SHA1: bc66b7bbd620deaa4e91fab3673521fa10ca25df
+SHA256: 81fcb06d1dd47671af5f499e5a4ddaed8f582b948c1d989b30d9708818543f00
+SHA512: 1ea4edb050224df715544851e1427d84e79e082561c53c0390a43bd4302d1182bb73b2fc82482e0de9cc55fde7361c0dfa86eac962c69797db458d56a4be7288
+Description: Brave Browser keyring and repository files
+
+Package: brave-keyring
+Priority: optional
+Maintainer: Ben Kero <bkero@brave.com>
+Architecture: all
+Version: 1.3
+Depends: gnupg
+Filename: pool/main/b/brave-keyring/brave-keyring_1.3-1.deb
+Size: 3400
+MD5sum: e8ab39ba6207e645e701777332776aab
+SHA1: c2cc8073f06166d02458b4a4a206e80644590d5b
+SHA256: c678660cc5db3a8b8b8353c58ebb85a2a7c4d53c7f3224b7aff9648482ef386e
+SHA512: 10c8f446eaf403acc9061eface5ac05f8f5abcbc1d6fc72639aecc3dacf94c8918621da7597589402051ae858ec258290f8be43ca179d52bfd6c5fcbe3953864
+Description: Brave Browser keyring and repository files
+
+Package: brave-keyring
+Priority: optional
+Maintainer: Ben Kero <bkero@brave.com>
+Architecture: all
+Version: 1.2
+Filename: pool/main/b/brave-keyring/brave-keyring_1.2-1.deb
+Size: 3336
+MD5sum: 7e613566f193c4ad811f4ee41e065313
+SHA1: 84193b4a794fe29b8e05bcf2ef3defc8f8857caf
+SHA256: caa6119ffd32e4c191f55c9f9e573a2c88db03f84c45a881937aeeb53a335597
+SHA512: c5ff250aea87a0657f029eaf8f5a9c15507d0620e4be00527823af2dc4e3c0501540178773f236fdb7b50617bfd01ab80e916191dcafd2f0015f7553b9427792
+Description: Brave Browser keyring and repository files
+
+Package: brave-keyring
+Priority: optional
+Maintainer: Ben Kero <bkero@brave.com>
+Architecture: all
+Version: 1.1
+Filename: pool/main/b/brave-keyring/brave-keyring_1.1-1.deb
+Size: 3384
+MD5sum: 88cc8d37c8ee9099a1115173a3930450
+SHA1: 64b4dbe8aa34f5599505ac3fd1dacba0f8d9bde5
+SHA256: d1ae64a12cbbc30891af23ee1b537df7d9f1ff817773f673788094d8f10b24fb
+SHA512: b8a02290fb74397eeada9a7a2e546eb07cd97a748622abe030a006b5cfe205f248fc3d2422847cc4b8f2410ce6f480863e315e1cc07524c0223d3ba8ef7e6421
+Description: Brave Browser keyring and repository files
+

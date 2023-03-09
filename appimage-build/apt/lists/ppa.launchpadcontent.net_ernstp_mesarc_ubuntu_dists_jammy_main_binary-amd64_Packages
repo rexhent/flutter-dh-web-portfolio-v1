@@ -1,0 +1,1798 @@
+Package: bolt-15
+Source: llvm-toolchain-15
+Priority: optional
+Section: devel
+Installed-Size: 179042
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3), libstdc++6 (>= 12), libtinfo6 (>= 6), zlib1g (>= 1:1.2.0), libbolt-15-dev (= 1:15.0.7-1ubuntu1~j~ppa1)
+Filename: pool/main/l/llvm-toolchain-15/bolt-15_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 36684358
+MD5sum: 464deb96fb18a7abbd04d57a34991457
+SHA1: 6dead9caa485416efdb512d432e6bbe4c28c020c
+SHA256: 10dc60d680b171f7b49d58312d9b1c7f378443c56841d27a4427774cefae121c
+Description: Post-link optimizer
+Description-md5: a5816535f62942b4fcded9b86fb66840
+
+Package: clang-15
+Source: llvm-toolchain-15
+Priority: optional
+Section: devel
+Installed-Size: 381
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Recommends: llvm-15-dev, python3
+Suggests: clang-15-doc, wasi-libc
+Provides: c++-compiler, c-compiler, objc-compiler
+Depends: libc6 (>= 2.34), libclang-cpp15 (>= 1:15.0.7), libgcc-s1 (>= 3.0), libllvm15, libstdc++6 (>= 11), libstdc++-11-dev, libgcc-11-dev, libobjc-11-dev, libclang-common-15-dev (= 1:15.0.7-1ubuntu1~j~ppa1), llvm-15-linker-tools (= 1:15.0.7-1ubuntu1~j~ppa1), libclang1-15 (= 1:15.0.7-1ubuntu1~j~ppa1), libc6-dev, binutils
+Filename: pool/main/l/llvm-toolchain-15/clang-15_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 140028
+MD5sum: 7f10cf79a8ff78e20c231e0f20c19b8e
+SHA1: 768e5da8d1206ff00f9882d63bd0beb3c9fed827
+SHA256: 5eac1b1e36adcdc6a0d2ff873c5f8d2b08728802f19cf237025712299a36e508
+Description: C, C++ and Objective-C compiler
+Description-md5: c364160e44345420df0f2e97b3082b69
+
+Package: clang-15-doc
+Source: llvm-toolchain-15
+Priority: optional
+Section: doc
+Installed-Size: 9563
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: all
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Depends: libjs-mathjax
+Filename: pool/main/l/llvm-toolchain-15/clang-15-doc_15.0.7-1ubuntu1~j~ppa1_all.deb
+Size: 1242562
+MD5sum: 6caada332649c14545ac3ce9a60f7aa9
+SHA1: 947043444faaa51a20c7fd5ecd58b12facb8aa85
+SHA256: dfec97ee63788a6fac029a5b3188e762c24d07c5f9710b8cff0cab9149916a42
+Description: C, C++ and Objective-C compiler - Documentation
+Description-md5: 6bf5242bfe6f159fd907beb982f2315f
+
+Package: clang-15-examples
+Source: llvm-toolchain-15
+Priority: optional
+Section: doc
+Installed-Size: 98
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Filename: pool/main/l/llvm-toolchain-15/clang-15-examples_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 68258
+MD5sum: ebf1ced84a1af97af1c8db99175dabc1
+SHA1: 26c4f6abd1421d63f2518f2f90b3e2e091eaec1d
+SHA256: b1a0f83a23ea6117e034f33be2cea476493abde36c13961db2325d155ebb97e8
+Description: Clang examples
+Description-md5: c2fd51cc2d722b8e5b1c1549d931bc06
+
+Package: clang-format-15
+Source: llvm-toolchain-15
+Priority: optional
+Section: devel
+Installed-Size: 244
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Depends: libc6 (>= 2.34), libclang-cpp15 (>= 1:15.0.7), libgcc-s1 (>= 3.0), libllvm15 (= 1:15.0.7-1ubuntu1~j~ppa1), libstdc++6 (>= 11), python3
+Filename: pool/main/l/llvm-toolchain-15/clang-format-15_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 109326
+MD5sum: a613eb537eff48a5e94cba0727d517ce
+SHA1: bc85f230b29067604758ff7c436a4f034331245f
+SHA256: 763abd49dcfc677ec95de4c467a5cfd349f598fc4157e44230cb3f543cdaf7b9
+Description: Tool to format C/C++/Obj-C code
+Description-md5: 5fdb7838fa336de9de2703cb644c12e4
+
+Package: clang-tidy-15
+Source: llvm-toolchain-15
+Priority: optional
+Section: devel
+Installed-Size: 26026
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Depends: libc6 (>= 2.34), libclang-cpp15 (>= 1:15.0.7), libgcc-s1 (>= 3.0), libllvm15 (= 1:15.0.7-1ubuntu1~j~ppa1), libstdc++6 (>= 11), python3, libclang-common-15-dev, clang-tools-15, python3-yaml
+Filename: pool/main/l/llvm-toolchain-15/clang-tidy-15_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 4575528
+MD5sum: fd36f0318a1e0c070f736113ebbec024
+SHA1: e0ec43cbaed0b2dfe46c691a406311d11ea13b76
+SHA256: 1bb263514a24494f9937de57e2aa935b43008e3fc77766de9cbb6f9b4dc32472
+Description: clang-based C++ linter tool
+Description-md5: 239d974b460ce0b6a914aa94c05888ad
+
+Package: clang-tools-15
+Source: llvm-toolchain-15
+Priority: optional
+Section: devel
+Installed-Size: 35315
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Depends: libc6 (>= 2.34), libclang-cpp15 (>= 1:15.0.7), libclang1-15 (>= 1:15.0.7-1ubuntu1~j~ppa1), libgcc-s1 (>= 3.0), libllvm15, libstdc++6 (>= 11), libxml2 (>= 2.7.4), clang-15 (= 1:15.0.7-1ubuntu1~j~ppa1), python3
+Filename: pool/main/l/llvm-toolchain-15/clang-tools-15_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 7886124
+MD5sum: 5988c6000701415e10f1927cba510b93
+SHA1: 50d84fa7bfad5cb8e546c70c6c1aebaf1ab82a63
+SHA256: 14d0f8bb813837f43d939075bcfcfca5983ee3bddecb2d6e812b42be6359825a
+Description: clang-based tools for C/C++ developments
+Description-md5: da24a5a87f39211c1ff10f03f06e0a3c
+
+Package: clangd-15
+Source: llvm-toolchain-15
+Priority: optional
+Section: devel
+Installed-Size: 23572
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Depends: libc6 (>= 2.34), libclang-cpp15 (>= 1:15.0.7), libgcc-s1 (>= 3.0), libgrpc++1 (>= 1.30.2), libgrpc10 (>= 1.30.2), libllvm15, libprotobuf23 (>= 3.12.4), libstdc++6 (>= 12), libclang-common-15-dev (= 1:15.0.7-1ubuntu1~j~ppa1)
+Filename: pool/main/l/llvm-toolchain-15/clangd-15_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 5210462
+MD5sum: 31fa9f14c116404858e84f72522b90aa
+SHA1: ec3d54176412499fc3f46fe1d936cddff945063f
+SHA256: 81f797dde225d700d11adb34de09cc2213504cb1d8af6f0be94674b2629aa4a5
+Description: Language server that provides IDE-like features to editors
+Description-md5: 1674f5846b976864facaf0036466c402
+
+Package: corectrl
+Priority: optional
+Section: admin
+Installed-Size: 4760
+Maintainer: Ernst Sjöstrand <ernstp@gmail.com>
+Architecture: amd64
+Version: 1.4.0~git2302261233.1cfa233~j~mesarc16
+Depends: libbotan-2-19 (>= 2.19.1+dfsg), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libglib2.0-0 (>= 2.12.0), libpolkit-gobject-1-0 (>= 0.99), libqt5charts5 (>= 5.7.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.0.2) | libqt5quick5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libquazip5-1 (>= 0.7.3), libstdc++6 (>= 11), qml-module-qtquick2, qml-module-qtquick-controls2, qml-module-qtquick-layouts, qml-module-qtquick-window2, qml-module-qt-labs-platform, qml-module-qtcharts, sysvinit-utils, util-linux, hwdata, mesa-utils, vulkan-tools | vulkan-utils
+Filename: pool/main/c/corectrl/corectrl_1.4.0~git2302261233.1cfa233~j~mesarc16_amd64.deb
+Size: 1135476
+MD5sum: 95046124532ebead9a793cc4fa933b3d
+SHA1: c64a1832a23052d652a42a016a8353d96a6bc1b2
+SHA256: 5068ff31ae24500f35d18d580db268853c8de6beeca0454c9336d0950473857a
+Description: Core control application
+Description-md5: 0ec2e7413992afccb13c90a3985d9e79
+Multi-Arch: foreign
+
+Package: flang-15
+Source: llvm-toolchain-15
+Priority: optional
+Section: devel
+Installed-Size: 97640
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Provides: fortran-compiler, gfortran-mod-15
+Depends: libc6 (>= 2.34), libclang-cpp15 (>= 1:15.0.7), libgcc-s1 (>= 3.0), libllvm15, libstdc++6 (>= 11), libtinfo6 (>= 6), zlib1g (>= 1:1.1.4), libstdc++-11-dev, libgcc-11-dev
+Filename: pool/main/l/llvm-toolchain-15/flang-15_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 18211736
+MD5sum: 004fdd36b80dff5b45e27f6a9f996a66
+SHA1: f670fc24fc7d0364c2990134cf825147d0a278a5
+SHA256: f61b5b2af44870072b90d424c4b395649e436c55ae8db4dbf4f2c992f6f4c747
+Description: Fortran compiler
+Description-md5: bd017b88c85853e1292c78015b1d62a8
+
+Package: libbolt-15-dev
+Source: llvm-toolchain-15
+Priority: optional
+Section: libdevel
+Installed-Size: 112
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Filename: pool/main/l/llvm-toolchain-15/libbolt-15-dev_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 75198
+MD5sum: bdf99cddffad44b480f6c2089e959fac
+SHA1: 525f88a34ebe84487e60911f78eefe3197b9b2f9
+SHA256: 24fc8858424597cb7020b5a1c22bd9e7143a9db693034fce1c935fb6c7805ce9
+Description: Post-link optimizer
+Description-md5: a5816535f62942b4fcded9b86fb66840
+
+Package: libc++-15-dev
+Source: llvm-toolchain-15
+Priority: optional
+Section: libdevel
+Installed-Size: 9714
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Replaces: libc++-x.y-dev
+Provides: libc++-x.y-dev
+Depends: libc++1-15 (= 1:15.0.7-1ubuntu1~j~ppa1), libunwind-15-dev
+Conflicts: libc++-x.y-dev
+Breaks: libc++-dev (<< 44)
+Filename: pool/main/l/llvm-toolchain-15/libc++-15-dev_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 1095676
+MD5sum: 452674622a3e1d88a750cc8460e380ef
+SHA1: a047e1b59b6f17de52961973c0891defeb2a5f3f
+SHA256: ffa294a97725c20cd72bb9320a92540a4fb969b6dcc51b4ce085f5a4f208828c
+Description: LLVM C++ Standard library (development files)
+Description-md5: 1c8ae27b1e510c4e5bfc469768cf5dee
+Multi-Arch: same
+
+Package: libc++-15-dev-wasm32
+Source: llvm-toolchain-15
+Priority: optional
+Section: libdevel
+Installed-Size: 79
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: all
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Replaces: libc++-x.y-dev-wasm32
+Provides: libc++-x.y-dev-wasm32
+Depends: wasi-libc, libc++abi-15-dev-wasm32
+Conflicts: libc++-x.y-dev-wasm32
+Filename: pool/main/l/llvm-toolchain-15/libc++-15-dev-wasm32_15.0.7-1ubuntu1~j~ppa1_all.deb
+Size: 60762
+MD5sum: 7ca521281ddb5db3e00309cd9bd7e179
+SHA1: 7ec64f32bede9d78b630900787e4e3b327cc477c
+SHA256: 84eaf0bf3686527e4a834dea9d38f89c6336e6f8b42419642529d28250f22ccc
+Description: LLVM C++ Standard library (WASI)
+Description-md5: 731d8a2241fbe5fcb3c682accf2f459e
+Multi-Arch: foreign
+
+Package: libc++1-15
+Source: llvm-toolchain-15
+Priority: optional
+Section: libs
+Installed-Size: 1042
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Replaces: libc++-x.y
+Suggests: clang
+Provides: libc++-x.y
+Depends: libc++abi1-15 (>= 1:15.0.7), libc6 (>= 2.34), libunwind-15 (>= 1:15.0.7)
+Conflicts: libc++-x.y
+Breaks: libc++1 (<< 44)
+Filename: pool/main/l/llvm-toolchain-15/libc++1-15_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 347936
+MD5sum: fe8698625ef5fe92584417d13b75a685
+SHA1: f9eead7e2dc13172c9c4323873b5fdc102331a9b
+SHA256: 15c0cc9c8b01792294c1772b5b1ff96da6af64269b112c15efe924f90f717701
+Description: LLVM C++ Standard library
+Description-md5: 4363291dce16f076b9fb3f3bbbb934d7
+Multi-Arch: same
+
+Package: libc++abi-15-dev
+Source: llvm-toolchain-15
+Priority: optional
+Section: libdevel
+Installed-Size: 677
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Replaces: libc++abi-x.y-dev
+Provides: libc++abi-x.y-dev
+Depends: libc++abi1-15 (= 1:15.0.7-1ubuntu1~j~ppa1)
+Conflicts: libc++abi-x.y-dev
+Breaks: libc++abi-dev (<= 44)
+Filename: pool/main/l/llvm-toolchain-15/libc++abi-15-dev_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 150380
+MD5sum: 53a3ff232b75b9e342bbd186a25ee50d
+SHA1: 52b1070b033520c76cf20ef51421ffc26f944162
+SHA256: 20cd16f1891fb894f85ae09fcb2ac355a271eb9597cc683b96fd1b9804f5cdda
+Description: LLVM low level support for a standard C++ library (development files)
+Description-md5: 75374ee23427d4882c5c4a7a7e3fd30e
+Multi-Arch: same
+
+Package: libc++abi-15-dev-wasm32
+Source: llvm-toolchain-15
+Priority: optional
+Section: libdevel
+Installed-Size: 80
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: all
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Replaces: libc++abi-x.y-dev-wasm32
+Provides: libc++abi-x.y-dev-wasm32
+Depends: wasi-libc
+Conflicts: libc++abi-x.y-dev-wasm32
+Filename: pool/main/l/llvm-toolchain-15/libc++abi-15-dev-wasm32_15.0.7-1ubuntu1~j~ppa1_all.deb
+Size: 60672
+MD5sum: 9da65dd1b75506fd9e65cbb07c83341f
+SHA1: e9d43d0951aaa67aac61bc94d839e2db568527e0
+SHA256: 88530078c9b9a1da119b19212cfb2bb756e9c2ddb6e35050182d0c612ea97d5d
+Description: LLVM low level support for a standard C++ library (WASI)
+Description-md5: 0b2ed8c1ba25795a2f525c10f20bb162
+Multi-Arch: foreign
+
+Package: libc++abi1-15
+Source: llvm-toolchain-15
+Priority: optional
+Section: libs
+Installed-Size: 296
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Replaces: libc++abi-x.y
+Provides: libc++abi-x.y
+Depends: libc6 (>= 2.34), libunwind-15 (>= 1:15.0.7)
+Conflicts: libc++abi-x.y
+Breaks: libc++abi1 (<< 44)
+Filename: pool/main/l/llvm-toolchain-15/libc++abi1-15_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 126170
+MD5sum: 3c2ae6448b967fd8d56e43f1ee67622d
+SHA1: 3d4441cabd167110440ace41f7d523bb7adc4fcb
+SHA256: 0ed1dc9bfee6780ee482d7cd5e21a27fca6330bcff5c45fa4d5a7bffa3f99f1b
+Description: LLVM low level support for a standard C++ library
+Description-md5: 5b53167a183ddda940e4506de7ac101b
+Multi-Arch: same
+
+Package: libclang-15-dev
+Source: llvm-toolchain-15
+Priority: optional
+Section: libdevel
+Installed-Size: 252780
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Depends: libstdc++-11-dev, libgcc-11-dev, libobjc-11-dev, libclang1-15 (= 1:15.0.7-1ubuntu1~j~ppa1), libclang-common-15-dev (= 1:15.0.7-1ubuntu1~j~ppa1)
+Filename: pool/main/l/llvm-toolchain-15/libclang-15-dev_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 26525498
+MD5sum: 374c32ff265cce9bba61f677d294aa10
+SHA1: f64765381da8a1975c2a0638824c13881bf668bf
+SHA256: 91d22b1cbbad32901a97b490647a9d69c08dbee46b74f47c01168453fcb099f0
+Description: Clang library - Development package
+Description-md5: e36d08060140464d291042b94e0b1096
+
+Package: libclang-common-15-dev
+Source: llvm-toolchain-15
+Priority: optional
+Section: libdevel
+Installed-Size: 11871
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: all
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Recommends: libclang-rt-15-dev (>= 1:15.0.6-5)
+Depends: libllvm15 (>= 1:15.0.7-1ubuntu1~j~ppa1)
+Filename: pool/main/l/llvm-toolchain-15/libclang-common-15-dev_15.0.7-1ubuntu1~j~ppa1_all.deb
+Size: 679624
+MD5sum: 78cf7565f0c70069fa39c195710742a3
+SHA1: 31860a1ef6afaa26d3a9eeae15a802ae440440ae
+SHA256: 12ebe4a88274d2207be806916a13d1bdfa63c99b717b5bd6d2aae663af3d1fc9
+Description: Clang library - Common development package
+Description-md5: c70051d53e23270c29353f55183e81aa
+
+Package: libclang-cpp15
+Source: llvm-toolchain-15
+Priority: optional
+Section: libs
+Installed-Size: 59925
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libllvm15 (= 1:15.0.7-1ubuntu1~j~ppa1), libstdc++6 (>= 12)
+Filename: pool/main/l/llvm-toolchain-15/libclang-cpp15_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 12663136
+MD5sum: 3f7bd212c803bc7292a388dcbffd3bdd
+SHA1: a665becc8f8861b00fd2a4503e875651503fd6d2
+SHA256: 395c43a87ff92706e48c55097d5fd96994c270700125d1a0ab21ade1a68116fc
+Description: C++ interface to the Clang library
+Description-md5: 8acc7c5b41666c14f1ef5e79310225e6
+
+Package: libclang-cpp15-dev
+Source: llvm-toolchain-15
+Priority: optional
+Section: libdevel
+Installed-Size: 76
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Depends: libstdc++-11-dev, libgcc-11-dev, libclang-cpp15 (= 1:15.0.7-1ubuntu1~j~ppa1)
+Filename: pool/main/l/llvm-toolchain-15/libclang-cpp15-dev_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 60722
+MD5sum: 63c4ead0d5165c949df1ab87d3511a6f
+SHA1: 163cafbc6b0c563b57c197c8781ab3a9ef2c703f
+SHA256: ed4207aae0790ec24a28fa4b6926f33e6a83469ba5a1dc6bece5005d3f9f38a0
+Description: C++ interface to the Clang library
+Description-md5: f5afea2f6b71ba0705e995aaab21eef9
+
+Package: libclang-rt-15-dev
+Source: llvm-toolchain-15
+Priority: optional
+Section: libdevel
+Installed-Size: 43201
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Replaces: libclang-common-15-dev (<< 1:15.0.6-5)
+Depends: lib32stdc++6 (>= 4.1.1), libc6 (>= 2.34), libc6-i386 (>= 2.34), libstdc++6 (>= 4.1.1)
+Breaks: libclang-common-15-dev (<< 1:15.0.6-5)
+Filename: pool/main/l/llvm-toolchain-15/libclang-rt-15-dev_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 3578588
+MD5sum: 4cfe15aa873847eb7f1620610a4d7e07
+SHA1: b4dc7a81919dbc8d013e6dcf5fd7fbd1e72d0153
+SHA256: 5e6a31f2cb4816d018d54d125b135f4d866d217fb7832b3f45c404303a745917
+Description: Compiler-rt - development package
+Description-md5: c6ea2401de82bc335cc2bc855c33db01
+Multi-Arch: same
+
+Package: libclang-rt-15-dev-wasm32
+Source: llvm-toolchain-15
+Priority: optional
+Section: libdevel
+Installed-Size: 299
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: all
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Recommends: libclang-common-15-dev (>= 1:15.0.6-5)
+Replaces: libclang-common-15-dev (<< 1:15.0.6-5)
+Breaks: libclang-common-15-dev (<< 1:15.0.6-5)
+Filename: pool/main/l/llvm-toolchain-15/libclang-rt-15-dev-wasm32_15.0.7-1ubuntu1~j~ppa1_all.deb
+Size: 103358
+MD5sum: 8c63824ed75e12a199d9b6897721ae0b
+SHA1: 3af488aa942161ce8be1069038800aeeb11ec36f
+SHA256: b380b6e24f9832c73bc4e827e15010cde8f1c2c6444458acf5d7cc9b95c73783
+Description: Compiler-rt - wasm32 builtins
+Description-md5: 0a3a8bf20b284a6b0fb9f63d5541c217
+Multi-Arch: foreign
+
+Package: libclang-rt-15-dev-wasm64
+Source: llvm-toolchain-15
+Priority: optional
+Section: libdevel
+Installed-Size: 305
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: all
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Recommends: libclang-common-15-dev (>= 1:15.0.6-5)
+Replaces: libclang-common-15-dev (<< 1:15.0.6-5)
+Breaks: libclang-common-15-dev (<< 1:15.0.6-5)
+Filename: pool/main/l/llvm-toolchain-15/libclang-rt-15-dev-wasm64_15.0.7-1ubuntu1~j~ppa1_all.deb
+Size: 103404
+MD5sum: 75da7a405fc0c24f4c32f7775baba6b4
+SHA1: d02e03537ff56f55897956fd1069c3efe9179c1f
+SHA256: 8f1757c51c7f8f892ea838b0bb99ee1f3fe08d0f08359b95332f7ea112c5bb92
+Description: Compiler-rt - wasm64 builtins
+Description-md5: f6fba666aadae95050bf103b52358363
+Multi-Arch: foreign
+
+Package: libclang1-15
+Source: llvm-toolchain-15
+Priority: optional
+Section: libs
+Installed-Size: 31201
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libllvm15, libstdc++6 (>= 11)
+Filename: pool/main/l/llvm-toolchain-15/libclang1-15_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 7099490
+MD5sum: eeeb2e10cb35ad018884deeddbaf78cf
+SHA1: ef77f5833ce7a292f98a9a724176c59dfb11629e
+SHA256: 5b096364bb2f0761ab8590d1aab3eda8d88b0f11a3e060dedee768e71ff13131
+Description: C interface to the Clang library
+Description-md5: 6fbabc5fd121a4ff6b254de59627b6de
+
+Package: libclc-15
+Source: llvm-toolchain-15
+Priority: optional
+Section: libs
+Installed-Size: 77582
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: all
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Replaces: libclc-amdgcn, libclc-ptx, libclc-r600, libclc-x.y
+Provides: libclc-x.y
+Depends: libclc-15-dev (= 1:15.0.7-1ubuntu1~j~ppa1), libclang-common-15-dev
+Conflicts: libclc-x.y
+Breaks: libclc-amdgcn, libclc-ptx, libclc-r600
+Filename: pool/main/l/llvm-toolchain-15/libclc-15_15.0.7-1ubuntu1~j~ppa1_all.deb
+Size: 10014784
+MD5sum: 1764a2f682ba12a6a431beebc48adbe2
+SHA1: ccab0cce441bb5158cad0b843876af51d1cc6172
+SHA256: 1c5c080e32ceaba52117355baa97bd6d7d95bfc755bb63cdc29832b5f1d651a3
+Description: OpenCL C language implementation - platform support
+Description-md5: 73bf1c1e61845108c59b363de4fd901a
+Multi-Arch: foreign
+
+Package: libclc-15-dev
+Source: llvm-toolchain-15
+Priority: optional
+Section: libdevel
+Installed-Size: 466
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: all
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Replaces: libclc-dev, libclc-x.y-dev
+Provides: libclc-x.y-dev
+Conflicts: libclc-x.y-dev
+Breaks: libclc-dev
+Filename: pool/main/l/llvm-toolchain-15/libclc-15-dev_15.0.7-1ubuntu1~j~ppa1_all.deb
+Size: 82384
+MD5sum: 19a3fc21d80d525433cc0eb30961abe8
+SHA1: 5a7acd05393730ae14c9138fd01f8c83a2fed8ea
+SHA256: ddaa3c6f7fc9b395a15fd277f21372f22dbe2d015f98e33368f665b9ef7e1131
+Description: OpenCL C language implementation - development files
+Description-md5: af42cc63b204a8c47b782398389a6170
+Multi-Arch: foreign
+
+Package: libd3dadapter9-mesa
+Source: mesa
+Priority: optional
+Section: libs
+Installed-Size: 23361
+Maintainer: Ernst Sjöstrand <ernstp@gmail.com>
+Architecture: amd64
+Version: 23.0.0+git2303031837.42e6c344b57~j~mesarc1
+Depends: libc6 (>= 2.34), libdrm-amdgpu1 (>= 2.4.97), libdrm-intel1 (>= 2.4.75), libdrm-nouveau2 (>= 2.4.66), libdrm-radeon1 (>= 2.4.39), libdrm2 (>= 2.4.89), libelf1 (>= 0.142), libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.4), libllvm15, libsensors5 (>= 1:3.5.0), libstdc++6 (>= 11), libzstd1 (>= 1.4.0), zlib1g (>= 1:1.1.4), libudev1
+Filename: pool/main/m/mesa/libd3dadapter9-mesa_23.0.0+git2303031837.42e6c344b57~j~mesarc1_amd64.deb
+Size: 6514772
+MD5sum: a68dd29844e9c438c5ca7a5ba8cb411f
+SHA1: 08ff3cf685cc5bf8a66e4a578de46e2f9d7abfb5
+SHA256: 9ae449bbe1438473dbee7556e9c7cd009b66361e6d85ae909ba94bd6ddcb4165
+Description: state-tracker for Direct3D9
+Description-md5: 7e00c33b4c81f4834e4b1d47918d6125
+Multi-Arch: same
+
+Package: libd3dadapter9-mesa-dev
+Source: mesa
+Priority: optional
+Section: libdevel
+Installed-Size: 273
+Maintainer: Ernst Sjöstrand <ernstp@gmail.com>
+Architecture: amd64
+Version: 23.0.0+git2303031837.42e6c344b57~j~mesarc1
+Depends: libd3dadapter9-mesa (= 23.0.0+git2303031837.42e6c344b57~j~mesarc1), libudev1
+Filename: pool/main/m/mesa/libd3dadapter9-mesa-dev_23.0.0+git2303031837.42e6c344b57~j~mesarc1_amd64.deb
+Size: 239582
+MD5sum: a9b90f1e1958870c684972f128e1b47f
+SHA1: 33638f7dcc94d56a0111dc001cc263c48fe728e5
+SHA256: 0f108e873006977d6bb9959dd9d3bd5c4c0e4b2a55533025ed54d495dfddb0fc
+Description: state-tracker for Direct3D9 -- development files
+Description-md5: 4043977533696b6cd4eacba2187c54cd
+Multi-Arch: same
+
+Package: libdrm-amdgpu1
+Source: libdrm
+Priority: optional
+Section: libs
+Installed-Size: 81
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Version: 2.4.115+git2302101558.332809f3~j~mesarc0
+Depends: libc6 (>= 2.28), libdrm2 (>= 2.4.89)
+Filename: pool/main/libd/libdrm/libdrm-amdgpu1_2.4.115+git2302101558.332809f3~j~mesarc0_amd64.deb
+Size: 30478
+MD5sum: ab46e7edd7d513bc7c91a1b0d219362a
+SHA1: c608877408c8c3e4eda64618d19e9b21f07cc9e6
+SHA256: 168f46af99696622b19ae161dc928dbff834b1321bbcf8d2302a8ce2b91bcbcb
+Description: Userspace interface to amdgpu-specific kernel DRM services -- runtime
+Description-md5: 61a9b44d2a8366ec01d27d9e105f5ecb
+Multi-Arch: same
+
+Package: libdrm-common
+Source: libdrm
+Priority: optional
+Section: libs
+Installed-Size: 51
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: all
+Version: 2.4.115+git2302101558.332809f3~j~mesarc0
+Filename: pool/main/libd/libdrm/libdrm-common_2.4.115+git2302101558.332809f3~j~mesarc0_all.deb
+Size: 16738
+MD5sum: aa18905941577fd4eca290e9708aaa40
+SHA1: 0860a14dff80af83b105a3e0a632ea797940bb4d
+SHA256: a697e540b64e83cfc54dd72fe537883a7339bc9fe3c1791381dfc0a24911e95d
+Description: Userspace interface to kernel DRM services -- common files
+Description-md5: bb391482bb8583a32695bb00597b7f36
+Multi-Arch: foreign
+
+Package: libdrm-dev
+Source: libdrm
+Priority: optional
+Section: libdevel
+Installed-Size: 1335
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Version: 2.4.115+git2302101558.332809f3~j~mesarc0
+Depends: libdrm2 (= 2.4.115+git2302101558.332809f3~j~mesarc0), libdrm-intel1 (= 2.4.115+git2302101558.332809f3~j~mesarc0), libdrm-radeon1 (= 2.4.115+git2302101558.332809f3~j~mesarc0), libdrm-nouveau2 (= 2.4.115+git2302101558.332809f3~j~mesarc0), libdrm-amdgpu1 (= 2.4.115+git2302101558.332809f3~j~mesarc0), libpciaccess-dev
+Filename: pool/main/libd/libdrm/libdrm-dev_2.4.115+git2302101558.332809f3~j~mesarc0_amd64.deb
+Size: 318456
+MD5sum: 251b7d7ece4f459aaad3b4ac5ffeb465
+SHA1: 1ccd64fe43eea0b685414981bc4640f5b43729b0
+SHA256: 43369d4c5d18e2ca4bcfe43641077cd54a502083edac0e6f5aa411b64101278a
+Description: Userspace interface to kernel DRM services -- development files
+Description-md5: 26367cfc3b23b21ad8b59e1f0974ff45
+Multi-Arch: same
+
+Package: libdrm-intel1
+Source: libdrm
+Priority: optional
+Section: libs
+Installed-Size: 182
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Version: 2.4.115+git2302101558.332809f3~j~mesarc0
+Depends: libc6 (>= 2.17), libdrm2 (>= 2.4.89), libpciaccess0
+Filename: pool/main/libd/libdrm/libdrm-intel1_2.4.115+git2302101558.332809f3~j~mesarc0_amd64.deb
+Size: 76190
+MD5sum: c6ab3a4934a910ca1dea656173413c6c
+SHA1: 132f20a1e0017eabc8b271194cfdaeb89225ab5a
+SHA256: 174149923a1341c4c8c4cdbe5d5aa63c1b70bf302d38e7d4192bf732f72efc2d
+Description: Userspace interface to intel-specific kernel DRM services -- runtime
+Description-md5: 7d5cde7098438ef4f6e5a2c7a8f37a2f
+Multi-Arch: same
+
+Package: libdrm-nouveau2
+Source: libdrm
+Priority: optional
+Section: libs
+Installed-Size: 80
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Version: 2.4.115+git2302101558.332809f3~j~mesarc0
+Depends: libc6 (>= 2.14), libdrm2 (>= 2.4.89)
+Filename: pool/main/libd/libdrm/libdrm-nouveau2_2.4.115+git2302101558.332809f3~j~mesarc0_amd64.deb
+Size: 28442
+MD5sum: 04b528cb0c2927ba27e4d72992bcefa9
+SHA1: a451172fb10b57efc73dd5a166bdcd9e0db03889
+SHA256: 60ab7228edb8a0b6c3bab552e0cfdffe9389ce822b4d705b8ff4b2e08458f666
+Description: Userspace interface to nouveau-specific kernel DRM services -- runtime
+Description-md5: a8a5d523c49607cd4a96eb6032dcb202
+Multi-Arch: same
+
+Package: libdrm-radeon1
+Source: libdrm
+Priority: optional
+Section: libs
+Installed-Size: 93
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Version: 2.4.115+git2302101558.332809f3~j~mesarc0
+Depends: libc6 (>= 2.4), libdrm2 (>= 2.4.89)
+Filename: pool/main/libd/libdrm/libdrm-radeon1_2.4.115+git2302101558.332809f3~j~mesarc0_amd64.deb
+Size: 32424
+MD5sum: 35e773dd067d4851cce5ea4aaccb39f1
+SHA1: 2f92c90b2480762cc851dbd34dd4241733248d44
+SHA256: 939896d0b386495b6ff0964250f15e986dd919cb7d37734e5a762999f1edf016
+Description: Userspace interface to radeon-specific kernel DRM services -- runtime
+Description-md5: 48a20567596b5b215c7a5479d3f5af5b
+Multi-Arch: same
+
+Package: libdrm-tests
+Source: libdrm
+Priority: optional
+Section: libs
+Installed-Size: 192
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Version: 2.4.115+git2302101558.332809f3~j~mesarc0
+Depends: libdrm2 (= 2.4.115+git2302101558.332809f3~j~mesarc0), libc6 (>= 2.34), libdrm-amdgpu1 (>= 2.4.97)
+Filename: pool/main/libd/libdrm/libdrm-tests_2.4.115+git2302101558.332809f3~j~mesarc0_amd64.deb
+Size: 57990
+MD5sum: 88eb73563cb3736632fb9582ebda5ae5
+SHA1: 57dd04d22ee964d017888f232f8349f53dec9538
+SHA256: 2873e10106befaca4cc4e2495bd559467d0941bee582f11379217c62c4e9701e
+Description: Testing tools from the libdrm project
+Description-md5: ba61d5f4dd4e9099796e4c98b94245c4
+
+Package: libdrm2
+Source: libdrm
+Priority: optional
+Section: libs
+Installed-Size: 126
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Version: 2.4.115+git2302101558.332809f3~j~mesarc0
+Depends: libdrm-common (>= 2.4.115+git2302101558.332809f3~j~mesarc0), libc6 (>= 2.33)
+Filename: pool/main/libd/libdrm/libdrm2_2.4.115+git2302101558.332809f3~j~mesarc0_amd64.deb
+Size: 48024
+MD5sum: f752ce4c23fe2ccfe80a4189f3315eb5
+SHA1: 5245eccd55d2f1ea1c8a2be5bb96422b1312b7db
+SHA256: 10178f670d4567b2eddab4a5cdaea6c89137f8820504a437f3400a2ba89005be
+Description: Userspace interface to kernel DRM services -- runtime
+Description-md5: aefc4200d84a6f2aee6f342bdd88dc24
+Multi-Arch: same
+
+Package: libegl-mesa0
+Source: mesa
+Priority: optional
+Section: libs
+Installed-Size: 546
+Maintainer: Ernst Sjöstrand <ernstp@gmail.com>
+Architecture: amd64
+Version: 23.0.0+git2303031837.42e6c344b57~j~mesarc1
+Provides: libegl-vendor
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.89), libexpat1 (>= 2.0.1), libgbm1 (= 23.0.0+git2303031837.42e6c344b57~j~mesarc1), libgcc-s1 (>= 3.4), libglapi-mesa, libwayland-client0 (>= 1.20.0), libwayland-server0 (>= 1.15.0), libx11-xcb1 (>= 2:1.7.5), libxcb-dri2-0 (>= 1.8), libxcb-dri3-0 (>= 1.13), libxcb-present0, libxcb-randr0 (>= 1.3), libxcb-sync1, libxcb-xfixes0, libxcb1 (>= 1.9.2), libxshmfence1
+Filename: pool/main/m/mesa/libegl-mesa0_23.0.0+git2303031837.42e6c344b57~j~mesarc1_amd64.deb
+Size: 346602
+MD5sum: 1e662b9770e802d1ca28eaff278728ea
+SHA1: 14d2cd16a3eef2a74d31876ffafa19e262f2be15
+SHA256: 0eecca0dc4a099df4c3bc877f0d37a06cd16e5e8662e9a24550c81c95c12c3b9
+Description: free implementation of the EGL API -- Mesa vendor library
+Description-md5: b66a0a444abc380f2430455fec07e449
+Multi-Arch: same
+
+Package: libegl1-mesa
+Source: mesa
+Priority: optional
+Section: oldlibs
+Installed-Size: 247
+Maintainer: Ernst Sjöstrand <ernstp@gmail.com>
+Architecture: amd64
+Version: 23.0.0+git2303031837.42e6c344b57~j~mesarc1
+Depends: libegl1
+Filename: pool/main/m/mesa/libegl1-mesa_23.0.0+git2303031837.42e6c344b57~j~mesarc1_amd64.deb
+Size: 235222
+MD5sum: afaa4ec5cf019928735695f8f9e67887
+SHA1: 2f5e2bd652c4129c651d7d4a8de5a746db9aa276
+SHA256: 636cc24dc5bcfead1e3ff025524a92b6db4ab2a04b40064af11107149c2bb921
+Description: transitional dummy package
+Description-md5: 635a93bcd1440d16621693fe064c2aa9
+Multi-Arch: same
+
+Package: libegl1-mesa-dev
+Source: mesa
+Priority: optional
+Section: libdevel
+Installed-Size: 271
+Maintainer: Ernst Sjöstrand <ernstp@gmail.com>
+Architecture: amd64
+Version: 23.0.0+git2303031837.42e6c344b57~j~mesarc1
+Depends: libegl-dev, libglvnd-dev
+Filename: pool/main/m/mesa/libegl1-mesa-dev_23.0.0+git2303031837.42e6c344b57~j~mesarc1_amd64.deb
+Size: 239856
+MD5sum: 0c0b783baa91ebdd4e1e1b189d07912e
+SHA1: 686e6f3f163ce0a51ad9e9b90316d5e665913894
+SHA256: 91a4cd40721d466295989d625f5fce05d8e7d840189fb72cfc06414fd3fdd465
+Description: free implementation of the EGL API -- development files
+Description-md5: f0976997100febbc0dde500dd9c87805
+Multi-Arch: same
+
+Package: libflang-15-dev
+Source: llvm-toolchain-15
+Priority: optional
+Section: libdevel
+Installed-Size: 570232
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Depends: libstdc++-11-dev, libgcc-11-dev
+Filename: pool/main/l/llvm-toolchain-15/libflang-15-dev_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 17180902
+MD5sum: a0a18dce998277ae07c6af6849af020c
+SHA1: 3ed5ad8d7c9757f5004634dbe3f79da3b5386c43
+SHA256: 2ad1069f85e870b42783baaf7d066aac034233c0ee452d2c1a689b9570957ccd
+Description: Flang library - Development package
+Description-md5: 3328d45b650afee35fe8b6da0b9b1e49
+
+Package: libfuzzer-15-dev
+Source: llvm-toolchain-15
+Priority: optional
+Section: libdevel
+Installed-Size: 885
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Depends: clang-15 (= 1:15.0.7-1ubuntu1~j~ppa1)
+Filename: pool/main/l/llvm-toolchain-15/libfuzzer-15-dev_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 227292
+MD5sum: 5a0fb56a433794db0dc9e626373f75bd
+SHA1: a80205322cb0c0b26004726c443290e22f91d19f
+SHA256: 76a3b448ded541d864d9fc7324e2b20755acea766a630e26e46f5a89cb94e640
+Description: Library for coverage-guided fuzz testing
+Description-md5: bc55cd127b8dab148b78e61e5e475b8e
+
+Package: libgbm-dev
+Source: mesa
+Priority: optional
+Section: libdevel
+Installed-Size: 271
+Maintainer: Ernst Sjöstrand <ernstp@gmail.com>
+Architecture: amd64
+Version: 23.0.0+git2303031837.42e6c344b57~j~mesarc1
+Depends: libgbm1 (= 23.0.0+git2303031837.42e6c344b57~j~mesarc1)
+Filename: pool/main/m/mesa/libgbm-dev_23.0.0+git2303031837.42e6c344b57~j~mesarc1_amd64.deb
+Size: 239656
+MD5sum: 83236a65668d2de5f89657032532ec6c
+SHA1: cab78ed4af65e2560e06bc16fc4ff3ca36f2184d
+SHA256: 5929720ea8b1298910c20fe4fc2590ec09af658f7e46440e9f3064aae4559ae9
+Description: generic buffer management API -- development files
+Description-md5: 97d3ae24c3bec4dfba8e29c665cda9e5
+Multi-Arch: same
+
+Package: libgbm1
+Source: mesa
+Priority: optional
+Section: libs
+Installed-Size: 319
+Maintainer: Ernst Sjöstrand <ernstp@gmail.com>
+Architecture: amd64
+Version: 23.0.0+git2303031837.42e6c344b57~j~mesarc1
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.89), libexpat1 (>= 2.0.1), libwayland-server0 (>= 1.15.0)
+Filename: pool/main/m/mesa/libgbm1_23.0.0+git2303031837.42e6c344b57~j~mesarc1_amd64.deb
+Size: 261648
+MD5sum: e1bd53f984623e20e5c8e133ca4a08a9
+SHA1: f523943e2f1795f9865323e6ea38ce1bd40f8fd0
+SHA256: c95a9cc112c26fa8a5561f887d8c423f25900c4cb22abe64709a236fd5034b3c
+Description: generic buffer management API -- runtime
+Description-md5: 9c1f8de2c17715ff7ed9524db86be4dd
+Multi-Arch: same
+
+Package: libgl1-mesa-dev
+Source: mesa
+Priority: optional
+Section: oldlibs
+Installed-Size: 247
+Maintainer: Ernst Sjöstrand <ernstp@gmail.com>
+Architecture: amd64
+Version: 23.0.0+git2303031837.42e6c344b57~j~mesarc1
+Depends: libgl-dev, libglvnd-dev
+Filename: pool/main/m/mesa/libgl1-mesa-dev_23.0.0+git2303031837.42e6c344b57~j~mesarc1_amd64.deb
+Size: 235234
+MD5sum: fa734adc87a62a49fb5c893e4e7cefb3
+SHA1: 0e16a1968fe91d5ffb6c1f83bfb47a826746fd05
+SHA256: 08ac7271793c3abca8167c11d0035bc6bce6f3dce912d8937e8cd2613f7e7c76
+Description: transitional dummy package
+Description-md5: 635a93bcd1440d16621693fe064c2aa9
+Multi-Arch: same
+
+Package: libgl1-mesa-dri
+Source: mesa
+Priority: optional
+Section: libs
+Installed-Size: 29065
+Maintainer: Ernst Sjöstrand <ernstp@gmail.com>
+Architecture: amd64
+Version: 23.0.0+git2303031837.42e6c344b57~j~mesarc1
+Depends: libc6 (>= 2.34), libdrm-amdgpu1 (>= 2.4.97), libdrm-intel1 (>= 2.4.75), libdrm-nouveau2 (>= 2.4.66), libdrm-radeon1 (>= 2.4.39), libdrm2 (>= 2.4.89), libelf1 (>= 0.142), libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.4), libglapi-mesa, libllvm15, libsensors5 (>= 1:3.5.0), libstdc++6 (>= 11), libxcb-dri3-0 (>= 1.13), libzstd1 (>= 1.4.0), zlib1g (>= 1:1.1.4)
+Filename: pool/main/m/mesa/libgl1-mesa-dri_23.0.0+git2303031837.42e6c344b57~j~mesarc1_amd64.deb
+Size: 8180546
+MD5sum: e17f785f332f827199b735c8ba3e284d
+SHA1: 1d6bac3b0e58766c599010eab9b08f4a9fc4a5f9
+SHA256: c95888e2c869211e57de47da42203a73beb7e93ebb50dac0a2935517c4b877c4
+Description: free implementation of the OpenGL API -- DRI modules
+Description-md5: 4ce0833dab51e157223384b77395619a
+Multi-Arch: same
+
+Package: libgl1-mesa-glx
+Source: mesa
+Priority: optional
+Section: oldlibs
+Installed-Size: 247
+Maintainer: Ernst Sjöstrand <ernstp@gmail.com>
+Architecture: amd64
+Version: 23.0.0+git2303031837.42e6c344b57~j~mesarc1
+Depends: libgl1, libglx-mesa0
+Filename: pool/main/m/mesa/libgl1-mesa-glx_23.0.0+git2303031837.42e6c344b57~j~mesarc1_amd64.deb
+Size: 235232
+MD5sum: 9d5bb84d6cde031fea7825071849d2b2
+SHA1: 003831b7dd689f4b4c4ebfa30bd34a2345a73e9d
+SHA256: 9e37f5072602d76bcfc629657585e0dc6b7674615313a968185117b807083517
+Description: transitional dummy package
+Description-md5: 635a93bcd1440d16621693fe064c2aa9
+Multi-Arch: same
+
+Package: libglapi-mesa
+Source: mesa
+Priority: optional
+Section: libs
+Installed-Size: 482
+Maintainer: Ernst Sjöstrand <ernstp@gmail.com>
+Architecture: amd64
+Version: 23.0.0+git2303031837.42e6c344b57~j~mesarc1
+Depends: libc6 (>= 2.34)
+Filename: pool/main/m/mesa/libglapi-mesa_23.0.0+git2303031837.42e6c344b57~j~mesarc1_amd64.deb
+Size: 268522
+MD5sum: 8182916e73fd33712807455803d0759f
+SHA1: e26b9b739329d8437de81ef8840fc527392d4b55
+SHA256: 711816b337ea2d95c75dc4376ab6262e8dec13b34f5f1fa523a1af6d55b3983b
+Description: free implementation of the GL API -- shared library
+Description-md5: 6da05dae0e50a214ae9b1d095f83c561
+Multi-Arch: same
+
+Package: libgles2-mesa
+Source: mesa
+Priority: optional
+Section: oldlibs
+Installed-Size: 247
+Maintainer: Ernst Sjöstrand <ernstp@gmail.com>
+Architecture: amd64
+Version: 23.0.0+git2303031837.42e6c344b57~j~mesarc1
+Depends: libgles2
+Filename: pool/main/m/mesa/libgles2-mesa_23.0.0+git2303031837.42e6c344b57~j~mesarc1_amd64.deb
+Size: 235218
+MD5sum: aaf6ca88309a36fce663ef979d15111d
+SHA1: 4523448482c87c297fee6a94e35a1d5c5dfd16ae
+SHA256: 41aa4bd392d9b4ecc3f46428b6af6d74d4a9d5ffa4c6cfb71a4004b4989f3156
+Description: transitional dummy package
+Description-md5: 635a93bcd1440d16621693fe064c2aa9
+Multi-Arch: same
+
+Package: libgles2-mesa-dev
+Source: mesa
+Priority: optional
+Section: oldlibs
+Installed-Size: 247
+Maintainer: Ernst Sjöstrand <ernstp@gmail.com>
+Architecture: amd64
+Version: 23.0.0+git2303031837.42e6c344b57~j~mesarc1
+Depends: libgles-dev, libglvnd-dev
+Filename: pool/main/m/mesa/libgles2-mesa-dev_23.0.0+git2303031837.42e6c344b57~j~mesarc1_amd64.deb
+Size: 235238
+MD5sum: 55b41b0d19d89c536faaecb44abeab9d
+SHA1: 0c925827e8ab7c2667dd35f501b9496ced484436
+SHA256: b7f6dbec2cfdc36f31b32f4caebabf4415fb0e271760ca35249060089c28babe
+Description: transitional dummy package
+Description-md5: 635a93bcd1440d16621693fe064c2aa9
+Multi-Arch: same
+
+Package: libglx-mesa0
+Source: mesa
+Priority: optional
+Section: libs
+Installed-Size: 707
+Maintainer: Ernst Sjöstrand <ernstp@gmail.com>
+Architecture: amd64
+Version: 23.0.0+git2303031837.42e6c344b57~j~mesarc1
+Provides: libglx-vendor
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.89), libexpat1 (>= 2.0.1), libglapi-mesa, libx11-6 (>= 2:1.4.99.1), libx11-xcb1 (>= 2:1.7.5), libxcb-dri2-0 (>= 1.8), libxcb-dri3-0 (>= 1.13), libxcb-glx0 (>= 1.8), libxcb-present0, libxcb-randr0, libxcb-shm0, libxcb-sync1, libxcb-xfixes0, libxcb1 (>= 1.9.2), libxext6, libxfixes3, libxshmfence1, libxxf86vm1, libgl1-mesa-dri
+Breaks: glx-diversions (<< 0.8.4~), libopengl-perl (<< 0.6704+dfsg-2)
+Filename: pool/main/m/mesa/libglx-mesa0_23.0.0+git2303031837.42e6c344b57~j~mesarc1_amd64.deb
+Size: 382392
+MD5sum: 891a91da736f24e5855796ef17a2b90b
+SHA1: ecb703b8e4206dbc819169b523f210b25134a6c1
+SHA256: 7607ca316793261e90bc7bbc3ec2afae75f24ceafdbf98cc10648ee59f20e80e
+Description: free implementation of the OpenGL API -- GLX vendor library
+Description-md5: 553ff9489ccb9f6bdae31dc8c33ac85b
+Multi-Arch: same
+
+Package: liblld-15
+Source: llvm-toolchain-15
+Priority: optional
+Section: libs
+Installed-Size: 12362
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Depends: libllvm15 (= 1:15.0.7-1ubuntu1~j~ppa1)
+Filename: pool/main/l/llvm-toolchain-15/liblld-15_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 1753310
+MD5sum: 56e498e6a1c5726978eda8c5f7d186a2
+SHA1: c3545ba4886a14cddf9869bb5f85b9c83b89da2c
+SHA256: 156e9a5144dc01907b2ca57100ef4ef31e6cec54e81d471b0f03d5271620efcb
+Description: LLVM-based linker, library
+Description-md5: edabea654ba7a6bd671515adc0fffdd2
+
+Package: liblld-15-dev
+Source: llvm-toolchain-15
+Priority: optional
+Section: libdevel
+Installed-Size: 121
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Depends: lld-15 (= 1:15.0.7-1ubuntu1~j~ppa1), liblld-15 (= 1:15.0.7-1ubuntu1~j~ppa1)
+Filename: pool/main/l/llvm-toolchain-15/liblld-15-dev_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 70954
+MD5sum: 26326c8197fbfaeb098eb10fefadffeb
+SHA1: 13f385c2f40e5e673bb7fc6282f3e5682089c16a
+SHA256: 85140d02bb7d9c1f2f510d36bdbb53045e95d13d31b4603219550bdd523d3d92
+Description: LLVM-based linker, header files
+Description-md5: d5f91d89aa80d28cd4d98b74563f075b
+
+Package: liblldb-15
+Source: llvm-toolchain-15
+Priority: optional
+Section: libs
+Installed-Size: 15533
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Depends: libc6 (>= 2.34), libclang-cpp15 (>= 1:15.0.7), libedit2 (>= 3.1-20140620-0), libgcc-s1 (>= 3.0), libllvm15 (= 1:15.0.7-1ubuntu1~j~ppa1), libncurses6 (>= 6), libpython3.10 (>= 3.10.0), libstdc++6 (>= 12), libtinfo6 (>= 6), libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4)
+Filename: pool/main/l/llvm-toolchain-15/liblldb-15_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 4049880
+MD5sum: 2ae477485eacf51901585b5b8ef931ec
+SHA1: 38bf373ecf2ca28309ca0ae5d887dda45aa228e5
+SHA256: eff81bebb9d8e24fa862ee4268ef7680415be1a77016f1d8f1b1ef7695de4406
+Description: Next generation, high-performance debugger, library
+Description-md5: 88542bb8337de28344a74df10ce94f4e
+
+Package: liblldb-15-dev
+Source: llvm-toolchain-15
+Priority: optional
+Section: libdevel
+Installed-Size: 3357
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Depends: lldb-15 (= 1:15.0.7-1ubuntu1~j~ppa1)
+Filename: pool/main/l/llvm-toolchain-15/liblldb-15-dev_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 559540
+MD5sum: 54d5f73e4ba7586e9b039f678f81f601
+SHA1: 67f4932227791526d5251ba31e815c64b3d024bd
+SHA256: bb8fa2622f9896d2b9bb02b5b551febf806dcf446783daab41c86f2573fa6d98
+Description: Next generation, high-performance debugger, header files
+Description-md5: 8f3dc7f570ba958d1f7496e3e5195498
+
+Package: libllvm-15-ocaml-dev
+Source: llvm-toolchain-15
+Priority: optional
+Section: ocaml
+Installed-Size: 4346
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Replaces: libllvm-x.y-ocaml-dev
+Suggests: llvm-15-doc
+Provides: libllvm-x.y-ocaml-dev
+Depends: llvm-15-dev (= 1:15.0.7-1ubuntu1~j~ppa1)
+Conflicts: libllvm-x.y-ocaml-dev
+Filename: pool/main/l/llvm-toolchain-15/libllvm-15-ocaml-dev_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 599728
+MD5sum: 3eeae44ba29ec67c86aa977b482eb829
+SHA1: b983f9537b4fe3ac545fe8533c56e2ae2d373d5c
+SHA256: 240ecf1b5be0ed7bc4fcd9c2d4fa22ab08c4fa18292ebda9f0898fa0ca7a8439
+Description: Modular compiler and toolchain technologies, OCaml bindings
+Description-md5: 7727e410aa3baa784cb47a4afb95f4e8
+
+Package: libllvm15
+Source: llvm-toolchain-15
+Priority: optional
+Section: libs
+Installed-Size: 114208
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Depends: libc6 (>= 2.34), libedit2 (>= 2.11-20080614-0), libffi8 (>= 3.4), libgcc-s1 (>= 3.3), libstdc++6 (>= 12), libtinfo6 (>= 6), libxml2 (>= 2.7.4), zlib1g (>= 1:1.2.0)
+Filename: pool/main/l/llvm-toolchain-15/libllvm15_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 25485658
+MD5sum: 4b30a2f90afa21d6d7c06cafb45c546a
+SHA1: 40610001b31d0f5c9bf2285e58c52ca8226e55cb
+SHA256: ecc118f40efd122712f7eada08de3467f706b19c6f2e44e9d2050d1ca701b8e7
+Description: Modular compiler and toolchain technologies, runtime library
+Description-md5: a8854f4edf76a8c14ce34dc209bd1d11
+Multi-Arch: same
+
+Package: libmlir-15
+Source: llvm-toolchain-15
+Priority: optional
+Section: libs
+Installed-Size: 33924
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Replaces: libmlir-x.y
+Provides: libmlir-x.y
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libllvm15, libstdc++6 (>= 12)
+Conflicts: libmlir-x.y
+Filename: pool/main/l/llvm-toolchain-15/libmlir-15_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 6592890
+MD5sum: 11e103a9777f336dc69f0b0842125fd6
+SHA1: cfa2165792a5725b3b055c238d3571e93c3c7989
+SHA256: bba017de56e50e183fee7db2018e862473e783b396efc1b355f2ff3c6bc22cc3
+Description: Multi-Level Intermediate Representation library
+Description-md5: b2671453793175bc5bd7c93d05c96c40
+Multi-Arch: same
+
+Package: libmlir-15-dev
+Source: llvm-toolchain-15
+Priority: optional
+Section: libdevel
+Installed-Size: 165212
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Replaces: libmlir-dev, libmlir-x.y-dev
+Provides: libmlir-x.y-dev
+Depends: libmlir-15 (= 1:15.0.7-1ubuntu1~j~ppa1)
+Conflicts: libmlir-x.y-dev
+Breaks: libmlir-dev
+Filename: pool/main/l/llvm-toolchain-15/libmlir-15-dev_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 12648008
+MD5sum: 4655cf20b139d5df449d0cf77193e970
+SHA1: cda5650c8fb1fc1e08b93442424a6250316ecbde
+SHA256: b466051894c44d89b9de2c9b4365d7d1538f53c38aeec216dc4779e3909598e1
+Description: Multi-Level Intermediate Representation library
+Description-md5: b2671453793175bc5bd7c93d05c96c40
+Multi-Arch: same
+
+Package: libomp-15-dev
+Source: llvm-toolchain-15
+Priority: optional
+Section: libdevel
+Installed-Size: 12465
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Replaces: libomp-x.y-dev
+Suggests: libomp-15-doc
+Provides: libomp-x.y-dev
+Depends: libomp5-15 (= 1:15.0.7-1ubuntu1~j~ppa1), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libllvm15, libstdc++6 (>= 11)
+Conflicts: libomp-x.y-dev
+Breaks: libiomp-dev (<< 3.7-1), libomp-dev (<< 44)
+Filename: pool/main/l/llvm-toolchain-15/libomp-15-dev_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 450478
+MD5sum: 0b25a9414b5964d2e93036df0f51d1ac
+SHA1: 3f8927385d31969ce65f0c550ea877d5a8b0339c
+SHA256: c4cd652f003afaadb11311440d87663afaa4a681e0e7866670c26e0a6aec2a78
+Description: LLVM OpenMP runtime - dev package
+Description-md5: 6f692a0e089a2d4587b533b4f246db62
+
+Package: libomp-15-doc
+Source: llvm-toolchain-15
+Priority: optional
+Section: doc
+Installed-Size: 13332
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Replaces: libiomp-x.y-doc
+Depends: libjs-jquery
+Breaks: libiomp-x.y-doc
+Filename: pool/main/l/llvm-toolchain-15/libomp-15-doc_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 997310
+MD5sum: 605a8a293ae0bd63a262e9373b8ae9ac
+SHA1: 8161f29b2d1e2a5e7cd30abc43c3ad7b30fcc043
+SHA256: c3b548d6d5ccdc3a98d96beb39b9d5ead5e559832cc4dbb36d6a2a3ae3a2da41
+Description: LLVM OpenMP runtime - Documentation
+Description-md5: 55ecafb377674896611f496b3a8a1433
+
+Package: libomp5-15
+Source: llvm-toolchain-15
+Priority: optional
+Section: devel
+Installed-Size: 2655
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Replaces: libomp-x.y
+Provides: libomp-x.y
+Depends: libc6 (>= 2.34), libelf1 (>= 0.144), libffi8 (>= 3.4), libgcc-s1 (>= 3.0), libllvm15, libstdc++6 (>= 11)
+Conflicts: libomp-x.y
+Breaks: libomp5 (<< 44)
+Filename: pool/main/l/llvm-toolchain-15/libomp5-15_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 543770
+MD5sum: 7ee4c89ca2c2eeef0ff5bef9655cf0f8
+SHA1: 4bee421fe43b5baec796cf916ec6a2a8ca80909b
+SHA256: c2b13ef68b9c4e28eaf8ed0cc09daf37aa546f9302c9194cf03c22d3e816693c
+Description: LLVM OpenMP runtime
+Description-md5: e28f50eb4beb8e316b69da2c1c0194c3
+Multi-Arch: same
+
+Package: libosmesa6
+Source: mesa
+Priority: optional
+Section: libs
+Installed-Size: 11767
+Maintainer: Ernst Sjöstrand <ernstp@gmail.com>
+Architecture: amd64
+Version: 23.0.0+git2303031837.42e6c344b57~j~mesarc1
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.4), libglapi-mesa, libllvm15, libstdc++6 (>= 11), libzstd1 (>= 1.4.0), zlib1g (>= 1:1.1.4)
+Filename: pool/main/m/mesa/libosmesa6_23.0.0+git2303031837.42e6c344b57~j~mesarc1_amd64.deb
+Size: 3273820
+MD5sum: 535e74816a475696fa137c13b2a9b123
+SHA1: 3adb93bfe04ea7039d34666de055b742426bad7b
+SHA256: e0c1143893d0cb4a7f956c49f2f66f6b99a1a52dc9416fbf0b84e420246b8e7c
+Description: Mesa Off-screen rendering extension
+Description-md5: e0dd0508dd95a809bb554369d28e278c
+Multi-Arch: same
+
+Package: libosmesa6-dev
+Source: mesa
+Priority: optional
+Section: libdevel
+Installed-Size: 265
+Maintainer: Ernst Sjöstrand <ernstp@gmail.com>
+Architecture: amd64
+Version: 23.0.0+git2303031837.42e6c344b57~j~mesarc1
+Replaces: libosmesa-dev
+Provides: libosmesa-dev
+Depends: libosmesa6 (= 23.0.0+git2303031837.42e6c344b57~j~mesarc1), mesa-common-dev (= 23.0.0+git2303031837.42e6c344b57~j~mesarc1) | libgl-dev
+Conflicts: libosmesa-dev
+Filename: pool/main/m/mesa/libosmesa6-dev_23.0.0+git2303031837.42e6c344b57~j~mesarc1_amd64.deb
+Size: 239186
+MD5sum: 2cbd3c866009e51529252303e829e673
+SHA1: 69e197203c7b678abc43350e7376915d4cf3c283
+SHA256: 3860fdb61f3b0e2bfa83e403f0eac870ee66b79a1da100ecfe05653287e89e89
+Description: Mesa Off-screen rendering extension -- development files
+Description-md5: 9b1d7a0b3e6a2ea021f4443f42dcff4f
+Multi-Arch: same
+
+Package: libpolly-15-dev
+Source: llvm-toolchain-15
+Priority: optional
+Section: libdevel
+Installed-Size: 12569
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Replaces: libclang-common-15-dev (<< 1:15.0.6-5)
+Breaks: libclang-common-15-dev (<< 1:15.0.6-5)
+Filename: pool/main/l/llvm-toolchain-15/libpolly-15-dev_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 1862238
+MD5sum: 664b0465acf463dd537d50b547da612f
+SHA1: 1b503c315e67c670d6b754ae1e908fac80c9da59
+SHA256: 214804f56bcbe298b9457f9e901e547971c0b3f60736c450a845e8f15edb6ed3
+Description: High-level loop and data-locality optimizer
+Description-md5: 840a80a0b2b70b4ddca3d4d6f53126e7
+Multi-Arch: same
+
+Package: libunwind-15
+Source: llvm-toolchain-15
+Priority: optional
+Section: libs
+Installed-Size: 132
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Replaces: libunwind-x.y
+Provides: libunwind-x.y
+Depends: libc6 (>= 2.34)
+Conflicts: libunwind-x.y
+Filename: pool/main/l/llvm-toolchain-15/libunwind-15_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 80496
+MD5sum: 5123602e4d66c5e31a4aafa4d2bce1f1
+SHA1: dfec3268b9e510352ddb1fa7a78a968ada8f847d
+SHA256: a6803c2a7f2d8ac79a295a0ec71f95f45d733e3a7fd501d9aa5e42da8e3a9fa0
+Description: production-quality unwinder
+Description-md5: 70dd0c847cdef69a0ce9c2191d54b77e
+Multi-Arch: same
+
+Package: libunwind-15-dev
+Source: llvm-toolchain-15
+Priority: optional
+Section: libdevel
+Installed-Size: 291
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Replaces: libunwind-dev, libunwind-x.y-dev
+Provides: libunwind-dev, libunwind-x.y-dev
+Depends: libunwind-15 (= 1:15.0.7-1ubuntu1~j~ppa1)
+Conflicts: libunwind-dev, libunwind-x.y-dev
+Filename: pool/main/l/llvm-toolchain-15/libunwind-15-dev_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 101302
+MD5sum: 95bdb4eae0197a48fe226bdc030670d1
+SHA1: bb89e951208f263f9f0e5bd7cc6e40ca10117ddd
+SHA256: b45de426ff1316f7b328291474ce0d8eed4d40fa4209403241bbc8d88293f7f7
+Description: production-quality unwinder
+Description-md5: 70dd0c847cdef69a0ce9c2191d54b77e
+Multi-Arch: same
+
+Package: libwayland-bin
+Source: wayland
+Priority: optional
+Section: libdevel
+Installed-Size: 65
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Version: 1.21.0-1~j~ppa2
+Replaces: libwayland-dev (<< 1.11.0-1)
+Depends: libc6 (>= 2.34), libexpat1 (>= 2.0.1), libxml2 (>= 2.7.4)
+Conflicts: libwayland-dev (<< 1.11.0-1)
+Filename: pool/main/w/wayland/libwayland-bin_1.21.0-1~j~ppa2_amd64.deb
+Size: 23704
+MD5sum: 8b2653c0fac5eccdf5e1a08621065470
+SHA1: 3eee3cf380e449281f43efa371297f9b91af1859
+SHA256: fec29d0b8b1411ce1861343bfa3710e692d4ad3545fd279b07361c30edf4abeb
+Description: wayland compositor infrastructure - binary utilities
+Description-md5: 180d1bbdf852cf1cb78c8a31a5bcd684
+Multi-Arch: foreign
+
+Package: libwayland-client0
+Source: wayland
+Priority: optional
+Section: libs
+Installed-Size: 85
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Version: 1.21.0-1~j~ppa2
+Replaces: libwayland0 (<< 1.1.0-1)
+Depends: libc6 (>= 2.28), libffi8 (>= 3.4)
+Conflicts: libwayland0 (<< 1.1.0-1)
+Filename: pool/main/w/wayland/libwayland-client0_1.21.0-1~j~ppa2_amd64.deb
+Size: 29678
+MD5sum: ebf56f365a873a83ad507e64925534b0
+SHA1: c9d9f2f7701ce8b2736593ec78c4dd81cb410d8a
+SHA256: 5c781ea4f13ebbff77e3ab92416f0ed77ac659b5af89f0bec49e4f4fcc49a6fd
+Description: wayland compositor infrastructure - client library
+Description-md5: 3ba4c2bc4efd026f8d9a8404817c3664
+Multi-Arch: same
+
+Package: libwayland-cursor0
+Source: wayland
+Priority: optional
+Section: libs
+Installed-Size: 54
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Version: 1.21.0-1~j~ppa2
+Replaces: libwayland0 (<< 1.1.0-1)
+Depends: libc6 (>= 2.28), libwayland-client0 (>= 1.20.0)
+Conflicts: libwayland0 (<< 1.1.0-1)
+Filename: pool/main/w/wayland/libwayland-cursor0_1.21.0-1~j~ppa2_amd64.deb
+Size: 15116
+MD5sum: 4408c556086c6aebf395830489adf5bd
+SHA1: 4b0a7c15c5ac5ebbe0c2ac447c9a590acd3e0519
+SHA256: 947dc14968c36fdefde9523b41cbeab66dc143d4823dbe5ac0e5c4619884e4c1
+Description: wayland compositor infrastructure - cursor library
+Description-md5: 5e6c3503f9ce1b6eeb852b17a3957f79
+Multi-Arch: same
+
+Package: libwayland-dev
+Source: wayland
+Priority: optional
+Section: libdevel
+Installed-Size: 579
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Version: 1.21.0-1~j~ppa2
+Replaces: libegl1-mesa-dev (<< 18.0.5-0)
+Suggests: libwayland-doc
+Depends: libwayland-client0 (= 1.21.0-1~j~ppa2), libwayland-server0 (= 1.21.0-1~j~ppa2), libwayland-cursor0 (= 1.21.0-1~j~ppa2), libwayland-egl1 (= 1.21.0-1~j~ppa2), libwayland-bin (= 1.21.0-1~j~ppa2), libffi-dev
+Breaks: libegl1-mesa-dev (<< 18.0.5-0)
+Filename: pool/main/w/wayland/libwayland-dev_1.21.0-1~j~ppa2_amd64.deb
+Size: 74812
+MD5sum: 7a755d7ccedc0d94ea6b254327758a3e
+SHA1: 4892c779270b984645dd6818374b081f524dffa0
+SHA256: e8a119dfa2546f5b4e39719136619c805a5b2e0bbe058ed34b694f51b93b2513
+Description: wayland compositor infrastructure - development files
+Description-md5: b6a54f87f98181416660d9c2f8532325
+Multi-Arch: same
+
+Package: libwayland-doc
+Source: wayland
+Priority: optional
+Section: doc
+Installed-Size: 735
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: all
+Version: 1.21.0-1~j~ppa2
+Replaces: libwayland-dev (<< 1.10.0-2)
+Conflicts: libwayland-dev (<< 1.10.0-2)
+Filename: pool/main/w/wayland/libwayland-doc_1.21.0-1~j~ppa2_all.deb
+Size: 200476
+MD5sum: f46c7c577ed8485c1ff7df57af86c0e7
+SHA1: f494b8d99f0dfea7931885811ce79aafadddebfd
+SHA256: d791b3f5de32347c8c97627cc7be2f5d4383266629465a67165cefee497abe2d
+Description: wayland compositor infrastructure - documentation files
+Description-md5: 8fe74372c2fa20b2a9118fda6bd85d4f
+Multi-Arch: foreign
+
+Package: libwayland-egl-backend-dev
+Source: wayland
+Priority: optional
+Section: libdevel
+Installed-Size: 20
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Version: 1.21.0-1~j~ppa2
+Replaces: libegl1-mesa-dev (<< 18.0.5-0), libwayland-dev (<< 1.15.0)
+Breaks: libegl1-mesa-dev (<< 18.0.5-0), libwayland-dev (<< 1.15.0)
+Filename: pool/main/w/wayland/libwayland-egl-backend-dev_1.21.0-1~j~ppa2_amd64.deb
+Size: 7642
+MD5sum: 4034116865779ea3a5af1e123cbaeb07
+SHA1: d2299c02a405b219013897fef256cb5b5927c5e5
+SHA256: 08d704219ca1160969155348b1093daf366d4622ebadcf8f63f9cb56cdbc188e
+Description: wayland compositor infrastructure - EGL backend development files
+Description-md5: 5fc232dcac3cc01d39f91c9b75ea63a2
+Multi-Arch: same
+
+Package: libwayland-egl1
+Source: wayland
+Priority: optional
+Section: libs
+Installed-Size: 34
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Version: 1.21.0-1~j~ppa2
+Replaces: libwayland-egl1-mesa (<< 18.0.5-0)
+Provides: libwayland-egl1-mesa
+Depends: libc6 (>= 2.2.5)
+Breaks: libwayland-egl1-mesa (<< 18.0.5-0)
+Filename: pool/main/w/wayland/libwayland-egl1_1.21.0-1~j~ppa2_amd64.deb
+Size: 8884
+MD5sum: 4246767f7d688d9b027651827e323170
+SHA1: 6aa9820b739248b7e923280634637c195b2bb988
+SHA256: bc1bc51209bbee66bcbf6049be99d1d2c4f262b3036853d9b6db64ed70ae43d6
+Description: wayland compositor infrastructure - EGL library
+Description-md5: 92edd0b217c5e64e02643b5160d26b04
+Multi-Arch: same
+
+Package: libwayland-egl1-mesa
+Source: mesa
+Priority: optional
+Section: oldlibs
+Installed-Size: 247
+Maintainer: Ernst Sjöstrand <ernstp@gmail.com>
+Architecture: amd64
+Version: 23.0.0+git2303031837.42e6c344b57~j~mesarc1
+Depends: libegl1, libwayland-egl1
+Filename: pool/main/m/mesa/libwayland-egl1-mesa_23.0.0+git2303031837.42e6c344b57~j~mesarc1_amd64.deb
+Size: 235248
+MD5sum: 43584872eae1201a6e18ff39873de27d
+SHA1: 509c673afb8f6be3a66d1ff4e5c8017575425fb0
+SHA256: f4d0ff35e76fe3cf92509393cf391f7637e1023df0f364426e96074f7d5ee15d
+Description: transitional dummy package
+Description-md5: 635a93bcd1440d16621693fe064c2aa9
+Multi-Arch: same
+
+Package: libwayland-server0
+Source: wayland
+Priority: optional
+Section: libs
+Installed-Size: 107
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Version: 1.21.0-1~j~ppa2
+Replaces: libwayland0 (<< 1.1.0-1)
+Depends: libc6 (>= 2.34), libffi8 (>= 3.4)
+Conflicts: libwayland0 (<< 1.1.0-1)
+Breaks: weston (<< 1.2.0)
+Filename: pool/main/w/wayland/libwayland-server0_1.21.0-1~j~ppa2_amd64.deb
+Size: 38070
+MD5sum: 67517c6aecc079747ebb837a7bc18607
+SHA1: 0b95b5086486caa6fdff6f64fe92b2685372da56
+SHA256: 365433bc2a1dbf97c66184f4321546d26df567fc9af57fdf8d7a18b479314185
+Description: wayland compositor infrastructure - server library
+Description-md5: d12a42711d448b23b1fb5d101345af87
+Multi-Arch: same
+
+Package: libxatracker-dev
+Source: mesa
+Priority: optional
+Section: libdevel
+Installed-Size: 269
+Maintainer: Ernst Sjöstrand <ernstp@gmail.com>
+Architecture: amd64
+Version: 23.0.0+git2303031837.42e6c344b57~j~mesarc1
+Depends: libxatracker2 (= 23.0.0+git2303031837.42e6c344b57~j~mesarc1)
+Filename: pool/main/m/mesa/libxatracker-dev_23.0.0+git2303031837.42e6c344b57~j~mesarc1_amd64.deb
+Size: 239320
+MD5sum: d8508565c76e7c28a84534565e88e0ec
+SHA1: 37819861808270d814536e6cf8d50965173cb272
+SHA256: 0fc8b4529720060fa32fdbc9e35f5d9108425af3ac997a1caafd57ff3228636b
+Description: X acceleration library -- development files
+Description-md5: acb2dd21dbe796c5f50a1f153cef93e2
+Multi-Arch: same
+
+Package: libxatracker2
+Source: mesa
+Priority: optional
+Section: libs
+Installed-Size: 8140
+Maintainer: Ernst Sjöstrand <ernstp@gmail.com>
+Architecture: amd64
+Version: 23.0.0+git2303031837.42e6c344b57~j~mesarc1
+Depends: libc6 (>= 2.34), libdrm-intel1 (>= 2.4.75), libdrm-nouveau2 (>= 2.4.66), libdrm2 (>= 2.4.89), libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.4), libllvm15, libstdc++6 (>= 11), libzstd1 (>= 1.4.0), zlib1g (>= 1:1.1.4)
+Filename: pool/main/m/mesa/libxatracker2_23.0.0+git2303031837.42e6c344b57~j~mesarc1_amd64.deb
+Size: 2256956
+MD5sum: 2aac34b67e2782d5983d4bc0955b9732
+SHA1: ed341a7a033e289e48f68694ca85ad0d63e79d7b
+SHA256: 3efaafec1aaa9bf8164178c9d27072e5638fb10854c61639b955943c10a8524b
+Description: X acceleration library -- runtime
+Description-md5: 016e30e30b0b6c5bb9448c735436c520
+Multi-Arch: same
+
+Package: lld-15
+Source: llvm-toolchain-15
+Priority: optional
+Section: devel
+Installed-Size: 4927
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libllvm15 (= 1:15.0.7-1ubuntu1~j~ppa1), libstdc++6 (>= 12), zlib1g (>= 1:1.2.2)
+Filename: pool/main/l/llvm-toolchain-15/lld-15_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 1359504
+MD5sum: 20f1c5c65656eed5e1f449e56823261c
+SHA1: 6381b3c6954dea9261124530e1d0cd48dbc367a5
+SHA256: 2fcc6d917b9f7103aede2137329b9cd5d4c75dfd0dbb7e633843507ebcba4e6f
+Description: LLVM-based linker
+Description-md5: 39b52f07f105b329dd7852cce89ebb7d
+
+Package: lldb-15
+Source: llvm-toolchain-15
+Priority: optional
+Section: devel
+Installed-Size: 4033
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Depends: libc6 (>= 2.34), libclang-cpp15 (>= 1:15.0.7), libedit2 (>= 3.1-20140620-0), libgcc-s1 (>= 3.0), liblldb-15, libllvm15 (= 1:15.0.7-1ubuntu1~j~ppa1), libncurses6 (>= 6), libstdc++6 (>= 12), libtinfo6 (>= 6), libxml2 (>= 2.6.27), zlib1g (>= 1:1.1.4), llvm-15-dev, python3-lldb-15
+Filename: pool/main/l/llvm-toolchain-15/lldb-15_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 1256238
+MD5sum: 77ffc608ca780beeb92665081fa720c6
+SHA1: ac4f6588a61f8562b1ccac06b7acaa7f3954ac3b
+SHA256: f85b9a3a121db67aa2760057e937f4b4bbf2aa2adeb820c396e45b126c926a28
+Description: Next generation, high-performance debugger
+Description-md5: 45d52d0209cd7953d2f2bc4d1a99170f
+
+Package: llvm-15
+Source: llvm-toolchain-15
+Priority: optional
+Section: devel
+Installed-Size: 52067
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Recommends: llvm-15-dev
+Suggests: llvm-15-doc
+Depends: llvm-15-runtime (= 1:15.0.7-1ubuntu1~j~ppa1), llvm-15-linker-tools (= 1:15.0.7-1ubuntu1~j~ppa1), libc6 (>= 2.34), libcurl4 (>= 7.16.2), libgcc-s1 (>= 3.3), libllvm15, libpfm4, libstdc++6 (>= 12), libtinfo6 (>= 6), zlib1g (>= 1:1.2.0)
+Filename: pool/main/l/llvm-toolchain-15/llvm-15_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 13375306
+MD5sum: 5e42dd1679f2e6469e1166fa54414227
+SHA1: 9e96c569666b80d3fae840db42efaae7a4a7818d
+SHA256: 1b6e5c85eb4a5f4d8c5ac0d1ee36eeb313691f31f8d5360529c00ea09ee2029d
+Description: Modular compiler and toolchain technologies
+Description-md5: 07d463911771b9679a5f0131f40992d4
+
+Package: llvm-15-dev
+Source: llvm-toolchain-15
+Priority: optional
+Section: devel
+Installed-Size: 293154
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Depends: libc6 (>= 2.2.5), libgcc-s1 (>= 3.0), libllvm15 (= 1:15.0.7-1ubuntu1~j~ppa1), libstdc++6 (>= 4.1.1), libffi-dev, llvm-15 (= 1:15.0.7-1ubuntu1~j~ppa1), libtinfo-dev, llvm-15-tools (= 1:15.0.7-1ubuntu1~j~ppa1), libclang-cpp15 (= 1:15.0.7-1ubuntu1~j~ppa1), libz3-dev, libxml2-dev
+Filename: pool/main/l/llvm-toolchain-15/llvm-15-dev_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 41305928
+MD5sum: 47c7f726da91b8ebf750c580bacf0de7
+SHA1: f8670e5e8f33680571a77dae683efd6cfadd9b01
+SHA256: 3236031d8f85edb1888ce967b657636283e1e65fb38d393f761e2c6523beddbf
+Description: Modular compiler and toolchain technologies, libraries and headers
+Description-md5: 29f654aa391c01f742a2023c872d7a49
+
+Package: llvm-15-doc
+Source: llvm-toolchain-15
+Priority: optional
+Section: doc
+Installed-Size: 47240
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: all
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Depends: libjs-jquery, libjs-underscore
+Filename: pool/main/l/llvm-toolchain-15/llvm-15-doc_15.0.7-1ubuntu1~j~ppa1_all.deb
+Size: 6825328
+MD5sum: 1a0f9c069311205cea4d7957eb8f7fdf
+SHA1: 3eb6aea50e61976c42c964f749e7c1e488f92bce
+SHA256: e7ba2d07f935d1223f1bcb208c4dcbbe3bdcbc90458e65922f8279e3a4a5ba22
+Description: Modular compiler and toolchain technologies, documentation
+Description-md5: 19896d0a63f9911e3a7a7b85ecfac407
+
+Package: llvm-15-examples
+Source: llvm-toolchain-15
+Priority: optional
+Section: doc
+Installed-Size: 493
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: all
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Depends: llvm-15-dev (>= 1:15.0.7-1ubuntu1~j~ppa1), llvm-15-dev (<< 1:15.0.7-1ubuntu1~j~ppa1+c~)
+Filename: pool/main/l/llvm-toolchain-15/llvm-15-examples_15.0.7-1ubuntu1~j~ppa1_all.deb
+Size: 299560
+MD5sum: b161105f349455b2d2cb967eb515422e
+SHA1: 2a940b4c7610f70555965bf2c65172312ab1a3d8
+SHA256: 96781506867dce6f2c11457049025fefff7608dfcccea45b1a37428caeec6c38
+Description: Modular compiler and toolchain technologies, examples
+Description-md5: 61fee537b751bf39ce1ac5bf27ca3806
+
+Package: llvm-15-linker-tools
+Source: llvm-toolchain-15
+Priority: optional
+Section: devel
+Installed-Size: 4236
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libllvm15, libstdc++6 (>= 11)
+Filename: pool/main/l/llvm-toolchain-15/llvm-15-linker-tools_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 1416676
+MD5sum: 70c46003f1f631a191e789b1fda2d5ba
+SHA1: 92f9e0bfc5ef1ca4d4c5e0e939a435df426a9ab5
+SHA256: ec9e895d706993ddc81155017313d820e12705ae263cbfd11e3ab6bfa4af9f50
+Description: Modular compiler and toolchain technologies - Plugins
+Description-md5: 34d6480db2d150315f7bca6065772d03
+
+Package: llvm-15-runtime
+Source: llvm-toolchain-15
+Priority: optional
+Section: devel
+Installed-Size: 1498
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Recommends: binfmt-support | systemd
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3), libllvm15, libstdc++6 (>= 12), libtinfo6 (>= 6), zlib1g (>= 1:1.1.4)
+Filename: pool/main/l/llvm-toolchain-15/llvm-15-runtime_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 560888
+MD5sum: df5d7b5b2fdef919b0a49882c638e960
+SHA1: 445e63a143b1ad6baddb855b6a8caf281a7ffcd2
+SHA256: eba4479f15f17d2dfed21d14bc93a09c8e93846894c869c0b0e1bc93ccb3ee26
+Description: Modular compiler and toolchain technologies, IR interpreter
+Description-md5: a2e425ebfc2fcd56b539f44a28559b4a
+
+Package: llvm-15-tools
+Source: llvm-toolchain-15
+Priority: optional
+Section: devel
+Installed-Size: 2071
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3), libllvm15, libstdc++6 (>= 11), libtinfo6 (>= 6), zlib1g (>= 1:1.1.4), python3, python3-pygments, python3-yaml
+Filename: pool/main/l/llvm-toolchain-15/llvm-15-tools_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 495966
+MD5sum: b635edb79ed4388792216ec8cf62debf
+SHA1: aafebddb4640cb34320ba9eca94ffd1cf0fcb4ae
+SHA256: c83e11ad02fc56f96966da798ecc197682d8c99f64b821526d2cfd07d2c40c0a
+Description: Modular compiler and toolchain technologies, tools
+Description-md5: 709eba32627c3c079585c05fc5963fe8
+
+Package: mesa-common-dev
+Source: mesa
+Priority: optional
+Section: libdevel
+Installed-Size: 2859
+Maintainer: Ernst Sjöstrand <ernstp@gmail.com>
+Architecture: amd64
+Version: 23.0.0+git2303031837.42e6c344b57~j~mesarc1
+Replaces: libegl1-mesa-dev (<< 18.2.5-2)
+Depends: libgl-dev, libglx-dev, libx11-dev, libdrm-dev (>= 2.4.95)
+Breaks: libegl1-mesa-dev (<< 18.2.5-2)
+Filename: pool/main/m/mesa/mesa-common-dev_23.0.0+git2303031837.42e6c344b57~j~mesarc1_amd64.deb
+Size: 2224832
+MD5sum: 2584de9b1ac2fb165f9040c32b2b7784
+SHA1: 78c18a6474b400530ec8e64bed906919bebc530e
+SHA256: c22cd68bbcdfe5b79966216123def2dc932616255f54e64bda564cfdbc6cafb0
+Description: Developer documentation for Mesa
+Description-md5: 0d9d46ba6861a0a8c404cf51db1e980d
+Multi-Arch: same
+
+Package: mesa-opencl-icd
+Source: mesa
+Priority: optional
+Section: libs
+Installed-Size: 64115
+Maintainer: Ernst Sjöstrand <ernstp@gmail.com>
+Architecture: amd64
+Version: 23.0.0+git2303031837.42e6c344b57~j~mesarc1
+Provides: opencl-icd
+Depends: libclc-15, ocl-icd-libopencl1 | libopencl1, libc6 (>= 2.34), libclang-cpp15 (>= 1:15.0.7), libdrm-amdgpu1 (>= 2.4.97), libdrm-nouveau2 (>= 2.4.66), libdrm-radeon1 (>= 2.4.39), libdrm2 (>= 2.4.89), libelf1 (>= 0.142), libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.4), libllvm15, libstdc++6 (>= 12), libzstd1 (>= 1.4.0), zlib1g (>= 1:1.1.4)
+Filename: pool/main/m/mesa/mesa-opencl-icd_23.0.0+git2303031837.42e6c344b57~j~mesarc1_amd64.deb
+Size: 10746990
+MD5sum: 38b53fb32a1d931e9f8fb1d9d38be1dd
+SHA1: 44351dec1cf21b5418724b74806f40f866e9e114
+SHA256: e84f0a0dd27358293cfe32053ae6fe736bcf22afbec0049ae32c99b33d3841bd
+Description: free implementation of the OpenCL API -- ICD runtime
+Description-md5: 10fe1749fa432fa001ccca2f3b268b84
+Multi-Arch: same
+
+Package: mesa-va-drivers
+Source: mesa
+Priority: optional
+Section: libs
+Installed-Size: 12320
+Maintainer: Ernst Sjöstrand <ernstp@gmail.com>
+Architecture: amd64
+Version: 23.0.0+git2303031837.42e6c344b57~j~mesarc1
+Replaces: vdpau-va-driver (<< 0.7.4-5)
+Provides: va-driver
+Depends: libc6 (>= 2.34), libdrm-amdgpu1 (>= 2.4.97), libdrm-nouveau2 (>= 2.4.66), libdrm-radeon1 (>= 2.4.39), libdrm2 (>= 2.4.89), libelf1 (>= 0.142), libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.4), libllvm15, libstdc++6 (>= 11), libx11-xcb1 (>= 2:1.7.5), libxcb-dri2-0 (>= 1.8), libxcb-dri3-0, libxcb-present0, libxcb-sync1, libxcb-xfixes0, libxcb1 (>= 1.9.2), libxshmfence1, libzstd1 (>= 1.4.0), zlib1g (>= 1:1.1.4)
+Enhances: libva2
+Breaks: vdpau-va-driver (<< 0.7.4-5)
+Filename: pool/main/m/mesa/mesa-va-drivers_23.0.0+git2303031837.42e6c344b57~j~mesarc1_amd64.deb
+Size: 3524278
+MD5sum: a2f9a4d126bb1770683c170f36d73569
+SHA1: 3f3e38f044b8bca511f5152d506f538cb9aa3f11
+SHA256: ada67468aba18634416e01e0bd643b8ff9a8f8202ab14309f1570fcb3821cf22
+Description: Mesa VA-API video acceleration drivers
+Description-md5: c89bbf6e4f80a47acafd5858be814f3c
+Multi-Arch: same
+
+Package: mesa-vdpau-drivers
+Source: mesa
+Priority: optional
+Section: libs
+Installed-Size: 12625
+Maintainer: Ernst Sjöstrand <ernstp@gmail.com>
+Architecture: amd64
+Version: 23.0.0+git2303031837.42e6c344b57~j~mesarc1
+Provides: vdpau-driver
+Depends: libvdpau1, libc6 (>= 2.34), libdrm-amdgpu1 (>= 2.4.97), libdrm-nouveau2 (>= 2.4.66), libdrm-radeon1 (>= 2.4.39), libdrm2 (>= 2.4.89), libelf1 (>= 0.142), libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.4), libllvm15, libstdc++6 (>= 11), libx11-xcb1 (>= 2:1.7.5), libxcb-dri2-0 (>= 1.8), libxcb-dri3-0, libxcb-present0, libxcb-sync1, libxcb-xfixes0, libxcb1 (>= 1.9.2), libxshmfence1, libzstd1 (>= 1.4.0), zlib1g (>= 1:1.1.4)
+Enhances: libvdpau1
+Filename: pool/main/m/mesa/mesa-vdpau-drivers_23.0.0+git2303031837.42e6c344b57~j~mesarc1_amd64.deb
+Size: 3640716
+MD5sum: c47b4e3a2e3434a7163db987f14da84d
+SHA1: 3d6b35e37e58094c51a9c8fc5cf15c8b3cb1ac79
+SHA256: f5675847c981a694d1ef18ce21981a27ac3eec270d10dd444bc6d1cb9d0162ee
+Description: Mesa VDPAU video acceleration drivers
+Description-md5: 19cfba61e1be17ccf30d9c5bb9ec109a
+Multi-Arch: same
+
+Package: mesa-vulkan-drivers
+Source: mesa
+Priority: optional
+Section: libs
+Installed-Size: 30709
+Maintainer: Ernst Sjöstrand <ernstp@gmail.com>
+Architecture: amd64
+Version: 23.0.0+git2303031837.42e6c344b57~j~mesarc1
+Provides: vulkan-icd
+Depends: libvulkan1, python3:any | python3-minimal:any, libc6 (>= 2.34), libdrm-amdgpu1 (>= 2.4.97), libdrm2 (>= 2.4.89), libelf1 (>= 0.142), libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.4), libllvm15, libstdc++6 (>= 11), libwayland-client0 (>= 1.20.0), libx11-xcb1 (>= 2:1.7.5), libxcb-dri3-0 (>= 1.13), libxcb-present0, libxcb-randr0 (>= 1.13), libxcb-shm0, libxcb-sync1, libxcb-xfixes0, libxcb1 (>= 1.9.2), libxshmfence1, libzstd1 (>= 1.4.0), zlib1g (>= 1:1.1.4)
+Filename: pool/main/m/mesa/mesa-vulkan-drivers_23.0.0+git2303031837.42e6c344b57~j~mesarc1_amd64.deb
+Size: 6772126
+MD5sum: 9b6de189564a16fd9f93531d58e461a7
+SHA1: 42495258654b0c8e3be9ea0b1a8300c4097919af
+SHA256: 8b7d66922fdd6fc4b0117d000605c89ade78bfc66833000c3420c4f0ea41c0ba
+Description: Mesa Vulkan graphics drivers
+Description-md5: de68f7559174261711b175701783338c
+Multi-Arch: same
+
+Package: mlir-15-tools
+Source: llvm-toolchain-15
+Priority: optional
+Section: devel
+Installed-Size: 79636
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3), libllvm15, libstdc++6 (>= 12), libtinfo6 (>= 6), zlib1g (>= 1:1.1.4)
+Filename: pool/main/l/llvm-toolchain-15/mlir-15-tools_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 15960448
+MD5sum: 1f5eb82712141c3172412546c52a6abf
+SHA1: 508d6604a7c661491cf507707a7645c76fb18696
+SHA256: 53e2fa334f1ad5c339ab83ec2cdc8d6fd4880b6f592cb516dc8abbc31da6ebe3
+Description: Multi-Level Intermediate Representation tools
+Description-md5: d0b5aeb3d29bd335ae224dda484fdc7a
+
+Package: python3-clang-15
+Source: llvm-toolchain-15
+Priority: optional
+Section: python
+Installed-Size: 200
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Replaces: python-clang-x.y
+Provides: python-clang-x.y
+Depends: python3, libclang-15-dev
+Conflicts: python-clang-x.y
+Filename: pool/main/l/llvm-toolchain-15/python3-clang-15_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 86354
+MD5sum: 608d546a309fb0fb86e659ddbe9eea59
+SHA1: dc025350c729e42c8d5f5dc9ac861378b76309b7
+SHA256: 8388ad4308c458a040d58ce4e2b8b62fcaabd511f4e25900d0e106529491c84b
+Description: Clang Python Bindings
+Description-md5: 2c9b6237594ba364f2afb9b0458f2f14
+
+Package: python3-lldb-15
+Source: llvm-toolchain-15
+Priority: optional
+Section: python
+Installed-Size: 881
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Version: 1:15.0.7-1ubuntu1~j~ppa1
+Replaces: python3-lldb-x.y
+Provides: python3-lldb-x.y
+Depends: liblldb-15 (= 1:15.0.7-1ubuntu1~j~ppa1), python3-six
+Conflicts: python3-lldb-x.y
+Filename: pool/main/l/llvm-toolchain-15/python3-lldb-15_15.0.7-1ubuntu1~j~ppa1_amd64.deb
+Size: 166636
+MD5sum: 92c59871ed4e6faa02c2b9e6b78aab7d
+SHA1: e143398a81696ae9d414b2aa6c424fd0a58430aa
+SHA256: 5c4a0463ad3528bf8a2aaf06c0296d742d33980e0390a0e99e06b4dc18a8f8ee
+Description: Next generation, high-performance debugger, python3 lib
+Description-md5: 0185ffb3cdaadce7edcc313c1e68ae92
+
+Package: xserver-xorg-video-amdgpu
+Priority: optional
+Section: x11
+Installed-Size: 190
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Version: 23.0.0+git2302221807.7025aef~j~mesarc0
+Suggests: firmware-amd-graphics
+Depends: libc6 (>= 2.17), libdrm-amdgpu1 (>= 2.4.73), libgbm1, libudev1 (>= 183)
+Filename: pool/main/x/xserver-xorg-video-amdgpu/xserver-xorg-video-amdgpu_23.0.0+git2302221807.7025aef~j~mesarc0_amd64.deb
+Size: 74508
+MD5sum: 8c17da95d80ed0e3f3aeb5cf3dd65c1c
+SHA1: 7db7e945dad2c08d3242d2e66b46b9540b6534b0
+SHA256: 4d02ec920bf1c2fa3994ae6a87f688fd636dc6db8948e18b7b7b7f029e72a235
+Description: X.Org X server -- AMDGPU display driver
+Description-md5: e2b193b8ecbf0f4c08a535d8f9541c51
+

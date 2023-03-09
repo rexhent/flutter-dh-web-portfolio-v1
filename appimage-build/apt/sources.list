@@ -1,0 +1,14 @@
+deb [arch=amd64] https://dl.google.com/linux/chrome/deb/ stable main
+deb https://ppa.launchpadcontent.net/ernstp/mesarc/ubuntu/ jammy main
+deb https://download.sublimetext.com/ apt/stable/
+deb https://ppa.launchpadcontent.net/flexiondotorg/mangohud/ubuntu/ jammy main
+deb http://download.opensuse.org/repositories/devel:languages:crystal/Debian_Unstable/ /
+deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu   jammy stable
+deb [arch=amd64,arm64,armhf] http://packages.microsoft.com/repos/code stable main
+deb https://ppa.launchpadcontent.net/elementary-os/stable/ubuntu/ jammy main
+deb https://ppa.launchpadcontent.net/appimagelauncher-team/stable/ubuntu/ jammy main
+deb [signed-by=/usr/share/keyrings/packages-pgadmin-org.gpg] https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/jammy pgadmin4 main
+deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main
+deb https://cloud.r-project.org/bin/linux/ubuntu jammy-cran40/
+deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_18.x jammy main
+deb https://ppa.launchpadcontent.net/elementary-os/daily/ubuntu/ jammy main

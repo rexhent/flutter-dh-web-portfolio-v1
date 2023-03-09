@@ -1,0 +1,708 @@
+Package: crystal
+Version: 1.1.1-1+4.16
+Architecture: i386
+Maintainer: Crystal Team <crystal@manas.tech>
+Installed-Size: 89469
+Depends: gcc, pkg-config, libpcre3-dev, libevent-dev
+Recommends: libssl-dev, libz-dev, libxml2-dev, libgmp-dev, libyaml-dev
+Conflicts: crystal
+Provides: crystal1.1
+Filename: ./i386/crystal_1.1.1-1+4.16_i386.deb
+Size: 20239544
+MD5sum: 49bce439c1de34c70633b4eba85df287
+SHA1: b8265763571e3e62da1a5ec0563902e71c21631c
+SHA256: 70bbd025abe8c48e1cdc70e5f49bf23c70d174d70b01a90d7e7283c95702b38a
+Section: devel
+Priority: extra
+Homepage: https://crystal-lang.org
+Description: Crystal is a general-purpose, object-oriented programming language.
+ With syntax inspired by Ruby, it is a compiled language with static type-checking,
+ serving both, humans and computers.
+
+Package: crystal
+Version: 1.7.3-1+2.1
+Architecture: amd64
+Maintainer: Crystal Team <crystal@manas.tech>
+Installed-Size: 116548
+Depends: gcc, pkg-config, libpcre3-dev, libevent-dev
+Recommends: libssl-dev, libz-dev, libxml2-dev, libgmp-dev, libyaml-dev
+Conflicts: crystal
+Provides: crystal1.7
+Filename: ./amd64/crystal_1.7.3-1+2.1_amd64.deb
+Size: 27888392
+MD5sum: 4727d5c403d4029514ffd65951e84dd5
+SHA1: 4a631c4406c00d5fdea6ec66dfa211622370bd17
+SHA256: 91f06f4b1b6f23c81129637ac910dadde91d9a44962bc9eb0f6c64784ccdac23
+Section: devel
+Priority: extra
+Homepage: https://crystal-lang.org
+Description: Crystal is a general-purpose, object-oriented programming language.
+ With syntax inspired by Ruby, it is a compiled language with static type-checking,
+ serving both, humans and computers.
+
+Package: crystal-docs
+Source: crystal
+Version: 1.1.1-1+4.16
+Architecture: all
+Maintainer: Crystal Team <crystal@manas.tech>
+Installed-Size: 102514
+Enhances: crystal
+Conflicts: crystal-docs
+Provides: crystal1.1-samples
+Filename: ./all/crystal-docs_1.1.1-1+4.16_all.deb
+Size: 2497424
+MD5sum: b2c80d102ff330d1a2391865d894aafb
+SHA1: 06d3f33f8060fef0e7b229f1b108971084f971f2
+SHA256: 2b73c21b3d2bb6cb004e17e922f6d259688c91067db93035a5f742ab6db1373e
+Section: devel
+Priority: extra
+Homepage: https://crystal-lang.org
+Description: Documentation for the Crystal Programming Language
+
+Package: crystal-docs
+Source: crystal
+Version: 1.7.3-1+2.1
+Architecture: all
+Maintainer: Crystal Team <crystal@manas.tech>
+Installed-Size: 106345
+Enhances: crystal
+Conflicts: crystal-docs
+Provides: crystal1.7-samples
+Filename: ./all/crystal-docs_1.7.3-1+2.1_all.deb
+Size: 2565112
+MD5sum: b806fe027a3f429a2d0b561a5ca9af06
+SHA1: 55e646ac970d0f499ed8a4ab7e49229b2624c658
+SHA256: 47c974745216cf961f9ffc2b5dd305c932f984f82c7898f7b74e77005f3a716f
+Section: devel
+Priority: extra
+Homepage: https://crystal-lang.org
+Description: Documentation for the Crystal Programming Language
+
+Package: crystal-samples
+Source: crystal
+Version: 1.1.1-1+4.16
+Architecture: all
+Maintainer: Crystal Team <crystal@manas.tech>
+Installed-Size: 236
+Enhances: crystal
+Conflicts: crystal-samples
+Provides: crystal1.1-samples
+Filename: ./all/crystal-samples_1.1.1-1+4.16_all.deb
+Size: 128784
+MD5sum: a004a0fc56822aff70df10863054de79
+SHA1: 17f9146085654207b783b616f5dec2e1b24b3425
+SHA256: aaf924adfd36b0f38897321e18e6f5dfab41a62b8e9febc737f22464471353df
+Section: devel
+Priority: extra
+Homepage: https://crystal-lang.org
+Description: Sample code for the Crystal Programming Language
+
+Package: crystal-samples
+Source: crystal
+Version: 1.7.3-1+2.1
+Architecture: all
+Maintainer: Crystal Team <crystal@manas.tech>
+Installed-Size: 183
+Enhances: crystal
+Conflicts: crystal-samples
+Provides: crystal1.7-samples
+Filename: ./all/crystal-samples_1.7.3-1+2.1_all.deb
+Size: 70544
+MD5sum: 613269bd76100d48a72e9f1800b50853
+SHA1: 1c2f2acd3ef26960d174e5040585429cabab9681
+SHA256: f28f2f40c49f2dc6e8c9fb5872b7020b550ba2a26a10dead3dd31cddc0642b40
+Section: devel
+Priority: extra
+Homepage: https://crystal-lang.org
+Description: Sample code for the Crystal Programming Language
+
+Package: crystal1.0
+Version: 1.0.0-1+2.175
+Architecture: i386
+Maintainer: Crystal Team <crystal@manas.tech>
+Installed-Size: 89745
+Depends: gcc, pkg-config, libpcre3-dev, libevent-dev
+Recommends: libssl-dev, libz-dev, libxml2-dev, libgmp-dev, libyaml-dev
+Conflicts: crystal
+Provides: crystal
+Filename: ./i386/crystal1.0_1.0.0-1+2.175_i386.deb
+Size: 20197300
+MD5sum: 10024db5c7ae0868951c78a989d78531
+SHA1: 6735a080af30b4315c0546c5f749586187315481
+SHA256: c97b5217c8339fb2d6a2ecb7b4de221e3bcef3296449deba78c6ff6e6b182446
+Section: devel
+Priority: extra
+Homepage: https://crystal-lang.org
+Description: Crystal is a general-purpose, object-oriented programming language.
+ With syntax inspired by Ruby, it is a compiled language with static type-checking,
+ serving both, humans and computers.
+
+Package: crystal1.0
+Version: 1.0.0-1+2.352
+Architecture: amd64
+Maintainer: Crystal Team <crystal@manas.tech>
+Installed-Size: 87178
+Depends: gcc, pkg-config, libpcre3-dev, libevent-dev
+Recommends: libssl-dev, libz-dev, libxml2-dev, libgmp-dev, libyaml-dev
+Conflicts: crystal
+Provides: crystal
+Filename: ./amd64/crystal1.0_1.0.0-1+2.352_amd64.deb
+Size: 18565516
+MD5sum: 18143cf2070cea60b1a1f9f7014e09b4
+SHA1: 8a733b4ba4ebeefa376459be4bb1ba2b2a334667
+SHA256: 263e061a5c4489e7a510f1832d795891e0f0287051d880ee28f92bea29dbf94a
+Section: devel
+Priority: extra
+Homepage: https://crystal-lang.org
+Description: Crystal is a general-purpose, object-oriented programming language.
+ With syntax inspired by Ruby, it is a compiled language with static type-checking,
+ serving both, humans and computers.
+
+Package: crystal1.0-docs
+Source: crystal1.0
+Version: 1.0.0-1+2.175
+Architecture: all
+Maintainer: Crystal Team <crystal@manas.tech>
+Installed-Size: 97980
+Enhances: crystal
+Conflicts: crystal-docs
+Provides: crystal-docs
+Filename: ./all/crystal1.0-docs_1.0.0-1+2.175_all.deb
+Size: 2194236
+MD5sum: f2d2cf9fbc7e5a03ccbba46aa8174d06
+SHA1: 65ee3c8bfb8926de2458059f8d409938dda1fd90
+SHA256: 9eb410bf6b5ce9703a2c36e5a855756097cbe2fb6043c1e0052738d84b6774ed
+Section: devel
+Priority: extra
+Homepage: https://crystal-lang.org
+Description: Documentation for the Crystal Programming Language
+
+Package: crystal1.0-docs
+Source: crystal1.0
+Version: 1.0.0-1+2.352
+Architecture: all
+Maintainer: Crystal Team <crystal@manas.tech>
+Installed-Size: 97980
+Enhances: crystal
+Conflicts: crystal-docs
+Provides: crystal-docs
+Filename: ./all/crystal1.0-docs_1.0.0-1+2.352_all.deb
+Size: 2192576
+MD5sum: 74ce0ad3fe0b0e0c7d1bbb28b104cee0
+SHA1: c5617fd6590411bf3f97106e2164fd0b97a07fa8
+SHA256: e5404bd98e864640d4ce582bb1bb179b3ec2cd87ba459f3a6b5abae241c62a68
+Section: devel
+Priority: extra
+Homepage: https://crystal-lang.org
+Description: Documentation for the Crystal Programming Language
+
+Package: crystal1.0-samples
+Source: crystal1.0
+Version: 1.0.0-1+2.175
+Architecture: all
+Maintainer: Crystal Team <crystal@manas.tech>
+Installed-Size: 231
+Enhances: crystal
+Conflicts: crystal-samples
+Provides: crystal-samples
+Filename: ./all/crystal1.0-samples_1.0.0-1+2.175_all.deb
+Size: 124532
+MD5sum: daf6189a031187343ab88e459b1f2d5b
+SHA1: 2c5d1ae54e1d24d1c231d9c8bb2a5dcb64120035
+SHA256: 4ba440ed0560a5535b1bc21b49ddbb1a4f4fdcf5ff6cb3da7342ffba1e0664a6
+Section: devel
+Priority: extra
+Homepage: https://crystal-lang.org
+Description: Sample code for the Crystal Programming Language
+
+Package: crystal1.0-samples
+Source: crystal1.0
+Version: 1.0.0-1+2.352
+Architecture: all
+Maintainer: Crystal Team <crystal@manas.tech>
+Installed-Size: 231
+Enhances: crystal
+Conflicts: crystal-samples
+Provides: crystal-samples
+Filename: ./all/crystal1.0-samples_1.0.0-1+2.352_all.deb
+Size: 124520
+MD5sum: 773675f49d3c39b171137f613efe33f6
+SHA1: f63f25c7c385d2deea563bb5346cdb367769d622
+SHA256: 251cebaae275e7d28aa617f68dbea317a3d0602107e3f522bd5d366e09b0eddd
+Section: devel
+Priority: extra
+Homepage: https://crystal-lang.org
+Description: Sample code for the Crystal Programming Language
+
+Package: crystal1.1
+Version: 1.1.1-1+3.178
+Architecture: i386
+Maintainer: Crystal Team <crystal@manas.tech>
+Installed-Size: 89470
+Depends: gcc, pkg-config, libpcre3-dev, libevent-dev
+Recommends: libssl-dev, libz-dev, libxml2-dev, libgmp-dev, libyaml-dev
+Conflicts: crystal
+Provides: crystal
+Filename: ./i386/crystal1.1_1.1.1-1+3.178_i386.deb
+Size: 20240632
+MD5sum: b4af9f3182732b7e04663b5079afa0aa
+SHA1: 90898aac881fddf2742ff20f812709dadaf2a054
+SHA256: e499f94b08e2d20e362617d96c04cb0474ffa3458c6fd865703d5084928b4c09
+Section: devel
+Priority: extra
+Homepage: https://crystal-lang.org
+Description: Crystal is a general-purpose, object-oriented programming language.
+ With syntax inspired by Ruby, it is a compiled language with static type-checking,
+ serving both, humans and computers.
+
+Package: crystal1.1
+Version: 1.1.1-1+3.355
+Architecture: amd64
+Maintainer: Crystal Team <crystal@manas.tech>
+Installed-Size: 85601
+Depends: gcc, pkg-config, libpcre3-dev, libevent-dev
+Recommends: libssl-dev, libz-dev, libxml2-dev, libgmp-dev, libyaml-dev
+Conflicts: crystal
+Provides: crystal
+Filename: ./amd64/crystal1.1_1.1.1-1+3.355_amd64.deb
+Size: 18351236
+MD5sum: d62d98b41e66ae0b7f84979c553b9ef5
+SHA1: 283ab3a65c9ec11d540c44561eaf2d36a6a33c18
+SHA256: fc8c96d6d28501f666539fb6a6339fb0220fdd4935e1b406e1a44179f36fd458
+Section: devel
+Priority: extra
+Homepage: https://crystal-lang.org
+Description: Crystal is a general-purpose, object-oriented programming language.
+ With syntax inspired by Ruby, it is a compiled language with static type-checking,
+ serving both, humans and computers.
+
+Package: crystal1.1-docs
+Source: crystal1.1
+Version: 1.1.1-1+3.178
+Architecture: all
+Maintainer: Crystal Team <crystal@manas.tech>
+Installed-Size: 102514
+Enhances: crystal
+Conflicts: crystal-docs
+Provides: crystal-docs
+Filename: ./all/crystal1.1-docs_1.1.1-1+3.178_all.deb
+Size: 2497624
+MD5sum: 922178b2901ef2eec8c6b29bfb0b3564
+SHA1: f20f0ec6c7ff90e1c23d267694b2c845e0548166
+SHA256: 7d1c65610054039e931a6500ddcb6da97a3ce79a348053f4b06a2d3425be34cd
+Section: devel
+Priority: extra
+Homepage: https://crystal-lang.org
+Description: Documentation for the Crystal Programming Language
+
+Package: crystal1.1-docs
+Source: crystal1.1
+Version: 1.1.1-1+3.355
+Architecture: all
+Maintainer: Crystal Team <crystal@manas.tech>
+Installed-Size: 102514
+Enhances: crystal
+Conflicts: crystal-docs
+Provides: crystal-docs
+Filename: ./all/crystal1.1-docs_1.1.1-1+3.355_all.deb
+Size: 2497352
+MD5sum: c10612cd4fc3aa94c562b6e0cef481d4
+SHA1: d2527aab03ea63f54b6e60d42c8894434d89ab2a
+SHA256: f4d7e6185efd8c9704f27cdab61012eff517e6ab67ae90715a239b09033ed2dc
+Section: devel
+Priority: extra
+Homepage: https://crystal-lang.org
+Description: Documentation for the Crystal Programming Language
+
+Package: crystal1.1-samples
+Source: crystal1.1
+Version: 1.1.1-1+3.178
+Architecture: all
+Maintainer: Crystal Team <crystal@manas.tech>
+Installed-Size: 236
+Enhances: crystal
+Conflicts: crystal-samples
+Provides: crystal-samples
+Filename: ./all/crystal1.1-samples_1.1.1-1+3.178_all.deb
+Size: 128796
+MD5sum: 1652e55e70d86c7259c8df4e4384228a
+SHA1: bf5282725dadf4fc0741b1d3719a055019860031
+SHA256: d0a52d8c0c25fb80f236be949d0448c7182d9999c24b61766ba9a495142356ba
+Section: devel
+Priority: extra
+Homepage: https://crystal-lang.org
+Description: Sample code for the Crystal Programming Language
+
+Package: crystal1.1-samples
+Source: crystal1.1
+Version: 1.1.1-1+3.355
+Architecture: all
+Maintainer: Crystal Team <crystal@manas.tech>
+Installed-Size: 236
+Enhances: crystal
+Conflicts: crystal-samples
+Provides: crystal-samples
+Filename: ./all/crystal1.1-samples_1.1.1-1+3.355_all.deb
+Size: 128780
+MD5sum: 41d54fa552bf90954db391d959424a3a
+SHA1: eae786b15fb406dc3b7b6f34a27d027ac9730d09
+SHA256: 104951d785bcfa62b356b079d0a5b30020b5dba92cfbcde4906315abda554ec0
+Section: devel
+Priority: extra
+Homepage: https://crystal-lang.org
+Description: Sample code for the Crystal Programming Language
+
+Package: crystal1.2
+Version: 1.2.2-1+1.291
+Architecture: amd64
+Maintainer: Crystal Team <crystal@manas.tech>
+Installed-Size: 88371
+Depends: gcc, pkg-config, libpcre3-dev, libevent-dev
+Recommends: libssl-dev, libz-dev, libxml2-dev, libgmp-dev, libyaml-dev
+Conflicts: crystal
+Provides: crystal
+Filename: ./amd64/crystal1.2_1.2.2-1+1.291_amd64.deb
+Size: 18865984
+MD5sum: ef7a6cdb9bb203e2c0a7acfd6545dd04
+SHA1: e54293b18e70e36249a330287f2c0c59e55e9413
+SHA256: 51292a5956f058dd210f2bd4fd4406b17741d8a2f4fadabae127c85aa07706d2
+Section: devel
+Priority: extra
+Homepage: https://crystal-lang.org
+Description: Crystal is a general-purpose, object-oriented programming language.
+ With syntax inspired by Ruby, it is a compiled language with static type-checking,
+ serving both, humans and computers.
+
+Package: crystal1.2-docs
+Source: crystal1.2
+Version: 1.2.2-1+1.291
+Architecture: all
+Maintainer: Crystal Team <crystal@manas.tech>
+Installed-Size: 103773
+Enhances: crystal
+Conflicts: crystal-docs
+Provides: crystal-docs
+Filename: ./all/crystal1.2-docs_1.2.2-1+1.291_all.deb
+Size: 2564852
+MD5sum: 06fb9f9eaeaa7af4930bc1ce4555c965
+SHA1: 69af2021d990f3332248cea6ac4cf8ac340bd28e
+SHA256: 8ec1fca7ce8b28693d02e73820c90db2bc03887857c074c1d1ada77aed30f77b
+Section: devel
+Priority: extra
+Homepage: https://crystal-lang.org
+Description: Documentation for the Crystal Programming Language
+
+Package: crystal1.2-samples
+Source: crystal1.2
+Version: 1.2.2-1+1.291
+Architecture: all
+Maintainer: Crystal Team <crystal@manas.tech>
+Installed-Size: 241
+Enhances: crystal
+Conflicts: crystal-samples
+Provides: crystal-samples
+Filename: ./all/crystal1.2-samples_1.2.2-1+1.291_all.deb
+Size: 134936
+MD5sum: 2bfb16f65b4a153c61a79d41cc9665b5
+SHA1: 8d71e98f64e0c0a671d017a678459553ba298804
+SHA256: 246f01f1650547ad83c014b547fb3d184b5162e82c556b9797a2dfbbe5ceceda
+Section: devel
+Priority: extra
+Homepage: https://crystal-lang.org
+Description: Sample code for the Crystal Programming Language
+
+Package: crystal1.3
+Version: 1.3.2-1+1.258
+Architecture: amd64
+Maintainer: Crystal Team <crystal@manas.tech>
+Installed-Size: 91219
+Depends: gcc, pkg-config, libpcre3-dev, libevent-dev
+Recommends: libssl-dev, libz-dev, libxml2-dev, libgmp-dev, libyaml-dev
+Conflicts: crystal
+Provides: crystal
+Filename: ./amd64/crystal1.3_1.3.2-1+1.258_amd64.deb
+Size: 19218760
+MD5sum: 7e334c81227c83c7fb60ad86d5fe09dd
+SHA1: 1117c57331da81b033a630439b27e08b7039db4c
+SHA256: f1add535492c94fa4b37f8381584b870cb5c6c76d4b31316a803118f0af4d82f
+Section: devel
+Priority: extra
+Homepage: https://crystal-lang.org
+Description: Crystal is a general-purpose, object-oriented programming language.
+ With syntax inspired by Ruby, it is a compiled language with static type-checking,
+ serving both, humans and computers.
+
+Package: crystal1.3-docs
+Source: crystal1.3
+Version: 1.3.2-1+1.258
+Architecture: all
+Maintainer: Crystal Team <crystal@manas.tech>
+Installed-Size: 103652
+Enhances: crystal
+Conflicts: crystal-docs
+Provides: crystal-docs
+Filename: ./all/crystal1.3-docs_1.3.2-1+1.258_all.deb
+Size: 2561584
+MD5sum: 688d19f9b231d23f4c5cad365f5a4f75
+SHA1: 81bb4277a037ac6d51c53f8e79102c226034f4c3
+SHA256: 12fe4def200d0aa4679d5771552a2eff6a2cf1bd78a00ad87c5701270b6de7b6
+Section: devel
+Priority: extra
+Homepage: https://crystal-lang.org
+Description: Documentation for the Crystal Programming Language
+
+Package: crystal1.3-samples
+Source: crystal1.3
+Version: 1.3.2-1+1.258
+Architecture: all
+Maintainer: Crystal Team <crystal@manas.tech>
+Installed-Size: 250
+Enhances: crystal
+Conflicts: crystal-samples
+Provides: crystal-samples
+Filename: ./all/crystal1.3-samples_1.3.2-1+1.258_all.deb
+Size: 140888
+MD5sum: fd2d705121cdc5cfcdf8733b9d97155a
+SHA1: 350964d7fb4bccbc2c87e59b33fb137943c6edd3
+SHA256: 81ecad36fe2e1a6fa362671bbdbd61a18b70767e9beb5288696c36996b6031c2
+Section: devel
+Priority: extra
+Homepage: https://crystal-lang.org
+Description: Sample code for the Crystal Programming Language
+
+Package: crystal1.4
+Version: 1.4.1-1+1.198
+Architecture: amd64
+Maintainer: Crystal Team <crystal@manas.tech>
+Installed-Size: 92544
+Depends: gcc, pkg-config, libpcre3-dev, libevent-dev
+Recommends: libssl-dev, libz-dev, libxml2-dev, libgmp-dev, libyaml-dev
+Conflicts: crystal
+Provides: crystal
+Filename: ./amd64/crystal1.4_1.4.1-1+1.198_amd64.deb
+Size: 19460424
+MD5sum: 5c06c99be95a431e8522731571dd7cfe
+SHA1: 1e2094cdb187cab7ec317952db5ee65793d8c97f
+SHA256: 88888a6907010bd847f1ccd4d00be4992376a66713958a09d11507cc0b7146f8
+Section: devel
+Priority: extra
+Homepage: https://crystal-lang.org
+Description: Crystal is a general-purpose, object-oriented programming language.
+ With syntax inspired by Ruby, it is a compiled language with static type-checking,
+ serving both, humans and computers.
+
+Package: crystal1.4-docs
+Source: crystal1.4
+Version: 1.4.1-1+1.198
+Architecture: all
+Maintainer: Crystal Team <crystal@manas.tech>
+Installed-Size: 104646
+Enhances: crystal
+Conflicts: crystal-docs
+Provides: crystal-docs
+Filename: ./all/crystal1.4-docs_1.4.1-1+1.198_all.deb
+Size: 2590984
+MD5sum: 49f9a7fdceabba31311cd34c072b5988
+SHA1: d8d87e231d8ec9e249a08ee2178d8e4f4016840b
+SHA256: fba1dba1ae4d2c16b6c076e882728ffe7e08286859a106e34a25c846b1713c90
+Section: devel
+Priority: extra
+Homepage: https://crystal-lang.org
+Description: Documentation for the Crystal Programming Language
+
+Package: crystal1.4-samples
+Source: crystal1.4
+Version: 1.4.1-1+1.198
+Architecture: all
+Maintainer: Crystal Team <crystal@manas.tech>
+Installed-Size: 254
+Enhances: crystal
+Conflicts: crystal-samples
+Provides: crystal-samples
+Filename: ./all/crystal1.4-samples_1.4.1-1+1.198_all.deb
+Size: 144900
+MD5sum: fc3b55deb7f9272e8983a594e2bf3536
+SHA1: 2a13a1cf5b801fd9e73adc226ef4ec91ef26d87f
+SHA256: fe83db6acd3d7a9c7d029f0a17eb4b68904fab3cca0280b39c40b101a26bc4a6
+Section: devel
+Priority: extra
+Homepage: https://crystal-lang.org
+Description: Sample code for the Crystal Programming Language
+
+Package: crystal1.5
+Version: 1.5.1-1+1.115
+Architecture: amd64
+Maintainer: Crystal Team <crystal@manas.tech>
+Installed-Size: 92880
+Depends: gcc, pkg-config, libpcre3-dev, libevent-dev
+Recommends: libssl-dev, libz-dev, libxml2-dev, libgmp-dev, libyaml-dev
+Conflicts: crystal
+Provides: crystal
+Filename: ./amd64/crystal1.5_1.5.1-1+1.115_amd64.deb
+Size: 19514656
+MD5sum: 5f5d80855d9ca5ded14fcf89305c58bb
+SHA1: 77f7c5dfa4584555149b3c0b92c545c199629734
+SHA256: 743410250594c94d47296e02b9181260fa2dee64523b6122f010cc4279aed3b2
+Section: devel
+Priority: extra
+Homepage: https://crystal-lang.org
+Description: Crystal is a general-purpose, object-oriented programming language.
+ With syntax inspired by Ruby, it is a compiled language with static type-checking,
+ serving both, humans and computers.
+
+Package: crystal1.5-docs
+Source: crystal1.5
+Version: 1.5.1-1+1.115
+Architecture: all
+Maintainer: Crystal Team <crystal@manas.tech>
+Installed-Size: 105378
+Enhances: crystal
+Conflicts: crystal-docs
+Provides: crystal-docs
+Filename: ./all/crystal1.5-docs_1.5.1-1+1.115_all.deb
+Size: 2608928
+MD5sum: c972b22eb1704257249bbec7f9e84bd2
+SHA1: 4555b41b2412b50b58f2fe0a5a031ce2bcd04447
+SHA256: 9ba9c8832c59b4704f70bae3617fb3c087533950b8d449bfcc712d2036f6b611
+Section: devel
+Priority: extra
+Homepage: https://crystal-lang.org
+Description: Documentation for the Crystal Programming Language
+
+Package: crystal1.5-samples
+Source: crystal1.5
+Version: 1.5.1-1+1.115
+Architecture: all
+Maintainer: Crystal Team <crystal@manas.tech>
+Installed-Size: 259
+Enhances: crystal
+Conflicts: crystal-samples
+Provides: crystal-samples
+Filename: ./all/crystal1.5-samples_1.5.1-1+1.115_all.deb
+Size: 148688
+MD5sum: 0081ffb06f6fb30d47c5d8d86da3980a
+SHA1: 2a41bed5e56d4d9f67e7f925d224f2a11c774f9e
+SHA256: a571fe0564b425670cdcddc1ea39415cb815ad6ca608bffb26f0501167f4db41
+Section: devel
+Priority: extra
+Homepage: https://crystal-lang.org
+Description: Sample code for the Crystal Programming Language
+
+Package: crystal1.6
+Version: 1.6.2-1+1.79
+Architecture: amd64
+Maintainer: Crystal Team <crystal@manas.tech>
+Installed-Size: 119769
+Depends: gcc, pkg-config, libpcre3-dev, libevent-dev
+Recommends: libssl-dev, libz-dev, libxml2-dev, libgmp-dev, libyaml-dev
+Conflicts: crystal
+Provides: crystal
+Filename: ./amd64/crystal1.6_1.6.2-1+1.79_amd64.deb
+Size: 28170472
+MD5sum: 94e8ef87466db4cfaed30018cbeb4c05
+SHA1: 0b278393f519ba439f9ae6bc9d846aac5d7eee63
+SHA256: c62059ad177d232644e9b6c488cea8da2df3743b83195813b41b92c84d65e41f
+Section: devel
+Priority: extra
+Homepage: https://crystal-lang.org
+Description: Crystal is a general-purpose, object-oriented programming language.
+ With syntax inspired by Ruby, it is a compiled language with static type-checking,
+ serving both, humans and computers.
+
+Package: crystal1.6-docs
+Source: crystal1.6
+Version: 1.6.2-1+1.79
+Architecture: all
+Maintainer: Crystal Team <crystal@manas.tech>
+Installed-Size: 105875
+Enhances: crystal
+Conflicts: crystal-docs
+Provides: crystal1.6docs
+Filename: ./all/crystal1.6-docs_1.6.2-1+1.79_all.deb
+Size: 2636192
+MD5sum: 2747eca36a6ec9c95eb4dbfc9b5c29b7
+SHA1: f2663afc95fcc70d58a83220c3ece7eac8b7a714
+SHA256: 4c2bc5698947471cc896b44b36979eaafd09a68d5380951bc825a661b92dca4b
+Section: devel
+Priority: extra
+Homepage: https://crystal-lang.org
+Description: Documentation for the Crystal Programming Language
+
+Package: crystal1.6-samples
+Source: crystal1.6
+Version: 1.6.2-1+1.79
+Architecture: all
+Maintainer: Crystal Team <crystal@manas.tech>
+Installed-Size: 264
+Enhances: crystal
+Conflicts: crystal-samples
+Provides: crystal1.6samples
+Filename: ./all/crystal1.6-samples_1.6.2-1+1.79_all.deb
+Size: 154664
+MD5sum: 4812435fa7f8b83d09cbcccf97c48b6e
+SHA1: aade7f6e49fe01c6844c66452c20fbe08b39b6f9
+SHA256: 187c0dfb368d2a7a176a793000c9afad106f394b16b6fd19d68f184fae8a40e6
+Section: devel
+Priority: extra
+Homepage: https://crystal-lang.org
+Description: Sample code for the Crystal Programming Language
+
+Package: crystal1.7
+Version: 1.7.3-1+1.1
+Architecture: amd64
+Maintainer: Crystal Team <crystal@manas.tech>
+Installed-Size: 116548
+Depends: gcc, pkg-config, libpcre3-dev, libevent-dev
+Recommends: libssl-dev, libz-dev, libxml2-dev, libgmp-dev, libyaml-dev
+Conflicts: crystal
+Provides: crystal
+Filename: ./amd64/crystal1.7_1.7.3-1+1.1_amd64.deb
+Size: 27889020
+MD5sum: 79a473ca4c0cdae688eea590b7b9772c
+SHA1: 9ac2d0b64733ce00f80a652133719beaf9e20794
+SHA256: 98971404084a662fcee9433e175705a372a730d7d80643c836dbbc2ef6ee3444
+Section: devel
+Priority: extra
+Homepage: https://crystal-lang.org
+Description: Crystal is a general-purpose, object-oriented programming language.
+ With syntax inspired by Ruby, it is a compiled language with static type-checking,
+ serving both, humans and computers.
+
+Package: crystal1.7-docs
+Source: crystal1.7
+Version: 1.7.3-1+1.1
+Architecture: all
+Maintainer: Crystal Team <crystal@manas.tech>
+Installed-Size: 106345
+Enhances: crystal
+Conflicts: crystal-docs
+Provides: crystal1.7docs
+Filename: ./all/crystal1.7-docs_1.7.3-1+1.1_all.deb
+Size: 2565040
+MD5sum: 0681a1905f2908a319a490b41794669e
+SHA1: 661dcdea862fd5e460b454bcf1be7fe8880dd558
+SHA256: 07b59e67e2abdf4285b5f71986435a21db41383264378c26cd4ee334741de86b
+Section: devel
+Priority: extra
+Homepage: https://crystal-lang.org
+Description: Documentation for the Crystal Programming Language
+
+Package: crystal1.7-samples
+Source: crystal1.7
+Version: 1.7.3-1+1.1
+Architecture: all
+Maintainer: Crystal Team <crystal@manas.tech>
+Installed-Size: 183
+Enhances: crystal
+Conflicts: crystal-samples
+Provides: crystal1.7samples
+Filename: ./all/crystal1.7-samples_1.7.3-1+1.1_all.deb
+Size: 70528
+MD5sum: 68e56e9ed7e280ac8139a910989de4fc
+SHA1: c2f96e35cf7ece3ba0835c9b10b8b89606c62034
+SHA256: d23c8ee4ea3502be934c68fbfeecdfb8fbc530668012a892fd80998a86250dc6
+Section: devel
+Priority: extra
+Homepage: https://crystal-lang.org
+Description: Sample code for the Crystal Programming Language
+

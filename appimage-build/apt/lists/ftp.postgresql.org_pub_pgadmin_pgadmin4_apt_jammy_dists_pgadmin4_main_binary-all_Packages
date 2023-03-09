@@ -1,0 +1,180 @@
+Package: pgadmin4-web
+Architecture: all
+Version: 6.15
+Priority: optional
+Section: database
+Maintainer: pgAdmin Development Team <pgadmin-hackers@postgresql.org>
+Depends: pgadmin4-server (= 6.15), apache2, libapache2-mod-wsgi-py3
+Filename: dists/pgadmin4/main/binary-all/pgadmin4-web_6.15_all.deb
+Size: 2488
+MD5sum: e38bad9eaed93522648f77312a89826e
+SHA1: 855ccf86d2d5ee5392d208a3098980b1a34f398b
+SHA256: a73a27b92c638788fbdb8283a7a4991e9382c09dc565307a565e5f65a0553b47
+SHA512: a04e7b0ac8ec3c6e26c25ffe60b6b832002281da0b8f98d82f6ad24d9876aedb5775e4d619cd97dca95d2e6c38778d0d907a0396f78a7c237668785692d906cd
+Description: The web interface for pgAdmin, hosted under Apache HTTPD. pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.
+
+Package: pgadmin4-web
+Architecture: all
+Version: 6.16
+Priority: optional
+Section: database
+Maintainer: pgAdmin Development Team <pgadmin-hackers@postgresql.org>
+Depends: pgadmin4-server (= 6.16), apache2, libapache2-mod-wsgi-py3
+Filename: dists/pgadmin4/main/binary-all/pgadmin4-web_6.16_all.deb
+Size: 2486
+MD5sum: e0e7811d13e433174b9ae88af0312d5a
+SHA1: 8e7518f4835a7446c6aad5cbbc9c7c2be6f384b0
+SHA256: 2a4db4cb86251d768ec6e0fc5a2bde6cee8bf55696faccbdd1bbe50a8eba3f8d
+SHA512: 7c6290f7cdc2da15def5f75c4467fdedddfe9334f2fbe90d468f8f736d613c40de1bb0d21eb91e22cee8bdcc51934a37f919290e7b6655429abbdada672fced4
+Description: The web interface for pgAdmin, hosted under Apache HTTPD. pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.
+
+Package: pgadmin4-web
+Architecture: all
+Version: 6.17
+Priority: optional
+Section: database
+Maintainer: pgAdmin Development Team <pgadmin-hackers@postgresql.org>
+Depends: pgadmin4-server (= 6.17), apache2, libapache2-mod-wsgi-py3
+Filename: dists/pgadmin4/main/binary-all/pgadmin4-web_6.17_all.deb
+Size: 2548
+MD5sum: b327958b754cf813cb923c7b680851c4
+SHA1: 76398e9c6e66047372a9f9bd951b2e9e5941eb3d
+SHA256: 51526b5d46eba1db0401160534bc2fd25ed2338090b4c341a724ba1c39a9b93d
+SHA512: 655331e58ae115fe172b4111abe5bb5e63fdfdd9d938c591c3b95e2f686f6afaa9401e5f7cbcade774cd85f0ec58a914e90d6824f5cd6a19fcbe5356903b7782
+Description: The web interface for pgAdmin, hosted under Apache HTTPD. pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.
+
+Package: pgadmin4-web
+Architecture: all
+Version: 6.18
+Priority: optional
+Section: database
+Maintainer: pgAdmin Development Team <pgadmin-hackers@postgresql.org>
+Depends: pgadmin4-server (= 6.18), apache2, libapache2-mod-wsgi-py3
+Filename: dists/pgadmin4/main/binary-all/pgadmin4-web_6.18_all.deb
+Size: 2556
+MD5sum: 12a11ce1f85854f324bf5e3e9b5b301e
+SHA1: 13ec79b1830f207d8de55b333da7fd4bca121865
+SHA256: 991b1b852f22e5b7406da09eb5c895ca7b47ffae08938e2dd04ca849e019f835
+SHA512: 19ad5491604880d410048ad69f8d1c3b8d6a7aa682a0f26e6875c0a8b733068bb7b5e5dca1c4a8e27e2a867dd0e7df395771482a1dee52ee2cd5d256001fc376
+Description: The web interface for pgAdmin, hosted under Apache HTTPD. pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.
+
+Package: pgadmin4-web
+Architecture: all
+Version: 6.19
+Priority: optional
+Section: database
+Maintainer: pgAdmin Development Team <pgadmin-hackers@postgresql.org>
+Depends: pgadmin4-server (= 6.19), apache2, libapache2-mod-wsgi-py3
+Filename: dists/pgadmin4/main/binary-all/pgadmin4-web_6.19_all.deb
+Size: 2554
+MD5sum: f3b43c87049f5643ca407506c0d64e74
+SHA1: e343fcb9356f360f191a68ca56c7a6baa6e47bab
+SHA256: c84ea23d496952e2a17616d96bcbfcbbf9c0667d713e78fd570a77a1022cc246
+SHA512: fd95d1f74ffc60ad50001cca13fec65ef6ee9bc74453f47d5c6b1bbd119e2661c561547309258c04f6dd68f1cdf6fc9f8285ca088820f59d13d1e5c34a621c58
+Description: The web interface for pgAdmin, hosted under Apache HTTPD. pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.
+
+Package: pgadmin4-web
+Architecture: all
+Version: 6.20
+Priority: optional
+Section: database
+Maintainer: pgAdmin Development Team <pgadmin-hackers@postgresql.org>
+Depends: pgadmin4-server (= 6.20), apache2, libapache2-mod-wsgi-py3
+Filename: dists/pgadmin4/main/binary-all/pgadmin4-web_6.20_all.deb
+Size: 2548
+MD5sum: 786ca8643b2be4a85e43077dde319b51
+SHA1: 6cd322c974f4d297785a68fc8c5cf006e39b2445
+SHA256: 3f5ff8c42285320a49542fe09e5c551112b5d7359db3ec3aef3d74da1c997d65
+SHA512: 34169524a0515aaf758e2df4f546482dbce3038457072d67af82c5ae98276e46ce5bf97cb1e0a6dce1e742e62b4dbe05d4021127a4883f030af2dff96266dec2
+Description: The web interface for pgAdmin, hosted under Apache HTTPD. pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.
+
+Package: pgadmin4
+Architecture: all
+Version: 6.15
+Priority: optional
+Section: database
+Maintainer: pgAdmin Development Team <pgadmin-hackers@postgresql.org>
+Depends: pgadmin4-server (= 6.15), pgadmin4-desktop (= 6.15), pgadmin4-web (= 6.15)
+Filename: dists/pgadmin4/main/binary-all/pgadmin4_6.15_all.deb
+Size: 670
+MD5sum: 91ac53148f45cd8cb86439fce3a2b43d
+SHA1: abfdc26da67f934b3ec449457c8fc952b9f019c0
+SHA256: 3915df90f90d7528fd83dc6ccc68c88074cc27e2d3f95dd68dc25a4ea406548d
+SHA512: d267d2083dad2749d0f2172c181155568544754e5e3d8b39512ad297c22bf97eeff149532463dcef7f0929bf7e0f1e1ca3f4a4bdbc431d45917fda37ed4c83fc
+Description: Installs all required components to run pgAdmin in desktop and web modes. pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.
+
+Package: pgadmin4
+Architecture: all
+Version: 6.16
+Priority: optional
+Section: database
+Maintainer: pgAdmin Development Team <pgadmin-hackers@postgresql.org>
+Depends: pgadmin4-server (= 6.16), pgadmin4-desktop (= 6.16), pgadmin4-web (= 6.16)
+Filename: dists/pgadmin4/main/binary-all/pgadmin4_6.16_all.deb
+Size: 670
+MD5sum: 1b5226851f983ed918f8d23300ce3174
+SHA1: 17a28b7d68a3635ee0ab6073d35aacc1bd80be8d
+SHA256: 7043af5624811727fa1e0d050d0f5f9d978df59e76c3d4e88d976a68ca77763d
+SHA512: de2ac2ee5e6321a419cbd4ba9d1ec6e5b655895886d022c1100affecedf9581b619018cbbe293d0bad57d65d3c4fc3872fc7b5f8676f455182b085f0d12d83f1
+Description: Installs all required components to run pgAdmin in desktop and web modes. pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.
+
+Package: pgadmin4
+Architecture: all
+Version: 6.17
+Priority: optional
+Section: database
+Maintainer: pgAdmin Development Team <pgadmin-hackers@postgresql.org>
+Depends: pgadmin4-server (= 6.17), pgadmin4-desktop (= 6.17), pgadmin4-web (= 6.17)
+Filename: dists/pgadmin4/main/binary-all/pgadmin4_6.17_all.deb
+Size: 670
+MD5sum: 97c48c0af9dbd599cf1b7514de19e81f
+SHA1: f0d2977065aee34ab4230f1d5667e047aac0dded
+SHA256: 17fc6066a40d7c2d4b6a792d02d6207d6cacbcd1baf2e2ca51193dc584c3d57a
+SHA512: 2327c375c6c8e700787a6cbefebc743eefc40bfab50fc64cf00dfa95395870cc921365a7e7658aa2bb374496ef34cc56258b421e07fd4e02ed008ec94a4d0cf0
+Description: Installs all required components to run pgAdmin in desktop and web modes. pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.
+
+Package: pgadmin4
+Architecture: all
+Version: 6.18
+Priority: optional
+Section: database
+Maintainer: pgAdmin Development Team <pgadmin-hackers@postgresql.org>
+Depends: pgadmin4-server (= 6.18), pgadmin4-desktop (= 6.18), pgadmin4-web (= 6.18)
+Filename: dists/pgadmin4/main/binary-all/pgadmin4_6.18_all.deb
+Size: 670
+MD5sum: f7fd60c133dc6166596e382e102a7552
+SHA1: d7ece3d8a98d1c882239caeee5398229a8987c81
+SHA256: a68d2d4743db60419930dbcd18d88f138a86379142b1b0f7d870c9b510f48592
+SHA512: cee3d105b0c44b84b2cff239eaefe4be8e6855be56a2d8ce9957793fa9d8dd3b6c023d045975fbe952891bfb56914380bbe359e535aa8446766b35a41c76001d
+Description: Installs all required components to run pgAdmin in desktop and web modes. pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.
+
+Package: pgadmin4
+Architecture: all
+Version: 6.19
+Priority: optional
+Section: database
+Maintainer: pgAdmin Development Team <pgadmin-hackers@postgresql.org>
+Depends: pgadmin4-server (= 6.19), pgadmin4-desktop (= 6.19), pgadmin4-web (= 6.19)
+Filename: dists/pgadmin4/main/binary-all/pgadmin4_6.19_all.deb
+Size: 670
+MD5sum: 63aa043a1498343533bd7c40f77106a7
+SHA1: c043654e3c603e0ae438993ec16c4b6d6de949fa
+SHA256: 2caf5180b45b1b3799f31f6cdf2ccd685c20cab2cc7f8589ef42179eb6b451d3
+SHA512: 5c4ef78e2523f805a71d70f35f4cd473a1d953975007ad8dfcfe57ea5180321250a13735536dc44c6ce3ed77a03ca8d08ede2068ee2bb853b761b616d278ff83
+Description: Installs all required components to run pgAdmin in desktop and web modes. pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.
+
+Package: pgadmin4
+Architecture: all
+Version: 6.20
+Priority: optional
+Section: database
+Maintainer: pgAdmin Development Team <pgadmin-hackers@postgresql.org>
+Depends: pgadmin4-server (= 6.20), pgadmin4-desktop (= 6.20), pgadmin4-web (= 6.20)
+Filename: dists/pgadmin4/main/binary-all/pgadmin4_6.20_all.deb
+Size: 670
+MD5sum: 07424fa71a6ca569afe3bb7eb2f76506
+SHA1: 938e9a193b1692518e3f75649fe0582b8d8cbd6a
+SHA256: bb30964edaaddf53555278d2bcacfa6c7961d266d582d962297a02899c2e4ec8
+SHA512: 53e899c517fdd50efc280542e77153abe6d25ace63572c6b3ca4db601a4a51624e3d6b3c5ebe95a31cfac6f6e977124c62edb4c566343141020420479b54660e
+Description: Installs all required components to run pgAdmin in desktop and web modes. pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.
+

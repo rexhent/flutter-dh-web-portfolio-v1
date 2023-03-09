@@ -1,0 +1,18 @@
+Package: mangohud
+Priority: optional
+Section: misc
+Installed-Size: 1263
+Maintainer: Debian Games Team <team+pkg-games@tracker.debian.org>
+Architecture: amd64
+Version: 0.6.5-2ubuntu0~jammy1.0
+Suggests: libxnvctrl0
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 12)
+Filename: pool/main/m/mangohud/mangohud_0.6.5-2ubuntu0~jammy1.0_amd64.deb
+Size: 569268
+MD5sum: 324254451718d44214f8ac9792db7a62
+SHA1: 87a7f7a62be3b4edf975f2b35f09f5e1404748fc
+SHA256: 9b471efe0dd657a6e54a533b2efc2d80d60fefc0ea99eed4f68939efc60df215
+Description: Vulkan/OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more
+Description-md5: dd50e5f665fdaca034a94c9ce91681c1
+Multi-Arch: same
+

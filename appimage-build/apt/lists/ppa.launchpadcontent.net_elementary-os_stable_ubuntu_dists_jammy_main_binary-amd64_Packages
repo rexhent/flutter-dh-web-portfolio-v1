@@ -1,0 +1,2602 @@
+Package: appcenter
+Priority: extra
+Section: utils
+Installed-Size: 2462
+Maintainer: elementary Builds Team <builds@elementary.io>
+Architecture: amd64
+Version: 7.2.1+r4291+pkg117~ubuntu7.1
+Recommends: appstream-data-pantheon, flatpak
+Replaces: appcenter-daemon
+Depends: appstream (>= 0.12), apt-config-icons, apt-config-icons-hidpi, apt-config-icons-large, apt-config-icons-large-hidpi, packagekit, dconf-gsettings-backend | gsettings-backend, libappstream4 (>= 0.15.2), libc6 (>= 2.34), libflatpak0 (>= 1.1.3), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.10.1), libglib2.0-0 (>= 2.63.1), libgranite6 (>= 6.2.0+r2223+pkg122~ubuntu7.1), libgtk-3-0 (>= 3.21.5), libhandy-1-0 (>= 1.4.0), libjson-glib-1.0-0 (>= 1.5.2), libpackagekit-glib2-18 (>= 1.1.0), libpolkit-gobject-1-0 (>= 0.99), libsoup2.4-1 (>= 2.41.90), libxml2 (>= 2.7.4)
+Conflicts: appcenter-daemon
+Filename: pool/main/a/appcenter/appcenter_7.2.1+r4291+pkg117~ubuntu7.1_amd64.deb
+Size: 651350
+MD5sum: 0cef8580e5deabce967c47293954c74e
+SHA1: d6ee3ec7c5a1242d690074bc8d883e03cf445236
+SHA256: d4d6e5ef869f65d4958f914fc0b3f48c5455744c8cddb1f235554904f3e4b289
+Description: Fast application store
+Description-md5: d622a5467319aa9b68e9f4f792be6615
+
+Package: appcenter-casper
+Source: appcenter
+Priority: extra
+Section: utils
+Installed-Size: 22
+Maintainer: elementary Builds Team <builds@elementary.io>
+Architecture: amd64
+Version: 7.2.1+r4291+pkg117~ubuntu7.1
+Depends: casper
+Filename: pool/main/a/appcenter/appcenter-casper_7.2.1+r4291+pkg117~ubuntu7.1_amd64.deb
+Size: 11952
+MD5sum: ef627c84e6d093a49789b24ac3d2fc59
+SHA1: ecb40ec47333aef27bdedcb504314d1430802505
+SHA256: 0f2afac0cecceb06b63135372d6ee9825e70f7a87fa2e89fb3dc03eaf61fa2c2
+Description: Disable AppCenter daemon in casper
+Description-md5: ef7412b8ca070eaba6902dcb5c1efd99
+
+Package: appstream-data-pantheon
+Priority: optional
+Section: misc
+Installed-Size: 247
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: all
+Version: 5.0+r262~ubuntu7.1
+Recommends: appstream, appstream-data-pantheon-icons, appstream-data-pantheon-icons-hidpi
+Filename: pool/main/a/appstream-data-pantheon/appstream-data-pantheon_5.0+r262~ubuntu7.1_all.deb
+Size: 243868
+MD5sum: ddc41e4f487aacb5ea4dbdadce97e58e
+SHA1: e183a19559abdd71471971b872cdba0c7e8aa4f4
+SHA256: 20a12ad92c4741c64da2c6ba4f4609a4b6a52eac4e608a8b0f9891f9480d2e5d
+Description: AppStream data for Pantheon
+Description-md5: b324cda97db2198eb84d002afd8bb66f
+
+Package: appstream-data-pantheon-icons
+Source: appstream-data-pantheon
+Priority: optional
+Section: misc
+Installed-Size: 492
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: all
+Version: 5.0+r262~ubuntu7.1
+Suggests: appstream-data-pantheon-icons-hidpi
+Depends: appstream-data-pantheon
+Filename: pool/main/a/appstream-data-pantheon/appstream-data-pantheon-icons_5.0+r262~ubuntu7.1_all.deb
+Size: 350294
+MD5sum: 526978818ced0ed14aecd1fedabd2317
+SHA1: ec1c494a9c7aaa00ecda5b74fc5151259bc0daea
+SHA256: 9b655611ce19366cc38578c284acf2f9071ec9d8c67ccf446dddd25aa508e29f
+Description: Icons for AppStream data in Pantheon
+Description-md5: dc6084f3096b5182fe612159ac4f7e72
+
+Package: appstream-data-pantheon-icons-hidpi
+Source: appstream-data-pantheon
+Priority: optional
+Section: misc
+Installed-Size: 161
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: all
+Version: 5.0+r262~ubuntu7.1
+Depends: appstream-data-pantheon-icons
+Filename: pool/main/a/appstream-data-pantheon/appstream-data-pantheon-icons-hidpi_5.0+r262~ubuntu7.1_all.deb
+Size: 122728
+MD5sum: 674b70152947b99d9dbfb8585d688cf6
+SHA1: 20bfaa52ad7deb16c68c76845bdf079b3603c52c
+SHA256: 2bddacf014524c5141aef95cd6a3d7b0035190c27ab8a1d90a5f59df43786f6e
+Description: HiDPI icons for AppStream data in Pantheon
+Description-md5: 21014aee781bd3b123e228573b658b19
+
+Package: audience
+Source: io.elementary.videos
+Priority: optional
+Section: oldlibs
+Installed-Size: 11
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 2.8.3-0+pkg56~ubuntu7.1
+Depends: io.elementary.videos
+Filename: pool/main/i/io.elementary.videos/audience_2.8.3-0+pkg56~ubuntu7.1_amd64.deb
+Size: 4306
+MD5sum: b2ee25ca0c93f70ff60047737edae965
+SHA1: 29161dd469fd830d7a480c92c41ce82b8fd14e37
+SHA256: 2aa3ef5055b948cea7e5e05447a75e3e92bb1322c4e70e5d483700f8ca2552c7
+Description: transitional dummy package
+Description-md5: 1f317b04f78374dba7d1e14def0b7f80
+
+Package: capnet-assist
+Priority: optional
+Section: net
+Installed-Size: 12
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 2.4.1-0+pkg34~ubuntu7.1
+Depends: flatpak, network-manager, network-manager-config-connectivity-ubuntu
+Filename: pool/main/c/capnet-assist/capnet-assist_2.4.1-0+pkg34~ubuntu7.1_amd64.deb
+Size: 2980
+MD5sum: d893f50afb84441c3e948479956f6031
+SHA1: bd5ea0e3d2a037b4225725ea79daef88f439aaf1
+SHA256: 427943f30529e89c40d451e7b2a4ea0ba468b3a2adc3ba31bb82c9a47bff634a
+Description: Captive login detector
+Description-md5: 7a218e3d655fea78ffae262414a1d131
+
+Package: contractor
+Priority: optional
+Section: utils
+Installed-Size: 92
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 0.3.5~r160+pkg29~ubuntu7.1
+Depends: libc6 (>= 2.34), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.43.92)
+Filename: pool/main/c/contractor/contractor_0.3.5~r160+pkg29~ubuntu7.1_amd64.deb
+Size: 26350
+MD5sum: 1516854c863ea21ed24b40b4b6c6ca84
+SHA1: 9dcfb6cc3d54bd5ac7c588f1350e985cf977bbaa
+SHA256: c60ca462b1934051da4f74437640b62b8540fa7c6d086a89355f2290c84d6987
+Description: service for sharing data between apps
+Description-md5: 2c8d0cc3779518de8b129b7169d45e87
+
+Package: elementary-artwork
+Source: elementary-meta
+Priority: optional
+Section: metapackages
+Installed-Size: 51
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: amd64
+Version: 1.519+r590~ubuntu22.04.1
+Recommends: elementary-wallpapers, fonts-elementary-extra, fonts-inter, io.elementary.sound-theme, io.elementary.stylesheet
+Depends: adwaita-icon-theme-full, elementary-icon-theme
+Filename: pool/main/e/elementary-meta/elementary-artwork_1.519+r590~ubuntu22.04.1_amd64.deb
+Size: 46432
+MD5sum: 59a3038c1ffd3134356785f4eda30444
+SHA1: e6b32b33359c644b226207fa0f995f5ee9035e8a
+SHA256: a0b51dd1c34d97dd8382be9632580bb7d8eff60a802a8d1161dff22ceeefc2c6
+Description: Artwork of elementary OS
+Description-md5: 5b1bfa36ed1c2cb1b2b0ba143447edcd
+
+Package: elementary-default-settings
+Priority: optional
+Section: gnome
+Installed-Size: 81
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: all
+Version: 7.0.1+r388~ubuntu7.1
+Replaces: libgtk-3-0
+Depends: libglib2.0-bin, qt5-gtk-platformtheme, adwaita-qt, elementary-icon-theme, dconf-gsettings-backend | gsettings-backend
+Enhances: plank
+Filename: pool/main/e/elementary-default-settings/elementary-default-settings_7.0.1+r388~ubuntu7.1_all.deb
+Size: 9524
+MD5sum: 64286611cae630f6803ab8d730ecfec4
+SHA1: ebfd80c5e8afdfbfd8a665cfbbcec00d0ce3b14d
+SHA256: aea0a3e9da4e314372384920c8cfba4e844a821aac3a9eef7c884fee8ab55a1a
+Description: Default settings for elementary OS
+Description-md5: 853bf400c8b726b669dc40842228c5eb
+
+Package: elementary-desktop
+Source: elementary-meta
+Priority: optional
+Section: metapackages
+Installed-Size: 51
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: amd64
+Version: 1.519+r590~ubuntu22.04.1
+Recommends: acpi-support, avahi-autoipd, avahi-daemon, bluez, bluez-cups, brltty, capnet-assist, cups, cups-bsd, cups-client, cups-filters, elementary-default-settings, elementary-printer-test-page, fonts-arphic-ukai, fonts-arphic-uming, fonts-elementary-core, fonts-kacst-one, fonts-noto-cjk, fonts-sil-padauk, fonts-ubuntu, fwupd, fwupd-signed, geoclue-2.0, gnome-bluetooth, gnome-font-viewer, gnome-power-manager, gnome-session-bin, gtk-im-libthai, gvfs-fuse, hplip, htop, hunspell-de-at-frami, hunspell-de-ch-frami, hunspell-de-de-frami, hunspell-en-au, hunspell-en-ca, hunspell-en-gb, hunspell-en-us, hunspell-en-za, hunspell-es, hunspell-fr, hunspell-it, hunspell-pt-br, hunspell-pt-pt, hunspell-ru, ibus, ibus-chewing, ibus-gtk, ibus-gtk3, ibus-hangul, ibus-libpinyin, ibus-m17n, ibus-mozc, ibus-table, ibus-table-cangjie, ibus-table-quick-classic, ibus-table-wubi, ibus-unikey, im-config, io.elementary.greeter, io.elementary.initial-setup, io.elementary.onboarding, io.elementary.switchboard.wacom, io.elementary.wingpanel, kerneloops, language-pack-bg, language-pack-ca, language-pack-cs, language-pack-da, language-pack-de, language-pack-en, language-pack-es, language-pack-fr, language-pack-gnome-bg, language-pack-gnome-ca, language-pack-gnome-cs, language-pack-gnome-da, language-pack-gnome-de, language-pack-gnome-en, language-pack-gnome-es, language-pack-gnome-fr, language-pack-gnome-hu, language-pack-gnome-id, language-pack-gnome-it, language-pack-gnome-ja, language-pack-gnome-ko, language-pack-gnome-nb, language-pack-gnome-nl, language-pack-gnome-pl, language-pack-gnome-pt, language-pack-gnome-ru, language-pack-gnome-sv, language-pack-gnome-th, language-pack-gnome-tr, language-pack-gnome-uk, language-pack-gnome-vi, language-pack-gnome-zh-hans, language-pack-gnome-zh-hant, language-pack-hu, language-pack-id, language-pack-it, language-pack-ja, language-pack-ko, language-pack-nb, language-pack-nl, language-pack-pl, language-pack-pt, language-pack-ru, language-pack-sv, language-pack-th, language-pack-tr, language-pack-uk, language-pack-vi, language-pack-zh-hans, language-pack-zh-hant, laptop-detect, libgail-common, libnss-mdns, libpam-gnome-keyring, libproxy1-plugin-gsettings, libproxy1-plugin-networkmanager, libwmf0.2-7-gtk, mousetweaks, mozc-utils-gui, network-manager, network-manager-config-connectivity-ubuntu, network-manager-pptp-gnome, orca, org.gnome.fileroller, p7zip-full, packagekit, pantheon-agent-geoclue2, pantheon-agent-polkit, pcmciautils, plymouth-theme-elementary, policykit-desktop-privileges, printer-driver-brlaser, printer-driver-c2esp, printer-driver-foo2zjs, printer-driver-m2300w, printer-driver-min12xxw, printer-driver-ptouch, printer-driver-pxljr, printer-driver-sag-gdi, printer-driver-splix, pulseaudio-module-bluetooth, speech-dispatcher, switchboard, switchboard-plug-a11y, switchboard-plug-about, switchboard-plug-applications, switchboard-plug-bluetooth, switchboard-plug-datetime, switchboard-plug-display, switchboard-plug-keyboard, switchboard-plug-locale, switchboard-plug-mouse-touchpad, switchboard-plug-networking, switchboard-plug-notifications, switchboard-plug-online-accounts, switchboard-plug-pantheon-shell, switchboard-plug-parental-controls, switchboard-plug-power, switchboard-plug-printers, switchboard-plug-security-privacy, switchboard-plug-sharing, switchboard-plug-sound, switchboard-plug-useraccounts, wamerican, wbrazilian, wbritish, wbulgarian, wcatalan, wdanish, wdutch, wfrench, wingpanel-indicator-a11y, wingpanel-indicator-bluetooth, wingpanel-indicator-datetime, wingpanel-indicator-keyboard, wingpanel-indicator-network, wingpanel-indicator-nightlight, wingpanel-indicator-notifications, wingpanel-indicator-power, wingpanel-indicator-session, wingpanel-indicator-sound, witalian, wngerman, wnorwegian, wogerman, wpolish, wportuguese, wspanish, wswedish, wswiss, wukrainian, xdg-utils
+Depends: alsa-base, alsa-utils, anacron, at-spi2-core, bc, ca-certificates, doc-base, elementary-artwork, fonts-dejavu-core, foomatic-db-compressed-ppds, ghostscript-x, gnome-menus, gstreamer1.0-alsa, gstreamer1.0-packagekit, gstreamer1.0-plugins-base-apps, gstreamer1.0-pulseaudio, inputattach, libatk-adaptor, libnotify-bin, libsasl2-modules, libu2f-udev, openprinting-ppds, pantheon, printer-driver-pnm2ppa, pulseaudio, rfkill, spice-vdagent, ubuntu-drivers-common, unzip, wireless-tools, wpasupplicant, xdg-user-dirs, xdg-user-dirs-gtk, xkb-data, xorg, zenity, zip
+Filename: pool/main/e/elementary-meta/elementary-desktop_1.519+r590~ubuntu22.04.1_amd64.deb
+Size: 47722
+MD5sum: 03fd7ac8c82a8c55bde4ce3394ed6252
+SHA1: 809e861464d77e64515a8f8a0d9cdea671974297
+SHA256: 94746f9770d99ba296c32ac18bc46e9fce2040fff904769972f013834b639f15
+Description: Complete desktop of elementary OS
+Description-md5: 645a5d77af1832c5af9df69ce7b83941
+
+Package: elementary-icon-theme
+Priority: optional
+Section: gnome
+Installed-Size: 35359
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: all
+Version: 7.2.0+r2546+pkg23~ubuntu7.1
+Depends: gnome-icon-theme-full | gnome-icon-theme (>= 3.12.0-2), hicolor-icon-theme
+Filename: pool/main/e/elementary-icon-theme/elementary-icon-theme_7.2.0+r2546+pkg23~ubuntu7.1_all.deb
+Size: 2756740
+MD5sum: f76f3a5b331abcd4edfc01d0387a4777
+SHA1: 8ebd09d893d9ec03ddfae619c010995d09ffc8b3
+SHA256: 55d75c48572bb8a6364dd85c9f7c58878e68e1c24efe3e33568f126c76ace31a
+Description: simple and appealing Tango-styled icon theme
+Description-md5: f0a1646302238ad13e18d34081cef784
+
+Package: elementary-keyring
+Priority: extra
+Section: misc
+Installed-Size: 12
+Maintainer: elementary Builds Team <builds@elementary.io>
+Architecture: all
+Version: 1.0+r1~ubuntu7.1
+Filename: pool/main/e/elementary-keyring/elementary-keyring_1.0+r1~ubuntu7.1_all.deb
+Size: 1996
+MD5sum: 43d136b4432eb59a82abebe355408909
+SHA1: a4d67d92f98d53d75cd3a6180ba3abdde4c67e3b
+SHA256: 2a1157b5c8170c9187457322cb13f124e2a16d942d27d94484c32e8985a53a95
+Description: GnuPG keys of elementary OS
+Description-md5: 6150cbcae82c4df0ffd635187b167987
+
+Package: elementary-live
+Source: elementary-meta
+Priority: optional
+Section: metapackages
+Installed-Size: 51
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: amd64
+Version: 1.519+r590~ubuntu22.04.1
+Depends: btrfs-progs, casper, cifs-utils, discover, distinst, dmraid, expect, gparted, io.elementary.installer, mokutil, os-prober, reiserfsprogs, wamerican, xfsprogs
+Filename: pool/main/e/elementary-meta/elementary-live_1.519+r590~ubuntu22.04.1_amd64.deb
+Size: 46374
+MD5sum: a330a3ada8f6fa871e02c512fcb3d9d7
+SHA1: bc2d72fe7d37633e3260f66dc61047e1cc206878
+SHA256: 4c3389a12660b143573389e650ce2e457659687923961fdf4f7232468e05697b
+Description: elementary Live Settings
+Description-md5: 8d1b4c2d42f04b19e0bcc823fb5793fa
+
+Package: elementary-minimal
+Source: elementary-meta
+Priority: optional
+Section: metapackages
+Installed-Size: 51
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: amd64
+Version: 1.519+r590~ubuntu22.04.1
+Recommends: rsyslog, usrmerge
+Depends: adduser, apt, apt-utils, console-setup, debconf, debconf-i18n, e2fsprogs, eject, init, iproute2, iputils-ping, isc-dhcp-client, kbd, kmod, less, locales, lsb-release, mawk, mount, netbase, netcat-openbsd, netplan.io, passwd, procps, python3, sensible-utils, sudo, tzdata, ubuntu-advantage-tools, ubuntu-keyring, udev, vim-tiny, whiptail
+Filename: pool/main/e/elementary-meta/elementary-minimal_1.519+r590~ubuntu22.04.1_amd64.deb
+Size: 46686
+MD5sum: 0fff7612167c3bb4574ab15be3fd10a4
+SHA1: 6d53ab6acbabf48d6ba570eb4b285bd3545bb4bd
+SHA256: b8c456ba379a9d46a1855c3f84941f5f8b00d4b6ed21fab08828f68468efdba4
+Description: Minimal core of elementary OS
+Description-md5: 77c56829cd6d08433aa39eda99acac82
+
+Package: elementary-printer-test-page
+Source: elementary-default-settings
+Priority: optional
+Section: gnome
+Installed-Size: 131
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: all
+Version: 7.0.1+r388~ubuntu7.1
+Replaces: cups-filters, print-test-page-elementary
+Conflicts: print-test-page-elementary
+Filename: pool/main/e/elementary-default-settings/elementary-printer-test-page_7.0.1+r388~ubuntu7.1_all.deb
+Size: 104706
+MD5sum: cc170eedc433d92962e890e73bb230ab
+SHA1: 242bc1e48090199fff2e84a5105dc56417492bb5
+SHA256: 0e9962eddaa9e925f51e5acc5e93e495bfb594cc35cec2a3e322f190e9da0292
+Description: printer test page for elementary
+Description-md5: 29bb19d19e56846fe96bf1877258e813
+
+Package: elementary-sdk
+Source: elementary-meta
+Priority: optional
+Section: metapackages
+Installed-Size: 51
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: amd64
+Version: 1.519+r590~ubuntu22.04.1
+Recommends: dconf-editor, devscripts, equivs, gdb, git, granite-7-demo, granite-demo, gtk-3-examples, gtk-4-examples, io.elementary.code, io.elementary.vala-lint, python3-debian, vala-language-server
+Depends: build-essential, desktop-file-utils, flatpak-builder, gettext, gobject-introspection, libgala-dev, libgee-0.8-dev, libgirepository1.0-dev, libglib2.0-dev, libgranite-7-dev, libgranite-dev, libgtk-3-dev, libgtk-4-dev, libhandy-1-dev, libplank-dev, libswitchboard-2.0-dev, libunity-dev, libwingpanel-dev, libxml2-dev, libxml2-utils, meson, valac, valadoc
+Filename: pool/main/e/elementary-meta/elementary-sdk_1.519+r590~ubuntu22.04.1_amd64.deb
+Size: 46556
+MD5sum: 1680d039dc41a32848f235f44aa06676
+SHA1: 5e257578e599637f8f71c715088fded6b6eb6ae0
+SHA256: 057ae16486f0eac8df5a33823df46927f496b1a3ed42766d7d1f33d4a7f18c97
+Description: elementary Developer Kit
+Description-md5: ebbb8df269d18e014ef4e88a14d4db18
+
+Package: elementary-standard
+Source: elementary-meta
+Priority: optional
+Section: metapackages
+Installed-Size: 51
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: amd64
+Version: 1.519+r590~ubuntu22.04.1
+Recommends: apparmor, bash-completion, command-not-found, cryptsetup, elementary-os-overlay, friendly-recovery, iputils-tracepath, irqbalance, jfsutils, lvm2, manpages, mtr-tiny, nano, ntfs-3g, openssh-client, plymouth, tcpdump, telnet, ufw, uuid-runtime
+Depends: bind9-dnsutils, busybox-static, cpio, cron, dmidecode, dosfstools, ed, file, ftp, hdparm, info, iptables, language-selector-common, libpam-systemd, logrotate, lshw, lsof, ltrace, man-db, media-types, parted, pciutils, psmisc, rsync, strace, time, usbutils, wget, xz-utils
+Filename: pool/main/e/elementary-meta/elementary-standard_1.519+r590~ubuntu22.04.1_amd64.deb
+Size: 46724
+MD5sum: 1fe8138ad64f475fea0d6e7e771e64ea
+SHA1: e302c2530d7156d4e14393f0f29112bb5ce37aa6
+SHA256: 49d2ff33967c90585ef591c85154e82572aee2d91e853f261236f9ce4ae9e8ad
+Description: CLI-only components of elementary OS
+Description-md5: 794f65330a15cb507db4b908a4f1fe6c
+
+Package: elementary-wallpapers
+Priority: optional
+Section: x11
+Installed-Size: 58324
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: all
+Version: 7.0.0+r295+pkg117~ubuntu7.1
+Replaces: elementary-os-prerelease
+Conflicts: elementary-os-prerelease
+Filename: pool/main/e/elementary-wallpapers/elementary-wallpapers_7.0.0+r295+pkg117~ubuntu7.1_all.deb
+Size: 59060228
+MD5sum: c4a9963f1672d5774987bc42a2106c59
+SHA1: a183da7607d3f90e6bb4d9b038242074fd09eb9b
+SHA256: e4a05c13308bfca8f5e05d00ff413a6ce1eb36878e764716fce4747ab4977984
+Description: elementary OS Wallpapers
+Description-md5: a5bff2fd8102af1c50d51ce2c39e0252
+
+Package: fonts-capture-it-elementary
+Source: elementary-fonts
+Priority: extra
+Section: fonts
+Installed-Size: 978
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: all
+Version: 5.1.0+34~ubuntu7.1
+Replaces: fonts-capture-it
+Filename: pool/main/e/elementary-fonts/fonts-capture-it-elementary_5.1.0+34~ubuntu7.1_all.deb
+Size: 130122
+MD5sum: b4639ff96950c1f4dfd766806a6a6f6d
+SHA1: bcda413f5e3805e74dfecca80b87410ff680b390
+SHA256: 5b1d81854c71ccac163d60cd1ef875fd6291f6bd0d72941a655fd8acf718a64a
+Description: Some font
+Description-md5: 8437c1e000577c3a3fede98d317d34c9
+Multi-Arch: foreign
+
+Package: fonts-croscore-config-elementary
+Source: elementary-fonts
+Priority: extra
+Section: fonts
+Installed-Size: 17
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: all
+Version: 5.1.0+34~ubuntu7.1
+Depends: fonts-croscore
+Enhances: fonts-croscore
+Filename: pool/main/e/elementary-fonts/fonts-croscore-config-elementary_5.1.0+34~ubuntu7.1_all.deb
+Size: 2490
+MD5sum: 4d3759dc386ca06080b9e9150caa8d61
+SHA1: f5f754640fef48b6724a9e049a9d249155b0be98
+SHA256: 0b2caad5452607e67034063313088191d7601ba4dee033317b03d1de4d33fdec
+Description: Map open-source Croscore fonts to MS fonts
+Description-md5: 2aeffd3443e6e8514d5bd63fa55e0205
+Multi-Arch: foreign
+
+Package: fonts-daniel-elementary
+Source: elementary-fonts
+Priority: extra
+Section: fonts
+Installed-Size: 212
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: all
+Version: 5.1.0+34~ubuntu7.1
+Replaces: fonts-daniel
+Filename: pool/main/e/elementary-fonts/fonts-daniel-elementary_5.1.0+34~ubuntu7.1_all.deb
+Size: 126136
+MD5sum: b5de0045e7de4e66c6641c139f726d0a
+SHA1: 9b51abeaa07fbbaaebb20b40955aa7b307655a5f
+SHA256: 16c0e262a3315cfa4fd08f796e6fa6a680ef783d84af1fe00393ddb7a6636d96
+Description: Some font
+Description-md5: 8437c1e000577c3a3fede98d317d34c9
+Multi-Arch: foreign
+
+Package: fonts-elementary-core
+Source: elementary-fonts
+Priority: extra
+Section: fonts
+Installed-Size: 8
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: all
+Version: 5.1.0+34~ubuntu7.1
+Recommends: fonts-croscore-config-elementary
+Replaces: fonts-droid
+Depends: fonts-croscore, fonts-noto, fonts-noto-color-emoji, fonts-open-sans, fonts-raleway-elementary, fonts-roboto, fonts-roboto-mono-elementary, fonts-sil-mondulkiri
+Conflicts: fonts-droid
+Filename: pool/main/e/elementary-fonts/fonts-elementary-core_5.1.0+34~ubuntu7.1_all.deb
+Size: 1938
+MD5sum: 51cf30e6bced48cd9ecb492829ed0a1f
+SHA1: bbc5865c15d6944d9b50c8cb5f2a68be9664a225
+SHA256: 506f6f3819aee9db8f6987c101b53ebbe8e04078a0db373d2508ed222efdb29b
+Description: elementary essential fonts (dependency package)
+Description-md5: 384ade2409c41dfbfb4b9e7229d21b44
+Multi-Arch: foreign
+
+Package: fonts-elementary-extra
+Source: elementary-fonts
+Priority: extra
+Section: fonts
+Installed-Size: 8
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: all
+Version: 5.1.0+34~ubuntu7.1
+Depends: fonts-capture-it-elementary, fonts-daniel-elementary, fonts-hvd-bodedo-elementary, fonts-jenna-sue-elementary, fonts-limelight-elementary, fonts-lobster-elementary, fonts-operating-instructions-elementary, fonts-opendyslexic, fonts-plainblack-elementary, fonts-redacted-elementary
+Filename: pool/main/e/elementary-fonts/fonts-elementary-extra_5.1.0+34~ubuntu7.1_all.deb
+Size: 1928
+MD5sum: 37f757dfd43869d4d5d80c31f5cbcf2a
+SHA1: f3d2beed299ed40e364443d13866c5dbad547547
+SHA256: acb3903373c29f62eb83eca95b9ce4a04badf2c1e875631b40e07b3c70c367d7
+Description: elementary featured fonts (dependency package)
+Description-md5: ff0021a5c0773839965be98e9ddda66c
+Multi-Arch: foreign
+
+Package: fonts-hvd-bodedo-elementary
+Source: elementary-fonts
+Priority: extra
+Section: fonts
+Installed-Size: 395
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: all
+Version: 5.1.0+34~ubuntu7.1
+Replaces: fonts-hvd-bodedo
+Filename: pool/main/e/elementary-fonts/fonts-hvd-bodedo-elementary_5.1.0+34~ubuntu7.1_all.deb
+Size: 142658
+MD5sum: 59830cc699a2751a03c312a2c033f7aa
+SHA1: 462cff429419559c259047a87fc7ca7f9c85f0b2
+SHA256: bb77c834d8a299cc6e091c92fae32915d7a1276cb542f4d070e6b3eb5d860a73
+Description: Some font
+Description-md5: 8437c1e000577c3a3fede98d317d34c9
+Multi-Arch: foreign
+
+Package: fonts-jenna-sue-elementary
+Source: elementary-fonts
+Priority: extra
+Section: fonts
+Installed-Size: 53
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: all
+Version: 5.1.0+34~ubuntu7.1
+Replaces: fonts-jenna-sue
+Filename: pool/main/e/elementary-fonts/fonts-jenna-sue-elementary_5.1.0+34~ubuntu7.1_all.deb
+Size: 27532
+MD5sum: 0b8c9f54ab64ae21f6bc1ecdc48bb8f9
+SHA1: 4664dfe4e413ee7784e6470f8edcbf30cd819de9
+SHA256: a02bea8e6a17bdccc5a97c23ebbfa2df975f1ded72dd7e29ed69d6137d0de119
+Description: Some font
+Description-md5: 8437c1e000577c3a3fede98d317d34c9
+Multi-Arch: foreign
+
+Package: fonts-khmer-mondulkiri-elementary
+Source: elementary-fonts
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: all
+Version: 5.1.0+34~ubuntu7.1
+Depends: fonts-sil-mondulkiri
+Filename: pool/main/e/elementary-fonts/fonts-khmer-mondulkiri-elementary_5.1.0+34~ubuntu7.1_all.deb
+Size: 1846
+MD5sum: 0a56ce561a90823abe36453113b72e6d
+SHA1: 39934d31780f9c49ea200a3d6f58385b61918e19
+SHA256: f5ac6cfe45534b849eeebeb43a67bfef23e4bebb314ba72a09d998110c798fe5
+Description: Dummy transitional package
+Description-md5: 51e835980db1a27ce7a18a75062ecf35
+Multi-Arch: foreign
+
+Package: fonts-limelight-elementary
+Source: elementary-fonts
+Priority: extra
+Section: fonts
+Installed-Size: 63
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: all
+Version: 5.1.0+34~ubuntu7.1
+Replaces: fonts-limelight
+Filename: pool/main/e/elementary-fonts/fonts-limelight-elementary_5.1.0+34~ubuntu7.1_all.deb
+Size: 25848
+MD5sum: 489cae16797b5fb2ff2ca90b79dd5383
+SHA1: 6a5d92773be99de3983479009c3dbd01b140c83a
+SHA256: 4e112c61d377c57ad632c1335612298ae583e71f073e10e1576ad23843256862
+Description: Some font
+Description-md5: 8437c1e000577c3a3fede98d317d34c9
+Multi-Arch: foreign
+
+Package: fonts-lobster-elementary
+Source: elementary-fonts
+Priority: extra
+Section: fonts
+Installed-Size: 149
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: all
+Version: 5.1.0+34~ubuntu7.1
+Replaces: fonts-lobster
+Filename: pool/main/e/elementary-fonts/fonts-lobster-elementary_5.1.0+34~ubuntu7.1_all.deb
+Size: 54938
+MD5sum: 13a4f340ef7efce5739c8aafd3c28850
+SHA1: bde37e6b2020b559d7c215960c388904b4836212
+SHA256: 076bed86c463e8806fbf7c7efd578700640044c666f08888c5b2bd24bcdb135f
+Description: Some font
+Description-md5: 8437c1e000577c3a3fede98d317d34c9
+Multi-Arch: foreign
+
+Package: fonts-open-sans-elementary
+Source: elementary-fonts
+Priority: optional
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: all
+Version: 5.1.0+34~ubuntu7.1
+Depends: fonts-open-sans
+Filename: pool/main/e/elementary-fonts/fonts-open-sans-elementary_5.1.0+34~ubuntu7.1_all.deb
+Size: 1830
+MD5sum: 1c538103bb71612b253ee6551eb9abe0
+SHA1: 8403a3f55d9e6f7d5fdc06d515c99a18c30a0cf2
+SHA256: 29493b62b3434a70ea414d0897bce4a0b3344cd31348326f3f51673373da1b39
+Description: Dummy transitional package
+Description-md5: 51e835980db1a27ce7a18a75062ecf35
+Multi-Arch: foreign
+
+Package: fonts-open-sans-emoji-elementary
+Source: elementary-fonts
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: all
+Version: 5.1.0+34~ubuntu7.1
+Depends: fonts-noto
+Filename: pool/main/e/elementary-fonts/fonts-open-sans-emoji-elementary_5.1.0+34~ubuntu7.1_all.deb
+Size: 1840
+MD5sum: 338a5d5b65634c2639fe20b980a0c964
+SHA1: b1f2de9135b563cea7c41cf39e691b193995b408
+SHA256: edc7fdb9108a6731f5b7537868933e4dcf0ae55b2ccc08780c56d83892d0d0a0
+Description: Dummy transitional package
+Description-md5: 51e835980db1a27ce7a18a75062ecf35
+Multi-Arch: foreign
+
+Package: fonts-operating-instructions-elementary
+Source: elementary-fonts
+Priority: extra
+Section: fonts
+Installed-Size: 59
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: all
+Version: 5.1.0+34~ubuntu7.1
+Replaces: fonts-operating-instructions
+Filename: pool/main/e/elementary-fonts/fonts-operating-instructions-elementary_5.1.0+34~ubuntu7.1_all.deb
+Size: 23748
+MD5sum: 011c34d0099ae0411b6accfd797d654a
+SHA1: 7e5f3640bc3f3797557b8d4cf5dd9dfca7d97a91
+SHA256: 7a7c9c863dcb52669eb2d95839af7618a5fa44292a7017496ba5a0427cfe69e6
+Description: Some font
+Description-md5: 8437c1e000577c3a3fede98d317d34c9
+Multi-Arch: foreign
+
+Package: fonts-plainblack-elementary
+Source: elementary-fonts
+Priority: extra
+Section: fonts
+Installed-Size: 475
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: all
+Version: 5.1.0+34~ubuntu7.1
+Replaces: fonts-plainblack
+Filename: pool/main/e/elementary-fonts/fonts-plainblack-elementary_5.1.0+34~ubuntu7.1_all.deb
+Size: 206878
+MD5sum: 41103d62ee67bb43013df8a5352d26de
+SHA1: e6154652ec6050526e48ce0280006badde698082
+SHA256: 66d7b9a6ab4182818b3a0618e9d02c73c27ccdc1001d4adbe7807514837bc8ba
+Description: Some font
+Description-md5: 8437c1e000577c3a3fede98d317d34c9
+Multi-Arch: foreign
+
+Package: fonts-raleway-elementary
+Source: elementary-fonts
+Priority: extra
+Section: fonts
+Installed-Size: 1570
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: all
+Version: 5.1.0+34~ubuntu7.1
+Replaces: fonts-raleway
+Filename: pool/main/e/elementary-fonts/fonts-raleway-elementary_5.1.0+34~ubuntu7.1_all.deb
+Size: 342414
+MD5sum: ff3a146324937976c74a54d9d974c237
+SHA1: cbdf2c3c427cd33584d2ac39c776fa2bf983bc0d
+SHA256: 5e660f96e99d92dc6ce2ff0476a922bef4aab586b3c85738b6ccc3c71fb9e2e0
+Description: Some font
+Description-md5: 8437c1e000577c3a3fede98d317d34c9
+Multi-Arch: foreign
+
+Package: fonts-redacted-elementary
+Source: elementary-fonts
+Priority: extra
+Section: fonts
+Installed-Size: 70
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: all
+Version: 5.1.0+34~ubuntu7.1
+Filename: pool/main/e/elementary-fonts/fonts-redacted-elementary_5.1.0+34~ubuntu7.1_all.deb
+Size: 9870
+MD5sum: 596d3f448a594a8ddb35a6c88e2f103d
+SHA1: 59799971bb44a71494337191520d0b80c1b9194a
+SHA256: 1d4c743f9f8b2b8698835a401b9f488ee9350000c7cc947f443b2f86316100ef
+Description: Redacted script font
+Description-md5: a63d10315bdbcd7d0dfc7db75aaf2fd3
+Multi-Arch: foreign
+
+Package: fonts-roboto-mono-elementary
+Source: elementary-fonts
+Priority: extra
+Section: fonts
+Installed-Size: 1174
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: all
+Version: 5.1.0+34~ubuntu7.1
+Filename: pool/main/e/elementary-fonts/fonts-roboto-mono-elementary_5.1.0+34~ubuntu7.1_all.deb
+Size: 459252
+MD5sum: 4170f59ed3f804a4911a122788310da1
+SHA1: f2006146593e43e4aa3b8a39a615798acc0f4c86
+SHA256: 566d4616cadabb61b5034601a64ed03565fdeeb354ef01548eba3ea4e47116ea
+Description: Monospaced addition to the Roboto type family
+Description-md5: ec4076857af098f048933f7ba6c10f0b
+Multi-Arch: foreign
+
+Package: gala
+Priority: optional
+Section: x11
+Installed-Size: 1728
+Maintainer: elementary OS Team <builds@elementary.io>
+Architecture: amd64
+Version: 7.0.1~r1860+pkg78~ubuntu7.1
+Provides: x-window-manager
+Depends: gnome-settings-daemon (>= 3.15.2), gsettings-desktop-schemas, io.elementary.portals (>= 1.1.0), libgala0 (= 7.0.1~r1860+pkg78~ubuntu7.1), dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libcairo2 (>= 1.10.0), libcanberra0 (>= 0.2), libgdk-pixbuf-2.0-0 (>= 2.25.2), libgee-0.8-2 (>= 0.20.0), libgexiv2-2 (>= 0.12.2), libglib2.0-0 (>= 2.44), libgnome-desktop-3-19 (>= 3.17.92), libgranite6 (>= 5.5.0), libgraphene-1.0-0 (>= 1.5.4), libgtk-3-0 (>= 3.19.12), libmutter-10-0 (>= 42~beta), libsystemd0, libxfixes3
+Filename: pool/main/g/gala/gala_7.0.1~r1860+pkg78~ubuntu7.1_amd64.deb
+Size: 338528
+MD5sum: 73574d0956eb3bcea50f29cb56993eae
+SHA1: dfaa7250f12e57ebfe62eb72841f119fb744d89d
+SHA256: cbce383999064e11a6d0ab51792c25d2302b8f0a0ea5f63abb4cfc9f00e5897d
+Description: Pantheon Window Manager
+Description-md5: 272ba68494704882527c05568a243806
+
+Package: gir1.2-granite-1.0
+Source: granite
+Priority: optional
+Section: introspection
+Installed-Size: 107
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: amd64
+Version: 6.2.0+r2223+pkg122~ubuntu7.1
+Depends: gir1.2-freedesktop, gir1.2-gdkpixbuf-2.0, gir1.2-gee-0.8, gir1.2-glib-2.0, gir1.2-gtk-3.0 (>= 3.22), gir1.2-pango-1.0
+Filename: pool/main/g/granite/gir1.2-granite-1.0_6.2.0+r2223+pkg122~ubuntu7.1_amd64.deb
+Size: 28904
+MD5sum: 8679080855fa65a310493d2f335e3f04
+SHA1: 53fc5f0cc674acaebf380fa824486d7d4d83089f
+SHA256: 1df36c9ee2a7a83b0c403437e01983fba1f228bee015dce0ee813a2e5fba71e5
+Description: extension of GTK+ libraries (introspection files)
+Description-md5: 2e0ed8472431f4131cf1b613e667fdf0
+Multi-Arch: foreign
+
+Package: gir1.2-granite-7.0
+Source: granite7
+Priority: optional
+Section: introspection
+Installed-Size: 54
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: amd64
+Version: 7.2.0+r2390+pkg132~ubuntu7.1
+Depends: gir1.2-gee-0.8, gir1.2-glib-2.0, gir1.2-gtk-4.0 (>= 4.4.1)
+Filename: pool/main/g/granite7/gir1.2-granite-7.0_7.2.0+r2390+pkg132~ubuntu7.1_amd64.deb
+Size: 17230
+MD5sum: 4c4c4a720b638aa18be6490a11e50310
+SHA1: cef2d654b6116f3b9c0553bc7a558b9a77d005f5
+SHA256: 63ae0380bd43eca0839be2376350f39a0415969a257a7682b8c73c5bd859d386
+Description: extension of GTK+ libraries (introspection files)
+Description-md5: 2e0ed8472431f4131cf1b613e667fdf0
+Multi-Arch: foreign
+
+Package: granite-7-demo
+Source: granite7
+Priority: optional
+Section: misc
+Installed-Size: 131
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: amd64
+Version: 7.2.0+r2390+pkg132~ubuntu7.1
+Depends: libgranite7 (= 7.2.0+r2390+pkg132~ubuntu7.1), libc6 (>= 2.34), libglib2.0-0 (>= 2.37.3), libgtk-4-1 (>= 4.4.1)
+Filename: pool/main/g/granite7/granite-7-demo_7.2.0+r2390+pkg132~ubuntu7.1_amd64.deb
+Size: 34628
+MD5sum: 3092b308fdfeb8e6e7bf29602f17b244
+SHA1: c9a4c8a24ceff2086ad17a5ee105868274fcc562
+SHA256: a80e881ed93a2d7e5143648ab417f33c6504086766b4efbd1b994320300e0018
+Description: extension of GTK+ libraries (demo binary)
+Description-md5: c63278c8762fd6b3f6c0a759729dcd47
+
+Package: granite-demo
+Source: granite
+Priority: optional
+Section: misc
+Installed-Size: 126
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: amd64
+Version: 6.2.0+r2223+pkg122~ubuntu7.1
+Depends: libgranite6 (= 6.2.0+r2223+pkg122~ubuntu7.1), libc6 (>= 2.34), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.43.92), libgtk-3-0 (>= 3.22)
+Filename: pool/main/g/granite/granite-demo_6.2.0+r2223+pkg122~ubuntu7.1_amd64.deb
+Size: 36908
+MD5sum: 92a052ce78d4c2cfb19581870ff5b7e7
+SHA1: 5d6d657c71290abb5cb72adea063a4c88c2c5b28
+SHA256: 087c8aec74a5f3c13377b31276c49abb5d9fae45438cb96f886c055953c372b8
+Description: extension of GTK+ libraries (demo binary)
+Description-md5: c63278c8762fd6b3f6c0a759729dcd47
+
+Package: io.elementary.calculator
+Priority: extra
+Section: x11
+Installed-Size: 11
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 2.0.0+pkg39~ubuntu7.1
+Replaces: pantheon-calculator
+Depends: flatpak
+Breaks: pantheon-calculator
+Filename: pool/main/i/io.elementary.calculator/io.elementary.calculator_2.0.0+pkg39~ubuntu7.1_amd64.deb
+Size: 3536
+MD5sum: 125fd939908917991b85b835fcf6d13d
+SHA1: a2fad0c625152d7cbc65f393ca5c20c789876793
+SHA256: 632d397c7dd36046f2d871a5ab36b41d7593cc37bde1340edcee9e657f4d984f
+Description: Calculate in an elementary way.
+Description-md5: 0bc6c4085cb6e32deb76b6a78dd4f7b0
+
+Package: io.elementary.camera
+Priority: optional
+Section: x11
+Installed-Size: 11
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: amd64
+Version: 6.2.0+pkg23~ubuntu7.1
+Replaces: pantheon-camera, snap-photobooth
+Depends: flatpak
+Conflicts: pantheon-camera, snap-photobooth
+Filename: pool/main/i/io.elementary.camera/io.elementary.camera_6.2.0+pkg23~ubuntu7.1_amd64.deb
+Size: 2350
+MD5sum: c80c30b22e6ecf6edf13ef4d42be0dcc
+SHA1: 9e0319a1dcb4743eedc7337dba165eba5c682fa8
+SHA256: 1562671b42833f4abfc0d28ddefdb3890409915aeeb4302b2516ce3879c1037b
+Description: Camera app for Pantheon
+Description-md5: a2284d8b801de6d7cba6f6912a14947c
+
+Package: io.elementary.code
+Priority: optional
+Section: editors
+Installed-Size: 2645
+Maintainer: Corentin Noël <corentin@elementary.io>
+Architecture: amd64
+Version: 7.0.0~r4544+pkg146~ubuntu7.1
+Replaces: scratch-text-editor
+Depends: exuberant-ctags, libcodecore0 (= 7.0.0~r4544+pkg146~ubuntu7.1), dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libeditorconfig0 (>= 0.11.0), libfontconfig1 (>= 2.12.6), libgee-0.8-2 (>= 0.20.0), libgit2-glib-1.0-0 (>= 0.23.6), libglib2.0-0 (>= 2.63.3), libgranite6 (>= 6.2.0+r2223+pkg122~ubuntu7.1), libgtk-3-0 (>= 3.21.6), libgtksourceview-4-0 (>= 3.23.90), libgtkspell3-3-0 (>= 3.0.3), libhandy-1-0 (>= 0.83.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.18.0), libpangoft2-1.0-0 (>= 1.37.2), libpeas-1.0-0 (>= 1.1.0), libsoup2.4-1 (>= 2.41.90), libvala-0.56-0 (>= 0.52.5), libvte-2.91-0
+Conflicts: scratch-text-editor
+Filename: pool/main/i/io.elementary.code/io.elementary.code_7.0.0~r4544+pkg146~ubuntu7.1_amd64.deb
+Size: 540058
+MD5sum: 24c9a1c7367653b5a9017ccb72d89a1e
+SHA1: ec5462ea8f5d680e630272eef1a36410fb2c1946
+SHA256: 3295a68758960e6f66c5bdaec02bf82bf94c3aa9a1a6b06b7b871d274a76ee25
+Description: text editor that works for you
+Description-md5: d4018517957a0afd95c91b5c2ae51c6d
+
+Package: io.elementary.feedback
+Priority: extra
+Section: x11
+Installed-Size: 843
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 7.0.0+r724+pkg8~ubuntu7.1
+Depends: dconf-gsettings-backend | gsettings-backend, libappstream4 (>= 0.15.0), libc6 (>= 2.34), libglib2.0-0 (>= 2.43.92), libgranite6 (>= 5.5.0), libgtk-3-0 (>= 3.21.4), libhandy-1-0 (>= 0.90.0)
+Filename: pool/main/i/io.elementary.feedback/io.elementary.feedback_7.0.0+r724+pkg8~ubuntu7.1_amd64.deb
+Size: 55844
+MD5sum: 38d59fc52bb9f9a343637144f199f0a5
+SHA1: 1235565c08a854ed4c700f594a7b57ee2f8b772d
+SHA256: a27d4d230c1c0447d16e22be5ab2884dbb911e48ec56b15f2912ffaf48b0b1e3
+Description: Submit and track issue reports
+Description-md5: 05275489c1da2379f385cc340838e942
+
+Package: io.elementary.greeter
+Priority: optional
+Section: x11
+Installed-Size: 1038
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 6.1.1+r1420+elementary1+pkg90~ubuntu7.1
+Recommends: elementary-default-settings (>= 5.2)
+Replaces: pantheon-greeter
+Provides: lightdm-greeter
+Depends: numlockx, lightdm, libaccountsservice0 (>= 0.6.8), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libgles2, libglib2.0-0 (>= 2.43.92), libgranite6 (>= 5.5.0), libgtk-3-0 (>= 3.21.4), libhandy-1-0 (>= 1.0.3), liblightdm-gobject-1-0 (>= 1.11.1), libmutter-10-0 (>= 41.0)
+Filename: pool/main/i/io.elementary.greeter/io.elementary.greeter_6.1.1+r1420+elementary1+pkg90~ubuntu7.1_amd64.deb
+Size: 138980
+MD5sum: 0667e2bf5455a37f71417d84d0e454ee
+SHA1: a916e80e9304b1a1ba8149e916cbd18225bc6b21
+SHA256: 3b3f304fd1663861ba890ad5f09b3f98f67c7b695c73512d648b7cecbb4f80ff
+Description: Pantheon Login Screen
+Description-md5: 48cbe680ec6bc0a6dc4def780fbb8b24
+
+Package: io.elementary.initial-setup
+Priority: extra
+Section: x11
+Installed-Size: 861
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 6.2.2+r739+elementary1+pkg10~ubuntu7.1
+Depends: libaccountsservice0 (>= 0.6.13), libc6 (>= 2.34), libgee-0.8-2 (>= 0.10.1), libglib2.0-0 (>= 2.43.92), libgranite6 (>= 6.2.0+r2223+pkg122~ubuntu7.1), libgtk-3-0 (>= 3.16.2), libhandy-1-0 (>= 0.80.0), libjson-glib-1.0-0 (>= 1.5.2), libpolkit-gobject-1-0 (>= 0.99), libpwquality1 (>= 1.1.0), libxml2 (>= 2.7.4)
+Filename: pool/main/i/io.elementary.initial-setup/io.elementary.initial-setup_6.2.2+r739+elementary1+pkg10~ubuntu7.1_amd64.deb
+Size: 126646
+MD5sum: 143acd16e969c775cf3381725bbadda2
+SHA1: 3d4ac1e91c30525f13df9c8b1e8ab6b949d668f0
+SHA256: 9ca99fa567a02720f6bd4cbd2108c7cdf152e4ddcefa460ec5de90fa2a9ab810
+Description: Perform essential OS setup
+Description-md5: dc04f0a149f52bf7e0c2c3fa7967e68f
+
+Package: io.elementary.installer
+Priority: extra
+Section: utils
+Installed-Size: 1443
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: amd64
+Version: 1.0.7+r1682+pkg35~ubuntu7.1
+Recommends: io.elementary.installer-session, io.elementary.onboarding
+Depends: distinst, gparted, io.elementary.greeter, wingpanel, libc6 (>= 2.34), libgee-0.8-2 (>= 0.20.0), libglib2.0-0 (>= 2.63.1), libgnomekbd8 (>= 3.6.0), libgranite6 (>= 6.2.0+r2223+pkg122~ubuntu7.1), libgtk-3-0 (>= 3.22.29), libhandy-1-0 (>= 1.0.3), libjson-glib-1.0-0 (>= 1.5.2), libpangocairo-1.0-0 (>= 1.14.0), libpwquality1 (>= 1.1.0), libxml2 (>= 2.7.4)
+Filename: pool/main/i/io.elementary.installer/io.elementary.installer_1.0.7+r1682+pkg35~ubuntu7.1_amd64.deb
+Size: 313964
+MD5sum: b598e8d72f5314399bb63d04b5ef8e3f
+SHA1: fade1b3b1331f9ceee1430090e648300e7c6bc9a
+SHA256: 77923b9d12759480952d3c183bb6166dee9e47125eef5bc03fdd9dc004624f91
+Description: Distribution installer
+Description-md5: 0ace10130ca5f7935656423a4fb2a8ec
+
+Package: io.elementary.installer-session
+Source: io.elementary.installer
+Priority: extra
+Section: utils
+Installed-Size: 30
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: amd64
+Version: 1.0.7+r1682+pkg35~ubuntu7.1
+Recommends: elementary-default-settings
+Depends: io.elementary.installer, lightdm
+Filename: pool/main/i/io.elementary.installer/io.elementary.installer-session_1.0.7+r1682+pkg35~ubuntu7.1_amd64.deb
+Size: 4622
+MD5sum: 31bf48b5f6a98a96e9d89dc88c252ef4
+SHA1: ef794417c9caa5db583471be32b7402fd87fb8c3
+SHA256: f13be0f7aa8949160fa652059843319097eda586130ee94e15677630164838c3
+Description: Dedicated installer session
+Description-md5: 274a6ba6806c21ec3aba66d89a98c035
+
+Package: io.elementary.mail
+Priority: extra
+Section: x11
+Installed-Size: 1650
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: amd64
+Version: 7.0.0+r1073+pkg29~ubuntu7.1
+Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libcamel-1.2-63 (>= 3.25.90), libedataserver-1.2-26 (>= 3.27.90), libedataserverui-1.2-3 (>= 3.16.2), libfolks26 (>= 0.9.7), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.49.5), libgranite6 (>= 6.2.0+r2223+pkg122~ubuntu7.1), libgtk-3-0 (>= 3.21.5), libhandy-1-0 (>= 1.0.3), libjavascriptcoregtk-4.0-18 (>= 2.36.0), libsoup2.4-1 (>= 2.32.2), libwebkit2gtk-4.0-37 (>= 2.27.2)
+Filename: pool/main/i/io.elementary.mail/io.elementary.mail_7.0.0+r1073+pkg29~ubuntu7.1_amd64.deb
+Size: 261376
+MD5sum: 1761e38f54c4108b6f21f0a4e4b125fc
+SHA1: 2d6399354012f25ef9f1f4d6e4a5909e946d189b
+SHA256: c74b32cb515ef83cdd0dafc1d0939759ed7355f4ff4be0ec1b659321ada40b51
+Description: Email client
+Description-md5: bb4bae4a50d5229483dff9c4b13b709e
+
+Package: io.elementary.music
+Priority: optional
+Section: sound
+Installed-Size: 12
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 7.0.0-0+pkg130~ubuntu7.1
+Replaces: noise
+Depends: flatpak
+Filename: pool/main/i/io.elementary.music/io.elementary.music_7.0.0-0+pkg130~ubuntu7.1_amd64.deb
+Size: 4146
+MD5sum: 6daed4290f8f874baea8bd925be5221e
+SHA1: 055e4c1f9331c12402fc9a089d408c1f50979f07
+SHA256: 6ef0f220be7e8c3f9a8733f402d712c631913a99c8bafb2687550c027780887a
+Description: Music player for elementary OS.
+Description-md5: de6672c6d9741c9d6fb45ebdd2354d02
+
+Package: io.elementary.notifications
+Priority: extra
+Section: x11
+Installed-Size: 148
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 6.0.3+r363+pkg7~ubuntu7.1
+Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libcairo2 (>= 1.2.4), libcanberra-gtk3-0 (>= 0.25), libcanberra0 (>= 0.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.41.2), libgranite6 (>= 5.5.0), libgtk-3-0 (>= 3.16.2), libhandy-1-0 (>= 0.80.0)
+Filename: pool/main/i/io.elementary.notifications/io.elementary.notifications_6.0.3+r363+pkg7~ubuntu7.1_amd64.deb
+Size: 39704
+MD5sum: f325e9e13efe02a5aa0f791f1e4cca4e
+SHA1: 54fa3852f5e0f9aafb2505efcc81dddaa042433f
+SHA256: 3ee0ae5f959ae6967c535b578c452426dac4649d19ca6b1710c7c45a3c79d5dc
+Description: a Gtk notification server for Pantheon
+Description-md5: e343ef537695db9b67151f924abea995
+
+Package: io.elementary.onboarding
+Priority: extra
+Section: x11
+Installed-Size: 705
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 7.0.1+r833+pkg16~ubuntu7.1
+Depends: io.elementary.settings-daemon, dconf-gsettings-backend | gsettings-backend, libadwaita-1-0 (>= 1.0.0), libc6 (>= 2.34), libglib2.0-0 (>= 2.63.1), libgranite7 (>= 7.0.0), libgtk-4-1 (>= 4.0.0)
+Filename: pool/main/i/io.elementary.onboarding/io.elementary.onboarding_7.0.1+r833+pkg16~ubuntu7.1_amd64.deb
+Size: 103358
+MD5sum: 2251cbb776d783f5c562607e725eaa4b
+SHA1: f79a90afb3a9e2c19fb5769fd4749ded188872f2
+SHA256: 0e0195089635c992afb1909eb59942d7da27b56052753e85db1e630e957fa396
+Description: Change common settings on first-run
+Description-md5: bfad20489fb5c894743a5bca8e7d6ada
+
+Package: io.elementary.portals
+Priority: optional
+Section: x11
+Installed-Size: 752
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 7.0.0+r454+pkg11~ubuntu7.1
+Provides: xdg-desktop-portal-backend
+Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.43.92), libgranite7 (>= 7.0.0), libgtk-4-1 (>= 4.0.0), libx11-6
+Filename: pool/main/i/io.elementary.portals/io.elementary.portals_7.0.0+r454+pkg11~ubuntu7.1_amd64.deb
+Size: 50570
+MD5sum: d15924ad2ddab95ff8f1eb5549e3e188
+SHA1: ba9e52bcb06be13f645cd10660ebd1d77c8d144d
+SHA256: 94be8eb113534a7976fba46becb6f111830432ad1ce0ecb48fe772ea40304f1b
+Description: Flatpak portals for Pantheon
+Description-md5: 13e9d623fbb956c6c2119ced196eb4ec
+
+Package: io.elementary.print
+Priority: optional
+Section: misc
+Installed-Size: 35
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: amd64
+Version: 1.1.3+r20+pkg11~ubuntu7.1
+Recommends: contractor
+Depends: libc6 (>= 2.34), libcairo2 (>= 1.2.4), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0)
+Enhances: contractor
+Filename: pool/main/i/io.elementary.print/io.elementary.print_1.1.3+r20+pkg11~ubuntu7.1_amd64.deb
+Size: 7676
+MD5sum: 507316cff6e19bdd92e0bfd43d5e15e8
+SHA1: 1d3615562aeade9cd164e780bab5a560c6d2e67b
+SHA256: ef58550d27791692e1c8e00d449c08bbe88950ec613d49628d0f53eba1d4f761
+Description: Printing support for Contractor
+Description-md5: a40aa42dd066315b8630c1e2d6ea14d0
+
+Package: io.elementary.screenshot
+Priority: optional
+Section: graphics
+Installed-Size: 10
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 6.0.3-0+pkg30~ubuntu7.1
+Replaces: screenshot-tool
+Depends: flatpak
+Breaks: screenshot-tool
+Filename: pool/main/i/io.elementary.screenshot/io.elementary.screenshot_6.0.3-0+pkg30~ubuntu7.1_amd64.deb
+Size: 2558
+MD5sum: 20269d15626c813ea64d8af229bcf52f
+SHA1: de1cc0bdb413f5174c11feb0eac3e70ef6351a9c
+SHA256: 46f14a798289879f2296a7f6806c5f6b527124e565e378855217473e3a44b22a
+Description: Screenshot utility
+Description-md5: 582a81bfc599f6ef18f285bcd52847ac
+
+Package: io.elementary.settings-daemon
+Priority: optional
+Section: x11
+Installed-Size: 194
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 1.2.0+r74+pkg8~ubuntu7.1
+Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libgeoclue-2-0 (>= 2.4.0), libglib2.0-0 (>= 2.45.3)
+Filename: pool/main/i/io.elementary.settings-daemon/io.elementary.settings-daemon_1.2.0+r74+pkg8~ubuntu7.1_amd64.deb
+Size: 46106
+MD5sum: 5e8f708ae9266497ad0172e4a556828d
+SHA1: 989f77bd8bc941d136ac980510455b8be898a4d0
+SHA256: 52dc929ec7a9f0c3cc0ad5e11f1e8fd5eae8012f4c88eff8d2d55ed0a2ad98e9
+Description: Keep session settings in sync
+Description-md5: 3b360dcb65aaac0a93f7013dbef1cf40
+
+Package: io.elementary.shortcut-overlay
+Priority: optional
+Section: gnome
+Installed-Size: 753
+Maintainer: elementary LLC. <builds@elementary.io>
+Architecture: amd64
+Version: 2.0.1+r867+pkg16~ubuntu7.1
+Depends: libc6 (>= 2.34), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.37.3), libgranite7 (>= 7.0.0), libgtk-4-1 (>= 4.0.0)
+Filename: pool/main/i/io.elementary.shortcut-overlay/io.elementary.shortcut-overlay_2.0.1+r867+pkg16~ubuntu7.1_amd64.deb
+Size: 49196
+MD5sum: ed46c4df6f232a3a2ad6cfd67ea63d0e
+SHA1: 5aae668897e5bca72ac512eed56179e8ce4dad01
+SHA256: a39304fbec66881f1b120db029b4073399f3abbe3897bd99da84729faa869a46
+Description: shortcut overlay
+Description-md5: 5060a205613e4db358d59d885f7a0570
+
+Package: io.elementary.sideload
+Priority: extra
+Section: x11
+Installed-Size: 1052
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 6.1.0+r946+pkg12~ubuntu7.1
+Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libflatpak0 (>= 1.1.3), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.55.1), libgranite7 (>= 7.0.0), libgtk-4-1 (>= 4.0.0), libxml2 (>= 2.7.4), flatpak
+Filename: pool/main/i/io.elementary.sideload/io.elementary.sideload_6.1.0+r946+pkg12~ubuntu7.1_amd64.deb
+Size: 96892
+MD5sum: 7c32585878ba5b15e5a1417b4224527a
+SHA1: 042baa9d4f0aa30bfaa534ff8bf089442b109175
+SHA256: aa9a2b8752a2be65472ba7654ee247b740e55197dd75435b2bd676b4b1deec49
+Description: Install apps downloaded from the Internet
+Description-md5: 3e7525f3ae4c41e43173e881b34366f3
+
+Package: io.elementary.sound-theme
+Priority: optional
+Section: x11
+Installed-Size: 118
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 1.1+r15+pkg3~ubuntu7.1
+Filename: pool/main/i/io.elementary.sound-theme/io.elementary.sound-theme_1.1+r15+pkg3~ubuntu7.1_amd64.deb
+Size: 64754
+MD5sum: bc253b3f4f2047d060d1cf3a6f002a72
+SHA1: 6e6c0a84ad3b0a44b27e5788211b82615a9bc1e6
+SHA256: 4d4d0c3788526d9beb6d16d2d98be3a6fcbe9cab75f3a54e734a82b1ef8fabce
+Description: System sounds of elementary OS
+Description-md5: 3ca12208a1a0cd41b000185d19ea6010
+
+Package: io.elementary.stylesheet
+Priority: extra
+Section: x11
+Installed-Size: 7398
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: all
+Version: 7.0.1+r394+pkg335~ubuntu7.1
+Suggests: elementary-icon-theme
+Filename: pool/main/i/io.elementary.stylesheet/io.elementary.stylesheet_7.0.1+r394+pkg335~ubuntu7.1_all.deb
+Size: 72612
+MD5sum: f0f6f10218d50d787acbcd4c43428476
+SHA1: 0240bdf06971fb6a7650c5c3e6511370c310cb18
+SHA256: 329625b9dc5ad741da4f5aa861e48d45a9c487c1c800e657e4fe49d440c3dbaf
+Description: the elementary GTK stylesheet
+Description-md5: c4ff153fed62bf577f86e9de54e9c49d
+
+Package: io.elementary.switchboard.wacom
+Priority: optional
+Section: x11
+Installed-Size: 758
+Maintainer: elementary OS Team <builds@elementary.io>
+Architecture: amd64
+Version: 1.0.1+r216+pkg3~ubuntu7.1
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.53.2), libgranite6 (>= 0.3.1), libgtk-3-0 (>= 3.21.5), libgudev-1.0-0 (>= 146), libswitchboard-2.0-0 (>= 2.0~bzr468), libwacom9 (>= 2.0.0), libx11-6, libxi6 (>= 2:1.2.99.4)
+Enhances: switchboard
+Filename: pool/main/i/io.elementary.switchboard.wacom/io.elementary.switchboard.wacom_1.0.1+r216+pkg3~ubuntu7.1_amd64.deb
+Size: 54656
+MD5sum: 16843922cf7b28ae96e18aa1057d477c
+SHA1: 9712edab97a2870a50a99e1f6de679464f2fc34f
+SHA256: f296cce10f851dc3af7f7a6014c911ad1ab8f9530cc9177d44c57e4de073da50
+Description: Wacom plug for Switchboard
+Description-md5: 696bfabc0e65d8c5a5f455b396e1d99b
+
+Package: io.elementary.tasks
+Priority: extra
+Section: x11
+Installed-Size: 1266
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 6.3.1+r1711+pkg16~ubuntu7.1
+Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libcairo2 (>= 1.2.4), libchamplain-0.12-0 (>= 0.11.0), libchamplain-gtk-0.12-0 (>= 0.11.0), libclutter-1.0-0 (>= 1.10.0), libclutter-gtk-1.0-0 (>= 0.91.8), libecal-2.0-1 (>= 3.33.4), libedataserver-1.2-26 (>= 3.39.2), libgdata22 (>= 0.16.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.14.0), libgeoclue-2-0 (>= 2.4.0), libgeocode-glib0 (>= 0.99.1), libglib2.0-0 (>= 2.51.2), libgranite6 (>= 6.2.0+r2223+pkg122~ubuntu7.1), libgtk-3-0 (>= 3.19.12), libhandy-1-0 (>= 0.90.0), libical3 (>= 3.0.0), libsoup2.4-1 (>= 2.32.2)
+Filename: pool/main/i/io.elementary.tasks/io.elementary.tasks_6.3.1+r1711+pkg16~ubuntu7.1_amd64.deb
+Size: 164748
+MD5sum: c487c045dd816b03b8d2e5526f236d72
+SHA1: 46fa2df57e2c26af1ab8d15f0b34ca20059fe296
+SHA256: e7605ae4d821a25e475687b177aeade7fd97c57c9fc9b01c0ed64a4a90b587f3
+Description: Create and track the progress of tasks
+Description-md5: 7f099e7cdb2fc180d917ef727b60386f
+
+Package: io.elementary.terminal
+Priority: optional
+Section: x11
+Installed-Size: 1233
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 6.1.1+r2218+pkg82~ubuntu7.1
+Replaces: pantheon-terminal
+Provides: x-terminal-emulator
+Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.39.4), libgranite6 (>= 6.2.0+r2223+pkg122~ubuntu7.1), libgtk-3-0 (>= 3.21.5), libhandy-1-0 (>= 0.90.0), libpango-1.0-0 (>= 1.14.0), libvte-2.91-0 (>= 0.49.92)
+Breaks: pantheon-terminal
+Filename: pool/main/i/io.elementary.terminal/io.elementary.terminal_6.1.1+r2218+pkg82~ubuntu7.1_amd64.deb
+Size: 166802
+MD5sum: 9145c2d01d779c72b883950d4681befe
+SHA1: a13cb38e96ee4af36fdf00a360ddc4f398ead6c9
+SHA256: c74db3d21da60171fc039356adf31acd40c05115cfeb84f2c678c380f83dc77d
+Description: Modern terminal from elementary
+Description-md5: 7e317f590b0c29deda4f57688039f88c
+
+Package: io.elementary.videos
+Priority: optional
+Section: video
+Installed-Size: 13
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 2.8.3-0+pkg56~ubuntu7.1
+Replaces: audience
+Depends: flatpak
+Breaks: audience
+Filename: pool/main/i/io.elementary.videos/io.elementary.videos_2.8.3-0+pkg56~ubuntu7.1_amd64.deb
+Size: 4466
+MD5sum: f6af48499eee298792ed643df18231c7
+SHA1: 41fd3420f7ed327512e8cc466d8e3d6b3e962fbe
+SHA256: 516b799fa44e2758545e5e428c8404c28f6994eaa50af9157628b60599c9d100
+Description: Video player
+Description-md5: 989a0e7f14de67476281d3bd2d30a124
+
+Package: io.elementary.wingpanel
+Priority: optional
+Section: x11
+Installed-Size: 828
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 3.0.3+r551+pkg60~ubuntu7.1
+Recommends: wingpanel-indicator-a11y, wingpanel-indicator-bluetooth, wingpanel-indicator-datetime, wingpanel-indicator-keyboard, wingpanel-indicator-network, wingpanel-indicator-nightlight, wingpanel-indicator-notifications, wingpanel-indicator-power, wingpanel-indicator-session, wingpanel-indicator-sound
+Replaces: wingpanel (<< 2.3.2)
+Provides: indicator-renderer
+Depends: libwingpanel3 (= 3.0.3+r551+pkg60~ubuntu7.1), dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libgala0, libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.43.92), libgranite6 (>= 5.5.0), libgtk-3-0 (>= 3.21.5), libmutter-10-0 (>= 3.29.4)
+Breaks: wingpanel (<< 2.3.2)
+Filename: pool/main/i/io.elementary.wingpanel/io.elementary.wingpanel_3.0.3+r551+pkg60~ubuntu7.1_amd64.deb
+Size: 77670
+MD5sum: ed640a656f6b2a0301363c99de9b1f91
+SHA1: 4569f93d2d1f58ce38144f1044cd033b65c54393
+SHA256: 4d1bdb745d82debfb08ff80ec8d58248ad473929daaff2753a292a39fad60248
+Description: A super sexy space-saving top panel
+Description-md5: 07d7c1deb82c156520c5c7339cc17565
+
+Package: libcodecore-dev
+Source: io.elementary.code
+Priority: optional
+Section: libdevel
+Installed-Size: 182
+Maintainer: Corentin Noël <corentin@elementary.io>
+Architecture: amd64
+Version: 7.0.0~r4544+pkg146~ubuntu7.1
+Depends: libcodecore0 (= 7.0.0~r4544+pkg146~ubuntu7.1)
+Filename: pool/main/i/io.elementary.code/libcodecore-dev_7.0.0~r4544+pkg146~ubuntu7.1_amd64.deb
+Size: 26282
+MD5sum: 3bc7cecbc2632da303eb6ae3c1b19730
+SHA1: 826f75b18873c3709ce8f332cb7f3576677447cd
+SHA256: df9cc5ce59c3532e8dffed0eaf13219f8e41d080b395610f280431574770c48a
+Description: text editor that works for you (plugin development files)
+Description-md5: edcfd6790a31b551fd44ba83bbd2f67e
+
+Package: libcodecore0
+Source: io.elementary.code
+Priority: optional
+Section: libs
+Installed-Size: 661
+Maintainer: Corentin Noël <corentin@elementary.io>
+Architecture: amd64
+Version: 7.0.0~r4544+pkg146~ubuntu7.1
+Depends: libc6 (>= 2.7), libfontconfig1 (>= 2.12.6), libgee-0.8-2 (>= 0.20.0), libgit2-glib-1.0-0 (>= 0.23.6), libglib2.0-0 (>= 2.63.3), libgranite6 (>= 6.2.0+r2223+pkg122~ubuntu7.1), libgtk-3-0 (>= 3.21.6), libgtksourceview-4-0 (>= 3.23.90), libhandy-1-0 (>= 0.83.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.18.0), libpangoft2-1.0-0 (>= 1.37.2), libpeas-1.0-0 (>= 1.1.0), libvala-0.56-0 (>= 0.52.5), libvte-2.91-0
+Filename: pool/main/i/io.elementary.code/libcodecore0_7.0.0~r4544+pkg146~ubuntu7.1_amd64.deb
+Size: 204160
+MD5sum: 3a46c7bcabbc9b641b0d5703fbc54cb9
+SHA1: 727612c1ff57d42f5cff7a7471c65f5aff14684e
+SHA256: 4f4cef44727d254f208bd6cfc509759101f4fd6b3beb3e4f0f10c560a32f093d
+Description: text editor that works for you (shared library)
+Description-md5: 30e83c2f4e0ffc023fcbfbae9f507eea
+
+Package: libgala-dev
+Source: gala
+Priority: optional
+Section: libdevel
+Installed-Size: 73
+Maintainer: elementary OS Team <builds@elementary.io>
+Architecture: amd64
+Version: 7.0.1~r1860+pkg78~ubuntu7.1
+Depends: libgala0 (= 7.0.1~r1860+pkg78~ubuntu7.1), libgdk-pixbuf2.0-dev, libglib2.0-dev (>= 2.44), libmutter-10-dev | libmutter-9-dev | libmutter-8-dev | libmutter-7-dev | libmutter-6-dev
+Filename: pool/main/g/gala/libgala-dev_7.0.1~r1860+pkg78~ubuntu7.1_amd64.deb
+Size: 16216
+MD5sum: a96201ecaecd3ccb4d6935f2b25c7162
+SHA1: 5cd202a278ce53a5720c279f516d511e5d66a76c
+SHA256: d46200fecd7b78a8409f200c2a194aea4172784f9ba96a1723d63836d023ad5e
+Description: Library to build plugins for Pantheon Window Manager (development files)
+Description-md5: f90881f2784e788b2c8a039c6ee00728
+
+Package: libgala0
+Source: gala
+Priority: optional
+Section: x11
+Installed-Size: 177
+Maintainer: elementary OS Team <builds@elementary.io>
+Architecture: amd64
+Version: 7.0.1~r1860+pkg78~ubuntu7.1
+Depends: libc6 (>= 2.29), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.25.2), libgee-0.8-2 (>= 0.8.3), libgles2, libglib2.0-0 (>= 2.44), libgranite6 (>= 0.2.0), libgtk-3-0 (>= 3.16.2), libmutter-10-0 (>= 42~beta)
+Filename: pool/main/g/gala/libgala0_7.0.1~r1860+pkg78~ubuntu7.1_amd64.deb
+Size: 67998
+MD5sum: ebac4db1e910333f3ab96c371e50cc19
+SHA1: f22999d167263756825b1767f12b500b3a7cdfce
+SHA256: 34ddb1f4154c5845ac740104c1eca1e3788b4be435f04e6ef6dc73f5dfcf02df
+Description: Library to build plugins for Pantheon Window Manager
+Description-md5: b833a2048ab89d37a3670cd9a6784690
+Multi-Arch: same
+
+Package: libgranite-7-common
+Source: granite7
+Priority: optional
+Section: misc
+Installed-Size: 693
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: all
+Version: 7.2.0+r2390+pkg132~ubuntu7.1
+Replaces: libgranite0 (>> 0.2~)
+Conflicts: libgranite0 (>> 0.2~)
+Filename: pool/main/g/granite7/libgranite-7-common_7.2.0+r2390+pkg132~ubuntu7.1_all.deb
+Size: 37960
+MD5sum: e3c951a0813e6a9d4572625001702a61
+SHA1: 11f764a468e9077289eaf93c6273330524781a9f
+SHA256: 87edd0d0d57ea8ced28753c15b3b17e186cbf0544c0e40499c81cabbeff47e03
+Description: extension of GTK+ libraries (common files)
+Description-md5: e44e0c8996c9ed118cc11657d3b1ac1a
+Multi-Arch: foreign
+
+Package: libgranite-7-dev
+Source: granite7
+Priority: optional
+Section: libdevel
+Installed-Size: 202
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: amd64
+Version: 7.2.0+r2390+pkg132~ubuntu7.1
+Depends: gir1.2-granite-7.0 (= 7.2.0+r2390+pkg132~ubuntu7.1), libgee-0.8-dev, libglib2.0-dev, libgranite7 (= 7.2.0+r2390+pkg132~ubuntu7.1), libgtk-4-dev (>= 4.4.1)
+Filename: pool/main/g/granite7/libgranite-7-dev_7.2.0+r2390+pkg132~ubuntu7.1_amd64.deb
+Size: 23194
+MD5sum: 6c220062c398d8241c54eff0d9787de1
+SHA1: 4d4ef4268c4a7d0610d369985ddfd3e9000bb82f
+SHA256: 57549ea0af155151f3072a63c38500509616aff406587a01fef06d212ce8616a
+Description: extension of GTK+ libraries (development files)
+Description-md5: dee189c0f9cecdf7765b8c4e77b7b542
+
+Package: libgranite-common
+Source: granite
+Priority: optional
+Section: misc
+Installed-Size: 837
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: all
+Version: 6.2.0+r2223+pkg122~ubuntu7.1
+Replaces: libgranite0 (>> 0.2~)
+Conflicts: libgranite0 (>> 0.2~)
+Filename: pool/main/g/granite/libgranite-common_6.2.0+r2223+pkg122~ubuntu7.1_all.deb
+Size: 61698
+MD5sum: b89b97899cbc011e87b55a00c8665c8a
+SHA1: c2a3a5dbe5fcd280938e2b6d4a3e7b5f7d74f8cf
+SHA256: e209426119c8649907f2f666f01120d1fb43fff640f6f88f1793222970f4402b
+Description: extension of GTK+ libraries (common files)
+Description-md5: e44e0c8996c9ed118cc11657d3b1ac1a
+Multi-Arch: foreign
+
+Package: libgranite-dev
+Source: granite
+Priority: optional
+Section: libdevel
+Installed-Size: 552
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: amd64
+Version: 6.2.0+r2223+pkg122~ubuntu7.1
+Depends: gir1.2-granite-1.0 (= 6.2.0+r2223+pkg122~ubuntu7.1), libgee-0.8-dev, libglib2.0-dev, libgranite6 (= 6.2.0+r2223+pkg122~ubuntu7.1), libgtk-3-dev (>= 3.3.14)
+Filename: pool/main/g/granite/libgranite-dev_6.2.0+r2223+pkg122~ubuntu7.1_amd64.deb
+Size: 43366
+MD5sum: 5d0261de4fcb199a686df9eba07109e8
+SHA1: 0d4ce58403aeac2c6ec855153f6578f157f60692
+SHA256: 8d1fd21e98a7ab5ad63266e11070a86cd44966a8b4a37221406708386af0f812
+Description: extension of GTK+ libraries (development files)
+Description-md5: dee189c0f9cecdf7765b8c4e77b7b542
+
+Package: libgranite6
+Source: granite
+Priority: optional
+Section: libs
+Installed-Size: 663
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: amd64
+Version: 6.2.0+r2223+pkg122~ubuntu7.1
+Recommends: contractor
+Depends: libgranite-common (>= 6.2.0+r2223+pkg122~ubuntu7.1), libc6 (>= 2.29), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.23.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.43.92), libgtk-3-0 (>= 3.22), libpango-1.0-0 (>= 1.14.0)
+Filename: pool/main/g/granite/libgranite6_6.2.0+r2223+pkg122~ubuntu7.1_amd64.deb
+Size: 199876
+MD5sum: 2e77ef21518f0f91bfb38ee63502eeee
+SHA1: ffdb4dfecabfdf99a07582f1b1fde0a91d79f066
+SHA256: fd8ed3ea834b15b21f760321c8614c373a8f2704749ed3beef39b6957b15cfea
+Description: extension of GTK+ libraries
+Description-md5: fdacb6a14abd15188f48215825ba078f
+Multi-Arch: same
+
+Package: libgranite7
+Source: granite7
+Priority: optional
+Section: libs
+Installed-Size: 283
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: amd64
+Version: 7.2.0+r2390+pkg132~ubuntu7.1
+Recommends: contractor, io.elementary.settings-daemon
+Depends: libgranite-7-common (>= 7.2.0+r2390+pkg132~ubuntu7.1), libc6 (>= 2.29), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.43.92), libgtk-4-1 (>= 4.6.0)
+Filename: pool/main/g/granite7/libgranite7_7.2.0+r2390+pkg132~ubuntu7.1_amd64.deb
+Size: 85798
+MD5sum: e4c9a01be91f369b8571fb55d4fa3eaa
+SHA1: 6c7be3600101f86f5165c2133531c95ff530591c
+SHA256: c5dbcde8e30e2067516ed0f543cb3fe20b5a079a23da7515fedc6f7090666532
+Description: extension of GTK+ libraries
+Description-md5: fdacb6a14abd15188f48215825ba078f
+Multi-Arch: same
+
+Package: libmaya-calendar-dev
+Source: maya-calendar
+Priority: optional
+Section: libdevel
+Installed-Size: 58
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 6.1.2+r2361+pkg143~ubuntu7.1
+Depends: libmaya-calendar0 (= 6.1.2+r2361+pkg143~ubuntu7.1)
+Filename: pool/main/m/maya-calendar/libmaya-calendar-dev_6.1.2+r2361+pkg143~ubuntu7.1_amd64.deb
+Size: 10284
+MD5sum: 581de29d2b32927d69fa6641bbfa8d6c
+SHA1: 50075ac9844fb5c68b3790565a7a0b1cabac7ba4
+SHA256: 82a28ad6765644ce82fc50f2703cbb7d3b47db12c9ad6587067be9e1fef28986
+Description: GTK+ calendar application (development files)
+Description-md5: 1539f76de401737eacfcc89a45743b99
+
+Package: libmaya-calendar0
+Source: maya-calendar
+Priority: optional
+Section: libs
+Installed-Size: 147
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 6.1.2+r2361+pkg143~ubuntu7.1
+Depends: libc6 (>= 2.4), libecal-2.0-1 (>= 3.33.4), libedataserver-1.2-26 (>= 3.17), libedataserverui-1.2-3 (>= 3.16.2), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.43.92), libgtk-3-0 (>= 3.11.6), libical3 (>= 3.0.0)
+Enhances: maya-calendar
+Filename: pool/main/m/maya-calendar/libmaya-calendar0_6.1.2+r2361+pkg143~ubuntu7.1_amd64.deb
+Size: 45482
+MD5sum: 624ae5653595d360cca740717d4dde08
+SHA1: efa83406ba67dff5aade6a6a50ed2ca58fc04bf1
+SHA256: b31bf03654bd31fff09f1af9e84b509d977d56c1a7ec09646c866da8b4697a7d
+Description: GTK+ calendar application (shared library)
+Description-md5: 537e7285d1c12548bed588aa2e7ca9ec
+Multi-Arch: same
+
+Package: libpantheon-files-core-dev
+Source: pantheon-files
+Priority: optional
+Section: libdevel
+Installed-Size: 211
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 6.3.0+r5739+pkg117~ubuntu7.1
+Replaces: libpantheon-files-widgets-dev (<< 6.1.1)
+Depends: libpantheon-files-core0 (= 6.3.0+r5739+pkg117~ubuntu7.1)
+Conflicts: libpantheon-files-widgets-dev (<< 6.1.1)
+Filename: pool/main/p/pantheon-files/libpantheon-files-core-dev_6.3.0+r5739+pkg117~ubuntu7.1_amd64.deb
+Size: 32172
+MD5sum: b39849ad7d8f47c08a873a59c5c23c4a
+SHA1: 9ea9a4e5b1c1ce19942256d1e04b822ef44daa8e
+SHA256: 18a3afde57f22c8bb5b42813b3096230b6d52dc62066e32f7c7ed0dfbc9ab4e0
+Description: File manager for the Pantheon desktop (shared library development files)
+Description-md5: a500fa90b251252514d74a3e09ce64b9
+
+Package: libpantheon-files-core0
+Source: pantheon-files
+Priority: optional
+Section: libs
+Installed-Size: 716
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 6.3.0+r5739+pkg117~ubuntu7.1
+Replaces: libpantheon-files-widgets0 (<< 6.1.1)
+Suggests: pantheon-files
+Depends: libc6 (>= 2.14), libcairo2 (>= 1.4.10), libcanberra0 (>= 0.30), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.55.1), libgranite6 (>= 6.2.0+r2223+pkg122~ubuntu7.1), libgtk-3-0 (>= 3.22.29), libpango-1.0-0 (>= 1.18.0), libpangocairo-1.0-0 (>= 1.14.0)
+Conflicts: libpantheon-files-widgets0 (<< 6.1.1)
+Filename: pool/main/p/pantheon-files/libpantheon-files-core0_6.3.0+r5739+pkg117~ubuntu7.1_amd64.deb
+Size: 236138
+MD5sum: e002a6d923f6f5678fe778e2cf89850d
+SHA1: 78cfb662d3e3393775eda518e3219e58284e2582
+SHA256: 56ac85ef16302144a3b7a476b37140d8395f681f1f75f73fc7d5b516e0f62825
+Description: File manager for the Pantheon desktop (shared library)
+Description-md5: 4a7062bdacc6df6261e880610f174d48
+
+Package: libplank-common
+Source: plank
+Priority: optional
+Section: utils
+Installed-Size: 863
+Maintainer: Rico Tzschichholz <ricotz@ubuntu.com>
+Architecture: all
+Version: 0.11.89+r1921+pkg7~ubuntu7.1
+Depends: dconf-gsettings-backend | gsettings-backend
+Filename: pool/main/p/plank/libplank-common_0.11.89+r1921+pkg7~ubuntu7.1_all.deb
+Size: 83516
+MD5sum: b1125f204b07ca0564a0420ff23f6060
+SHA1: f676a0f3cc700483c5a9c9820dbda4fb6eca2f34
+SHA256: 6ca7a4643db73dfd6f963e02c11c8ef579ba715db55ad629ddd30eac6f035867
+Description: Library to build an elegant, simple, clean dock (shared files)
+Description-md5: 462b91fa57341b181d80c9f35097cd07
+Multi-Arch: foreign
+
+Package: libplank-dev
+Source: plank
+Priority: optional
+Section: libdevel
+Installed-Size: 213
+Maintainer: Rico Tzschichholz <ricotz@ubuntu.com>
+Architecture: amd64
+Version: 0.11.89+r1921+pkg7~ubuntu7.1
+Suggests: libplank-doc
+Depends: libplank1 (= 0.11.89+r1921+pkg7~ubuntu7.1), libbamf3-dev (>= 0.2.92), libcairo2-dev (>= 1.10.0), libgdk-pixbuf2.0-dev (>= 2.26.0), libgee-0.8-dev, libglib2.0-dev (>= 2.40.0), libgranite-dev (>= 5.4.0), libgtk-3-dev (>= 3.10.0)
+Filename: pool/main/p/plank/libplank-dev_0.11.89+r1921+pkg7~ubuntu7.1_amd64.deb
+Size: 26346
+MD5sum: c9340c239f85f760a23412dc7bc26f93
+SHA1: 4e89a43288bd18881c51020e44f3df4de36bded3
+SHA256: 51fbd0ec82b1e68f9d35d19a1bfa632ebb1e96985bca43c886c0d5e110e83044
+Description: Library to build an elegant, simple, clean dock (development files)
+Description-md5: 11674ebacdcc6ad4ee23a2c598e66626
+
+Package: libplank-doc
+Source: plank
+Priority: optional
+Section: doc
+Installed-Size: 3128
+Maintainer: Rico Tzschichholz <ricotz@ubuntu.com>
+Architecture: all
+Version: 0.11.89+r1921+pkg7~ubuntu7.1
+Suggests: devhelp
+Filename: pool/main/p/plank/libplank-doc_0.11.89+r1921+pkg7~ubuntu7.1_all.deb
+Size: 468138
+MD5sum: 5862617726edeea7cb7cb176c00fc4b0
+SHA1: 0b25622f8754a2e2f575449e61d2db8db1ff0ecf
+SHA256: 8a1ca303a81c538be80c5960fa89eb2c8ba718d1976dc24323dab54ce4ed6444
+Description: Library to build an elegant, simple, clean dock (documentation)
+Description-md5: c8e90359fedd364bea31f640687637bc
+
+Package: libplank1
+Source: plank
+Priority: optional
+Section: libs
+Installed-Size: 772
+Maintainer: Rico Tzschichholz <ricotz@ubuntu.com>
+Architecture: amd64
+Version: 0.11.89+r1921+pkg7~ubuntu7.1
+Depends: libbamf3-2 (>= 0.4.0), libc6 (>= 2.29), libcairo-gobject2 (>= 1.13.0), libcairo2 (>= 1.14.0), libgdk-pixbuf-2.0-0 (>= 2.26.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.43.92), libgranite6 (>= 5.5.0), libgtk-3-0 (>= 3.19.12), libpango-1.0-0 (>= 1.18.0), libpangocairo-1.0-0 (>= 1.14.0), libwnck-3-0 (>= 2.91.6), libx11-6 (>= 2:1.2.99.901), libxfixes3 (>= 1:5.0), libxi6 (>= 2:1.6.99.1), libplank-common (= 0.11.89+r1921+pkg7~ubuntu7.1), bamfdaemon
+Filename: pool/main/p/plank/libplank1_0.11.89+r1921+pkg7~ubuntu7.1_amd64.deb
+Size: 271294
+MD5sum: e4bdef505df7cd0080ed1f492c918afa
+SHA1: e27dae0cdb6254987d19a6f92c8367d8bf5a31f4
+SHA256: 6d54d808680281cd7de835d1d74c8375151f12f84ad00efacb2a2280460cbbc0
+Description: Library to build an elegant, simple, clean dock
+Description-md5: 69903f312d07e0666b246b6f69dec000
+Multi-Arch: same
+
+Package: libswitchboard-2.0-0
+Source: switchboard
+Priority: optional
+Section: libs
+Installed-Size: 46
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 6.0.2~r1198+pkg78~ubuntu7.1
+Depends: libc6 (>= 2.4), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.37.3)
+Filename: pool/main/s/switchboard/libswitchboard-2.0-0_6.0.2~r1198+pkg78~ubuntu7.1_amd64.deb
+Size: 12334
+MD5sum: 3fed3804b96ebc49411c3de1269c182c
+SHA1: 7af38254737b39e2304c3306bf0355bab4464b7d
+SHA256: c460e16c4611e1e406d5bfba166fd7984ccfadd6de00f3822471eddce96f4d95
+Description: Modular Settings Hub - shared libraries
+Description-md5: 7b518bdbb6171750115d0703925018db
+
+Package: libswitchboard-2.0-dev
+Source: switchboard
+Priority: optional
+Section: libdevel
+Installed-Size: 30
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 6.0.2~r1198+pkg78~ubuntu7.1
+Depends: libswitchboard-2.0-0 (= 6.0.2~r1198+pkg78~ubuntu7.1)
+Filename: pool/main/s/switchboard/libswitchboard-2.0-dev_6.0.2~r1198+pkg78~ubuntu7.1_amd64.deb
+Size: 6428
+MD5sum: 79a6dd33c89a2b7d2400edde2f2ff711
+SHA1: 17adf6e03a662fb7726e37c73357a6a715a4b546
+SHA256: bf9d52af180f82f5aee3faa991e588c7194f2cf894a773c330f017612e24fe62
+Description: Modular Settings Hub - development files
+Description-md5: 9f8decb154731b1f5d17d7e9bfbfe86a
+
+Package: libwingpanel-3.0-dev
+Source: io.elementary.wingpanel
+Priority: optional
+Section: oldlibs
+Installed-Size: 11
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: all
+Version: 3.0.3+r551+pkg60~ubuntu7.1
+Depends: libwingpanel-dev
+Filename: pool/main/i/io.elementary.wingpanel/libwingpanel-3.0-dev_3.0.3+r551+pkg60~ubuntu7.1_all.deb
+Size: 4232
+MD5sum: a34135d68a5fbc32935b3aa38ace8e3d
+SHA1: 941d83d34995b35e08932510ba9de992e241ef4f
+SHA256: 7d4f519ce893324ddf5d8a78c658ecf1bc7f65f5f7eaedbebf4b57fa5123b00e
+Description: transitional package
+Description-md5: bfe8ebc058cce6653c20fea6f85a4246
+
+Package: libwingpanel-dev
+Source: io.elementary.wingpanel
+Priority: optional
+Section: libdevel
+Installed-Size: 41
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 3.0.3+r551+pkg60~ubuntu7.1
+Replaces: libwingpanel-3.0-dev (<< 2.3.2)
+Depends: libglib2.0-dev (>= 2.32), libwingpanel3 (= 3.0.3+r551+pkg60~ubuntu7.1)
+Breaks: libwingpanel-3.0-dev (<< 2.3.2)
+Filename: pool/main/i/io.elementary.wingpanel/libwingpanel-dev_3.0.3+r551+pkg60~ubuntu7.1_amd64.deb
+Size: 7776
+MD5sum: 128060298da7496ac2a6616db12dce9a
+SHA1: d0858d5466129c0f16a488fcb70bd32ce559fdd6
+SHA256: 168c4ee020c006c1caab144f85499d09980097edb3fe6d69edc4e25ff31da2d2
+Description: Library to build plugins for WingPanel (development files)
+Description-md5: 87138661f1942f4b771501b0a5fd1dbe
+
+Package: libwingpanel3
+Source: io.elementary.wingpanel
+Priority: optional
+Section: x11
+Installed-Size: 76
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 3.0.3+r551+pkg60~ubuntu7.1
+Depends: libc6 (>= 2.4), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.16.2)
+Filename: pool/main/i/io.elementary.wingpanel/libwingpanel3_3.0.3+r551+pkg60~ubuntu7.1_amd64.deb
+Size: 20810
+MD5sum: c03357f60e5509d39c5461a4b90ce3b7
+SHA1: 01a00184dd83350f25852bfacc47107c733e36da
+SHA256: 87f6f55cd61668aeb1c8b15db199badd6201ec2f981a7774909e4db7b8a12bb3
+Description: A super sexy space-saving top panel
+Description-md5: 79fd6180b5a98fa94f9cca013983f77b
+Multi-Arch: same
+
+Package: maya-calendar
+Priority: optional
+Section: utils
+Installed-Size: 1540
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 6.1.2+r2361+pkg143~ubuntu7.1
+Recommends: maya-calendar-plugin-caldav, maya-calendar-plugin-google
+Replaces: maya-calendar-daemon (<< 6.0.1+r2145+pkg137)
+Provides: maya-calendar-daemon
+Depends: libmaya-calendar0 (= 6.1.2+r2361+pkg143~ubuntu7.1), dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libchamplain-0.12-0 (>= 0.11.0), libchamplain-gtk-0.12-0 (>= 0.11.0), libclutter-1.0-0 (>= 1.10.0), libclutter-gtk-1.0-0 (>= 0.91.8), libecal-2.0-1 (>= 3.33.4), libedataserver-1.2-26 (>= 3.17), libfolks26 (>= 0.9.7), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libgeoclue-2-0 (>= 2.4.0), libgeocode-glib0 (>= 0.99.1), libglib2.0-0 (>= 2.57.2), libgranite6 (>= 6.2.0+r2223+pkg122~ubuntu7.1), libgtk-3-0 (>= 3.22.29), libhandy-1-0 (>= 1.0.3), libical3 (>= 3.0.0)
+Breaks: maya-calendar-daemon (<< 6.0.1+r2145+pkg137)
+Filename: pool/main/m/maya-calendar/maya-calendar_6.1.2+r2361+pkg143~ubuntu7.1_amd64.deb
+Size: 298080
+MD5sum: e0c0737ac6f3a9cbf7e3cf308d05d7da
+SHA1: 77361615308d33e1b314a45f29fa0ef3bc31cb8c
+SHA256: 3d24a2fc81d69a3127b3f11c6bf1cd0817dbe9ecbdd204b5ce175857285d05c8
+Description: GTK+ calendar application
+Description-md5: 6666ec423367da1fff3ef10e07faa38d
+
+Package: maya-calendar-common
+Source: maya-calendar
+Priority: optional
+Section: oldlibs
+Installed-Size: 15
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: all
+Version: 6.1.2+r2361+pkg143~ubuntu7.1
+Filename: pool/main/m/maya-calendar/maya-calendar-common_6.1.2+r2361+pkg143~ubuntu7.1_all.deb
+Size: 5330
+MD5sum: dddb26c7b272b66f04813b213df83eb9
+SHA1: 51200865d3dbc094845c82ffcd98c4873973d9e7
+SHA256: 9a366f11cedd9e41f3ebb9f791bd09fbb56e2b02cda90f7d579a487cb6f93a85
+Description: GTK+ calendar application (dummy transitional package)
+Description-md5: a2bfd8aebb388c95028df30f7e5d05f4
+
+Package: maya-calendar-daemon
+Source: maya-calendar
+Priority: optional
+Section: utils
+Installed-Size: 15
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 6.1.2+r2361+pkg143~ubuntu7.1
+Depends: maya-calendar (>= 6.0.1+r2145+pkg137)
+Filename: pool/main/m/maya-calendar/maya-calendar-daemon_6.1.2+r2361+pkg143~ubuntu7.1_amd64.deb
+Size: 5122
+MD5sum: fbb91cedaf8160ada614036476d1bc98
+SHA1: 7f5265c87145d729ae8435891a87296b31f3a04c
+SHA256: 436006146124e7415fc766a021af2156daccd22f7f9ade7134415d9eb342912c
+Description: Transitional dummy package for maya-calendar
+Description-md5: 85f0e4c7b10ca86d7d4e053c28f6c5ca
+
+Package: maya-calendar-plugin-caldav
+Source: maya-calendar
+Priority: optional
+Section: utils
+Installed-Size: 47
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 6.1.2+r2361+pkg143~ubuntu7.1
+Depends: libmaya-calendar0 (= 6.1.2+r2361+pkg143~ubuntu7.1), maya-calendar (= 6.1.2+r2361+pkg143~ubuntu7.1), libc6 (>= 2.4), libedataserver-1.2-26 (>= 3.17), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.29.0), libgtk-3-0 (>= 3.11.6), libsoup2.4-1 (>= 2.32.2)
+Enhances: maya-calendar
+Filename: pool/main/m/maya-calendar/maya-calendar-plugin-caldav_6.1.2+r2361+pkg143~ubuntu7.1_amd64.deb
+Size: 12884
+MD5sum: ff34b24334a14745a5976831f8ce02d6
+SHA1: 04029c888e6539a03f759bd23f3c45b85ce87c8f
+SHA256: 45f9895313700e5ea637cce66bd03682ab2cd8344062947f5f40521e59459a7b
+Description: GTK+ calendar application (CalDAV plugin)
+Description-md5: 90311a671801005a5259475ca014f355
+
+Package: maya-calendar-plugin-google
+Source: maya-calendar
+Priority: optional
+Section: utils
+Installed-Size: 43
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 6.1.2+r2361+pkg143~ubuntu7.1
+Depends: libmaya-calendar0 (= 6.1.2+r2361+pkg143~ubuntu7.1), maya-calendar (= 6.1.2+r2361+pkg143~ubuntu7.1), libc6 (>= 2.4), libedataserver-1.2-26 (>= 3.17), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.29.0), libgtk-3-0 (>= 3.11.6), libsoup2.4-1 (>= 2.4.0)
+Enhances: maya-calendar
+Filename: pool/main/m/maya-calendar/maya-calendar-plugin-google_6.1.2+r2361+pkg143~ubuntu7.1_amd64.deb
+Size: 11510
+MD5sum: 0d1a40592f7d93d92de42d2f6ba2889f
+SHA1: e7ff466bdd505ec35251d8a90506782a88c1f3f0
+SHA256: d8d33a5e18546c8de50e9feefbd308f99c93113827a98d1589877c297a77dde4
+Description: GTK+ calendar application (Google Calendar plugin)
+Description-md5: 704e71e5debda77162880a6bd6e36509
+
+Package: noise
+Source: io.elementary.music
+Priority: optional
+Section: oldlibs
+Installed-Size: 10
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 7.0.0-0+pkg130~ubuntu7.1
+Depends: io.elementary.music
+Filename: pool/main/i/io.elementary.music/noise_7.0.0-0+pkg130~ubuntu7.1_amd64.deb
+Size: 4006
+MD5sum: b32fad1bc117af3893b18c22d7684c9d
+SHA1: d0b61a0fbd178e2eef2fd760ebfda15b1904021a
+SHA256: f3ec6ce017f4575bc2eb97cddf7073dc37beb31ea1fe7fc7b3dcb62a1d6be76c
+Description: transitional dummy package
+Description-md5: 1f317b04f78374dba7d1e14def0b7f80
+
+Package: org.gnome.epiphany
+Priority: optional
+Section: x11
+Installed-Size: 10
+Maintainer: elementary Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 42.3+pkg5~ubuntu7.1
+Depends: flatpak
+Filename: pool/main/o/org.gnome.epiphany/org.gnome.epiphany_42.3+pkg5~ubuntu7.1_amd64.deb
+Size: 2014
+MD5sum: 344716bd09ed9ebdae2dc1599ce4c8ad
+SHA1: 718190dcec23b960c61b7cdada56acc3250b8eef
+SHA256: f0e86dd016ebcf4a03169c76992244828fccdb27770cd9ad89a79626567b882d
+Description: Epiphany flatpak'd for elementary OS
+Description-md5: 5ef81c740b08c12a685fe3114f4e0a36
+
+Package: org.gnome.evince
+Priority: optional
+Section: x11
+Installed-Size: 10
+Maintainer: elementary Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 42.2+pkg3~ubuntu7.1
+Depends: flatpak
+Filename: pool/main/o/org.gnome.evince/org.gnome.evince_42.2+pkg3~ubuntu7.1_amd64.deb
+Size: 1832
+MD5sum: 338359311424184f244956df6aef72c8
+SHA1: 7aa9b9c18983599b483108bcb1e4de1b73ca9069
+SHA256: fcd437c4f2ebb3b9fc1da5f8ce68676c063f63f2e7fe648c6df5d5417cfe1be4
+Description: Evince flatpak'd for elementary OS
+Description-md5: f3157443577a42f75f4c9aa15afa73fd
+
+Package: org.gnome.fileroller
+Priority: optional
+Section: x11
+Installed-Size: 14
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: all
+Version: 3.40.0-0+pkg5~ubuntu7.1
+Replaces: file-roller, io.elementary.contractor.file-roller
+Depends: flatpak
+Breaks: file-roller, io.elementary.contractor.file-roller
+Filename: pool/main/o/org.gnome.fileroller/org.gnome.fileroller_3.40.0-0+pkg5~ubuntu7.1_all.deb
+Size: 2506
+MD5sum: 1a3e78198590935cdbb7a815abff5edc
+SHA1: d63aa5970397a267617054799a5e764200541419
+SHA256: 75fcf9cd9b4027e2437fb9ddc03eaf67511f410919e7aa26942a5fb0e3b7ec91
+Description: File Roller flatpak'd for elementary OS
+Description-md5: 7cef7a18489163ccfb9918b10aa3bcd9
+
+Package: pantheon
+Source: elementary-meta
+Priority: optional
+Section: metapackages
+Installed-Size: 51
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: amd64
+Version: 1.519+r590~ubuntu22.04.1
+Recommends: appcenter, contractor, io.elementary.calculator, io.elementary.camera, io.elementary.code, io.elementary.mail, io.elementary.music, io.elementary.portals, io.elementary.print, io.elementary.screenshot, io.elementary.settings-daemon, io.elementary.shortcut-overlay, io.elementary.sideload, io.elementary.tasks, io.elementary.terminal, io.elementary.videos, maya-calendar, org.gnome.epiphany, org.gnome.evince, pantheon-files, pantheon-photos, pantheon-shell
+Filename: pool/main/e/elementary-meta/pantheon_1.519+r590~ubuntu22.04.1_amd64.deb
+Size: 46592
+MD5sum: 817838814aa41b9ce3ac9c8a24bd27ac
+SHA1: a6a79023c1ca37340d5627d3737e2e188ab4b736
+SHA256: 48b46c7656411c8469790268546058028be9c0222b0ad70e1ca616859f38ac64
+Description: Pantheon Desktop Environment
+Description-md5: 13703999fd6391827d870794be86d0e2
+
+Package: pantheon-agent-geoclue2
+Priority: optional
+Section: admin
+Installed-Size: 748
+Maintainer: David Hewitt <davidmhewitt@gmail.com>
+Architecture: amd64
+Version: 1.0.6+r272+pkg29~ubuntu7.1
+Depends: geoclue-2.0, dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libglib2.0-0 (>= 2.43.92), libgranite6 (>= 5.5.0), libgtk-3-0 (>= 3.0.0)
+Filename: pool/main/p/pantheon-agent-geoclue2/pantheon-agent-geoclue2_1.0.6+r272+pkg29~ubuntu7.1_amd64.deb
+Size: 45290
+MD5sum: 701c0a1e81466d1ccaa1e48c477e0070
+SHA1: 449d0de95e418c261c3e2118a3fe8f14b9de358d
+SHA256: fdfe2d4c3536815324366d2feddfbdcadabd8d56b9ca887d9cfc0bea9e274934
+Description: GeoClue2 authorization designed for Pantheon
+Description-md5: c569ef50cdd7450a388eb6e6e90f31fe
+
+Package: pantheon-agent-polkit
+Priority: optional
+Section: admin
+Installed-Size: 701
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: amd64
+Version: 1.0.5+r314+pkg21~ubuntu7.1
+Provides: polkit-1-auth-agent
+Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.43.92), libgranite6 (>= 5.5.0), libgtk-3-0 (>= 3.16.2), libpolkit-agent-1-0 (>= 0.94), libpolkit-gobject-1-0 (>= 0.94)
+Filename: pool/main/p/pantheon-agent-polkit/pantheon-agent-polkit_1.0.5+r314+pkg21~ubuntu7.1_amd64.deb
+Size: 39428
+MD5sum: a57bf501cfc9c20f863714c018239a53
+SHA1: 7296fc8ff545bcf74f7adf0099c6d5a98d99f1fe
+SHA256: 8e64c5430d8283df309f1e5f6c649497a1b8c500d45956230d17480033d440ce
+Description: Polkit authorization designed for Pantheon
+Description-md5: 1a6abdc796d5ad39544b7cacf27da8e8
+
+Package: pantheon-calculator
+Source: io.elementary.calculator
+Priority: optional
+Section: oldlibs
+Installed-Size: 9
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 2.0.0+pkg39~ubuntu7.1
+Depends: io.elementary.calculator
+Filename: pool/main/i/io.elementary.calculator/pantheon-calculator_2.0.0+pkg39~ubuntu7.1_amd64.deb
+Size: 3392
+MD5sum: c5b9a11e2d6f6e2494bf2b85af51757d
+SHA1: a012a5182da20a015483f46f444fbeef0f6450f4
+SHA256: bac09a4c5122eb1a5d5e89f49b93f0d2aa860fea3196429ba5bcf28c0890eef7
+Description: transitional dummy package
+Description-md5: 1f317b04f78374dba7d1e14def0b7f80
+
+Package: pantheon-camera
+Source: io.elementary.camera
+Priority: optional
+Section: oldlibs
+Installed-Size: 9
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: amd64
+Version: 6.2.0+pkg23~ubuntu7.1
+Depends: io.elementary.camera
+Filename: pool/main/i/io.elementary.camera/pantheon-camera_6.2.0+pkg23~ubuntu7.1_amd64.deb
+Size: 2148
+MD5sum: ef2423e64152841b13b04dc93df452a5
+SHA1: 83ffc4219d86c47d54497fefe3509b48c9f9ba9d
+SHA256: 00bc5e9337d5c8f2af06139ca685b85c61749007ca62dcbf5ed2e1b466e18eef
+Description: transitional dummy package
+Description-md5: 1f317b04f78374dba7d1e14def0b7f80
+
+Package: pantheon-files
+Priority: optional
+Section: x11
+Installed-Size: 3733
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 6.3.0+r5739+pkg117~ubuntu7.1
+Recommends: contractor, exfat-fuse, gvfs-backends, tumbler-plugins-extra
+Depends: gvfs, libpantheon-files-core0 (= 6.3.0+r5739+pkg117~ubuntu7.1), tumbler, dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libcairo2 (>= 1.2.4), libcloudproviders0 (>= 0.3.0), libgdk-pixbuf-2.0-0 (>= 2.23.0), libgee-0.8-2 (>= 0.8.3), libgit2-glib-1.0-0 (>= 0.0.6), libglib2.0-0 (>= 2.53.2), libgranite6 (>= 6.2.0+r2223+pkg122~ubuntu7.1), libgtk-3-0 (>= 3.21.5), libhandy-1-0 (>= 0.90.0), libpango-1.0-0 (>= 1.44.6), libplank1 (>= 0.11.89), libsqlite3-0 (>= 3.5.9), libzeitgeist-2.0-0 (>= 0.9.9)
+Filename: pool/main/p/pantheon-files/pantheon-files_6.3.0+r5739+pkg117~ubuntu7.1_amd64.deb
+Size: 765366
+MD5sum: a01fc13043c50ad06e1321b7c2383c30
+SHA1: d6dddf796c8aefab52982deca55d3ab23039722d
+SHA256: ff69ffa4fff7ae38b1c2ad32fcfd22ffbebcd38e553ae515f236f8ba80fa478e
+Description: File manager for the Pantheon desktop
+Description-md5: bb358b14d09ba232c3c28c30bb165f39
+
+Package: pantheon-greeter
+Source: io.elementary.greeter
+Priority: optional
+Section: oldlibs
+Installed-Size: 11
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 6.1.1+r1420+elementary1+pkg90~ubuntu7.1
+Depends: io.elementary.greeter
+Filename: pool/main/i/io.elementary.greeter/pantheon-greeter_6.1.1+r1420+elementary1+pkg90~ubuntu7.1_amd64.deb
+Size: 4070
+MD5sum: 9b1d7e66ac913fd6df1af7e7e47a3fbc
+SHA1: 28f9752ffc35aab5a8e665552ffb7460a39de120
+SHA256: f3e5a5d5850a3fe5ebadcd8c8ad653876534026df0b04fe1183408fa134540c7
+Description: transitional dummy package
+Description-md5: 1f317b04f78374dba7d1e14def0b7f80
+
+Package: pantheon-photos
+Priority: optional
+Section: gnome
+Installed-Size: 9465
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: amd64
+Version: 2.8.0+r4580+pkg64~ubuntu7.1
+Replaces: pantheon-photos-common
+Depends: dbus-x11, librsvg2-common, dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libexif12 (>= 0.6.21-1~), libgdk-pixbuf-2.0-0 (>= 2.25.2), libgee-0.8-2 (>= 0.8.3), libgeocode-glib0 (>= 0.99.1), libgexiv2-2 (>= 0.6.1), libglib2.0-0 (>= 2.61.2), libgphoto2-6 (>= 2.5.10), libgphoto2-port12 (>= 2.5.10), libgranite6 (>= 6.2.0+r2223+pkg122~ubuntu7.1), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.0.0), libgtk-3-0 (>= 3.21.5), libgudev-1.0-0 (>= 146), libhandy-1-0 (>= 0.82.0), libjson-glib-1.0-0 (>= 1.5.2), libpango-1.0-0 (>= 1.18.0), libpangocairo-1.0-0 (>= 1.14.0), libraw20 (>= 0.16.0), librest-0.7-0 (>= 0.7), libsoup2.4-1 (>= 2.41.90), libsqlite3-0 (>= 3.5.9), libwebkit2gtk-4.0-37 (>= 2.15.1), libwebp7, libxml2 (>= 2.7.4)
+Conflicts: pantheon-photos-common
+Filename: pool/main/p/pantheon-photos/pantheon-photos_2.8.0+r4580+pkg64~ubuntu7.1_amd64.deb
+Size: 2101320
+MD5sum: ac484bd77be0fdc85fd1a20153544688
+SHA1: 0ad5b26eab273f166e30d30a06159ca22d8714f4
+SHA256: 319850fa05466d4f48d54c0b4867c16c4ba31b471b5375011efcfaa9829cbf9f
+Description: digital photo organizer
+Description-md5: 5e0a1c0c686aab8812a0983611fe785d
+
+Package: pantheon-photos-common
+Source: pantheon-photos
+Priority: optional
+Section: oldlibs
+Installed-Size: 34
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: amd64
+Version: 2.8.0+r4580+pkg64~ubuntu7.1
+Depends: pantheon-photos
+Filename: pool/main/p/pantheon-photos/pantheon-photos-common_2.8.0+r4580+pkg64~ubuntu7.1_amd64.deb
+Size: 12188
+MD5sum: 0389ba61f891b181360240faca5bbfca
+SHA1: 4e1877551199a0d0b2ae185557cc08eb216eb4f8
+SHA256: 0d1367301141008a0e0710982e29c71084786030623c92538d23bb8cd093d036
+Description: Dummy transitional package
+Description-md5: 51e835980db1a27ce7a18a75062ecf35
+
+Package: pantheon-print
+Source: io.elementary.print
+Priority: optional
+Section: oldlibs
+Installed-Size: 9
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: amd64
+Version: 1.1.3+r20+pkg11~ubuntu7.1
+Depends: io.elementary.print
+Filename: pool/main/i/io.elementary.print/pantheon-print_1.1.3+r20+pkg11~ubuntu7.1_amd64.deb
+Size: 1904
+MD5sum: 36d03309a5213561d81f205dc6728cbf
+SHA1: cbff36425a275e1887cadbfcc4259ad60a981674
+SHA256: 8bf3bb5f77f138d3be88bf4194f98df60890280189308af9ae44edbfaaabce5d
+Description: transitional dummy package
+Description-md5: 0a1053f10b5ecef53c055489060164ca
+
+Package: pantheon-shell
+Source: elementary-meta
+Priority: optional
+Section: metapackages
+Installed-Size: 51
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: amd64
+Version: 1.519+r590~ubuntu22.04.1
+Recommends: gala, plank, slingshot-launcher
+Depends: io.elementary.notifications, io.elementary.wingpanel, pantheon-xsession-settings, touchegg
+Filename: pool/main/e/elementary-meta/pantheon-shell_1.519+r590~ubuntu22.04.1_amd64.deb
+Size: 46472
+MD5sum: 4c298a128e9bfb4e1819a5a7280c49d2
+SHA1: bb4bc3e3b0ee451a842ca82442d866270a582e14
+SHA256: 80c51403302bfd19f85b9ebda3622fae9ff321faee8819450c1632f5743194af
+Description: Modern and modular DE-independent desktop shell
+Description-md5: d7be46a485582bd2fd72b7a1a9cefe9a
+
+Package: pantheon-terminal
+Source: io.elementary.terminal
+Priority: optional
+Section: oldlibs
+Installed-Size: 14
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 6.1.1+r2218+pkg82~ubuntu7.1
+Depends: io.elementary.terminal
+Filename: pool/main/i/io.elementary.terminal/pantheon-terminal_6.1.1+r2218+pkg82~ubuntu7.1_amd64.deb
+Size: 6096
+MD5sum: 653ad3246d72cbe263aefa3ccc7b1f78
+SHA1: fbbdd4f81d7751f861efa62df7aaf9e4cbd18816
+SHA256: 5ade10154e3cffc8dcfa2cef3ab32ac038b33c2743eb607562047b91ae37ba99
+Description: transitional dummy package
+Description-md5: 1f317b04f78374dba7d1e14def0b7f80
+
+Package: pantheon-xsession-settings
+Priority: optional
+Section: x11
+Installed-Size: 59
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: all
+Version: 6.0.0+r139+pkg127~ubuntu7.1
+Depends: gnome-session-bin, gala (>= 0.3.2~), pantheon-shell
+Filename: pool/main/p/pantheon-xsession-settings/pantheon-xsession-settings_6.0.0+r139+pkg127~ubuntu7.1_all.deb
+Size: 6162
+MD5sum: a3c6ecf9fcb0e589fb102e23e732aa98
+SHA1: 5182f3887c440dfb3d7e0f847fc6576380566294
+SHA256: 69533443ee7f6ec16671a82a78310b2349ffa3df8ded9ba778a390e2a90b0a20
+Description: Pantheon session for login screen
+Description-md5: f516239ec38e803d7f49258121a728d1
+
+Package: plank
+Priority: optional
+Section: utils
+Installed-Size: 508
+Maintainer: Rico Tzschichholz <ricotz@ubuntu.com>
+Architecture: amd64
+Version: 0.11.89+r1921+pkg7~ubuntu7.1
+Suggests: libplank-doc
+Depends: libplank1 (= 0.11.89+r1921+pkg7~ubuntu7.1), libc6 (>= 2.34), libcairo2 (>= 1.13.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.43.92), libgnome-menu-3-0 (>= 3.2.0.1), libgtk-3-0 (>= 3.10.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libwnck-3-0 (>= 2.91.6)
+Filename: pool/main/p/plank/plank_0.11.89+r1921+pkg7~ubuntu7.1_amd64.deb
+Size: 112848
+MD5sum: 0a4524a68aa475f02d2e1b207b9206f9
+SHA1: 177fb84471563e680cc635bd33af1449d6c76328
+SHA256: 124b83ab6d206787c7e02ad31aa6b4a430b4f805f32e82f45ffc1dbeb1b0207a
+Description: Elegant, simple, clean dock
+Description-md5: b9109d91a55d0e2aab489b4b792f0107
+Multi-Arch: foreign
+
+Package: plymouth-theme-elementary
+Priority: optional
+Section: x11
+Installed-Size: 160
+Maintainer: elementary OS Team <builds@elementary.io>
+Architecture: all
+Version: 6.0.0+r17~ubuntu7.1
+Replaces: plymouth (<< 0.8.1-1~)
+Provides: plymouth-theme
+Depends: plymouth, plymouth-label, plymouth-theme-spinner
+Filename: pool/main/p/plymouth-theme-elementary/plymouth-theme-elementary_6.0.0+r17~ubuntu7.1_all.deb
+Size: 77398
+MD5sum: b398f924cad8076b33302fed32d3b371
+SHA1: 3d456a497c89badba33e35c73214ddd439e5e831
+SHA256: c5d66f8428b25ddd9cfe6bb6fdcff1f6ac1dcb32f093990f9521d668710db453
+Description: graphical boot animation and logger
+Description-md5: 8cf3fdee7ab74bba00cc891454c05b37
+
+Package: screenshot-tool
+Source: io.elementary.screenshot
+Priority: optional
+Section: oldlibs
+Installed-Size: 8
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 6.0.3-0+pkg30~ubuntu7.1
+Depends: io.elementary.screenshot
+Filename: pool/main/i/io.elementary.screenshot/screenshot-tool_6.0.3-0+pkg30~ubuntu7.1_amd64.deb
+Size: 2392
+MD5sum: 109fb677c6283b313731394d8dc4faea
+SHA1: 27cdbe1c92c6f697e3069cdd80cf9b69549bf20b
+SHA256: 1f9b06c98d8b4d42ccd74d43053adbe340d8471a88707263e5ef7c69763cc568
+Description: transitional dummy package
+Description-md5: 1f317b04f78374dba7d1e14def0b7f80
+
+Package: slingshot-launcher
+Priority: optional
+Section: x11
+Installed-Size: 1565
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 2.11.1+r1936+pkg103~ubuntu7.1
+Depends: zeitgeist-core, dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.10.1), libglib2.0-0 (>= 2.68.0), libgranite6 (>= 5.5.0), libgtk-3-0 (>= 3.21.5), libhandy-1-0 (>= 0.90.0), libjson-glib-1.0-0 (>= 1.5.2), libplank1 (>= 0.11.89), libswitchboard-2.0-0 (>= 2.3.0), libwingpanel3, libzeitgeist-2.0-0 (>= 0.9.9)
+Filename: pool/main/s/slingshot-launcher/slingshot-launcher_2.11.1+r1936+pkg103~ubuntu7.1_amd64.deb
+Size: 276864
+MD5sum: 570d172e0fb296a2c5b8284870355bf4
+SHA1: aa0b329430db931f2c4a40134a97bff5cf84c69a
+SHA256: 36b45b34a49772727c2a4d436fc34fbfef06620cf947f74357659af268d63362
+Description: Lightweight and stylish app launcher
+Description-md5: c8bf475b8c74403ab96f8944490cc0bd
+
+Package: snap-photobooth
+Source: io.elementary.camera
+Priority: optional
+Section: oldlibs
+Installed-Size: 9
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: amd64
+Version: 6.2.0+pkg23~ubuntu7.1
+Depends: io.elementary.camera
+Filename: pool/main/i/io.elementary.camera/snap-photobooth_6.2.0+pkg23~ubuntu7.1_amd64.deb
+Size: 2158
+MD5sum: fe5d36dd7d5e1eb99e00e685592057db
+SHA1: 0848a4a07650980a5723b92620daaa91a35c93fa
+SHA256: 31b07cacbe3ec4a3d53d1d6161b3ab6d5e89f4d8bd7528459f3d055b1d1ebbba
+Description: transitional dummy package
+Description-md5: 1f317b04f78374dba7d1e14def0b7f80
+
+Package: switchboard
+Priority: optional
+Section: admin
+Installed-Size: 949
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 6.0.2~r1198+pkg78~ubuntu7.1
+Provides: unity-control-center
+Depends: libswitchboard-2.0-0 (= 6.0.2~r1198+pkg78~ubuntu7.1), dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.43.92), libgranite6 (>= 5.5.0), libgtk-3-0 (>= 3.16.2), libhandy-1-0 (>= 0.82.0)
+Pre-Depends: dpkg (>= 1.15.6)
+Filename: pool/main/s/switchboard/switchboard_6.0.2~r1198+pkg78~ubuntu7.1_amd64.deb
+Size: 72754
+MD5sum: 2f6f25eef640e553fae23432f9b1fd4c
+SHA1: 20d1293eb8adca03138904feb3b92adcb44d486d
+SHA256: 9a8ce0c4fc5dd0534aeabae035bffb3fd42c927ba85baf1aaa2b5ef580077048
+Description: Modular Settings Hub
+Description-md5: 6216238d72c4d07df797ddcccae0fce7
+
+Package: switchboard-plug-a11y
+Priority: optional
+Section: x11
+Installed-Size: 754
+Maintainer: elementary OS Team <builds@elementary.io>
+Architecture: amd64
+Version: 2.3.0+r442+pkg333~ubuntu7.1
+Depends: onboard, libc6 (>= 2.4), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.43.92), libgranite6 (>= 5.2.3), libgtk-3-0 (>= 3.16.2), libswitchboard-2.0-0 (>= 2.0~bzr468)
+Enhances: switchboard
+Filename: pool/main/s/switchboard-plug-a11y/switchboard-plug-a11y_2.3.0+r442+pkg333~ubuntu7.1_amd64.deb
+Size: 49036
+MD5sum: fcd6db92bf49a865359678c666ceeca2
+SHA1: 35817f03ed50214d6a94ae2b76133f526b79da2c
+SHA256: 86a47c4500af870ca39e9ca594b1004cbf21d6a2c0d0bb0500b4e4e7ec25b072
+Description: Accessibility plug for Switchboard
+Description-md5: 84d9cedcb7d20b96b06789937e3a624e
+
+Package: switchboard-plug-about
+Priority: optional
+Section: x11
+Installed-Size: 963
+Maintainer: elementary OS Team <builds@elementary.io>
+Architecture: amd64
+Version: 6.2.0+r1500+pkg817~ubuntu7.1
+Recommends: io.elementary.feedback, fwupd, switcheroo-control
+Depends: libappstream4 (>= 0.10.0), libc6 (>= 2.4), libfwupd2 (>= 1.3.3), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.63.1), libgranite6 (>= 5.5.0), libgtk-3-0 (>= 3.16.2), libgtop-2.0-11 (>= 2.22.3), libgudev-1.0-0 (>= 146), libhandy-1-0 (>= 0.85.0), libswitchboard-2.0-0 (>= 2.0~bzr468), libudisks2-0 (>= 2.0.0)
+Enhances: switchboard
+Filename: pool/main/s/switchboard-plug-about/switchboard-plug-about_6.2.0+r1500+pkg817~ubuntu7.1_amd64.deb
+Size: 107276
+MD5sum: a2bcdb8d7b949e2d29c3abc000283f95
+SHA1: e39c08a4425490ef2f0df50a692c8cf44c8c7d7e
+SHA256: b4bb7ca82c23006b0d03bc495afdb0d977ea2c57844ea07190b73a5d31004762
+Description: About plug for Switchboard
+Description-md5: 89fce2d8bcd62857b2642b4a025f686c
+
+Package: switchboard-plug-applications
+Priority: optional
+Section: x11
+Installed-Size: 912
+Maintainer: elementary OS Team <builds@elementary.io>
+Architecture: amd64
+Version: 6.0.1+r748+pkg388~ubuntu7.1
+Depends: libc6 (>= 2.4), libflatpak0 (>= 1.1.3), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.49.3), libgranite6 (>= 0.3.1), libgtk-3-0 (>= 3.16.2), libswitchboard-2.0-0 (>= 2.0~bzr468)
+Enhances: switchboard
+Filename: pool/main/s/switchboard-plug-applications/switchboard-plug-applications_6.0.1+r748+pkg388~ubuntu7.1_amd64.deb
+Size: 99326
+MD5sum: aca8f688915e2edd94d9c241c5735d47
+SHA1: ed94a5a4f70268361e12fd7f240012e81750ea92
+SHA256: 65ecf570ffa6fcbb4c7fe20a99e02e32f366c2b8ba75873c3b66d75797b1000c
+Description: Default and Startup Applications plug for Switchboard
+Description-md5: dc9f588be2cdb2aecebe65d1a10e2684
+
+Package: switchboard-plug-bluetooth
+Priority: optional
+Section: x11
+Installed-Size: 896
+Maintainer: elementary OS Team <builds@elementary.io>
+Architecture: amd64
+Version: 2.3.6+r652+pkg348~ubuntu7.1
+Depends: libc6 (>= 2.4), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.43.92), libgranite6 (>= 5.5.0), libgtk-3-0 (>= 3.16.2), libswitchboard-2.0-0 (>= 2.0~bzr468)
+Enhances: switchboard
+Filename: pool/main/s/switchboard-plug-bluetooth/switchboard-plug-bluetooth_2.3.6+r652+pkg348~ubuntu7.1_amd64.deb
+Size: 88308
+MD5sum: f08777557e4e3c56022386afb6a13ce8
+SHA1: e641de924295925bda84c33da21e45b7318eac6e
+SHA256: ec946778cc7851a80997e34e288aa5e55e514e5a1408e375561c898d8bcce0f0
+Description: Bluetooth plug for Switchboard
+Description-md5: c8f115335d7c70bc44c970b2e9ece77c
+
+Package: switchboard-plug-datetime
+Priority: optional
+Section: x11
+Installed-Size: 2697
+Maintainer: elementary OS Team <builds@elementary.io>
+Architecture: amd64
+Version: 2.2.0+r729+pkg535~ubuntu7.1
+Recommends: elementary-default-settings (>= 5.2)
+Replaces: switchboard-plug-gcc-date
+Depends: libc6 (>= 2.4), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.43.92), libgranite6 (>= 0.2.0), libgtk-3-0 (>= 3.16.2), libswitchboard-2.0-0 (>= 2.0~bzr468)
+Conflicts: switchboard-plug-gcc-date
+Enhances: switchboard
+Filename: pool/main/s/switchboard-plug-datetime/switchboard-plug-datetime_2.2.0+r729+pkg535~ubuntu7.1_amd64.deb
+Size: 334156
+MD5sum: ee5bcad00bcb830ad8caed411176f7fc
+SHA1: b0c1593ff6c9576711575ab9deb3e6bb9840729f
+SHA256: c6fdbd9aa77afda66481bc852ca05ce47cd0cd9089a8b756888b665b2cc7e929
+Description: Date & Time plug for Switchboard
+Description-md5: 6507732be99b565694f046977dec1c62
+
+Package: switchboard-plug-display
+Priority: optional
+Section: x11
+Installed-Size: 951
+Maintainer: elementary OS Team <builds@elementary.io>
+Architecture: amd64
+Version: 2.3.3+r798+pkg470~ubuntu7.1
+Depends: libc6 (>= 2.14), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.43.92), libgranite6 (>= 0.2.0), libgtk-3-0 (>= 3.17.9), libhandy-1-0 (>= 0.80.0), libswitchboard-2.0-0 (>= 2.0~bzr468)
+Enhances: switchboard
+Filename: pool/main/s/switchboard-plug-display/switchboard-plug-display_2.3.3+r798+pkg470~ubuntu7.1_amd64.deb
+Size: 113918
+MD5sum: 8dc0dde3d68260f64084ac584e452795
+SHA1: f808e69fdd307a81a30af60fcffd807f8c9999b0
+SHA256: be7ed4c2ff71bfdd4d24f1f765fb82a4c99272abc83f9531cddd0c4f455df60d
+Description: Switchboard plug for display settings
+Description-md5: 3bf3c061467ea719036fbbd941a06857
+
+Package: switchboard-plug-keyboard
+Priority: optional
+Section: x11
+Installed-Size: 1380
+Maintainer: elementary OS Team <builds@elementary.io>
+Architecture: amd64
+Version: 3.1.1+r1725+pkg996~ubuntu7.1
+Depends: gala, ibus, xkb-data, libc6 (>= 2.14), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.45.7), libgranite6 (>= 6.2.0+r2223+pkg122~ubuntu7.1), libgtk-3-0 (>= 3.21.5), libhandy-1-0 (>= 0.90.0), libibus-1.0-5 (>= 1.5.2), libswitchboard-2.0-0 (>= 2.0~bzr468), libxml2 (>= 2.7.4)
+Enhances: switchboard
+Filename: pool/main/s/switchboard-plug-keyboard/switchboard-plug-keyboard_3.1.1+r1725+pkg996~ubuntu7.1_amd64.deb
+Size: 215998
+MD5sum: e1b10b68d14eb058513c0f9a2d92c71d
+SHA1: e512675594d58573017ffb799cef65143d299f9d
+SHA256: e6d8caf019d3999fec65bd4af3fa97b1c8d15cc9e9121f2b52eabc4b2f66ee5f
+Description: Switchboard plug for keyboard settings
+Description-md5: f4d22d627fc6310bdac2db6068de16b7
+
+Package: switchboard-plug-locale
+Priority: optional
+Section: x11
+Installed-Size: 893
+Maintainer: elementary LLC <builds@elementary.io>
+Architecture: amd64
+Version: 2.5.8+r825+pkg577~ubuntu7.1
+Depends: aptdaemon, dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.4), libgee-0.8-2 (>= 0.10.1), libglib2.0-0 (>= 2.43.92), libgnome-desktop-3-19 (>= 3.17.92), libgranite6 (>= 6.2.0+r2223+pkg122~ubuntu7.1), libgtk-3-0 (>= 3.22.29), libpolkit-gobject-1-0 (>= 0.99), libswitchboard-2.0-0 (>= 2.0~bzr468)
+Enhances: switchboard
+Filename: pool/main/s/switchboard-plug-locale/switchboard-plug-locale_2.5.8+r825+pkg577~ubuntu7.1_amd64.deb
+Size: 92438
+MD5sum: 13485cedb50bdae962456477060731b2
+SHA1: 36cb145f1c3dbdcc42b5279dcba35a5acf6bd7d0
+SHA256: e9dea773bf61ec62c99cbf3ff08c1598b36dc8f0365e8e8907bcef4acbada37a
+Description: Region & Language plug for Switchboard
+Description-md5: 871d0217bbcb683f2aea00d1b197bc80
+
+Package: switchboard-plug-mouse-touchpad
+Priority: optional
+Section: x11
+Installed-Size: 887
+Maintainer: elementary OS Team <builds@elementary.io>
+Architecture: amd64
+Version: 7.0.0+r1413+pkg494~ubuntu7.1
+Depends: libc6 (>= 2.4), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.43.92), libgranite6 (>= 0.5), libgtk-3-0 (>= 3.16.2), libswitchboard-2.0-0 (>= 2.0~bzr468), libxml2 (>= 2.7.4)
+Enhances: switchboard
+Filename: pool/main/s/switchboard-plug-mouse-touchpad/switchboard-plug-mouse-touchpad_7.0.0+r1413+pkg494~ubuntu7.1_amd64.deb
+Size: 110404
+MD5sum: bdcdb6682af02989d15b5989f7938499
+SHA1: 91182b365780df5795d954af8e7a8e9d1695e0ec
+SHA256: 7f349d05aeef5c4d30adbce28855d27a9533c44c8141ad7891cc55435245d070
+Description: Mouse/Touchpad plug for Switchboard
+Description-md5: 26d7e43266108bd1292429ce76dd8e0f
+
+Package: switchboard-plug-networking
+Priority: optional
+Section: x11
+Installed-Size: 1224
+Maintainer: elementary OS Team <builds@elementary.io>
+Architecture: amd64
+Version: 2.4.4+r1280+pkg852~ubuntu7.1
+Recommends: network-manager-openvpn-gnome
+Depends: network-manager-gnome, libc6 (>= 2.28), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.43.92), libgranite6 (>= 6.2.0+r2223+pkg122~ubuntu7.1), libgtk-3-0 (>= 3.16.2), libnm0 (>= 1.0.0), libnma0 (>= 1.1.90), libswitchboard-2.0-0 (>= 2.0~bzr468)
+Enhances: switchboard
+Filename: pool/main/s/switchboard-plug-networking/switchboard-plug-networking_2.4.4+r1280+pkg852~ubuntu7.1_amd64.deb
+Size: 167306
+MD5sum: 64f17ea26f1565fc012d39b5aa6153ac
+SHA1: b0f030ae8b2a49122062bd7e054fa26ec4b56b70
+SHA256: 32ba09ef949d7f3d28cfa124a8a0c2474025f102e5299330311f82ecd94434c4
+Description: Manage network connections
+Description-md5: 56d3edcbf4207b32b7ed72559769fa48
+
+Package: switchboard-plug-notifications
+Priority: optional
+Section: x11
+Installed-Size: 789
+Maintainer: elementary OS Team <builds@elementary.io>
+Architecture: amd64
+Version: 2.2.0+r481+pkg382~ubuntu7.1
+Depends: io.elementary.notifications, libc6 (>= 2.4), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.43.92), libgranite6 (>= 0.5), libgtk-3-0 (>= 3.16.2), libswitchboard-2.0-0 (>= 2.0~bzr468)
+Enhances: switchboard
+Filename: pool/main/s/switchboard-plug-notifications/switchboard-plug-notifications_2.2.0+r481+pkg382~ubuntu7.1_amd64.deb
+Size: 74850
+MD5sum: 05ed844a6ce22ac8c309138680193c43
+SHA1: 419b622fdbaa2d008cbc07e56152307382b6a933
+SHA256: c7d1ecfb0dfc2f414b5b7dd89e3225de65b133695c2540e12bf876aac54b21ba
+Description: Change notification settings
+Description-md5: 07c2ad69d14004c9d6a254901478dc2f
+
+Package: switchboard-plug-online-accounts
+Source: switchboard-plug-onlineaccounts
+Priority: optional
+Section: admin
+Installed-Size: 948
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 6.5.1+r480+pkg74~ubuntu7.1
+Depends: libc6 (>= 2.4), libcamel-1.2-63 (>= 3.25.90), libedataserver-1.2-26 (>= 3.39.2), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.63.3), libgranite6 (>= 6.2.0+r2223+pkg122~ubuntu7.1), libgtk-3-0 (>= 3.21.5), libhandy-1-0 (>= 0.80.0), libsoup2.4-1 (>= 2.4.0), libswitchboard-2.0-0 (>= 2.0~bzr468)
+Enhances: switchboard
+Filename: pool/main/s/switchboard-plug-onlineaccounts/switchboard-plug-online-accounts_6.5.1+r480+pkg74~ubuntu7.1_amd64.deb
+Size: 126774
+MD5sum: c21093090a088bfbe3b2ab15c7dcd529
+SHA1: 4fbe409edc7e9079af9e873e4a801c5683944c50
+SHA256: 41b5a83865efc287c310f62e301a160a5f0dfb37047c24fdf01cd35be5ff0073
+Description: Online Accounts plug for Switchboard
+Description-md5: 894f2bac2fdb9682d4c72626a0601566
+
+Package: switchboard-plug-pantheon-shell
+Priority: optional
+Section: x11
+Installed-Size: 1055
+Maintainer: elementary OS Team <builds@elementary.io>
+Architecture: amd64
+Version: 6.3.1+r1719+pkg907~ubuntu7.1
+Recommends: plank
+Replaces: switchboard-plug-wallpaper
+Depends: gala, libc6 (>= 2.34), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libgexiv2-2 (>= 0.6.1), libglib2.0-0 (>= 2.43.92), libgnome-desktop-3-19 (>= 3.17.92), libgranite6 (>= 5.5.0), libgtk-3-0 (>= 3.22), libhandy-1-0 (>= 0.82.0), libplank1 (>= 0.11.89), libswitchboard-2.0-0 (>= 2.0~bzr468)
+Conflicts: switchboard-plug-wallpaper
+Enhances: switchboard
+Filename: pool/main/s/switchboard-plug-pantheon-shell/switchboard-plug-pantheon-shell_6.3.1+r1719+pkg907~ubuntu7.1_amd64.deb
+Size: 143804
+MD5sum: 0e2dff2c3cd42f67137dd67d276af08c
+SHA1: 57d2c39d986032bf867e248684b72cee9a9a01d5
+SHA256: 69a71c1efe7c6c7c03a6fafb1f61825ec796d8b20c5f8aae7555e195061d909a
+Description: Change desktop settings
+Description-md5: 094fb7952f78d588c0de91f2e480cd8e
+
+Package: switchboard-plug-parental-controls
+Priority: optional
+Section: x11
+Installed-Size: 1148
+Maintainer: elementary OS Team <builds@elementary.io>
+Architecture: amd64
+Version: 6.0.1+r919+pkg602~ubuntu7.1
+Depends: malcontent, libaccountsservice0 (>= 0.6.8), libc6 (>= 2.34), libflatpak0 (>= 0.5.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.43.92), libgranite6 (>= 0.5), libgtk-3-0 (>= 3.16.2), libhandy-1-0 (>= 0.90.0), libmalcontent-0-0 (>= 0.9.0), libpolkit-gobject-1-0 (>= 0.101), libswitchboard-2.0-0 (>= 2.0~bzr468)
+Enhances: switchboard
+Filename: pool/main/s/switchboard-plug-parental-controls/switchboard-plug-parental-controls_6.0.1+r919+pkg602~ubuntu7.1_amd64.deb
+Size: 150562
+MD5sum: 53c296c56a27cef19095f127c6f21cad
+SHA1: 176ecf03d7603bdac91cf9af2d743545df238f65
+SHA256: 545eb3028c573b8c476fac3badc20f6348603c96a4ce383bbc98a999bb55ea32
+Description: Manage Screen Time & Limits
+Description-md5: 9f4cda6767a55358c76c28063899ebc1
+
+Package: switchboard-plug-power
+Priority: optional
+Section: x11
+Installed-Size: 946
+Maintainer: elementary OS Team <builds@elementary.io>
+Architecture: amd64
+Version: 2.7.0+r1132+pkg696~ubuntu7.1
+Recommends: power-profiles-daemon
+Depends: libc6 (>= 2.34), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.43.92), libgtk-3-0 (>= 3.22.29), libpolkit-gobject-1-0 (>= 0.101), libswitchboard-2.0-0 (>= 2.0~bzr468)
+Enhances: switchboard
+Filename: pool/main/s/switchboard-plug-power/switchboard-plug-power_2.7.0+r1132+pkg696~ubuntu7.1_amd64.deb
+Size: 101942
+MD5sum: 6a834bbeed801eac2af94ad1be5f891a
+SHA1: ab5480744df9aba1a3064e74c7e99b96f07530c6
+SHA256: 3218b38e7c7cfce8efcdcc219f15b91c7077c4fc31de75b66ec959b7f12ca1b6
+Description: Power plug for Switchboard
+Description-md5: 0d3c60ded54ff3919f9404aa78693953
+
+Package: switchboard-plug-printers
+Priority: optional
+Section: x11
+Installed-Size: 1196
+Maintainer: elementary OS Team <builds@elementary.io>
+Architecture: amd64
+Version: 2.2.1+r952+pkg519~ubuntu7.1
+Depends: libc6 (>= 2.4), libcups2 (>= 1.6.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.43.92), libgranite6 (>= 6.2.0+r2223+pkg122~ubuntu7.1), libgtk-3-0 (>= 3.16.2), libswitchboard-2.0-0 (>= 2.0~bzr468), cups-pk-helper
+Enhances: switchboard
+Filename: pool/main/s/switchboard-plug-printers/switchboard-plug-printers_2.2.1+r952+pkg519~ubuntu7.1_amd64.deb
+Size: 161002
+MD5sum: 4b948dbe44bd3b3178cfc00040ba8c5d
+SHA1: 7025a9e04d31a38d71d9409ea98cb99b96ab6bd1
+SHA256: 680a2123ec8d2b3e6c690ef4f2545d8f91dbf78d708a05c950bb6a882d4449bf
+Description: Printers plug for Switchboard
+Description-md5: f2554306711827b3e54a5577059b1c2e
+
+Package: switchboard-plug-security-privacy
+Priority: optional
+Section: x11
+Installed-Size: 1120
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 2.4.1+r1049+pkg756~ubuntu7.1
+Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.4), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.63.1), libgranite6 (>= 0.5), libgtk-3-0 (>= 3.22.29), libpolkit-gobject-1-0 (>= 0.99), libswitchboard-2.0-0 (>= 2.3.0), libzeitgeist-2.0-0 (>= 0.9.9), gala, gnome-settings-daemon-common, io.elementary.settings-daemon, pantheon-agent-geoclue2, ufw, zeitgeist
+Enhances: switchboard
+Filename: pool/main/s/switchboard-plug-security-privacy/switchboard-plug-security-privacy_2.4.1+r1049+pkg756~ubuntu7.1_amd64.deb
+Size: 148566
+MD5sum: ef950e05d01c12520aef2dfa0f469e0e
+SHA1: c7b27dd81b293e1734a4df697a134e5d20452026
+SHA256: 043e0cf9d14e1a0b9d3c3581ec534b645a11fdf34768693c3463edc4a98eb0bf
+Description: Manage security and privacy
+Description-md5: 652dac79946e5aec3062543faff7f9eb
+
+Package: switchboard-plug-sharing
+Priority: optional
+Section: x11
+Installed-Size: 805
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: amd64
+Version: 2.1.6+r517+pkg10~ubuntu7.1
+Depends: gnome-user-share (>= 3.14), rygel, libc6 (>= 2.4), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.45.6), libgranite6 (>= 0.3.1), libgtk-3-0 (>= 3.18), libswitchboard-2.0-0 (>= 2.0~bzr468)
+Filename: pool/main/s/switchboard-plug-sharing/switchboard-plug-sharing_2.1.6+r517+pkg10~ubuntu7.1_amd64.deb
+Size: 63732
+MD5sum: ed8e1814d68d1708745f56521cfb001b
+SHA1: fdf6b55f28d3430832f1217b171724d4dea02750
+SHA256: 3de44876cf0a84228736cd0511c5d07e3eb1f44f5b7bde34230b8d0626f5d33e
+Description: Change media sharing settings
+Description-md5: 59fbcd8cf9029016f7c31590f190d20e
+
+Package: switchboard-plug-sound
+Priority: optional
+Section: x11
+Installed-Size: 954
+Maintainer: elementary OS Team <builds@elementary.io>
+Architecture: amd64
+Version: 2.3.2+r830+pkg22~ubuntu7.1
+Replaces: switchboard-plug-gcc-sound
+Depends: libc6 (>= 2.14), libcanberra-gtk3-0 (>= 0.25), libcanberra0 (>= 0.2), libgee-0.8-2 (>= 0.10.1), libglib2.0-0 (>= 2.43.92), libgranite6 (>= 0.4.0), libgtk-3-0 (>= 3.16.2), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1), libswitchboard-2.0-0 (>= 2.0~bzr468)
+Conflicts: switchboard-plug-gcc-sound
+Enhances: switchboard
+Filename: pool/main/s/switchboard-plug-sound/switchboard-plug-sound_2.3.2+r830+pkg22~ubuntu7.1_amd64.deb
+Size: 172360
+MD5sum: e0e8c13f91bb6894e64e239a958a732c
+SHA1: 3eb278bb14af06ce9521bc9b3a210ed86640e7b3
+SHA256: 048acf9ccdb57eee08787477756d79523c09c7bca9978ff33885719ab8455a98
+Description: Sound plug for Switchboard
+Description-md5: 806a5e8decafc5457f3382e51709fc83
+
+Package: switchboard-plug-useraccounts
+Priority: optional
+Section: x11
+Installed-Size: 1054
+Maintainer: elementary LLC. <builds@elementary.io>
+Architecture: amd64
+Version: 2.4.3+r1028+pkg676~ubuntu7.1
+Replaces: switchboard-plug-gcc-users
+Depends: libaccountsservice0 (>= 0.6.13), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.43.92), libgnome-desktop-3-19 (>= 3.17.92), libgranite6 (>= 6.2.0+r2223+pkg122~ubuntu7.1), libgtk-3-0 (>= 3.22.29), libhandy-1-0 (>= 1.0.3), libpolkit-gobject-1-0 (>= 0.99), libpwquality1 (>= 1.1.0), libswitchboard-2.0-0 (>= 2.0~bzr468)
+Conflicts: switchboard-plug-gcc-users
+Enhances: switchboard
+Filename: pool/main/s/switchboard-plug-useraccounts/switchboard-plug-useraccounts_2.4.3+r1028+pkg676~ubuntu7.1_amd64.deb
+Size: 126812
+MD5sum: d17733bfd600910ec6d0c5b8b8983072
+SHA1: 65183e843962db16e20bfc0f7559fd074c9941bb
+SHA256: 51855c65f5359a60fda7e44f8bad4c9b439e0ed076b57d7fc0ab166626301c90
+Description: Manage local user accounts
+Description-md5: 62dd572128980e3af954e60326b63a47
+
+Package: switchboard-plug-users
+Source: switchboard-plug-useraccounts
+Priority: optional
+Section: x11
+Installed-Size: 11
+Maintainer: elementary LLC. <builds@elementary.io>
+Architecture: amd64
+Version: 2.4.3+r1028+pkg676~ubuntu7.1
+Depends: switchboard-plug-useraccounts
+Filename: pool/main/s/switchboard-plug-useraccounts/switchboard-plug-users_2.4.3+r1028+pkg676~ubuntu7.1_amd64.deb
+Size: 3708
+MD5sum: 095681eb663c3cb9ea00e6398e7c34df
+SHA1: fcc03f1c81d46e84589ed8354461480961ea6924
+SHA256: 90ad6d056bc0e9085bb340b58da815031782f1d57a9b40f82cb6a42e8d049317
+Description: Manage local user accounts (dummy package)
+Description-md5: 3a9022dfa31a959833889ac192761f7b
+
+Package: wingpanel
+Source: io.elementary.wingpanel
+Priority: optional
+Section: oldlibs
+Installed-Size: 11
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: all
+Version: 3.0.3+r551+pkg60~ubuntu7.1
+Depends: io.elementary.wingpanel
+Filename: pool/main/i/io.elementary.wingpanel/wingpanel_3.0.3+r551+pkg60~ubuntu7.1_all.deb
+Size: 4212
+MD5sum: c71001563085779b40bd389fb4bc782a
+SHA1: fa70276130ee264c3afb01987ba7bc7c4836f40d
+SHA256: c972d7f8f9e19adf141032437ce18191e2c10b2527a09e66500bb85d80e635a8
+Description: transitional package
+Description-md5: bfe8ebc058cce6653c20fea6f85a4246
+
+Package: wingpanel-indicator-a11y
+Priority: optional
+Section: x11
+Installed-Size: 684
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 1.0.1+r183+pkg5~ubuntu7.1
+Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.4), libglib2.0-0 (>= 2.37.3), libgranite6 (>= 6.2.0+r2223+pkg122~ubuntu7.1), libgtk-3-0 (>= 3.21.4), libwingpanel3
+Enhances: wingpanel
+Filename: pool/main/w/wingpanel-indicator-a11y/wingpanel-indicator-a11y_1.0.1+r183+pkg5~ubuntu7.1_amd64.deb
+Size: 30702
+MD5sum: 3854fd4deef965be650f7c55d6c06fec
+SHA1: f6bf23cf1f45ba64849d8a4eca5d8060cf3656ee
+SHA256: eafd796983bd2e67f5461e521591a8fc36940de48982908ca48d1c8e0874feec
+Description: WingPanel A11y Indicator
+Description-md5: 4a5c6bac8c9bfc046222557a3390a3d7
+
+Package: wingpanel-indicator-bluetooth
+Priority: optional
+Section: x11
+Installed-Size: 774
+Maintainer: elementary LLC <builds@elementary.io>
+Architecture: amd64
+Version: 2.1.8+r547+pkg31~ubuntu7.1
+Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.4), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.43.92), libgranite6 (>= 6.2.0+r2223+pkg122~ubuntu7.1), libgtk-3-0 (>= 3.21.6), libwingpanel3
+Enhances: wingpanel
+Filename: pool/main/w/wingpanel-indicator-bluetooth/wingpanel-indicator-bluetooth_2.1.8+r547+pkg31~ubuntu7.1_amd64.deb
+Size: 59298
+MD5sum: 09d9af294d7dd263f460c9ad9a517766
+SHA1: 9f2d08e69f10a3a4aea61dfce39670c2a1d8d106
+SHA256: fbe8f2909e247e80b6dd286c8e8bba5c42a3815ad0eff0172028daf00b64a2df
+Description: WingPanel Bluetooth Indicator
+Description-md5: 7f7450340ef59da4c5f0f4353d9920c5
+
+Package: wingpanel-indicator-datetime
+Priority: optional
+Section: x11
+Installed-Size: 828
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: amd64
+Version: 2.4.1+r921+pkg32~ubuntu7.1
+Recommends: elementary-default-settings (>= 5.2)
+Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.4), libecal-2.0-1 (>= 3.33.4), libedataserver-1.2-26 (>= 3.17), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.43.92), libgranite6 (>= 5.5.0), libgtk-3-0 (>= 3.19.12), libhandy-1-0 (>= 0.80.0), libical3 (>= 3.0.0), libwingpanel3
+Enhances: wingpanel
+Filename: pool/main/w/wingpanel-indicator-datetime/wingpanel-indicator-datetime_2.4.1+r921+pkg32~ubuntu7.1_amd64.deb
+Size: 76496
+MD5sum: d8b224ea05cbc1671d11c90f9c16e5c0
+SHA1: 42d19c9451d125022f35529cc4684f6a6c322ad8
+SHA256: 3d71f6309c19058480434df6ea0b08e6458b1e65a21bfa79818f0284239d0367
+Description: WingPanel Date & Time Indicator
+Description-md5: 56a4df0f58f1525e89360aa6387f76f0
+
+Package: wingpanel-indicator-keyboard
+Priority: optional
+Section: x11
+Installed-Size: 713
+Maintainer: elementary LLC <builds@elementary.io>
+Architecture: amd64
+Version: 2.4.1+r570+pkg34~ubuntu7.1
+Depends: gkbd-capplet, xkb-data, dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.4), libglib2.0-0 (>= 2.37.3), libgranite6 (>= 6.2.0+r2223+pkg122~ubuntu7.1), libgtk-3-0 (>= 3.16.2), libibus-1.0-5 (>= 1.5.1), libwingpanel3, libxml2 (>= 2.7.4)
+Enhances: wingpanel
+Filename: pool/main/w/wingpanel-indicator-keyboard/wingpanel-indicator-keyboard_2.4.1+r570+pkg34~ubuntu7.1_amd64.deb
+Size: 39420
+MD5sum: 2adb35bb9e8519cdfc09d83432609c7a
+SHA1: c915f3ce58f8867ef51b35b7537052501cff0ccc
+SHA256: 861104eff539d7f2ba725f794b120aa532ad2f21def539eb8d9a5821cb02de7b
+Description: WingPanel Keyboard Indicator
+Description-md5: d398c0e27448831cc3b8cf7b00be287b
+
+Package: wingpanel-indicator-network
+Priority: optional
+Section: x11
+Installed-Size: 860
+Maintainer: Cody Garver <cody@elementary.io>
+Architecture: amd64
+Version: 7.0.1+r1011+pkg33~ubuntu7.1
+Depends: libc6 (>= 2.28), libglib2.0-0 (>= 2.43.92), libgranite6 (>= 6.2.0+r2223+pkg122~ubuntu7.1), libgtk-3-0 (>= 3.22), libnm0 (>= 1.24.0), libnma0 (>= 1.1.90), libwingpanel3
+Enhances: wingpanel
+Filename: pool/main/w/wingpanel-indicator-network/wingpanel-indicator-network_7.0.1+r1011+pkg33~ubuntu7.1_amd64.deb
+Size: 115222
+MD5sum: 68afc4989b2e35626bbf179dadab9b88
+SHA1: 1b2be6ec2579970a8296b242db0620c1d42b402e
+SHA256: 4219f35f87305e76a4c6dfeb63abff5f44b35ca51a5862b102d6e8b65fc759dc
+Description: WingPanel Network Indicator
+Description-md5: 89cf62d28f370ae35cc88f2bcb304590
+
+Package: wingpanel-indicator-nightlight
+Priority: optional
+Section: x11
+Installed-Size: 735
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 2.1.1+r455+pkg15~ubuntu7.1
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.43.92), libgranite6 (>= 6.2.0+r2223+pkg122~ubuntu7.1), libgtk-3-0 (>= 3.16.2), libwingpanel3
+Enhances: wingpanel
+Filename: pool/main/w/wingpanel-indicator-nightlight/wingpanel-indicator-nightlight_2.1.1+r455+pkg15~ubuntu7.1_amd64.deb
+Size: 56954
+MD5sum: b09ed09df4da10ad4a614e2f6218dbe6
+SHA1: 10c929772bf36306cc059fbb49792724120983f7
+SHA256: 037e4eee4fd0ae4eaa4e8b08f4186e1495259cde53271c3b400f62a6964167aa
+Description: WingPanel Nightlight Indicator
+Description-md5: a9ad4a1aff235242c9d1b1fc5cd1ef0c
+
+Package: wingpanel-indicator-notifications
+Priority: optional
+Section: x11
+Installed-Size: 794
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 6.0.7+r784+pkg34~ubuntu7.1
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.43.92), libgranite6 (>= 6.2.0+r2223+pkg122~ubuntu7.1), libgtk-3-0 (>= 3.21.6), libhandy-1-0 (>= 0.90.0), libwingpanel3
+Enhances: wingpanel
+Filename: pool/main/w/wingpanel-indicator-notifications/wingpanel-indicator-notifications_6.0.7+r784+pkg34~ubuntu7.1_amd64.deb
+Size: 87126
+MD5sum: 909d30ace1ca9a58a14001d1b69edafa
+SHA1: a0c5f013ab87fea759c11e1f91eb5595f5ea8a5e
+SHA256: 7e5fb0f9c0c5e2c216fdae59dee4016d8379221f183f1ee7c128ced5baf0b815
+Description: WingPanel Notifications Indicator
+Description-md5: 937c5cc4366bf47ea7293d1650fc649f
+
+Package: wingpanel-indicator-power
+Priority: optional
+Section: x11
+Installed-Size: 981
+Maintainer: elementary, Inc. <builds@elementary.io>
+Architecture: amd64
+Version: 6.2.0+r895+pkg26~ubuntu7.1
+Recommends: gnome-power-manager
+Depends: dconf-gsettings-backend | gsettings-backend, libbamf3-2 (>= 0.2.112), libc6 (>= 2.14), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.43.92), libgranite6 (>= 6.2.0+r2223+pkg122~ubuntu7.1), libgtk-3-0 (>= 3.21.5), libgtop-2.0-11 (>= 2.22.3), libnotify4 (>= 0.7.0), libudev1 (>= 183), libwingpanel3
+Enhances: wingpanel
+Filename: pool/main/w/wingpanel-indicator-power/wingpanel-indicator-power_6.2.0+r895+pkg26~ubuntu7.1_amd64.deb
+Size: 106588
+MD5sum: 828701dd3dccccc39c268fd57064727e
+SHA1: b98560572ae623b5bda97df41c834d23359525cc
+SHA256: 25b8e3e446c28246044ca7d0cd21613de56e0f2475e3757f447236e8a18f2414
+Description: WingPanel Power Indicator
+Description-md5: 6d4560cc7a7b3da8519330c339248903
+
+Package: wingpanel-indicator-session
+Priority: optional
+Section: x11
+Installed-Size: 810
+Maintainer: elementary LLC <builds@elementary.io>
+Architecture: amd64
+Version: 2.3.1+r693+pkg28~ubuntu7.1
+Depends: libaccountsservice0 (>= 0.6.8), libc6 (>= 2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.43.92), libgranite6 (>= 5.5.0), libgtk-3-0 (>= 3.21.6), libhandy-1-0 (>= 0.80.0), libwingpanel3
+Enhances: wingpanel
+Filename: pool/main/w/wingpanel-indicator-session/wingpanel-indicator-session_2.3.1+r693+pkg28~ubuntu7.1_amd64.deb
+Size: 70678
+MD5sum: d090d757ab8828bc5e6e2f64716db4aa
+SHA1: 7051088dfde5e2ba24d3fe9bea34a37d011eb3a9
+SHA256: 3f0bc4f5d52a788509ba9d009ba8c60d896ed7aaa2c2ba40ee3e6ee7e2e34289
+Description: WingPanel Session Indicator
+Description-md5: 29c1591efc846e78a0694974ae0bddeb
+
+Package: wingpanel-indicator-sound
+Priority: optional
+Section: x11
+Installed-Size: 978
+Maintainer: elementary LLC <builds@elementary.io>
+Architecture: amd64
+Version: 6.0.2+r696+pkg28~ubuntu7.1
+Depends: gnome-settings-daemon, dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.14), libcairo2 (>= 1.2.4), libcanberra-gtk3-0 (>= 0.25), libcanberra0 (>= 0.2), libgdk-pixbuf-2.0-0 (>= 2.23.0), libgee-0.8-2 (>= 0.10.1), libglib2.0-0 (>= 2.43.92), libgranite6 (>= 0.2.0), libgtk-3-0 (>= 3.21.6), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.14.0), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1), libwingpanel3
+Enhances: wingpanel
+Filename: pool/main/w/wingpanel-indicator-sound/wingpanel-indicator-sound_6.0.2+r696+pkg28~ubuntu7.1_amd64.deb
+Size: 128174
+MD5sum: 022be18df0bf191d7b6048e98365a311
+SHA1: 3baf8f3c58a91a39f0c06bd32157e0274d7033c8
+SHA256: b9a7eec93288f068337b92644374c7b1cf6b9d49b70a971c84ca17fcc013d65b
+Description: WingPanel Sound Indicator
+Description-md5: 353da4a519ecdde03da07184995d55ca
+

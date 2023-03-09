@@ -1,0 +1,59 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Architectures: amd64 all
+Components: main
+Date: Thu, 09 Feb 2023 11:00:20 +0000
+Description: pgAdmin 4 - Development Tools for PostgreSQL
+Label: pgAdmin 4
+Origin: pgAdmin Development Team
+Suite: pgadmin4
+MD5Sum:
+ 4ef9315a62ef62402018f62251dd8dcf              204 Release
+ d8d75bb04481e56a929579c160c88ea9            10254 main/binary-all/Packages
+ 4adbc7f0b6859c26ab9061043d6b16f5             2721 main/binary-all/Packages.gz
+ 11ae150a7b535dbce607183c4774b45c            14386 main/binary-amd64/Packages
+ 08fa922d94a598e504551a97b94598e5             3869 main/binary-amd64/Packages.gz
+ d41d8cd98f00b204e9800998ecf8427e                0 main/binary-i386/Packages
+ fb98e6d9034d2182fe70922e156e0c65               29 main/binary-i386/Packages.gz
+SHA1:
+ ea5ba8f55a1ae163ae979810a89e18c28df1da2d              204 Release
+ 7d9cdc45159f78e05be088e1e947ff6971682927            10254 main/binary-all/Packages
+ b031751c87484665694396ee47ead515a24bdb02             2721 main/binary-all/Packages.gz
+ b23197d144ade7264751ba9674c7874e691e484b            14386 main/binary-amd64/Packages
+ 9c26cd9c3f74bdbc0cc3762c6b056e81f0d30648             3869 main/binary-amd64/Packages.gz
+ da39a3ee5e6b4b0d3255bfef95601890afd80709                0 main/binary-i386/Packages
+ 4e23208894b052bd88b8089a12a4d1fabffb3185               29 main/binary-i386/Packages.gz
+SHA256:
+ 4a9ee88855fd8e6fccf280e8f43e0daac121b33bc51ac2b1fd2d38e64cec0565              204 Release
+ 8aadce435250c781341f56fbfbca3c5dfe67b210736cf46d1e98ffa1b76ba9da            10254 main/binary-all/Packages
+ e7039783bc02a8b78255e68279c7fbc7aa257d2de228e43c4ea6bb7fa903f012             2721 main/binary-all/Packages.gz
+ d6cfd724ac85936f60d791fe4d998a4957182e10534c2bd89b12ffe91d273efc            14386 main/binary-amd64/Packages
+ 82b35868be362e6c9bddaa8466dca8f905135c0d575c192fd543b97d5ef9e458             3869 main/binary-amd64/Packages.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 main/binary-i386/Packages
+ 75f113d06cafd63e420ab6a34fa122c42b19a8df9c1b93e44da5a841e233f33f               29 main/binary-i386/Packages.gz
+SHA512:
+ f3cd6cf853c51a795687056bbeb15e6cd51e7f6602cc293ef79332a2f75a0c0139cd3ebe4d06c518e30d3122785bbefad0b630b08f9d76280065e1e93ad434c0              204 Release
+ 8ddbebbb78f857b5b2cd6fc451cade00e18251e445bb1689a09afe3fdcf43ccca74b91a3f28e5b0864de7e451828c8745cb35e188fff78f234dfd8b13bdf35a0            10254 main/binary-all/Packages
+ 869856679fb8f8a2a1573ad2617b8783526afd7a1fd500955bfa8310232b68fbd1612303a9d01aaba41c8e9d8bc995f5335b38dddc0906099a5edc6b5207759e             2721 main/binary-all/Packages.gz
+ 4fdf1ddc34167973fc886b48b2a0ebd1704031f4b77c597d8096422d46d7d362b655422ab1ced1f1ab57ae1c44bd65f05ef6079f4a732e07c09a59d1a2a4ffa8            14386 main/binary-amd64/Packages
+ cab256fa70a320e9e73af75fe7cf8875d2b7c00d090c0ce3fa2ebac28987f78a2583eb8388a441322a23ed0142df55d4585d2f5ad538acfe98844692ef48291c             3869 main/binary-amd64/Packages.gz
+ cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 main/binary-i386/Packages
+ 9b085bc2bb10923f281e84641a6e2e1220ac780d4b7485e4c8cb37f00c93dda72f38be5ccc9c38d6c292088985f7fd4f6605bacc1c1669b00d7c2288205f2c8f               29 main/binary-i386/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQJJBAEBCgAzFiEE6Gl+Lu92wC06YzJ3iIGyqCEJdvIFAmPk0kQVHHBhY2thZ2Vz
+QHBnYWRtaW4ub3JnAAoJEIiBsqghCXby+DwP/ivjNrhbu7A+Zs20lHMlMZVmCkFu
+Twxtv9ic0in4kMtCckTIzGwHxYPCQmqzoJMWOKqY9SeeujtK8FsbPUEmUkKkxn9q
+AC0pL0ba7uty3Wz2gqdSANkM6SajsljR7ORU3sPaxVGNJ48SDgfVHqvmHvtcG/hN
+CBSiV6xnHnRV0ttanTE5aTKz8l13BXh/fxvXWZJbuJin4VfB3ebEdXcMI8DDFSOE
+ha+PHheFjhrC8r42EgMi6/0qIQ0EpTXJAjqVws0AVVvjtMvEsJYO1AC5wQ/MhnGx
+FqejQVR8zllVSMP3ayZ4+LjAEHcieivTLOc4jvLz0Pz+Iwci+BUyZMM8SgudHKbV
+i6Eo7Zzujla2ksLFccAKv2GKqyhJ7s6QTEg7QvffiWMcP+RqGK8RtuLRGxIAR7/C
+CIBiCobqL46fieyWQ1QJpMBy4n9c7fyGdIrDAI6buGRpeUdU47/Z/djqmHr/lIwV
+U/BLWc+SrzExb07Hqy/aTNDTwELQ2iUR5mvnXw09si8s+InhouTywwLm1r0BNIcb
+6kJKEP88hbZ91hS4zZQ6N+oST9wF8w2dlzT4yPbbP1TICoYWRsxFIUvB7WqqdAsm
+AJu5PaP2uyJzMOWjqp9zzQHTFsRuit1D/cEcHH/ZSxl2Bl7VJPJJOvMc7F6sLieI
+SrekBOBD1zTn47VO
+=Df7M
+-----END PGP SIGNATURE-----

@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Archive: Debian_Unstable
+Codename: Debian_Unstable
+Origin: obs://build.opensuse.org/devel:languages:crystal/Debian_Unstable
+Label: devel:languages:crystal
+Architectures: amd64 i386
+Date: Tue Mar  7 17:41:25 2023
+Description: Crystal (Debian_Unstable)
+MD5Sum:
+ 82b04c7f90de4b37bdf919becf9aa175 23386 Packages
+ 8c3fff213bfc0b5d56fa5a0eda9e7dde 4775 Packages.gz
+ 0b63a79a28df7761c5cddf513104ec47 14430 Sources
+ c69f563ae7ddf61b4be04f17d3a6d097 3788 Sources.gz
+SHA1:
+ 582b0b6cc81e27589d25291fbd91513b4f502a06 23386 Packages
+ c151a2e84ff0d1943e6116195cad6d30131d8573 4775 Packages.gz
+ 90337c9b0fa1ed2b6febbed5704b0af85383db6d 14430 Sources
+ f216739a1347bb9d5427e9412ebd30c5c87fa432 3788 Sources.gz
+SHA256:
+ 7ad27a75c0d3061cb1cde1c807d97cb6889dbd35c59f62ffc162288b1c458060 23386 Packages
+ 4a362302551afe55d0e71613c6b3a3330ba901c05efdc43b4cf9e9f56d17e981 4775 Packages.gz
+ 5c37964acc276267372eaad800bbfa4a4d3acd2e1a809529674b7bec505735b1 14430 Sources
+ b1f3732e9159bc00bb9b8be776e85e1cc95dbb6c2c2ac066d218cd478802ea67 3788 Sources.gz
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.7 (GNU/Linux)
+
+iQEVAwUBZAd3ReRWrnKFbRR2AQh61Qf9FdoKYSTUt3QsbZ/FgtqZP8UytEJuyZIe
+2MlKWKOJf1s7UtQ3IkkOMJrsT1a4LYSdhs/UOqilGS76nd449TR43JaOfNeJtTbH
+/FTq74csyMoCjUrCUHyPVYpovFBf8ocIpGxtGjH6zuLxHrZOwrsWu2Z24xHxWE/+
+TvtKlVO3ddFF/QWsrnpl8gjEwxrkdVwb5OVUUSTm775Qe0btNHEPpRBqhBoKEJnq
+MjSkWVRHUKmX4sTCPaJPFgxvXlYzM7tXToO7Cg2yRVSQTN8TYGMUMvW9sLIj6NfF
+iX8kc98DKO/Fb1YxpTEiEGmlUtnFC7FpvxWKHilPh6H1COOZdxbG6A==
+=ClPF
+-----END PGP SIGNATURE-----

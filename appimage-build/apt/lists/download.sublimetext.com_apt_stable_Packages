@@ -1,0 +1,594 @@
+Package: sublime-text
+Priority: optional
+Section: editors
+Installed-Size: 34033
+Maintainer: Sublime HQ Pty Ltd <support@sublimetext.com>
+Architecture: amd64
+Version: 3211
+Depends: libgtk-3-0
+Filename: files/sublime-text_build-3211_amd64.deb
+Size: 9835156
+MD5sum: b5648b71a04c6df453aa6d11f0932377
+SHA1: 76d4ad5bba5e4afa60ca6f5f877ff9c573b39f23
+SHA256: 8b2c6dc1178b1f0aa861e76b21719747c1587482c014e12db10ca4424b539c34
+SHA512: ce99af5946c5cc1506dd93902385c908a093556d7d7df1cc54d39c07f7141ddcee3bc090afdd38b231f13c6f5491d2642337c78520e992d89af7cf9dc83bca98
+Description: Sublime Text is a sophisticated text editor for code, markup and prose
+
+Package: sublime-text
+Priority: optional
+Section: editors
+Installed-Size: 47986
+Maintainer: Sublime HQ Pty Ltd <support@sublimetext.com>
+Architecture: amd64
+Version: 4106
+Depends: libgtk-3-0
+Filename: files/sublime-text_build-4106_amd64.deb
+Size: 16199272
+MD5sum: a690433a0e6b64f4401e0756e754b1ef
+SHA1: 92c3a9f91df51c0852c0fc380a3ed4200a63d4a0
+SHA256: b5544104b7167c43f6647957f5939d994e8ae7efe661113f0b9ef04d75900d2d
+SHA512: 250960e280b5aa7f33d44b11a24ab52cc0622cef89b760b101284eb187eae0ca2a09073f0198d71f336f24f9706ba0a945f51769bd889b2cd318d3f18ce1f74d
+Description: Sublime Text is a sophisticated text editor for code, markup and prose
+Build-Depends: libgtk-3-0
+
+Package: sublime-text
+Priority: optional
+Section: editors
+Installed-Size: 48919
+Maintainer: Sublime HQ Pty Ltd <support@sublimetext.com>
+Architecture: arm64
+Version: 4106
+Depends: libgtk-3-0
+Filename: files/sublime-text_build-4106_arm64.deb
+Size: 15587324
+MD5sum: 8427c176208e1e9bc6411fd7d8a4ec07
+SHA1: a8175b2e1cd9ed0644f3126904a8f83f1b2c98c3
+SHA256: 96a1677817399d094a7a089d456fa2e4031e39ee434e65f42f5c7561fd6775d5
+SHA512: 6b0ca74f0a04770760a5b8d16a26fee6d70b9c9a7e04e5871a20bd9336aecea1e1d05d79444e3b25136b3a7f8abf100dcde4d1598ec80f4b9150731130faac2e
+Description: Sublime Text is a sophisticated text editor for code, markup and prose
+Build-Depends: libgtk-3-0
+
+Package: sublime-merge
+Priority: optional
+Section: devel
+Installed-Size: 18862
+Maintainer: Sublime HQ Pty Ltd <support@sublimetext.com>
+Architecture: amd64
+Version: 2055
+Depends: libgtk-3-0
+Filename: files/sublime-merge_build-2055_amd64.deb
+Size: 4516008
+MD5sum: 5f7e60c608f2280f81193f823fe2e882
+SHA1: 06fd47f7654a12821a4f46e9fbfd34b44a214551
+SHA256: 42d0ba27cba2a74b8017d5ac4f4856aece1c193e28b87bc50a5f6ed7192466fa
+SHA512: 286cf1bdcb625e16fe9d381ab47226e091ad4b7340756eec8eff175c9b83bd00dfa59079c904e431361a04f23494f29b929c5c5c0a757c03f3c48e6712173dae
+Description: Sublime Merge is a Git Client, from the makers of Sublime Text
+Build-Depends: libgtk-3-0
+
+Package: sublime-merge
+Priority: optional
+Section: devel
+Installed-Size: 20355
+Maintainer: Sublime HQ Pty Ltd <support@sublimetext.com>
+Architecture: arm64
+Version: 2055
+Depends: libgtk-3-0
+Filename: files/sublime-merge_build-2055_arm64.deb
+Size: 4457800
+MD5sum: 294060f8269975d5113d5069b7a059ea
+SHA1: ffb863b6c7fab3e882c57a84a7cd15b4e246e734
+SHA256: 6d6c29d3d5b5ab24ff7b55d6a6f8f55dcccc250c114015d69a7a717b288cf1d8
+SHA512: 6affe4dd25a3f5b4a48b94b0fe794b2c1b41006b24586e86495952dd2f35f964e2477ed12a2e446add8cd8247d42e1baba924751dbcbf8ebc509e9d20ebcfbc2
+Description: Sublime Merge is a Git Client, from the makers of Sublime Text
+Build-Depends: libgtk-3-0
+
+Package: sublime-text
+Priority: optional
+Section: editors
+Installed-Size: 47956
+Maintainer: Sublime HQ Pty Ltd <support@sublimetext.com>
+Architecture: amd64
+Version: 4107
+Depends: libgtk-3-0
+Filename: files/sublime-text_build-4107_amd64.deb
+Size: 16194028
+MD5sum: d5cfd1ef536006a53418e7b9cb91862b
+SHA1: 1eb71cdf8b1212d80a8c944e1d482f038acc881e
+SHA256: becd05f1dbafb39a96e5f3986391e11410fd3f03ff9869a867edd3b2ab5232b7
+SHA512: 921e2922aca555c8c1f7060ab84b035ebfb1a684a35f485fd7cdc3c8ffc91d6857ff19863a925e94522fc5638ff79fcfa65e3eca870491990bcdefe17a67136d
+Description: Sublime Text is a sophisticated text editor for code, markup and prose
+Build-Depends: libgtk-3-0
+
+Package: sublime-text
+Priority: optional
+Section: editors
+Installed-Size: 48890
+Maintainer: Sublime HQ Pty Ltd <support@sublimetext.com>
+Architecture: arm64
+Version: 4107
+Depends: libgtk-3-0
+Filename: files/sublime-text_build-4107_arm64.deb
+Size: 15577160
+MD5sum: 243a8067458fe9689f49d73de3222987
+SHA1: 3c87916245b9d1df45ac43432f095f72879d7b5d
+SHA256: 22fe7a8468b9a84385dbb86390e256c173a528a1f431982e5a20c612592a51d6
+SHA512: f380685c8ffdbd2358e08f247d026bd2d99e17b5c467d4028846af929542d4b3f9a466e6d0109aa9d4f2dfddbe99711ac3b355f27604dd6ee4c57d19212e0c07
+Description: Sublime Text is a sophisticated text editor for code, markup and prose
+Build-Depends: libgtk-3-0
+
+Package: sublime-merge
+Priority: optional
+Section: devel
+Installed-Size: 18871
+Maintainer: Sublime HQ Pty Ltd <support@sublimetext.com>
+Architecture: amd64
+Version: 2056
+Depends: libgtk-3-0
+Filename: files/sublime-merge_build-2056_amd64.deb
+Size: 4521068
+MD5sum: 0e1d069a64a4d0d86b7daf3a9c0ddee3
+SHA1: cb683a3cef5411785dd3335979bdecee67604470
+SHA256: 94919cb39f5fb5c37ca037fb859476e7b68a965999c51b46059c7c67a3f8cf65
+SHA512: 961f025b83073405eb6d2221008549922e2589732b019eec469a7a04e08fb9e17ec29259540b56eabc1813174718c19dedac7218365a3d4bb1d1a4e6607e23dd
+Description: Sublime Merge is a Git Client, from the makers of Sublime Text
+Build-Depends: libgtk-3-0
+
+Package: sublime-merge
+Priority: optional
+Section: devel
+Installed-Size: 20364
+Maintainer: Sublime HQ Pty Ltd <support@sublimetext.com>
+Architecture: arm64
+Version: 2056
+Depends: libgtk-3-0
+Filename: files/sublime-merge_build-2056_arm64.deb
+Size: 4460176
+MD5sum: 33eeac2b72c957e45f3bb25a5e46f399
+SHA1: 764e28d47cccd60091475fea698a742c82d19741
+SHA256: 75aebbd9b22e58fa26915d35bb9061b6b4aa021f0bd78afd27b554463285af29
+SHA512: 20bcb2a4cdcbe8554e33fe4919dce1f17b9eeb9e9090f3417c97126c473421dffff259165a5ac0e462a178b1dd75ab27ddc48e4c44920f6b20a2f2e0c4bf5d89
+Description: Sublime Merge is a Git Client, from the makers of Sublime Text
+Build-Depends: libgtk-3-0
+
+Package: sublime-text
+Priority: optional
+Section: editors
+Installed-Size: 47996
+Maintainer: Sublime HQ Pty Ltd <support@sublimetext.com>
+Architecture: amd64
+Version: 4113
+Depends: libgtk-3-0
+Filename: files/sublime-text_build-4113_amd64.deb
+Size: 16203184
+MD5sum: 0b420b410cbbfe64a9ea444456f9d434
+SHA1: e9851178eacb2836afdf52872df620d1420d69e5
+SHA256: 68f23cd7cba6463abab984554c68ce21ceda5a798737b6173d59f67ccd326361
+SHA512: 56598f4911d897c1cdd7ff9c9c8c5e7382b129ea81a42f7cbfd860a83bd38fe7f5719ac0eae61f3b6a051da6db76475a2ea2717439592d2e1b70056bace69a0a
+Description: Sublime Text is a sophisticated text editor for code, markup and prose
+Build-Depends: libgtk-3-0
+
+Package: sublime-text
+Priority: optional
+Section: editors
+Installed-Size: 48933
+Maintainer: Sublime HQ Pty Ltd <support@sublimetext.com>
+Architecture: arm64
+Version: 4113
+Depends: libgtk-3-0
+Filename: files/sublime-text_build-4113_arm64.deb
+Size: 15578316
+MD5sum: 45f892deba7b030cf3e58fadf0fa70bd
+SHA1: 4c77da7b00a6cdcc8801db3deb5768c4376f00e9
+SHA256: 43a6f96ec9c192d691b00688649969f54025f4c5ef99618c836559a7cf5328b8
+SHA512: e779f4da6030d10fab60e8fce1b4f22a6e31f82255faf11b96b79b5983e2830c0c55410eb1c790c335f7011977613af9838c4f3e040debed151a27fbb3c190ac
+Description: Sublime Text is a sophisticated text editor for code, markup and prose
+Build-Depends: libgtk-3-0
+
+Package: sublime-merge
+Priority: optional
+Section: devel
+Installed-Size: 18937
+Maintainer: Sublime HQ Pty Ltd <support@sublimetext.com>
+Architecture: amd64
+Version: 2059
+Depends: libgtk-3-0
+Filename: files/sublime-merge_build-2059_amd64.deb
+Size: 4538632
+MD5sum: 246c5a6c8b8b995c0029b085f21a722b
+SHA1: 4b554c5d3dd28407d1746b892f0eec374c54a3e3
+SHA256: ba1de82886d80c4f3db8b8681f1dc99550500da48be3eaab0bd16ff11c5d6cb1
+SHA512: 52033e0602fca8b7e0082a1d1b9593fcbe884009b73b93edaa9bb7e799adc5eabb5b0f530fc813e5f244e732ae0eddd45583143f86997f527ef3db742803352c
+Description: Sublime Merge is a Git Client, from the makers of Sublime Text
+Build-Depends: libgtk-3-0
+
+Package: sublime-merge
+Priority: optional
+Section: devel
+Installed-Size: 20429
+Maintainer: Sublime HQ Pty Ltd <support@sublimetext.com>
+Architecture: arm64
+Version: 2059
+Depends: libgtk-3-0
+Filename: files/sublime-merge_build-2059_arm64.deb
+Size: 4472668
+MD5sum: 6d5ab7815d3123b92a52244e24aa6012
+SHA1: eca3c8a3e4d2acc875474a7e572afbac97c6d2d6
+SHA256: e9401e2f14ddb698484724294bba9615499a05a84762e0a17d917b22dc35e187
+SHA512: ab43da05d112334e5775262a8c95320fbbabda6957018861d073de592ad5fb139533b929a69da87b8fdcef605c43db2c27568550ed6cd5e5581678b87ae5a3a9
+Description: Sublime Merge is a Git Client, from the makers of Sublime Text
+Build-Depends: libgtk-3-0
+
+Package: sublime-text
+Priority: optional
+Section: editors
+Installed-Size: 48636
+Maintainer: Sublime HQ Pty Ltd <support@sublimetext.com>
+Architecture: amd64
+Version: 4121
+Depends: libgtk-3-0
+Filename: files/sublime-text_build-4121_amd64.deb
+Size: 16295388
+MD5sum: b6e805ac9a9b21603676674ac8d70fcb
+SHA1: e3fa05f92d669558b9b2fa75360c9f1ad86c40d4
+SHA256: 6b2b586f020f6b9952af63e19a4a1974e6fcaf4206ccec780418a57dadee71bb
+SHA512: 52be236f8b97e6f6b3f7b41450ffb2d15dba0cbe06630bab094e6e4635b0ef487aba596dfecd0792476b79841e6a247d804a75d9c38c23afab5eb3e7f50f8486
+Description: Sublime Text is a sophisticated text editor for code, markup and prose
+Build-Depends: libgtk-3-0
+
+Package: sublime-text
+Priority: optional
+Section: editors
+Installed-Size: 49362
+Maintainer: Sublime HQ Pty Ltd <support@sublimetext.com>
+Architecture: arm64
+Version: 4121
+Depends: libgtk-3-0
+Filename: files/sublime-text_build-4121_arm64.deb
+Size: 15659016
+MD5sum: 5936183ad578d924e47f0dca19c83a3a
+SHA1: a742720a7ed835cbaad02f8673c8c253abb2004a
+SHA256: a4433ebe322f96835e4c24616ba62b5ddf53bff8f04997ab7387dd97c7d4b7da
+SHA512: c0a97db011c5cc44950c1e393fafd2e314a00334ca86ce44f58d6126ae0602a52ba4b96d7ce1a0119264d1534dc911c6e9f978916fc210d56f6b88291a85f599
+Description: Sublime Text is a sophisticated text editor for code, markup and prose
+Build-Depends: libgtk-3-0
+
+Package: sublime-merge
+Priority: optional
+Section: devel
+Installed-Size: 19499
+Maintainer: Sublime HQ Pty Ltd <support@sublimetext.com>
+Architecture: amd64
+Version: 2063
+Depends: libgtk-3-0
+Filename: files/sublime-merge_build-2063_amd64.deb
+Size: 4612036
+MD5sum: 8ab243e6138dae4cd72cbd8dfc893412
+SHA1: 80862b768341cdfd047a739081a34448578e0aca
+SHA256: b658791e821745cca75ed1fddb81a5ab03b983600e0c30f88781aaac4c9628d0
+SHA512: 7c7f7a9b3953aa3c1d407c42f2363529e9f151de023f4f3f00e13b03a7c478a5b19d7c7d5e61ed9abdde5091e08680fc3b6912ab43dc4d05d07e7a43229061d7
+Description: Sublime Merge is a Git Client, from the makers of Sublime Text
+Build-Depends: libgtk-3-0
+
+Package: sublime-merge
+Priority: optional
+Section: devel
+Installed-Size: 20762
+Maintainer: Sublime HQ Pty Ltd <support@sublimetext.com>
+Architecture: arm64
+Version: 2063
+Depends: libgtk-3-0
+Filename: files/sublime-merge_build-2063_arm64.deb
+Size: 4552104
+MD5sum: 3ab89d79ef20f96e36d5bb4184ba5424
+SHA1: 9cd88e5e8d38c3bf69c4ab476444368a3abc7044
+SHA256: cdc2b0cedff5105e14f8322d314b7175f91055604fafd467c4d5b4170fbc147e
+SHA512: bb4b6d68a8c18699df17cf879e0361c0433d3b2c08a8a39e60a33af24fadcc889accd379746bf5d3ce0f6aefd60de77eaafdaf27479ac0c206f20676efc1e394
+Description: Sublime Merge is a Git Client, from the makers of Sublime Text
+Build-Depends: libgtk-3-0
+
+Package: sublime-text
+Priority: optional
+Section: editors
+Installed-Size: 49427
+Maintainer: Sublime HQ Pty Ltd <support@sublimetext.com>
+Architecture: amd64
+Version: 4126
+Depends: libgtk-3-0, libcurl3 | libcurl4
+Filename: files/sublime-text_build-4126_amd64.deb
+Size: 16433852
+MD5sum: 0ea8fecc5738624ddd146e9db0c3a178
+SHA1: 81009809d9c4fe96bd3537d215f40ce77d98f7bf
+SHA256: 1c25ae2b7f89763e0ba1b661d0b07c0ba3df62b23de410d6fed4a21f8b1d9418
+SHA512: 0453c0b54ab04b363e895a75deb2714349f8dbd9c7e9bd020c7b1507c485c757e6f315f22731a1baa6749405df6e8c031bda991ed1c1631c17f372896d7d2c54
+Description: Sublime Text is a sophisticated text editor for code, markup and prose
+Build-Depends: libgtk-3-0, libcurl3 | libcurl4
+
+Package: sublime-text
+Priority: optional
+Section: editors
+Installed-Size: 50155
+Maintainer: Sublime HQ Pty Ltd <support@sublimetext.com>
+Architecture: arm64
+Version: 4126
+Depends: libgtk-3-0, libcurl3 | libcurl4
+Filename: files/sublime-text_build-4126_arm64.deb
+Size: 15787268
+MD5sum: b1444a12a311ee28e69ff0f1da2916ba
+SHA1: 205a80a1856e273ffee147b45c357c8069346cc7
+SHA256: 36d173079e3e72051d8e9a40d30dbe8bc6bd3630bf8515167df9e66a11cbe8f2
+SHA512: 8f3d0f6b1fa1ae4c306604c4968e717733508eb384f695cd5e61e80d7b75624c086ce81149a5b7fab634227c9f68a958e133d7f4f1b277a7510b2c5e8b1bb93f
+Description: Sublime Text is a sophisticated text editor for code, markup and prose
+Build-Depends: libgtk-3-0, libcurl3 | libcurl4
+
+Package: sublime-merge
+Priority: optional
+Section: devel
+Installed-Size: 20299
+Maintainer: Sublime HQ Pty Ltd <support@sublimetext.com>
+Architecture: amd64
+Version: 2068
+Depends: libgtk-3-0, libcurl3 | libcurl4
+Filename: files/sublime-merge_build-2068_amd64.deb
+Size: 4756288
+MD5sum: 953a5c649a5706891b0ac7ffa214f3b2
+SHA1: e833b22518839f00ae576c194c4637ca55c91ca4
+SHA256: 847e81b9a9e51449490de2c45d19a77e4ac4a0b6dc61b2bf3c9ab102d666a9e4
+SHA512: 95b61db5d565109024083084e195b4e71eaab1e6dab73800f61a412fe39446c4e3e094b644d3711a9c54725c19bd51973a0aa50e7243da329c69260c78e19d2a
+Description: Sublime Merge is a Git Client, from the makers of Sublime Text
+Build-Depends: libgtk-3-0, libcurl3 | libcurl4
+
+Package: sublime-merge
+Priority: optional
+Section: devel
+Installed-Size: 21554
+Maintainer: Sublime HQ Pty Ltd <support@sublimetext.com>
+Architecture: arm64
+Version: 2068
+Depends: libgtk-3-0, libcurl3 | libcurl4
+Filename: files/sublime-merge_build-2068_arm64.deb
+Size: 4670032
+MD5sum: 341fece0abee8b3ab88d721609593ddc
+SHA1: 49a0b999b56fa5021d7f01750a2d8fea4d3303b7
+SHA256: 644e6429421dc48c792d9bd8d60e23acb5dfc21507b132e70359c9f840f5ec67
+SHA512: a4de6b90c827a55783bbb1e8ba6201aea1df8a9b2e260d97381ccd6661129ee089ba1c0292a05fc15fb2f25814f23b04b5019e9ca6efb7c4ddcd5ab8968615de
+Description: Sublime Merge is a Git Client, from the makers of Sublime Text
+Build-Depends: libgtk-3-0, libcurl3 | libcurl4
+
+Package: sublime-merge
+Priority: optional
+Section: devel
+Installed-Size: 20947
+Maintainer: Sublime HQ Pty Ltd <support@sublimetext.com>
+Architecture: amd64
+Version: 2071
+Depends: libgtk-3-0, libcurl3 | libcurl4
+Filename: files/sublime-merge_build-2071_amd64.deb
+Size: 4822556
+MD5sum: 758b4ad141d21407ce243347c3722f0a
+SHA1: 547a38c37477754415c2dbc7041896714600c0bb
+SHA256: 465897c173c2c1d5db1f169ef13478c955447aa6fc077fa00108c576cd3ef27d
+SHA512: eee89386660c3e64860bbb5fd2cfefa3674d5ec36c0fc782c15d4404c4d7919cdbffcbec6f5573ecf12b9d065d7660250e19fd34ae2e6db5f5aee163f0dbb3b8
+Description: Sublime Merge is a Git Client, from the makers of Sublime Text
+Build-Depends: libgtk-3-0, libcurl3 | libcurl4
+
+Package: sublime-merge
+Priority: optional
+Section: devel
+Installed-Size: 22219
+Maintainer: Sublime HQ Pty Ltd <support@sublimetext.com>
+Architecture: arm64
+Version: 2071
+Depends: libgtk-3-0, libcurl3 | libcurl4
+Filename: files/sublime-merge_build-2071_arm64.deb
+Size: 4735648
+MD5sum: 750263047eb4cf3319d87f4c7abf1a69
+SHA1: 7407ed4faf2ab5ff7321512cbf9ff40f9525d86f
+SHA256: bfc0658fe7ca05be4ee746570247e5f4f13af4f2f420d483df96c4cfbb202939
+SHA512: 0da5fb5655346aa5045ba126e17fd7136953c7a9088d25a6608941e1dca54ba4753ee390b4022431050d8a6f6fd5440c11191d897fc2fb2416ec407a7fefb2fa
+Description: Sublime Merge is a Git Client, from the makers of Sublime Text
+Build-Depends: libgtk-3-0, libcurl3 | libcurl4
+
+Package: sublime-merge
+Priority: optional
+Section: devel
+Installed-Size: 21447
+Maintainer: Sublime HQ Pty Ltd <support@sublimetext.com>
+Architecture: amd64
+Version: 2074
+Depends: libgtk-3-0, libcurl3 | libcurl4
+Filename: files/sublime-merge_build-2074_amd64.deb
+Size: 4861944
+MD5sum: 2e6847011e6216c785763244b1689cfb
+SHA1: 91c0b666a356a1f71ba615a327a2b41297ef8918
+SHA256: e74808ac5801dd207f11a375e2f37f9ad38437b2bc8373d3fe8d3706157236f5
+SHA512: 3c8b23f98876df9eba772c8c6965c4e69278d6ce96c7bb7239b536231d07c10958d6fd20b86e54b1a13906f2357e76fd6c0418d9515618e72c681e61f27fcfb4
+Description: Sublime Merge is a Git Client, from the makers of Sublime Text
+Build-Depends: libgtk-3-0, libcurl3 | libcurl4
+
+Package: sublime-merge
+Priority: optional
+Section: devel
+Installed-Size: 22720
+Maintainer: Sublime HQ Pty Ltd <support@sublimetext.com>
+Architecture: arm64
+Version: 2074
+Depends: libgtk-3-0, libcurl3 | libcurl4
+Filename: files/sublime-merge_build-2074_arm64.deb
+Size: 4772200
+MD5sum: 6506d03444cb6152ce2b66603741c7f4
+SHA1: 6494b3ae631617341983212e6f4dca58633d1a4a
+SHA256: 9652dde617ad861fa357bcc98b75dd0d2c9314c13dcb0f36f38403e5cddb770b
+SHA512: be0d0811b9eeaf24a39b5098ea0de4bd7ddcbb04d277d891f2357c5d7993588e4d43d4212188f9fa95422a808e217bd82bf4bedcffd551bd8becadda8ba6f22e
+Description: Sublime Merge is a Git Client, from the makers of Sublime Text
+Build-Depends: libgtk-3-0, libcurl3 | libcurl4
+
+Package: sublime-merge
+Priority: optional
+Section: devel
+Installed-Size: 21470
+Maintainer: Sublime HQ Pty Ltd <support@sublimetext.com>
+Architecture: amd64
+Version: 2077
+Depends: libgtk-3-0, libcurl3 | libcurl4
+Filename: files/sublime-merge_build-2077_amd64.deb
+Size: 4865136
+MD5sum: 19dc9f8abda94ab5619f93f2d6a054fb
+SHA1: 341c5676dbe7e9bb63e8d8556741b7c0879c21f3
+SHA256: 2687bb33f03f346657b7b93651a720755222b0a5c100a6ecb55073afb915fa7c
+SHA512: 8bcf482a78a2e0efba8c4bc59a80fadacfe5de1e3d1e9a2ce5b74c4fe9f7c335cc1bf0be25627ab160381e8ee2ec0cfa994f8373240270ab008cc77018236ad0
+Description: Sublime Merge is a Git Client, from the makers of Sublime Text
+Build-Depends: libgtk-3-0, libcurl3 | libcurl4
+
+Package: sublime-merge
+Priority: optional
+Section: devel
+Installed-Size: 22748
+Maintainer: Sublime HQ Pty Ltd <support@sublimetext.com>
+Architecture: arm64
+Version: 2077
+Depends: libgtk-3-0, libcurl3 | libcurl4
+Filename: files/sublime-merge_build-2077_arm64.deb
+Size: 4774856
+MD5sum: 89eda92eab53f62c635a2f8ae2ff7038
+SHA1: 56577ec2bef4f58347fc90daa064cb957c936e3e
+SHA256: 8c96493f7d1982f60c09fc7ae64e7ffd07fd54cb02571b6230a3fb3548b43557
+SHA512: 7272b248987d708be18e860040fe0d4319c9dbadfd305e1a934a3601863bf85d04b06f04eb6e9895a5518d835b91f776a9cb04bddd89ddcf137397f0eb8b4e8e
+Description: Sublime Merge is a Git Client, from the makers of Sublime Text
+Build-Depends: libgtk-3-0, libcurl3 | libcurl4
+
+Package: sublime-text
+Priority: optional
+Section: editors
+Installed-Size: 51039
+Maintainer: Sublime HQ Pty Ltd <support@sublimetext.com>
+Architecture: amd64
+Version: 4142
+Depends: libgtk-3-0, libcurl3 | libcurl4
+Filename: files/sublime-text_build-4142_amd64.deb
+Size: 16594680
+MD5sum: 67cd3711a26a663c835a81a28fd0de0a
+SHA1: 9366b096ee3a98dc757285bf35522b414ab3a092
+SHA256: 88fde25796fb8d99b6a10ac58642b19d0fa35c9c0aa2a32785f8f77ec1c6eb06
+SHA512: 218beb135f4d9e3ff6063ff22e14f927b892f3997d8fcd3b1d5e14cd7a7745d1f2876425e51c5012405ac8a46be13f2192bc2d11b1992f885eb3c345865dd9bc
+Description: Sublime Text is a sophisticated text editor for code, markup and prose
+Build-Depends: libgtk-3-0, libcurl3 | libcurl4
+
+Package: sublime-text
+Priority: optional
+Section: editors
+Installed-Size: 51755
+Maintainer: Sublime HQ Pty Ltd <support@sublimetext.com>
+Architecture: arm64
+Version: 4142
+Depends: libgtk-3-0, libcurl3 | libcurl4
+Filename: files/sublime-text_build-4142_arm64.deb
+Size: 15944560
+MD5sum: bbeddf95247461789fe5ce503741b1bc
+SHA1: af778a4d11146308f37d5cc56e155a05f5cc2892
+SHA256: c34e71e8f5f0c4ebb92136210edb335a126c8c6db0da5c7fd030ae3b818e784d
+SHA512: b7c6d70c7739dfbd0bbd5df76d51cffd850998f1d049b85d66108e4b95834665167e4071b6e5276e995b9bb6ff763db9501838bf00355cbe40c384f4b094bd26
+Description: Sublime Text is a sophisticated text editor for code, markup and prose
+Build-Depends: libgtk-3-0, libcurl3 | libcurl4
+
+Package: sublime-text
+Priority: optional
+Section: editors
+Installed-Size: 51041
+Maintainer: Sublime HQ Pty Ltd <support@sublimetext.com>
+Architecture: amd64
+Version: 4143
+Depends: libgtk-3-0, libcurl3 | libcurl4
+Filename: files/sublime-text_build-4143_amd64.deb
+Size: 16599948
+MD5sum: 3576a506e25cbf021a16ab70afbb8bab
+SHA1: f8fc79f99cdd7e77fbecc8dccfbf21a1b159f8a5
+SHA256: e8b09a1205ee8a0928fe63961f2492070e84157735110d51504988d37e3a7e0a
+SHA512: 334f3e1235d664bfe097ee15ab51b45e7f7d5af10022723ad9a11f174100696a91bce20062a76d611ae11d26fc80d790397d708141854c836b38b9801cabd8a1
+Description: Sublime Text is a sophisticated text editor for code, markup and prose
+Build-Depends: libgtk-3-0, libcurl3 | libcurl4
+
+Package: sublime-text
+Priority: optional
+Section: editors
+Installed-Size: 51753
+Maintainer: Sublime HQ Pty Ltd <support@sublimetext.com>
+Architecture: arm64
+Version: 4143
+Depends: libgtk-3-0, libcurl3 | libcurl4
+Filename: files/sublime-text_build-4143_arm64.deb
+Size: 15944900
+MD5sum: 318fe110a821c9a10a86b2dbefc2d0e2
+SHA1: fe7424e6d18f39012ef015f3a5cc2e9871f62276
+SHA256: 0a6c3b8e4332596f6bce98c688947966ab23b06969b543fd44f40ff2d57d3410
+SHA512: 0b7458c0f61a85ad30b54e637ed707e95dfbfd690b63c8f2153e54be2c451ccd7e6243e67d88fe0eebbb10f879bd9650be45c3236c6517f233547153aaa4cec1
+Description: Sublime Text is a sophisticated text editor for code, markup and prose
+Build-Depends: libgtk-3-0, libcurl3 | libcurl4
+
+Package: sublime-merge
+Priority: optional
+Section: devel
+Installed-Size: 21712
+Maintainer: Sublime HQ Pty Ltd <support@sublimetext.com>
+Architecture: amd64
+Version: 2079
+Depends: libgtk-3-0, libcurl3 | libcurl4
+Filename: files/sublime-merge_build-2079_amd64.deb
+Size: 4887276
+MD5sum: 8fe56c9cd48a801483a53b305c47201b
+SHA1: 9d920a56bc9ab9c949240123a5884b9cf03ad482
+SHA256: 884090e0e8480f3eb886d652cc80b91f097b9ad2c9aedae7d55b33121eb7d4ad
+SHA512: 72336afc91516ef90fa750bbd641a21d878bb0c72173248fd6613ae8a2cfd0233b5e323f7890628f7bd13a3b6f883f88e30ac7f8c6e57c40871b6cfeb794b70c
+Description: Sublime Merge is a Git Client, from the makers of Sublime Text
+Build-Depends: libgtk-3-0, libcurl3 | libcurl4
+
+Package: sublime-merge
+Priority: optional
+Section: devel
+Installed-Size: 22961
+Maintainer: Sublime HQ Pty Ltd <support@sublimetext.com>
+Architecture: arm64
+Version: 2079
+Depends: libgtk-3-0, libcurl3 | libcurl4
+Filename: files/sublime-merge_build-2079_arm64.deb
+Size: 4785340
+MD5sum: d9bd2dd4d39e9342f1c82331a512a97a
+SHA1: 8a343a7b298195c1ee2aba29f1f56470350b3af3
+SHA256: 187b4934255766eb3ee03dbb145be2368e5d91ec8dbfe21b3dfd808e1ba380f2
+SHA512: fb1707655ba4963d96a40045f15bdee46a1946fe553f0107ff297186eae9ce3e7e1d8d1bd5b76e128267a224a4213405dcd7aafdf6fe5f09af33cf5f027e7f51
+Description: Sublime Merge is a Git Client, from the makers of Sublime Text
+Build-Depends: libgtk-3-0, libcurl3 | libcurl4
+
+Package: sublime-merge
+Priority: optional
+Section: devel
+Installed-Size: 22673
+Maintainer: Sublime HQ Pty Ltd <support@sublimetext.com>
+Architecture: amd64
+Version: 2083
+Depends: libgtk-3-0, libcurl3 | libcurl4
+Filename: files/sublime-merge_build-2083_amd64.deb
+Size: 4981944
+MD5sum: a34f0f6e103a48f2a802a730ef12fece
+SHA1: 7db468a9821b1b8007be0a7c7e450415356cca08
+SHA256: e56103611e6b6c281bb489b4afc29175bc60a38bb3ae54b8f80d78e89e1e3896
+SHA512: 9d460a9ba4d5bb4705b5bc44c579b88bfb96d1ad4ce0639e94c60e66a53d5e8df88c73a5a0413a0bbe134c4600497509a9a726174e09658788d52523916e1b19
+Description: Sublime Merge is a Git Client, from the makers of Sublime Text
+Build-Depends: libgtk-3-0, libcurl3 | libcurl4
+
+Package: sublime-merge
+Priority: optional
+Section: devel
+Installed-Size: 24259
+Maintainer: Sublime HQ Pty Ltd <support@sublimetext.com>
+Architecture: arm64
+Version: 2083
+Depends: libgtk-3-0, libcurl3 | libcurl4
+Filename: files/sublime-merge_build-2083_arm64.deb
+Size: 4907648
+MD5sum: ebaf670fd85a52ce1d669d0194f334a1
+SHA1: 930ba79534ce8656b7abc01ba1395d01f2015af7
+SHA256: ddcca5f3c3c6fe7780a0fe3d0b4abe58943af3dbfdd2dbde7049f4fc9c080beb
+SHA512: dcb9816b0a430ad9a76c66881893967693595cd5ba2b20148ad464daa07ab569c8ada851e0e1b77949f72553532a0d1eec34886d014c68205b756ce7e9d8ebf2
+Description: Sublime Merge is a Git Client, from the makers of Sublime Text
+Build-Depends: libgtk-3-0, libcurl3 | libcurl4
+
