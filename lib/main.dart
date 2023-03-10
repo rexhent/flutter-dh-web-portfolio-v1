@@ -31,8 +31,7 @@ void main() {
   setMinSize();
 }
 
-Person dominic = Person('Dominic Hannah', 'Android Developer',
-    'dhannah10@outlook.com', '+61 0477 534 900');
+Person dominic = Person('d', 'Android Developer', 'd', '+61 d');
 
 class MyApp extends StatelessWidget {
   MyApp({Key key}) : super(key: key);
