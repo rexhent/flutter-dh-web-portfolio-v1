@@ -138,15 +138,16 @@ class MyNavbar extends StatelessWidget {
   }
 }
 
-class DrawerButton extends StatelessWidget {
+class OpenDrawerButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Builder(
-      builder: (context) {
-        return IconButton(
-            onPressed: () => Scaffold.of(context).openDrawer(),
-            icon: Icon(Icons.menu));
-      },
+      builder: (context) => IconButton(
+          onPressed: () => Scaffold.of(context).openDrawer(),
+          icon: Icon(
+            Icons.menu,
+            color: Colors.white,
+          )),
     );
   }
 }

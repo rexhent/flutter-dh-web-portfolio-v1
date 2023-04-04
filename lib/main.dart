@@ -36,10 +36,12 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           backgroundColor: Colors.purple.shade300,
           centerTitle: true,
+          leading: OpenDrawerButton(),
           title: Text(
             'Home',
             style: TextStyle(
                 fontFamily: 'Inter',
+                color: Colors.white,
                 fontVariations: [FontVariation('wght', 600)]),
           ),
           actions: <Widget>[

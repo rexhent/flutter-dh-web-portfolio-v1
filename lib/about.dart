@@ -23,6 +23,7 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         backgroundColor: Colors.purple.shade800,
+        leading: OpenDrawerButton(),
         title: Text(
           'About Me',
           style: TextStyle(
@@ -37,7 +38,10 @@ class MyHomePage extends StatelessWidget {
           IconButton(
               onPressed: () => Navigator.push(
                   context, MaterialPageRoute(builder: (context) => MyApp())),
-              icon: Icon(Icons.psychology_alt)),
+              icon: Icon(
+                Icons.home,
+                color: Colors.white,
+              )),
         ],
       ),
       drawer: MyNavbar(),
