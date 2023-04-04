@@ -4,6 +4,10 @@ import 'package:flutter/material.dart';
 import 'about.dart';
 import 'main.dart';
 
+import 'package:url_launcher/url_launcher.dart';
+
+final Uri _url = Uri.parse('https://flutter.dev');
+
 class DtEmail extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -144,5 +148,33 @@ class DrawerButton extends StatelessWidget {
             icon: Icon(Icons.menu));
       },
     );
+  }
+}
+
+class MadeWithFlutter extends StatelessWidget {
+  const MadeWithFlutter({
+    Key? key,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: ElevatedButton(
+          onPressed: _launchUrl,
+          child: Container(
+            width: 218,
+            child: ListTile(
+              leading: Icon(Icons.android),
+              title: Text('Made with Flutter!'),
+            ),
+          )),
+    );
+  }
+}
+
+Future<void> _launchUrl() async {
+  if (!await launchUrl(_url)) {
+    throw Exception('Could not launch $_url');
   }
 }

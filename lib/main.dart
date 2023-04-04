@@ -43,7 +43,12 @@ class MyApp extends StatelessWidget {
                 fontVariations: [FontVariation('wght', 600)]),
           ),
           actions: <Widget>[
-            IconButton(onPressed: SystemNavigator.pop, icon: Icon(Icons.close)),
+            IconButton(
+                onPressed: SystemNavigator.pop,
+                icon: Icon(
+                  Icons.close,
+                  color: Colors.white,
+                )),
           ],
         ),
         body: Column(
