@@ -6,36 +6,36 @@ Label: Google
 Suite: stable
 Codename: stable
 Version: 1.0
-Date: Wed, 08 Mar 2023 20:02:09 UTC
+Date: Thu, 09 Mar 2023 19:19:46 UTC
 Architectures: amd64
 Components: main
 Description: Google chrome-linux software repository
 MD5Sum:
- 58f734c87d8ef406dedef0ff566ec776 4158 main/binary-amd64/Packages
- cf3b1399a2d8ef793cff7ccffd17f7c5 1061 main/binary-amd64/Packages.gz
+ 814acb217ed3997fa19f3b9d404f52d4 4156 main/binary-amd64/Packages
+ 48d9e2196972402fcf2f6de52a3d88bf 1079 main/binary-amd64/Packages.gz
  156e5ea7a0c6bed5973a68a45e546dc9 151 main/binary-amd64/Release
 SHA1:
- 7a5aed851b3920ce77690e6bcec830d787411dea 4158 main/binary-amd64/Packages
- 100194464b0efc8479677ad3369ca21764b85b86 1061 main/binary-amd64/Packages.gz
+ 56f49146f07d787ed09744762886eee30585c7f3 4156 main/binary-amd64/Packages
+ 5a3ea8e64ba62004b0acc6109d43ce140565fe70 1079 main/binary-amd64/Packages.gz
  0f4348c2d4d7cc1f8e59b5934d87f1ca872f6e34 151 main/binary-amd64/Release
 SHA256:
- 8ed4ee2b416f39b1c6dc727cac3aab9d88da739d1ed44fd682c6c4884156ee07 4158 main/binary-amd64/Packages
- cf577564869c0046ef31633e083d4cb8784cb0ac318a059b97137187f560bada 1061 main/binary-amd64/Packages.gz
+ 77f17a66807912689addd87c28d045629969fae3490359000e85e0dada874138 4156 main/binary-amd64/Packages
+ 5decbb2046ea05e07309936d8ef37acb3c5bdbafef04c449b963b243e7bef2cd 1079 main/binary-amd64/Packages.gz
  c1e3c9318381862306adcdc4fd4fe2d85be8aa4c4f3dcbb40fce80413f588286 151 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQIcBAEBCAAGBQJkCOnFAAoJEE6yfbKjuIuLHKgQAJyK99BAA3wOiiynAGCGdetn
-Na2jgqqeYJiDeMpZNb2HtQ5JoPkzZKBR/TTlRKQFoREtUtFE287gxvFApqpwvyRF
-bhBnx8l9lfqEx5hGF2Ic7a9boPGe45hIIAkr9MUEJrj6DiWxm9CjX8/2zOIldi/n
-hd/jzWfDCAVMasRIkwH4m6U86jo4x73LPY6genvFGlhWTnCB9spUDMbmzydTVd3/
-QwwQCGNmqSnFJBPPs4NTwfs7i66k7eUkWW21lKnHYHZmhQUNr/65hfgVDjWhEr6E
-Y0CH5/+p+cVai3b+R5cbKZs5/Rig3MzpwU70OgH/TY4PwKEZyQYx/PjQc+FCBhqj
-m1odN7mS6+exRw3eHAOfeLcRpxPLU5UMzSQTKcDYKqZ2xYDlUOLzNI0iGYigxxdc
-Vh33Q4YqCPFoQDvq4eeNSPSRaqGY+72AVISsXkhH3A0GzZoIt44XtMr3L2tDWD5d
-h/t8TZh4a9CXPDFdyZMl//MT0NSsWqZJ4MrHHQxk0K60HdiuKFa/sPM2uPwcZtc8
-Og5GUaIDhFKd/ht/0PZ6agUDio5+hQsbtjtqIpNeRAiXIJpgyDcLy2tJ1pPCylQw
-rUiLzTVIi6bTiAR5j1AYSPpiPwwMp3YH0yFS8UnG//1dq5h7k8Y92h1WNgx9qHM3
-0tlFWjeecy2ZvW3zlPvB
-=tF2j
+iQIcBAEBCAAGBQJkCjFcAAoJEE6yfbKjuIuLQZAP/2ss0Qebr2zmlo3QYWQuhMP4
+nKiIaLxcFv/1QKtMO6BAWppdFRXc5nAUFvg2jE3qVgKazti6JCoQtvDW6dYRweuA
+tbadx45C0KUfAFnB9rgxRpqyJUhetNn8rK7dWaqgitCezBfmz6rJYYUiQTeLgA0I
+oRKf3qMQXUGPuAFYMOm8/BYpf0V3AAP614Yq8wTjeqnVXHGjQjeVaREDGfGznLW9
+d+3orAJPfpwj3tyob2PxNZvqUULYC2oHEJ1cNuNtvuCcmGM1yvDdahDtvo8+eUai
++uaDdPHu8Te3BPotQni2xin4oDWFWxb+3Wmj2J2aH9vO928sRPYgu3gLzbBw9MhL
+9UxFaf2ibN2BMMR3EYpgzbgfDOyPUt/BDkJea/OTZpk8VN2XCgMVkSwobf4k5YD2
+D3hUalcmkLxsaV59dtU3CS7Lq4e/shxfbMnroyOY5SgykTJXVBGZw+Nw4FuwK595
+68JOpR7iAxlsNCLiizGk9b2aDg//JegF521AalZ/6ubXFP1DYwDJWaCVMKK1hYPY
+1mjZH3UfS4vL0U1vuSQBas3c3LnKZ6AsE2ijDKiwZOAP9tbgk8PVUs3OqJfkwr5S
+0GUpbc5IyYzCKN3fojwbKtrqJAPQlIDh6uT92w62X8+gZu3l+joaZfivspYY6Ke9
+9fBZovEavLtChj/6BVjV
+=Hbbt
 -----END PGP SIGNATURE-----

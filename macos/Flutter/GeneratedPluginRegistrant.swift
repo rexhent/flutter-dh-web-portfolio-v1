@@ -5,8 +5,10 @@
 import FlutterMacOS
 import Foundation
 
-import desktop_window
+import cloud_firestore
+import firebase_core
 
 func RegisterGeneratedPlugins(registry: FlutterPluginRegistry) {
-  DesktopWindowPlugin.register(with: registry.registrar(forPlugin: "DesktopWindowPlugin"))
+  FLTFirebaseFirestorePlugin.register(with: registry.registrar(forPlugin: "FLTFirebaseFirestorePlugin"))
+  FLTFirebaseCorePlugin.register(with: registry.registrar(forPlugin: "FLTFirebaseCorePlugin"))
 }

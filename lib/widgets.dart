@@ -5,9 +5,6 @@ import 'about.dart';
 import 'main.dart';
 
 class DtEmail extends StatelessWidget {
-  const DtEmail({
-    Key key,
-  }) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Card(
@@ -18,7 +15,7 @@ class DtEmail extends StatelessWidget {
           color: Colors.teal,
         ),
         title: Text(
-          '${dominic.email}',
+          '${email}',
           style: TextStyle(
               fontFamily: 'Inter',
               fontSize: 20.0,
@@ -33,10 +30,6 @@ class DtEmail extends StatelessWidget {
 }
 
 class DtPhone extends StatelessWidget {
-  const DtPhone({
-    Key key,
-  }) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return Card(
@@ -44,7 +37,7 @@ class DtPhone extends StatelessWidget {
       child: ListTile(
           leading: Icon(Icons.phone, color: Colors.teal),
           title: Text(
-            '${dominic.phone}',
+            '${phone}',
             style: TextStyle(
                 color: Colors.teal.shade900,
                 fontFamily: 'Inter',
@@ -56,10 +49,6 @@ class DtPhone extends StatelessWidget {
 }
 
 class DtAvatar extends StatelessWidget {
-  const DtAvatar({
-    Key key,
-  }) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return CircleAvatar(
@@ -70,14 +59,10 @@ class DtAvatar extends StatelessWidget {
 }
 
 class DtName extends StatelessWidget {
-  const DtName({
-    Key key,
-  }) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return Text(
-      '${dominic.name}',
+      '${name}',
       style: TextStyle(
         fontFamily: 'Pacifico',
         fontSize: 50.0,
@@ -89,14 +74,10 @@ class DtName extends StatelessWidget {
 }
 
 class DtJob extends StatelessWidget {
-  const DtJob({
-    Key key,
-  }) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return Text(
-      '${dominic.job}',
+      '${job}',
       style: TextStyle(
         fontFamily: 'Source Sans Pro',
         color: Colors.teal.shade100,
@@ -109,10 +90,6 @@ class DtJob extends StatelessWidget {
 }
 
 class MyNavbar extends StatelessWidget {
-  const MyNavbar({
-    Key key,
-  }) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return Drawer(
@@ -120,6 +97,10 @@ class MyNavbar extends StatelessWidget {
       child: ListView(
         children: <Widget>[
           ListTile(
+            leading: Icon(
+              Icons.home,
+              color: Colors.white,
+            ),
             title: Text(
               'Home',
               style: TextStyle(
@@ -134,6 +115,10 @@ class MyNavbar extends StatelessWidget {
                 context, MaterialPageRoute(builder: (context) => MyApp())),
           ),
           ListTile(
+            leading: Icon(
+              Icons.person,
+              color: Colors.white,
+            ),
             title: Text(
               'About Me',
               style: TextStyle(color: Colors.white, fontVariations: [
@@ -150,10 +135,6 @@ class MyNavbar extends StatelessWidget {
 }
 
 class DrawerButton extends StatelessWidget {
-  const DrawerButton({
-    Key key,
-  }) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return Builder(

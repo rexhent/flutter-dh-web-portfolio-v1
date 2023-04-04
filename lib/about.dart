@@ -15,16 +15,11 @@ class SecondPage extends StatelessWidget {
 }
 
 class MyHomePage extends StatelessWidget {
-  const MyHomePage({
-    Key key,
-  }) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.purple.shade400,
       appBar: AppBar(
-        leading: DrawerButton(),
         centerTitle: true,
         backgroundColor: Colors.purple.shade800,
         title: Text(

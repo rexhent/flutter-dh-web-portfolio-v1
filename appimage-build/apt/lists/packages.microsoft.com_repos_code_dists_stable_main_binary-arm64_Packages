@@ -445,6 +445,28 @@ Size: 69857076
 Filename: pool/main/c/code-insiders/code-insiders_1.55.0-1615871606_arm64.deb
 
 Package: code-insiders
+Version: 1.77.0-1678473595
+Architecture: arm64
+Section: devel
+Priority: optional
+Installed-Size: 327819
+Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
+Description: Code editing. Redefined.
+ Visual Studio Code is a new choice of tool that combines the simplicity of
+ a code editor with what developers need for the core edit-build-debug cycle.
+ See https://code.visualstudio.com/docs/setup/linux for installation
+ instructions and FAQ.
+Homepage: https://code.visualstudio.com/
+Conflicts: visual-studio-code-insiders
+Depends: ca-certificates, libasound2 (>= 1.0.16), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.17), libcairo2 (>= 1.6.0), libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3, libdbus-1-3 (>= 1.0.2), libdrm2 (>= 2.4.38), libexpat1 (>= 2.0.1), libgbm1 (>= 8.1~0), libgcc1 (>= 1:3.0), libgcc1 (>= 1:4.2), libgcc1 (>= 1:4.5), libglib2.0-0 (>= 2.16.0), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.9.10), libgtk-3-0 (>= 3.9.10) | libgtk-4-1, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.22), libnss3 (>= 3.26), libpango-1.0-0 (>= 1.14.0), libsecret-1-0 (>= 0.18), libstdc++6 (>= 4.1.1), libstdc++6 (>= 5.2), libstdc++6 (>= 6), libx11-6, libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.4-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.4.1), libxkbfile1, libxrandr2, xdg-utils (>= 1.0.2)
+Recommends: libvulkan1
+Provides: visual-studio-code-insiders
+Replaces: visual-studio-code-insiders
+SHA256: 372e0984017c000723b1dd1034803362123b1343c6ec7cad7b5b0aae47801be7
+Size: 81590178
+Filename: pool/main/c/code-insiders/code-insiders_1.77.0-1678473595_arm64.deb
+
+Package: code-insiders
 Version: 1.53.0-1611134429
 Architecture: arm64
 Section: devel
@@ -3606,6 +3628,28 @@ Replaces: visual-studio-code-insiders
 SHA256: 2782988e9cefb1af6223bfd4a28708ead2997e957cb2a211b071b1c66018d15a
 Size: 73484100
 Filename: pool/main/c/code-insiders/code-insiders_1.56.0-1619414409_arm64.deb
+
+Package: code-insiders
+Version: 1.77.0-1678426100
+Architecture: arm64
+Section: devel
+Priority: optional
+Installed-Size: 327819
+Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
+Description: Code editing. Redefined.
+ Visual Studio Code is a new choice of tool that combines the simplicity of
+ a code editor with what developers need for the core edit-build-debug cycle.
+ See https://code.visualstudio.com/docs/setup/linux for installation
+ instructions and FAQ.
+Homepage: https://code.visualstudio.com/
+Conflicts: visual-studio-code-insiders
+Depends: ca-certificates, libasound2 (>= 1.0.16), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.17), libcairo2 (>= 1.6.0), libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3, libdbus-1-3 (>= 1.0.2), libdrm2 (>= 2.4.38), libexpat1 (>= 2.0.1), libgbm1 (>= 8.1~0), libgcc1 (>= 1:3.0), libgcc1 (>= 1:4.2), libgcc1 (>= 1:4.5), libglib2.0-0 (>= 2.16.0), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.9.10), libgtk-3-0 (>= 3.9.10) | libgtk-4-1, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.22), libnss3 (>= 3.26), libpango-1.0-0 (>= 1.14.0), libsecret-1-0 (>= 0.18), libstdc++6 (>= 4.1.1), libstdc++6 (>= 5.2), libstdc++6 (>= 6), libx11-6, libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.4-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.4.1), libxkbfile1, libxrandr2, xdg-utils (>= 1.0.2)
+Recommends: libvulkan1
+Provides: visual-studio-code-insiders
+Replaces: visual-studio-code-insiders
+SHA256: 3aee2fce60f6ff4418a5dc4874a90b296722931386fbbc749f9e46be38aa0823
+Size: 81581452
+Filename: pool/main/c/code-insiders/code-insiders_1.77.0-1678426100_arm64.deb
 
 Package: code-insiders
 Version: 1.53.0-1611603877
@@ -7505,6 +7549,28 @@ Size: 76716660
 Filename: pool/main/c/code/code_1.58.1-1626157156_arm64.deb
 
 Package: code
+Version: 1.76.1-1678293638
+Architecture: arm64
+Section: devel
+Priority: optional
+Installed-Size: 342398
+Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
+Description: Code editing. Redefined.
+ Visual Studio Code is a new choice of tool that combines the simplicity of
+ a code editor with what developers need for the core edit-build-debug cycle.
+ See https://code.visualstudio.com/docs/setup/linux for installation
+ instructions and FAQ.
+Homepage: https://code.visualstudio.com/
+Conflicts: visual-studio-code
+Depends: ca-certificates, libasound2 (>= 1.0.16), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.17), libcairo2 (>= 1.6.0), libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3, libdbus-1-3 (>= 1.0.2), libdrm2 (>= 2.4.38), libexpat1 (>= 2.0.1), libgbm1 (>= 8.1~0), libgcc1 (>= 1:3.0), libgcc1 (>= 1:4.2), libgcc1 (>= 1:4.5), libglib2.0-0 (>= 2.16.0), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.9.10), libgtk-3-0 (>= 3.9.10) | libgtk-4-1, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.22), libnss3 (>= 3.26), libpango-1.0-0 (>= 1.14.0), libsecret-1-0 (>= 0.18), libstdc++6 (>= 4.1.1), libstdc++6 (>= 5.2), libstdc++6 (>= 6), libx11-6, libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.4-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.4.1), libxkbfile1, libxrandr2, xdg-utils (>= 1.0.2)
+Recommends: libvulkan1
+Provides: visual-studio-code
+Replaces: visual-studio-code
+SHA256: 81d71f96dbe2a1cfc88b68fb2ed28034877f547d09e1668e4a6716bebef2ac37
+Size: 83218782
+Filename: pool/main/c/code/code_1.76.1-1678293638_arm64.deb
+
+Package: code
 Version: 1.53.0-1612367976
 Architecture: arm64
 Section: devel
@@ -9594,6 +9660,28 @@ Replaces: visual-studio-code-insiders
 SHA256: f49da131a171271090e3a19734f58876455b4eb99f9a4c0b46eb2ef96846455b
 Size: 70869104
 Filename: pool/main/c/code-insiders/code-insiders_1.55.0-1614921754_arm64.deb
+
+Package: code-insiders
+Version: 1.77.0-1678339411
+Architecture: arm64
+Section: devel
+Priority: optional
+Installed-Size: 327802
+Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
+Description: Code editing. Redefined.
+ Visual Studio Code is a new choice of tool that combines the simplicity of
+ a code editor with what developers need for the core edit-build-debug cycle.
+ See https://code.visualstudio.com/docs/setup/linux for installation
+ instructions and FAQ.
+Homepage: https://code.visualstudio.com/
+Conflicts: visual-studio-code-insiders
+Depends: ca-certificates, libasound2 (>= 1.0.16), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.17), libcairo2 (>= 1.6.0), libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3, libdbus-1-3 (>= 1.0.2), libdrm2 (>= 2.4.38), libexpat1 (>= 2.0.1), libgbm1 (>= 8.1~0), libgcc1 (>= 1:3.0), libgcc1 (>= 1:4.2), libgcc1 (>= 1:4.5), libglib2.0-0 (>= 2.16.0), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.9.10), libgtk-3-0 (>= 3.9.10) | libgtk-4-1, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.22), libnss3 (>= 3.26), libpango-1.0-0 (>= 1.14.0), libsecret-1-0 (>= 0.18), libstdc++6 (>= 4.1.1), libstdc++6 (>= 5.2), libstdc++6 (>= 6), libx11-6, libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.4-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.4.1), libxkbfile1, libxrandr2, xdg-utils (>= 1.0.2)
+Recommends: libvulkan1
+Provides: visual-studio-code-insiders
+Replaces: visual-studio-code-insiders
+SHA256: c6ff9e395023c9c51278839601c2903be4e49c8cc4dc987cb6c0d8f96461184b
+Size: 81600850
+Filename: pool/main/c/code-insiders/code-insiders_1.77.0-1678339411_arm64.deb
 
 Package: code-insiders
 Version: 1.70.0-1657603725

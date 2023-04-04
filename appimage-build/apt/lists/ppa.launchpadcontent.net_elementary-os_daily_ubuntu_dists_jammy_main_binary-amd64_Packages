@@ -913,16 +913,16 @@ Description-md5: 274a6ba6806c21ec3aba66d89a98c035
 Package: io.elementary.mail
 Priority: extra
 Section: x11
-Installed-Size: 1661
+Installed-Size: 1714
 Maintainer: Cody Garver <cody@elementary.io>
 Architecture: amd64
-Version: 7.0.0+r1155+pkg29~daily~ubuntu7.1
+Version: 7.0.0+r1157+pkg30~daily~ubuntu7.1
 Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libcamel-1.2-63 (>= 3.25.90), libedataserver-1.2-26 (>= 3.27.90), libedataserverui-1.2-3 (>= 3.16.2), libfolks26 (>= 0.9.7), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.49.5), libgranite6 (>= 6.2.0+r2238+pkg122~daily~ubuntu7.1), libgtk-3-0 (>= 3.21.5), libhandy-1-0 (>= 1.0.3), libjavascriptcoregtk-4.0-18 (>= 2.38.5), libsoup2.4-1 (>= 2.32.2), libwebkit2gtk-4.0-37 (>= 2.27.2)
-Filename: pool/main/i/io.elementary.mail/io.elementary.mail_7.0.0+r1155+pkg29~daily~ubuntu7.1_amd64.deb
-Size: 263660
-MD5sum: 1a567bd85f36313294dada0cb8629b18
-SHA1: c2798f1eb0442cea482f0443bf194183fce59a29
-SHA256: 7afa0ad22e738567c12c3a93e3fccf443aa11afe26773727c34a807b978beaa5
+Filename: pool/main/i/io.elementary.mail/io.elementary.mail_7.0.0+r1157+pkg30~daily~ubuntu7.1_amd64.deb
+Size: 274086
+MD5sum: 160c8b5efdfa914e42c6ac3bf451a04c
+SHA1: 6b945d40efc2a81cee28315a889400ad4b5138eb
+SHA256: 9777dcf09dac39159aa595cd9fca5700e9c02bf93ead4030844ef527ee304c54
 Description: Email client
 Description-md5: bb4bae4a50d5229483dff9c4b13b709e
 
@@ -1299,16 +1299,16 @@ Description-md5: 696bfabc0e65d8c5a5f455b396e1d99b
 Package: io.elementary.tasks
 Priority: extra
 Section: x11
-Installed-Size: 1269
+Installed-Size: 1274
 Maintainer: elementary, Inc. <builds@elementary.io>
 Architecture: amd64
-Version: 6.3.1+r1794+pkg16~daily~ubuntu7.1
+Version: 6.3.1+r1796+pkg16~daily~ubuntu7.1
 Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libcairo2 (>= 1.2.4), libchamplain-0.12-0 (>= 0.11.0), libchamplain-gtk-0.12-0 (>= 0.11.0), libclutter-1.0-0 (>= 1.10.0), libclutter-gtk-1.0-0 (>= 0.91.8), libecal-2.0-1 (>= 3.33.4), libedataserver-1.2-26 (>= 3.39.2), libgdata22 (>= 0.16.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.14.0), libgeoclue-2-0 (>= 2.4.0), libgeocode-glib0 (>= 0.99.1), libglib2.0-0 (>= 2.51.2), libgranite6 (>= 6.2.0+r2238+pkg122~daily~ubuntu7.1), libgtk-3-0 (>= 3.19.12), libhandy-1-0 (>= 0.90.0), libical3 (>= 3.0.0), libsoup2.4-1 (>= 2.32.2)
-Filename: pool/main/i/io.elementary.tasks/io.elementary.tasks_6.3.1+r1794+pkg16~daily~ubuntu7.1_amd64.deb
-Size: 165560
-MD5sum: a543300544ca174c7a005cd6bebbc6fe
-SHA1: a049968699ae9241acb8b169583162c398d471ae
-SHA256: b925a0d434e19fa0dca719003ad05aa60e3274888f88515535e6944e578ef9ff
+Filename: pool/main/i/io.elementary.tasks/io.elementary.tasks_6.3.1+r1796+pkg16~daily~ubuntu7.1_amd64.deb
+Size: 166446
+MD5sum: 84e293641f82b369ae0f7d9ce184f155
+SHA1: 11c1e2914f8d55cbd616d496339c45d9685fd799
+SHA256: 6820e66382011c623e6e889c21ae8c31ca343768a0f6b9a8b8e704b0ddde0b14
 Description: Create and track the progress of tasks
 Description-md5: 7f099e7cdb2fc180d917ef727b60386f
 
@@ -1680,15 +1680,15 @@ Section: libdevel
 Installed-Size: 212
 Maintainer: elementary, Inc. <builds@elementary.io>
 Architecture: amd64
-Version: 6.3.0+r5759+pkg117~daily~ubuntu7.1
+Version: 6.3.0+r5760+pkg117~daily~ubuntu7.1
 Replaces: libpantheon-files-widgets-dev (<< 6.1.1)
-Depends: libpantheon-files-core0 (= 6.3.0+r5759+pkg117~daily~ubuntu7.1)
+Depends: libpantheon-files-core0 (= 6.3.0+r5760+pkg117~daily~ubuntu7.1)
 Conflicts: libpantheon-files-widgets-dev (<< 6.1.1)
-Filename: pool/main/p/pantheon-files/libpantheon-files-core-dev_6.3.0+r5759+pkg117~daily~ubuntu7.1_amd64.deb
-Size: 32442
-MD5sum: 72e7eb422fa5dec197596a2a833fdaf3
-SHA1: a90bad8aededafac8333414771c79fab4bf4f0ea
-SHA256: c54ccf92b813f1cdb06ad85c9cee068e95619097b5f1ae96a3645f2cbc9f12a5
+Filename: pool/main/p/pantheon-files/libpantheon-files-core-dev_6.3.0+r5760+pkg117~daily~ubuntu7.1_amd64.deb
+Size: 32416
+MD5sum: 96cf952a63d461d5b7b64800450eb74c
+SHA1: bc1e6e35786a0d2917a0749f9922e7729f98f87a
+SHA256: cb668e11261640d38509ba06464b8ffa63c616175d9759d8bf4d49a09884e1fb
 Description: File manager for the Pantheon desktop (shared library development files)
 Description-md5: a500fa90b251252514d74a3e09ce64b9
 
@@ -1699,16 +1699,16 @@ Section: libs
 Installed-Size: 720
 Maintainer: elementary, Inc. <builds@elementary.io>
 Architecture: amd64
-Version: 6.3.0+r5759+pkg117~daily~ubuntu7.1
+Version: 6.3.0+r5760+pkg117~daily~ubuntu7.1
 Replaces: libpantheon-files-widgets0 (<< 6.1.1)
 Suggests: pantheon-files
 Depends: libc6 (>= 2.14), libcairo2 (>= 1.4.10), libcanberra0 (>= 0.30), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.65.1), libgranite6 (>= 6.2.0+r2238+pkg122~daily~ubuntu7.1), libgtk-3-0 (>= 3.22.29), libpango-1.0-0 (>= 1.18.0), libpangocairo-1.0-0 (>= 1.14.0)
 Conflicts: libpantheon-files-widgets0 (<< 6.1.1)
-Filename: pool/main/p/pantheon-files/libpantheon-files-core0_6.3.0+r5759+pkg117~daily~ubuntu7.1_amd64.deb
-Size: 238120
-MD5sum: fa39184f12df8aa6aa17d7e5f7ace9bc
-SHA1: d4cb62c32dcdaf7b446cb45c4fae66e2c9a60f50
-SHA256: a9c184d3a14febb4a74328b0923b1a8c8e7843225b0b7f389eacadaf9d608968
+Filename: pool/main/p/pantheon-files/libpantheon-files-core0_6.3.0+r5760+pkg117~daily~ubuntu7.1_amd64.deb
+Size: 238126
+MD5sum: b6db9c2261e2f333dcc4f70681d57bcd
+SHA1: 9d4eb5a7feff883d53704f8d191388e229f797fb
+SHA256: 8efb29d48272edbdcee2fdce52f69e63ee23940d065bafed2f9869d0095864c1
 Description: File manager for the Pantheon desktop (shared library)
 Description-md5: 4a7062bdacc6df6261e880610f174d48
 
@@ -2186,14 +2186,14 @@ Section: x11
 Installed-Size: 3739
 Maintainer: elementary, Inc. <builds@elementary.io>
 Architecture: amd64
-Version: 6.3.0+r5759+pkg117~daily~ubuntu7.1
+Version: 6.3.0+r5760+pkg117~daily~ubuntu7.1
 Recommends: contractor, exfat-fuse, gvfs-backends, tumbler-plugins-extra
-Depends: gvfs, libpantheon-files-core0 (= 6.3.0+r5759+pkg117~daily~ubuntu7.1), tumbler, dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libcairo2 (>= 1.2.4), libcloudproviders0 (>= 0.3.0), libgdk-pixbuf-2.0-0 (>= 2.23.0), libgee-0.8-2 (>= 0.8.3), libgit2-glib-1.0-0 (>= 0.0.6), libglib2.0-0 (>= 2.53.2), libgranite6 (>= 6.2.0+r2238+pkg122~daily~ubuntu7.1), libgtk-3-0 (>= 3.21.5), libhandy-1-0 (>= 0.90.0), libpango-1.0-0 (>= 1.44.6), libplank1 (>= 0.11.89), libsqlite3-0 (>= 3.5.9), libzeitgeist-2.0-0 (>= 0.9.9)
-Filename: pool/main/p/pantheon-files/pantheon-files_6.3.0+r5759+pkg117~daily~ubuntu7.1_amd64.deb
-Size: 765336
-MD5sum: aadcef7c1e6ec34d617d8dc48d876641
-SHA1: 03fc596a97de9263c3dad2e272ab9a5d8610993f
-SHA256: 6e40e0e06927fc84b582c80bdff241e9ec7ab3320f3be64a37924eeb43d395f7
+Depends: gvfs, libpantheon-files-core0 (= 6.3.0+r5760+pkg117~daily~ubuntu7.1), tumbler, dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libcairo2 (>= 1.2.4), libcloudproviders0 (>= 0.3.0), libgdk-pixbuf-2.0-0 (>= 2.23.0), libgee-0.8-2 (>= 0.8.3), libgit2-glib-1.0-0 (>= 0.0.6), libglib2.0-0 (>= 2.53.2), libgranite6 (>= 6.2.0+r2238+pkg122~daily~ubuntu7.1), libgtk-3-0 (>= 3.21.5), libhandy-1-0 (>= 0.90.0), libpango-1.0-0 (>= 1.44.6), libplank1 (>= 0.11.89), libsqlite3-0 (>= 3.5.9), libzeitgeist-2.0-0 (>= 0.9.9)
+Filename: pool/main/p/pantheon-files/pantheon-files_6.3.0+r5760+pkg117~daily~ubuntu7.1_amd64.deb
+Size: 765042
+MD5sum: b016e3fe35532d46273299773474af60
+SHA1: d263fe327d948f9b7fdd94ba151cdf7e1f9a54c1
+SHA256: 2dd7d23e8c53b3bb56a5a7b6a22d05a90ae80a0c9eb673641334087fdaaade86
 Description: File manager for the Pantheon desktop
 Description-md5: bb358b14d09ba232c3c28c30bb165f39
 
@@ -2376,13 +2376,13 @@ Section: x11
 Installed-Size: 1567
 Maintainer: elementary, Inc. <builds@elementary.io>
 Architecture: amd64
-Version: 2.11.1+r1953+pkg103~daily~ubuntu7.1
+Version: 2.11.1+r1961+pkg103~daily~ubuntu7.1
 Depends: zeitgeist-core, dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.10.1), libglib2.0-0 (>= 2.68.0), libgranite6 (>= 5.5.0), libgtk-3-0 (>= 3.21.5), libhandy-1-0 (>= 0.90.0), libjson-glib-1.0-0 (>= 1.5.2), libplank1 (>= 0.11.89), libswitchboard-2.0-0 (>= 2.3.0), libwingpanel3, libzeitgeist-2.0-0 (>= 0.9.9)
-Filename: pool/main/s/slingshot-launcher/slingshot-launcher_2.11.1+r1953+pkg103~daily~ubuntu7.1_amd64.deb
-Size: 276452
-MD5sum: 219c4a556a800227e872d3a7665b8b47
-SHA1: b0370656971683d56badeb85f17ff2a5039a833b
-SHA256: fdaf095428e496b4cefacf3e54e5c98b6ef992f606ac3bc1ffe5e648a5b4fc33
+Filename: pool/main/s/slingshot-launcher/slingshot-launcher_2.11.1+r1961+pkg103~daily~ubuntu7.1_amd64.deb
+Size: 276932
+MD5sum: 621c6ff46be19adcd8f6bf72c8964559
+SHA1: 879189da35a1dd6b5bfe29fb2ae818903f9ebb13
+SHA256: 905cae11c16e973986d74e5486ec26dcd865070c503c52d40a53a166163f6989
 Description: Lightweight and stylish app launcher
 Description-md5: c8bf475b8c74403ab96f8944490cc0bd
 
@@ -2883,14 +2883,14 @@ Section: x11
 Installed-Size: 860
 Maintainer: Cody Garver <cody@elementary.io>
 Architecture: amd64
-Version: 7.0.1+r1017+pkg33~daily~ubuntu7.1
+Version: 7.0.1+r1018+pkg33~daily~ubuntu7.1
 Depends: libc6 (>= 2.28), libglib2.0-0 (>= 2.43.92), libgranite6 (>= 6.2.0+r2238+pkg122~daily~ubuntu7.1), libgtk-3-0 (>= 3.22), libnm0 (>= 1.24.0), libnma0 (>= 1.1.90), libwingpanel3
 Enhances: wingpanel
-Filename: pool/main/w/wingpanel-indicator-network/wingpanel-indicator-network_7.0.1+r1017+pkg33~daily~ubuntu7.1_amd64.deb
-Size: 115186
-MD5sum: 7144647e77ce6f89d987e056514df7a2
-SHA1: d486d3c2019ecdacbf6406b8a7d492e0794cc634
-SHA256: f9dcd3386929df0c127e6d6618c181102e194ca0f22984d6a1b2db4da6c315f4
+Filename: pool/main/w/wingpanel-indicator-network/wingpanel-indicator-network_7.0.1+r1018+pkg33~daily~ubuntu7.1_amd64.deb
+Size: 115152
+MD5sum: cf936fd583fb59527f450a13ce97db9f
+SHA1: ebb5741193e289d2534b2dca3b0f1726fd8101f2
+SHA256: 550ffe377e6767e01abe55d8dac4a864b0f1f0fae9f7f3097193f9c10706a06e
 Description: WingPanel Network Indicator
 Description-md5: 89cf62d28f370ae35cc88f2bcb304590
 

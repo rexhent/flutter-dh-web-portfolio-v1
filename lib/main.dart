@@ -1,49 +1,39 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
-import 'package:desktop_window/desktop_window.dart';
 import 'package:flutter/services.dart';
 
 import 'widgets.dart';
 import 'about.dart';
 
-class Person {
-  String name;
-  String job;
-  String email;
-  String phone;
-  Person(String aName, String aJob, String aEmail, String aPhone) {
-    this.name = aName;
-    this.job = aJob;
-    this.email = aEmail;
-    this.phone = aPhone;
-  }
-}
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
 
-Future setMinSize() async =>
-    await DesktopWindow.setMinWindowSize(Size(500, 800));
-Future setMaxSize() async =>
-    await DesktopWindow.setMaxWindowSize(Size(500, 800));
+// ...
+
+String name = 'Dominic Hannah';
+String job = 'Android Developer';
+String email = 'dhannah10@outlook.com';
+String phone = '+61 0477 534 900';
 
 void main() {
+  name = 'd';
+  email = 'd';
+  phone = 'd';
+
   runApp(MyApp());
-  DesktopWindow.setWindowSize(Size(400, 700));
-  setMaxSize();
-  setMinSize();
 }
 
-Person dominic = Person('d', 'Android Developer', 'd', '+61 d');
-
 class MyApp extends StatelessWidget {
-  MyApp({Key key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData(useMaterial3: true),
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         drawer: MyNavbar(),
         appBar: AppBar(
+          backgroundColor: Colors.purple.shade300,
           centerTitle: true,
-          leading: DrawerButton(),
           title: Text(
             'Home',
             style: TextStyle(
@@ -70,12 +60,20 @@ class MyApp extends StatelessWidget {
                 return ElevatedButton(
                   child: Padding(
                     padding: const EdgeInsets.all(5.0),
-                    child: Text(
-                      'Go to About page',
-                      style: TextStyle(
-                          fontFamily: 'Inter',
-                          fontSize: 16,
-                          fontVariations: [FontVariation('wght', 500)]),
+                    child: Container(
+                      width: 160,
+                      child: Row(
+                        children: [
+                          Text(
+                            'Go to About page',
+                            style: TextStyle(
+                                fontFamily: 'Inter',
+                                fontSize: 16,
+                                fontVariations: [FontVariation('wght', 500)]),
+                          ),
+                          Icon(Icons.arrow_right_alt),
+                        ],
+                      ),
                     ),
                   ),
                   onPressed: () => Navigator.push(context,
