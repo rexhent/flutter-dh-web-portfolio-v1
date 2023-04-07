@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         drawer: MyNavbar(),
         appBar: AppBar(
-          backgroundColor: Colors.purple.shade300,
+          //backgroundColor: Colors.purple.shade300,
           centerTitle: true,
           leading: OpenDrawerButton(),
           title: Text(
