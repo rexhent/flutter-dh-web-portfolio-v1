@@ -23,7 +23,7 @@ class DtEmail extends StatelessWidget {
           style: TextStyle(
               fontFamily: 'Inter',
               fontSize: 20.0,
-              color: Colors.teal.shade900,
+              //color: Colors.teal.shade900,
               fontVariations: [
                 FontVariation('wght', 400),
               ]),
@@ -43,7 +43,7 @@ class DtPhone extends StatelessWidget {
           title: Text(
             '${phone}',
             style: TextStyle(
-                color: Colors.teal.shade900,
+                //color: Colors.teal.shade900,
                 fontFamily: 'Inter',
                 fontSize: 20.0,
                 fontVariations: [FontVariation('wght', 400)]),
@@ -146,7 +146,6 @@ class OpenDrawerButton extends StatelessWidget {
           onPressed: () => Scaffold.of(context).openDrawer(),
           icon: Icon(
             Icons.menu,
-            color: Colors.white,
           )),
     );
   }

@@ -29,7 +29,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(useMaterial3: true),
+      theme: ThemeData(useMaterial3: true, brightness: Brightness.light),
+      darkTheme: ThemeData(useMaterial3: true, brightness: Brightness.dark),
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         drawer: MyNavbar(),
@@ -41,7 +42,6 @@ class MyApp extends StatelessWidget {
             'Home',
             style: TextStyle(
                 fontFamily: 'Inter',
-                color: Colors.white,
                 fontVariations: [FontVariation('wght', 600)]),
           ),
           actions: <Widget>[
@@ -49,7 +49,6 @@ class MyApp extends StatelessWidget {
                 onPressed: SystemNavigator.pop,
                 icon: Icon(
                   Icons.close,
-                  color: Colors.white,
                 )),
           ],
         ),

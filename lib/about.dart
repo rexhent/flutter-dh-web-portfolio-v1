@@ -8,7 +8,8 @@ class SecondPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(useMaterial3: true),
+      theme: ThemeData(useMaterial3: true, brightness: Brightness.light),
+      darkTheme: ThemeData(useMaterial3: true, brightness: Brightness.dark),
       debugShowCheckedModeBanner: false,
       home: MyHomePage(),
     );
@@ -46,33 +47,31 @@ class MyHomePage extends StatelessWidget {
       ),
       drawer: MyNavbar(),
       body: SingleChildScrollView(
-        child: SafeArea(
-          child: Column(
-            //mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              SizedBox(height: 80.0),
-              DtAvatar(),
-              DtName(),
-              DtJob(),
-              SizedBox(
-                height: 20.0,
-                width: 150.0,
-                child: Divider(
-                  color: Colors.teal.shade100,
-                ),
+        child: Column(
+          //mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            SizedBox(height: 80.0),
+            DtAvatar(),
+            DtName(),
+            DtJob(),
+            SizedBox(
+              height: 20.0,
+              width: 150.0,
+              child: Divider(
+                color: Colors.teal.shade100,
               ),
-              DtPhone(),
-              DtEmail(),
-              MadeWithFlutter(),
-              //SizedBox(
-              //height: 500.0,
-              //),
-              //Card(
-              //margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
-              //child: ListTile(title: Text('My name is hello')),
-              //)
-            ],
-          ),
+            ),
+            DtPhone(),
+            DtEmail(),
+            MadeWithFlutter(),
+            //SizedBox(
+            //height: 500.0,
+            //),
+            //Card(
+            //margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+            //child: ListTile(title: Text('My name is hello')),
+            //)
+          ],
         ),
       ),
     );
